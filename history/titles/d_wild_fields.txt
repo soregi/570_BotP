@@ -1,0 +1,17 @@
+20.1.1  = {
+	historical_nomad = yes
+}
+562.1.1 = {
+	liege = k_avaria
+}
+567.1.1 = {
+	holder = 407001
+}
+620.1.1 = {
+	liege = k_bulgaria
+}
+936.1.1 = {
+	historical_nomad = yes
+	holder = 260695
+	liege = k_pechenegs
+}

@@ -1,0 +1,23 @@
+# 2020 - Hiambouli
+
+# County Title
+
+title = c_hiambouli
+# Settlements
+max_settlements = 3
+
+b_yambol = castle
+b_silven = temple
+
+# Misc
+culture = greek
+religion = orthodox
+
+# History
+681.1.1 = { culture = bulgarian religion = slavic_pagan }
+900.1.1 = {
+	religion = orthodox
+}
+1228.1.1 = {
+	b_novazagora = city
+}

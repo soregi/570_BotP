@@ -1,0 +1,35 @@
+law_groups = {
+	governorate_laws = {
+		law_type = realm
+	}
+}
+laws = {
+	governorate_laws_0 = {
+		group = governorate_laws
+		default = yes
+		allow = {
+			holder_scope = {
+				government = roman_governate_government
+			}
+			#has_law = out_of_realm_inheritance_law_1
+		}
+		potential = {
+			holder_scope = { government = roman_governate_government }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		ai_will_revoke = { factor = 0 }
+		pass_effect = { }
+		effect = {
+			if  = {
+				limit = {
+					has_dlc = "Charlemagne"
+				}
+				set_allow_vice_royalties = duke
+				set_allow_free_vice_royalty_revokation = yes
+			}
+		}
+		feudal_opinion = -5
+	}
+}

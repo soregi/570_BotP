@@ -1,0 +1,17 @@
+# 1725 - Suf
+
+# County Title
+title = c_suf
+
+# Settlements
+max_settlements = 1
+
+b_suf = tribal
+
+# Misc
+culture = berber
+religion = west_african_pagan
+
+# History
+674.1.1 = { 
+religion = sunni b_suf = castle }

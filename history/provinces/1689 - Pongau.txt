@@ -1,0 +1,31 @@
+# 1689 - Pongau
+
+# County Title
+title = c_pongau
+
+# Settlements
+max_settlements = 3
+
+b_pongau = castle
+b_zelle = temple
+
+# Misc
+culture = bavarian
+religion = norse_pagan
+
+# History
+740.1.1 = { religion = catholic }
+760.1.1 = {
+	culture = german
+}
+
+769.1.1 = {
+	capital = b_zelle
+}
+1100.1.1 = {
+	capital = b_pongau
+}
+
+1260.1.1 = {
+	capital = b_zelle
+}

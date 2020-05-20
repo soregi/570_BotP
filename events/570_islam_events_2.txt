@@ -1,0 +1,125 @@
+namespace = islam
+
+narrative_event = { # Muhammad Dies
+	id = islam.16
+	title = EVTTITLE_islam_16
+	desc = EVTDESC_islam_16
+	picture = GFX_evt_kaaba
+	border = GFX_event_normal_frame_religion
+	is_triggered_only = yes
+	has_character_flag = muhammad
+	major = yes
+	major_trigger = {
+		capital_scope = {
+			NOT = {
+				distance = {
+					where = 719
+					distance = 1200
+				}
+			}
+		}
+		is_playable = yes
+	}
+	immediate = {
+		set_global_flag = death_muhammad
+	}
+	option = {
+		name = EVTOPTA_islam_16
+		if = {
+			limit = {
+				religion = islamism
+			}
+			piety = -50
+		}
+	}
+}
+character_event = {
+	id = islam.17
+	hide_window = yes
+	has_global_flag = islam_era_begun
+	trigger = {
+		has_landed_title = e_islamism
+		NOT = { has_character_modifier = great_conqueror }
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		add_character_modifier = { name = great_conqueror duration = -1 }
+	}
+}
+character_event = {
+	id = islam.18
+	hide_window = yes
+	trigger = {
+		has_landed_title = e_islamism
+		year = 628
+		ai = yes
+		NOT = { has_global_flag = fall_mecca }
+		war = no
+	}
+	mean_time_to_happen = {
+		months = 3
+	}
+	immediate = {
+		c_mecca = {
+			holder_scope = {
+			top_liege = {
+				if = {
+					limit = {
+						num_of_realm_counties = {
+							value = 6
+							title = PREV
+						}
+					}
+					reverse_war = {
+						target = ROOT
+						casus_belli = islamic_invasion
+						thirdparty_title = k_arabia
+						infamy = 0
+					}
+				}
+				else = {
+					reverse_war = {
+						target = ROOT
+						casus_belli = religious
+						thirdparty_title = d_medina
+						infamy = 0
+					}
+				}
+			}
+			}
+		}
+	}
+}
+character_event = {
+	id = islam.19
+	title = EVTTITLE_islam_19
+	desc = EVTDESC_islam_19
+	picture = GFX_evt_kaaba
+	border = GFX_event_normal_frame_war
+	trigger = {
+		has_landed_title = e_islamism
+		NOT = { has_global_flag = fall_mecca }
+		year = 628
+		war = no
+		ai = no
+	}
+	mean_time_to_happen = {
+		months = 6
+	}
+	option = {
+		c_mecca = {
+			top_liege = {
+				reverse_war = {
+					target = ROOT
+					casus_belli = religious
+					thirdparty_title = d_medina
+					infamy = 0
+				}
+			}
+		}
+		piety = 500
+		prestige = 500
+	}
+}

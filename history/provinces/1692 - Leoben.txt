@@ -1,0 +1,24 @@
+# 1692 - Ennstal
+
+# County title
+title = c_leoben
+
+# Settlements
+max_settlements = 3
+b_leoben = tribal
+
+# Misc
+culture = bavarian
+religion = norse_pagan
+
+# History
+632.1.1 = { culture = carantanian  religion = slavic_pagan }
+
+835.1.1 = {
+	culture = german
+	religion = catholic
+	b_eppenstein = castle
+	b_leoben = city
+	b_neuberg = temple
+	capital = b_eppenstein
+}

@@ -1,0 +1,16 @@
+# 2043 - Dawasir
+
+# County Title
+title = c_dawasir
+
+# Settlements
+max_settlements = 2
+b_dawasir = tribal
+
+# Misc
+culture = bedouin_arabic
+religion = arabic_pagan
+
+# History
+633.1.1 = { religion = islamism }
+661.1.1 = { religion = sunni }

@@ -1,0 +1,25 @@
+300.1.1={
+	#liege="d_sumparu"
+}
+562.1.1 = {
+	#liege = d_nyingchi
+	holder = 406001
+	set_tribute_suzerain = {
+		who = k_yarlung
+		type = vassal
+	}
+}
+606.1.1 = {
+	liege = k_yarlung
+	clear_tribute_suzerain = yes
+}
+735.1.1={
+	holder = 247341
+}
+755.1.1={
+	liege="e_tibet"
+	holder=12006
+}
+842.1.1={
+	holder = 0
+}

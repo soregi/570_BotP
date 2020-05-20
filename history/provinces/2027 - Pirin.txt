@@ -1,0 +1,22 @@
+# 2027 - Pirin
+
+# County Title
+title = c_pirin
+
+# Settlements
+max_settlements = 2
+
+b_pirin = castle
+b_blagoev = city
+
+# Misc
+culture = greek
+religion = orthodox
+
+# History
+637.1.1 = { culture = bulgarian }
+950.1.1= { religion = bogomilist }
+1050.1.1= { religion = orthodox } 
+
+
+

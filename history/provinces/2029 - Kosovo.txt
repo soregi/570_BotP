@@ -1,0 +1,38 @@
+# 2029 - Kosovo
+
+# County Title
+title = c_kosovo
+
+# Settlements
+max_settlements = 4
+
+b_prizren = castle
+b_pristina = city
+
+#b_svetispas = castle
+#b_trepca = castle
+#b_zvecan = castle
+#b_djakovica = castle
+#b_polog = castle
+
+# Misc
+culture = romanian
+religion = orthodox
+
+# History
+632.1.1 = { culture = serbian religion = slavic_pagan }
+632.1.1 = {
+	capital = b_pristina
+	remove_settlement = b_prizren
+	b_pristina = tribal
+}
+
+800.1.1 = {
+	b_prizren = castle
+	b_pristina = city
+	b_djakovica = temple
+	capital = b_prizren
+}
+870.1.1 = {
+	religion = orthodox
+}

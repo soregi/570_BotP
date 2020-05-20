@@ -1,0 +1,22 @@
+# 2031 - Pagania
+
+# County Title
+title = c_pagania
+
+# Settlements
+max_settlements = 2
+b_brac = castle
+
+# Misc
+culture = dalmatian
+religion = orthodox
+
+# History
+636.1.1 = { culture = croatian religion = slavic_pagan }
+636.1.1 = {
+	b_brac = tribal
+}
+1000.1.1 = {
+	religion = orthodox
+	b_brac = castle
+}

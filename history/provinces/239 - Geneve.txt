@@ -1,0 +1,19 @@
+# 239 - Geneve
+
+# County Title
+title = c_geneve
+
+# Settlements
+max_settlements = 4
+
+b_geneve = castle
+b_aubonne = temple
+b_nyon = city
+
+# Misc
+culture = burgundian
+religion = catholic
+
+# History
+650.1.1 = { culture = old_frankish }
+790.1.1 = { culture = frankish }

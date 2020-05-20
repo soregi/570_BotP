@@ -1,0 +1,23 @@
+# 138 - Orleans
+
+# County Title
+title = c_orleans
+
+# Settlements
+max_settlements = 5
+b_orleans = castle
+b_sully = city
+b_fleury = temple
+
+#b_lepuiset = castle
+#b_janville = castle
+#b_meung = temple
+#b_jargeau = city
+
+culture = gallic_latin
+religion = catholic
+
+# History
+650.1.1 = { culture = old_frankish }
+790.1.1 = { culture = frankish }
+1187.1.1 = { b_lepuiset = castle } 

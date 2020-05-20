@@ -1,0 +1,27 @@
+# 1721 - Ajadabiya
+
+# County Title
+title = c_ajadabiya
+
+# Settlements
+max_settlements = 3
+
+b_ajadabiya = tribal
+b_al_aghaila = city
+
+#b_qaryatbishr
+
+# Misc
+culture = maghreb_latin
+religion = miaphysite
+
+# History
+661.1.1 = {
+	culture = maghreb_arabic
+	religion = ibadi
+	b_ajadabiya = tribal
+	remove_settlement = b_al_aghaila
+}
+1051.1.1 = {
+	religion = sunni
+	b_al_aghaila = city }

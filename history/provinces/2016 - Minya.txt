@@ -1,0 +1,16 @@
+# 2006 - Minya
+
+# County Title
+title = c_minya
+
+# Settlements
+max_settlements = 4
+b_al_minya = castle
+b_samalut = temple
+b_bahnasa = city
+
+# Misc
+culture = coptic
+religion = miaphysite
+
+# History

@@ -1,0 +1,9 @@
+570.1.1 = {
+	liege = k_syria
+	holder = 400117
+}
+640.1.1 = {
+	holder = 0
+	liege = 0
+	active = no
+}

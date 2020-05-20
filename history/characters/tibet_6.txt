@@ -1,0 +1,113 @@
+406000 = {
+	name = "Lhamo Mingr"
+	dynasty = 3000015 # Sumpa
+	culture = sumpa
+	religion = bon
+	540.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+406001 = {
+	name = "Ngoblap"
+	culture = bodpa
+	religion = bon
+	545.1.1 = { birth = yes }
+	612.1.1 = { death = yes }
+}
+406002 = {
+	name = "Lhundup"
+	culture = sumpa
+	religion = bon
+	542.1.1 = { birth = yes }
+	640.1.1 = { death = yes }
+}
+406003 = {
+	name = "Bintzhe"
+	culture = tangut
+	religion = bon
+	540.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+406004 = {
+	name = "Tritsen"
+	culture = tangut
+	religion = bon
+	546.1.1  = { birth = yes }
+	600.1.1 = { death = yes }
+}
+406005 = {
+	name = "Khetsun"
+	culture = sumpa
+	religion = bon
+	523.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+406006 = {
+	name = "Tsenjin"
+	culture = sumpa
+	religion = bon
+	521.1.1 = { birth = yes }
+	590.1.1 = { death = yes }
+}
+406007 = {
+	name = "Tsering"
+	culture = bodpa
+	religion = buddhist
+	542.1.1 = { birth = yes }
+	610.1.1 = { death = yes }
+}
+406008 = {
+	name = "Tongtsen"
+	culture = bodpa
+	religion = buddhist
+	540.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+406009 = {
+	name = "Phuntsok"
+	culture = zhangzhung
+	religion = bon
+	534.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+406010 = {
+	name = "Nyandak"
+	culture = zhangzhung
+	religion = bon
+	543.1.1 = { birth = yes }
+	600.1.1 = { death=  yes }
+}
+406011 = {
+	name = "Gemutsang"
+	culture = zhangzhung
+	religion = bon
+	556.1.1 = { birth = yes }
+	618.1.1 = { death = yes }
+}
+406012 = {
+	name = "Tsenpoti"
+	culture = bodpa
+	religion = buddhist
+	543.1.1 = { birth = yes }
+	634.1.1 = { death = yes }
+}
+406013 = {
+	name = "Drongnyen"
+	culture = zhangzhung
+	religion = buddhist
+	557.1.1 = { birth = yes }
+	639.1.1 = { death = yes }
+}
+406014 = {
+	name = "Purang"
+	culture = zhangzhung
+	religion = bon
+	493.1.1 = { birth = yes }
+	598.1.1 = { death = yes }
+}
+406015 = {
+	name = "Kenyotsong"
+	culture = zhangzhung
+	religion = bon
+	568.1.1 = { birth = yes }
+	637.1.1 = { death = yes }
+}

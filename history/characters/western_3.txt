@@ -1,0 +1,2125 @@
+168686 = {
+	name="Gontran"
+	dynasty=542
+	religion="catholic"
+	culture="old_frankish"
+	father=168681
+	525.1.1 = {
+		birth=yes
+	}
+	570.1.1 = {
+	  effect = {
+		add_rival = 168687 #
+		add_rival = 168789
+	}
+  }
+	592.3.28 = {
+		death=yes
+	}
+}
+
+168687 = {
+	name="Sigebert"
+	dynasty=542
+	religion="catholic"
+	culture="old_frankish"
+	father=168681
+	535.1.1 = {
+		birth=yes
+	}
+	570.1.1 = {
+	effect = {
+		add_rival = 168686
+		add_rival = 168689
+	}
+	}
+	575.1.1 = {
+		death=yes
+	}
+}
+
+168688 = {
+	name="Chlodosinde"
+	female=yes
+	dynasty=542
+	religion="catholic"
+	culture="old_frankish"
+	father=168681
+	520.1.1 = {
+		birth=yes
+	}
+	
+	580.1.1 = {
+		death=yes
+	}
+}
+
+168689 = {
+	name="Chilpéric"
+	dynasty=542
+	religion="catholic"
+	culture="old_frankish"
+	father=168681
+	525.1.1 = {
+		birth=yes
+	}
+	570.1.1 = {
+		effect = {
+		add_rival = 168686
+		add_rival = 168687
+	}
+	}
+	584.9.27 = {
+		death=yes
+	}
+}
+
+190171 = {
+	name="Theodelinda" #wife of Authari and Agilulf of Lombardy
+	female=yes
+	dynasty=1044033 #Agilolfing (Bavaria)
+	religion="catholic"
+	culture="bavarian"
+	trait = sympathy_pagans
+	father=190178
+	568.1.1={
+		birth=yes
+	}
+	625.1.1={
+		death=yes
+	}
+}
+190180 = {
+	name="Gundoald" #descendents become kings of Italy
+	dynasty=1044046 #Bavarae
+	religion="catholic"
+	culture="bavarian"
+	trait = sympathy_pagans
+	father=190178
+	571.1.1={
+		birth=yes
+	}
+	612.1.1={
+		death=yes
+	}
+}
+190129 = {
+	name="Ramhilde" #wife of Gisulf II of Friuli
+	female=yes
+	dynasty=1044033 #Agilolfing (Bavaria)
+	religion="catholic"
+	culture="bavarian"
+	father=190178
+	578.1.1={
+		birth=yes
+	}
+	629.1.1={
+		death=yes
+	}
+}
+190192 = {
+	name="Theodorata" #daughter of Theodo II of Bavaria
+	female=yes
+	dynasty=1044033 #Agilolfing (Bavaria)
+	religion="catholic"
+	culture="bavarian"
+	father=190339
+	652.1.1={
+		birth=yes
+	}
+	746.1.1={
+		death=yes
+	}
+}
+190178 = {
+	name="Garibald" #Garibald I of Bavaria
+	dynasty=1044033 #Agilolfing (Bavaria)
+	religion="catholic"
+	culture="bavarian"
+	trait = sympathy_pagans
+	540.1.1={
+		birth=yes
+	}
+	591.1.1={
+		death=yes
+	}
+}
+190179 = {
+	name="Tassilo" #Tassilo I of Bavaria
+	dynasty=1044033 #Agilolfing (Bavaria)
+	religion="catholic"
+	culture="bavarian"
+	father=190178
+	trait = sympathy_pagans
+	560.1.1={
+		birth=yes
+	}
+	610.1.1={
+		death=yes
+	}
+}
+190336 = {
+	name="Garibald" #Garibald II of Bavaria
+	dynasty=1044033 #Agilolfing (Bavaria)
+	religion="catholic"
+	culture="bavarian"
+	father=190179
+	trait = sympathy_pagans
+	581.1.1={
+		birth=yes
+	}
+	619.1.1={
+		add_spouse=190132
+	}
+	630.1.1={
+		death=yes
+	}
+}
+190337 = {
+	name="Theodo" #Theodo I of Bavaria
+	dynasty=1044033 #Agilolfing (Bavaria)
+	religion="catholic"
+	culture="bavarian"
+	father=190336
+	trait = sympathy_pagans
+	619.1.1={
+		birth=yes
+	}
+	680.1.1={
+		death=yes
+	}
+}
+190338 = {
+	name="Lantpert" #Lantpert of Bavaria
+	dynasty=1044033 #Agilolfing (Bavaria)
+	religion="catholic"
+	culture="bavarian"
+	father=190337
+	trait = sympathy_pagans
+	635.1.1={
+		birth=yes
+	}
+	680.6.1={
+		death=yes
+	}
+}
+190339 = {
+	name="Theodo" #Theodo II of Bavaria
+	dynasty=1044033 #Agilolfing (Bavaria)
+	religion="catholic"
+	culture="bavarian"
+	father=190337
+	trait = sympathy_pagans
+	636.1.1={
+		birth=yes
+	}
+	716.1.1={
+		death=yes
+	}
+}
+190334 = {
+	name="Theodbert" #Theodbert of Bavaria
+	dynasty=1044033 #Agilolfing (Bavaria)
+	religion="catholic"
+	culture="bavarian"
+	father=190339
+	665.1.1={
+		birth=yes
+	}
+	701.1.1={
+		add_spouse=190190
+	}
+	719.1.1={
+		death=yes
+	}
+}
+190197 = {
+	name="Guntrud" #wife of Liutprand of Lombardy
+	female=yes
+	dynasty=1044033 #Agilolfing (Bavaria)
+	religion="catholic"
+	culture="bavarian"
+	father=190334
+	mother=190190
+	697.1.1={
+		birth=yes
+	}
+	746.1.1={
+		death=yes
+	}
+}
+190226 = {
+	name="Hugbert" #Hugbert of Bavaria
+	dynasty=1044033 #Agilolfing (Bavaria)
+	religion="catholic"
+	culture="bavarian"
+	father=190334
+	mother=190190
+	707.1.1={
+		birth=yes
+	}
+	736.1.1={
+		death=yes
+	}
+}
+190370 = {
+	name="Theobald" #Theobald of Bavaria
+	dynasty=1044033 #Agilolfing (Bavaria)
+	religion="catholic"
+	culture="bavarian"
+	father=190339
+	666.1.1={
+		birth=yes
+	}
+	704.1.1={
+		add_spouse=190224
+	}
+	719.4.1={
+		remove_spouse=190224
+	}
+	719.4.1={
+		death=yes
+	}
+}
+190375 = {
+	name="Basinus" #duke of Thuringia
+	dynasty=227 #von Th??gen
+	religion="norse_pagan"
+	culture="thuringian"
+	438.1.1={
+		birth=yes
+	}
+	477.1.1={
+		death=yes
+	}
+}
+190376 = {
+	name="Fisud" #duke of Thuringia
+	dynasty=227 #von Th??gen
+	religion="norse_pagan"
+	culture="thuringian"
+	father=190375
+	458.1.1={
+		birth=yes
+	}
+	500.1.1={
+		death=yes
+	}
+}
+190377 = {
+	name="Ranigunda" #wife of Wacho of Lombards
+	female=yes
+	dynasty=227 #von Th??gen
+	religion="norse_pagan"
+	culture="thuringian"
+	father=190376
+	477.1.1={
+		birth=yes
+	}
+	540.1.1={
+		death=yes
+	}
+}
+190378 = {
+	name="Baderic" #duke of Thuringia
+	dynasty=227 #von Th??gen
+	religion="norse_pagan"
+	culture="thuringian"
+	father=190376
+	479.1.1={
+		birth=yes
+	}
+	531.1.1={
+		death=yes
+	}
+}
+190379 = {
+	name="Hermanfred" #duke of Thuringia
+	dynasty=227 #von Th??gen
+	religion="norse_pagan"
+	culture="thuringian"
+	father=190376
+	483.1.1={
+		birth=yes
+	}
+	534.1.1={
+		death=yes
+	}
+}
+190380 = {
+	name="Amalfridus"
+	dynasty=227 #von Th??gen
+	religion="norse_pagan"
+	culture="thuringian"
+	father=190379
+	524.1.1={
+		birth=yes
+	}
+	543.1.1={
+		death=yes
+	}
+}
+190381 = {
+	name="Berthar" #duke of Thuringia
+	dynasty=227 #von Th??gen
+	religion="norse_pagan"
+	culture="thuringian"
+	father=190376
+	488.1.1={
+		birth=yes
+	}
+	539.1.1={
+		death=yes
+	}
+}
+190382 = {
+	name="Chamar" #duke of Thuringia
+	dynasty=227 #von Th??gen
+	religion="catholic"
+	culture="thuringian"
+	father=190381
+	trait = sympathy_pagans
+	529.1.1={
+		birth=yes
+	}
+	588.1.1={
+		death=yes
+	}
+}
+190383 = {
+	name="Radulf" #duke of Thuringia
+	dynasty=227 #von Th??gen
+	religion="catholic"
+	culture="thuringian"
+	father=190382
+	trait = sympathy_pagans
+	567.1.1={
+		birth=yes
+	}
+	633.1.1={
+		death=yes
+	}
+}
+190384 = {
+	name="Chamar" #duke of Thuringia
+	dynasty=227 #von Th??gen
+	religion="catholic"
+	culture="thuringian"
+	father=190383
+	trait = sympathy_pagans
+	617.1.1={
+		birth=yes
+	}
+	666.1.1={
+		death=yes
+	}
+}
+190385 = {
+	name="Berthar" #duke of Thuringia
+	dynasty=227 #von Th??gen
+	religion="catholic"
+	culture="thuringian"
+	father=190384
+	trait = sympathy_pagans
+	650.1.1={
+		birth=yes
+	}
+	702.1.1={
+		death=yes
+	}
+}
+190386 = {
+	name="Chamar" #duke of Thuringia
+	dynasty=227 #von Th??gen
+	religion="catholic"
+	culture="thuringian"
+	father=190385
+	682.1.1={
+		birth=yes
+	}
+	741.1.1={
+		death=yes
+	}
+}
+403001 = {
+	name = "Tel Arauc"
+	dynasty = 0
+	culture = welsh
+	religion = catholic
+	525.1.1 = { birth = yes }
+	585.1.1 = { death = yes }
+}
+403002 = {
+	name = "Elgach"
+	dynasty = 1062197
+	culture = irish
+	religion = catholic
+	534.1.1 = { birth = yes } # Fic
+	594.1.1 = { death = yes } # Fic
+}
+403003 = {
+	name = "Cairbre Crom"
+	dynasty = 3000010
+	culture = irish
+	religion = catholic
+	526.1.1 = { birth = yes }
+	580.1.1 = { death = yes }
+}
+403004 = {
+	name = "Papar" # Fictional Character
+	dynasty = 1045008 # Papar
+	culture = irish
+	religion = catholic
+	534.1.1 = { birth = yes }
+	591.1.1 = { death = yes }
+}
+403005 = {
+	name = "Llwellyn"
+	culture = breton
+	religion = catholic
+	513.1.1 = { birth = yes }
+	585.2.1 = { death = yes }
+}
+403006 = {
+	name = "Niall"
+	dynasty = 3000161
+	culture = cantabri
+	religion = catholic
+	523.1.11 = { birth = yes }
+	583.1.1 = { death = yes }
+}
+403007 = {
+	name = "Cerdin"
+	dynasty = 3000162
+	culture = asturi	
+	religion = catholic
+	534.1.1 = { birth = yes }
+	583.1.1 = { death = yes }
+}
+
+403008 = {
+	name = "Gondebaud"
+	dynasty = 542 # Merovingian
+	religion = catholic
+	culture = old_frankish
+	father = 168686
+	559.1.1 = {
+		birth = yes
+		trait = "bastard"
+	}
+	610.1.1 = {
+		death = yes
+	}
+}
+403009 = { # Provence
+	name = "Charles"
+	dynasty = 3000163
+	religion = catholic
+	culture = old_frankish
+	546.1.1 = {
+		birth = yes
+	}
+	600.1.1 = {
+		death = yes
+	}
+}
+403010 = { # Nice
+	name = "Louis"
+	religion = catholic
+	culture = old_frankish
+	552.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+403011 = { 	# Flandre
+	name = "Rouding"
+	dynasty = 3000164
+	religion = catholic
+	culture = old_frankish
+	550.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+403012 = {# Reims
+	name = "Ioannes"
+	religion = catholic
+	culture = roman
+	trait = mastermind_theologian
+	537.1.1 = { birth = yes }
+	612.1.1 = { death = yes }
+}
+403013 = { # Normand
+	name = "Russeld"
+	religion = catholic
+	culture = old_frankish
+	543.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+403014 = {# Brabant
+	name = "Caribert"
+	religion = catholic
+	culture = old_frankish
+	539.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+403015 = {# Poitou
+	name = "Hlodowig"
+	religion = catholic
+	culture = old_frankish
+	539.1.1 = { birth =yes }
+	600.1.1 = { death = yes }
+}
+403016 = {
+	name = "Honeste"
+	religion = catholic
+	culture = occitan
+	541.1.1 = { birth = yes }
+	600.1.1 = { death =yes }
+}
+403017 = {
+	name = "Genobaud"
+	religion = catholic
+	culture = old_frankish
+	538.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+403018 = {# Aquitania
+	name = "Ubert"
+	religion = catholic
+	culture = occitan
+	548.1.1 = { birth =yes }
+	600.11.1 = { death = yes }
+}
+403019 = { # Gascon
+	name = "Ladron"
+	religion = catholic
+	culture = basque
+	546.1.1 = { birth =yes }
+	620.1.1 = { death = yes }
+}
+403020 = {# Anjou
+	name = "Agilbert"
+	religion = catholic
+	culture = old_frankish
+	540.1.1 =  { birth =yes }
+	600.1.1 = { death = yes }
+}
+403021 = {
+	name = "Dagobert"
+	religion = catholic # Toulouse
+	culture = old_frankish
+	543.1.1 = { birth =yes }
+	600.1.1 = { death = yes }
+}
+403022 = {
+	name = "Lutrin"
+	religion = catholic
+	culture = pictish
+	550.1.1 = { birth = yes }
+	630.1.1 = { death = yes }
+}
+403023 = {
+	name = "Rudri"
+	religion = catholic
+	culture = pictish
+	550.1.1 = { birth = yes }
+	630.1.1 = { death = yes }
+}
+403024 = {
+	name = "Caruorst"
+	religion = catholic
+	culture = pictish
+	550.1.1 = { birth = yes }
+	630.1.1 = { death = yes }
+}
+403025 = {
+	name = "Unuist"
+	religion = catholic
+	culture = pictish
+	550.1.1 = { birth = yes }
+	630.1.1 = { death = yes }
+}
+403026 = {
+	name = "Urguist"
+	religion = catholic
+	culture = pictish
+	550.1.1 = { birth = yes }
+	630.1.1 = { death = yes }
+}
+403027 = {
+	name = "Suibne"
+	religion = catholic
+	culture = irish
+	550.1.1 = { birth = yes }
+	630.1.1 = { death = yes }
+}
+403028 = {
+	name = "Telurg"
+	religion = catholic
+	culture = pictish
+	550.1.1 = { birth = yes }
+	630.1.1 = { death = yes }
+}
+403029 = {
+	name = "Uuirp"
+	religion = catholic
+	culture = pictish
+	550.1.1 = { birth = yes }
+	630.1.1 = { death = yes }
+}
+403030 = {
+	name = "Ru"
+	religion = catholic
+	culture = pictish
+	550.1.1 = { birth = yes }
+	630.1.1 = { death = yes }
+}
+403031 = {
+	name = "Geofrey"
+	religion = catholic
+	culture = old_frankish
+	540.1.1 = { birth =yes }
+	600.1.1 = { death = yes }
+}
+403032 = {
+	name = "Robert"
+	religion = catholic
+	culture = old_frankish
+	543.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+403033 = {
+	name = "Hugh"
+	religion = catholic
+	culture = occitan
+	547.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+403034 = {
+	name = "Chlothar"
+	religion = catholic
+	culture = old_frankish
+	540.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+403035 = {
+	name = "Gundo"
+	religion = catholic
+	culture = burgundian
+	537.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+403036 = {
+	name = "Theoderic"
+	religion = arian
+	culture = ostrogothic
+	554.1.1 = { birth = yes }
+	620.1.1 = { death = yes }
+}
+403037 = {
+	name = "Constantin"
+	religion = catholic
+	culture = pannonian
+	550.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+403038 = {
+	name = "Arslan"
+	religion = catholic
+	culture = old_frankish
+	547.1.11 = { birth = yes }
+	600.3.1 = { death = yes }
+}
+403039 = {
+	name = "Arsulf"
+	religion = catholic
+	culture = swabian
+	dynasty = 3000055
+	trait = sympathy_pagans
+	541.1.1 =  { birth = yes }
+	600.1.1 = { death = yes }
+}
+403040 = {
+	name = "Eric"
+	religion = catholic
+	culture = old_frankish
+	551.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+403041 = {
+	name = "Juden"
+	religion = catholic
+	culture = old_frankish
+	552.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+190401 = {
+	name="Chrodbert" 
+	dynasty=743 #capet
+	religion="catholic"
+	culture="old_frankish"
+	father = 403116
+	mother = 403117
+	#572.1.1={
+	570.1.1 = {
+		birth=yes
+	}
+	621.1.1={
+		death=yes
+	}
+}
+403042 = {
+	name = "Ulodomer"
+	religion = catholic
+	culture = old_frankish
+	548.1.1 = {
+		birth = yes
+	}
+	600.1.1 = {
+		death = yes
+	}
+}
+403043 = {
+	name = "Robert"
+	religion = catholic
+	culture = old_frankish
+	554.1.1 =  { birth = yes }
+	580.1.1 = { death = yes }
+}
+403044 = {
+	name = "Gregory"
+	religion = catholic
+	culture = old_frankish
+	552.1.1 = {
+		birth = yes
+	}
+	620.1.1 = {
+		death = yes
+	}
+}
+
+403045 = { # Gregory of Tours
+	name = "Gregorius"
+	religion = catholic
+	culture = gallic_latin
+	trait = mastermind_theologian
+	trait = scholar
+	trait = erudite
+	538.11.30 = { birth = yes }
+	594.11.17 = { death = yes }
+}
+
+403046 = {
+	name = "Guffa"
+	religion = catholic
+	trait = sympathy_pagans
+	culture = thuringian
+	dynasty = 3000056
+	547.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+403047 = {
+	name =  "Berthold"
+	religion = norse_pagan
+	trait = sympathy_christendom
+	culture = bavarian
+	550.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+403048 = {
+	name = "Hermann"
+	religion = norse_pagan
+	trait = sympathy_christendom
+	culture = swabian
+	550.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+403049 = {
+	name = "Heinrich"
+	religion = norse_pagan
+	trait = sympathy_christendom
+	culture = swabian
+	dynasty = 3000057
+	father = 403050
+	550.1.1 = { birth = yes }
+	600.11.1 ={ death = yes }
+}
+403050 = {
+	name = "Ludwig"
+	religion = catholic
+	culture = swabian
+	trait = sympathy_pagans
+	dynasty = 3000057
+	533.1.1 = { birth = yes }
+	581.1.1 = { death = yes }
+}
+403051 = {
+	name = "Adolf"
+	religion = norse_pagan
+	culture = swabian
+	trait = sympathy_christendom
+	dynasty = 3000057
+	father = 403050
+	555.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+403052 = {
+	name = "Kleiv"
+	religion = catholic
+	culture = old_frankish
+	553.1.1 =  { birth = yes }
+	600.1.1 = { death = yes }
+}
+403053 = {
+	name = "Siegmund"
+	religion = catholic
+	culture = old_frankish
+	551.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+403054 = {
+	name = "Rosamund"
+	religion = catholic
+	culture = old_frankish
+	543.1.1 = { birth = yes }
+	600.1.1 ={ death = yes }
+}
+403055 = { 
+	name = "Ruprecht"
+	religion = catholic
+	culture = old_frankish
+	541.1.1 = { birth = yes }
+	591.1.1 = { death = yes }
+}
+403056 = {
+	name = "Alois"
+	religion = catholic
+	culture = swabian
+	547.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+403057 = {
+	name = "Franz"
+	religion = norse_pagan
+	culture = old_frankish
+	trait = sympathy_indian
+	554.4.1 = { birth = yes}
+	600.1.1 = { death = yes }
+}
+403058 = {
+	name = "Erich"
+	religion = catholic
+	culture = bavarian
+	trait = sympathy_pagans
+	550.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+403059 = {
+	name = "Otto"
+	religion = catholic
+	culture = bavarian
+	trait = sympathy_pagans
+	550.1.1 = { birth = yes}
+	600.1.1 = { death = yes }
+}
+403060 = {
+	name = "Joseph"
+	religion = catholic
+	culture = bavarian
+	549.1.1 = { birth = yes }
+	620.1.1 ={ death = yes }
+}
+403061 = {
+	name = "Heinz"
+	religion = norse_pagan
+	culture = bavarian
+	552.1.1 = { birth = yes }
+	620.1.1 = { death = yes }
+}
+403062 = {
+	name = "Friedrich"
+	religion = norse_pagan
+	culture = bavarian
+	553.1.1 = { birth  =yes }
+	600.1.1 = { death = yes }
+}
+403063 = {
+	name = "Wilhelm"
+	religion = norse_pagan
+	culture = bavarian
+	550.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+403064 = {
+	name = "Hesso"
+	religion = norse_pagan
+	culture = bavarian
+	536.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+403065 = {
+	name = "Reinmunt"
+	religion = norse_pagan
+	culture = bavarian
+	543.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+403066 = {
+	name = "Leonardus"
+	religion = catholic
+	culture = pannonian
+	551.1.1 = { birth = yes }
+	620.1.1 = { death = yes }
+}
+403067 = {
+	name = "Johan"
+	religion = norse_pagan
+	culture = thuringian
+	550.1.1 = { birth = yes }
+	600.1.1 ={ death = yes }
+}
+403068 = {
+	name = "Audulf"
+	religion = norse_pagan
+	culture = frisian
+	dynasty = 3000058
+	546.1.1 = { birth = yes }
+	610.1.1 = { death = yes }
+}
+403069 = {
+	name = "Arnulf"
+	religion = norse_pagan
+	culture = frisian
+	dynasty = 3000058
+	father = 403068
+	570.1.1 = { birth = yes }
+	647.1.1 = { death = yes }
+}
+403070 = {
+	name = "Elderd"
+	religion = norse_pagan
+	culture = frisian
+	550.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+403071 = {
+	name = "Tado"
+	religion = norse_pagan
+	culture = frisian
+	553.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+403072 = {
+	name = "Marco"
+	religion = catholic
+	culture = pannonian
+	550.1.1 = { birth = yes }
+	620.1.1 = { death = yes }
+}
+403073 = {
+	name = "Constantin"
+	religion = catholic
+	culture = dalmatian
+	550.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+403074 = {
+  name = "Vladimir"
+  religion = slavic_pagan
+  culture = bohemian
+  543.1.1 = { birth = yes }
+  600.1.1 = { death = yes }
+}
+403075 = {
+	name = "Muntimir"
+	religion = slavic_pagan
+	culture = slovieni
+	552.1.1 = { birth = yes }
+	600.1.1 ={ death = yes }
+}
+403076 = {
+	name = "Sedzimir"
+	religion = slavic_pagan
+	culture = slovieni
+	554.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+403077 = {
+	name = "Miroslaw"
+	religion = slavic_pagan
+	culture = pommeranian
+	551.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+403078 = {
+	name = "Borijs"
+	religion = slavic_pagan
+	culture = pommeranian
+	541.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+403079 = {
+	name = "Dagoerch"
+	religion = slavic_pagan
+	culture = pommeranian
+	549.1.1 = { birth = yes }
+	632.1.1 = { death = yes }
+}
+403080 = {
+	name = "Calowow"
+	religion = slavic_pagan
+	culture = pommeranian
+	552.1.1 = { birth = yes }
+	634.1.1 = { death = yes }
+}
+403081 = {
+	name = "Lech"
+	dynasty = 3000072
+	religion = slavic_pagan
+	culture = polish
+	trait = genius
+	trait = brilliant_strategist
+	trait = strong
+	523.1.1 = { birth = yes }
+	611.1.1 = { death = yes }
+}
+403082 = {
+	name = "Marascadz"
+	religion = slavic_pagan
+	culture = pommeranian
+	547.1.1 = { birth = yes }
+	645.1.1 = { death = yes }
+}
+403083 = {
+	name = "Luchaow"
+	religion = slavic_pagan
+	culture = pommeranian
+	547.1.1 = { birth = yes }
+	645.1.1 = { death = yes }
+}
+403084 = {
+	name = "Mstislaw"
+	religion = slavic_pagan
+	culture = pommeranian
+	547.1.1 = { birth = yes }
+	645.1.1 = { death = yes }
+}
+403085 = {
+	name = "Russelle"
+	religion = slavic_pagan
+	culture = severian
+	550.1.1 = { birth = yes }
+	640.1.1 = { death = yes }
+}
+403086 = {
+	name = "Bozhek"
+	religion = slavic_pagan
+	culture = severian
+	540.1.1 = { birth =  yes }
+	640.1.1 = { death = yes }
+}
+403087 = {
+	name = "Sverant"
+	religion = slavic_pagan
+	culture = severian
+	554.1.1 = { birth =yes }
+	651.1.1 = { death = yes }
+}
+403088 = {
+	name = "Ganniov"
+	religion = slavic_pagan
+	culture = volhynian
+	554.1.1 = { birth = yes }
+	654.1.1 = { death = yes }
+}
+403089 = {
+	name = "Miroslaw"
+	religion = slavic_pagan
+	culture = polish
+	dynasty = 3000072
+	father = 403081
+	549.1.1 = { birth = yes }
+	640.1.1 = { death = yes }
+}
+403090 = {
+	name = "Miesko"
+	religion = slavic_pagan
+	culture = polish
+	dynasty = 3000072
+	father = 403081
+	552.1.1 = { birth = yes }
+	651.1.1 = { death = yes }
+}
+403091 = {
+	name = "Rubliana"
+	female = yes
+	religion = slavic_pagan
+	culture = polish
+	dynasty = 3000074
+	trait = fair
+	trait = groomed
+	trait = strong
+	trait = seductress
+	trait = genius
+	trait = shrewd
+	trait = schemer
+	trait = socializer
+	trait = hedonist
+	trait = administrator
+	trait = robust
+	#trait = left_handed
+	trait = elusive_shadow
+	trait = shieldmaiden
+	trait = deceitful
+	trait = erudite
+	trait = just
+	trait = kind
+	trait = diligent
+	trait = patient
+	trait = temperate
+	trait = charitable
+	trait = falconer
+	trait = poet
+	554.1.1 = { birth = yes }
+	#570.1.1 = { add_matrilineal_spouse = }
+	630.1.1 = { death = yes }
+}
+403092 = {
+	name = "Luvenskiy"
+	religion = slavic_pagan
+	culture = polish
+	dynasty = 3000074
+	mother = 403091
+	trait = strong
+	trait = fair
+	trait = genius
+	trait = robust
+	trait = groomed
+	trait = twin
+	570.1.1 = { birth = yes }
+	661.1.1 = { death = yes }
+}
+403093 = {
+	name = "Rublnj"
+	religion = slavic_pagan
+	culture = polish
+	dynasty = 3000074
+	mother = 403091
+	trait = strong
+	trait = fair
+	trait = genius
+	trait = robust
+	trait = groomed
+	trait = twin
+	female = yes
+	570.1.1 = { birth = yes }
+	661.1.1 = { death = yes }
+}
+403094 = {
+	name = "Henryk"
+	religion = slavic_pagan
+	culture = polish
+	dynasty = 3000074
+	mother = 403091
+	trait = strong
+	trait = fair
+	trait = genius
+	trait = robust
+	trait = groomed
+	trait = twin
+	570.1.1 = { birth = yes }
+	661.1.1 = { death = yes }
+}
+403095 = {
+	name = "Moslawa"
+	religion = slavic_pagan
+	culture = polish
+	dynasty = 3000074
+	female = yes
+	mother = 403091
+	trait = strong
+	trait = fair
+	trait = genius
+	trait = robust
+	trait = groomed
+	trait = twin
+	570.1.1 = { birth = yes }
+	661.1.1 = { death = yes }
+}
+403096 = {
+	name = "Modzitsi"
+	religion = slavic_pagan
+	culture = polish
+	dynasty = 3000075
+	550.1.1 = { birth = yes }
+	640.1.1 = { death = yes }
+}
+403097 = {
+	name = "Darems"
+	religion = slavic_pagan
+	culture = volhynian
+	dynasty = 3000076
+	534.1.1 = { birth = yes }
+	633.1.1 = { death = yes }
+}
+403098 = {
+	name = "Nikephoros"
+	religion = slavic_pagan
+	culture = greek
+	dynasty = 3000077
+	trait = sympathy_christendom
+	trait = adventurer
+	553.1.1 = { birth = yes }
+	652.1.1 = { death = yes }
+}
+403099 = {
+	name = "Meryav"
+	religion = slavic_pagan
+	culture = greek
+	dynasty = 3000077
+	father = 403098
+	569.1.1 = { birth = yes }
+	570.4.1 = { culture = ilmenian }
+	668.1.1 = { death = yes }
+}
+403100 = {
+	name = "Maribon"
+	religion = finnish_pagan
+	culture = ugricbaltic
+	dynasty = 3000078
+	550.1.1 = { birth = yes }
+	649.1.1 = { death = yes }
+}
+403101 = {
+	name = "Iesti Lati"
+	religion = finnish_pagan
+	culture = finnish
+	dynasty = 3000079
+	554.1.1 = { birth = yes }
+	652.1.1 = { death = yes }
+}
+403102 = {
+	name = "Ilmens"
+	religion = slavic_pagan
+	culture = ilmenian
+	dynasty = 3000080
+	554.1.1 = { birth = yes }
+	620.1.1 = { death = yes }
+}
+403103 = {
+	name = "Slvoens"
+	religion = slavic_pagan
+	culture = ilmenian
+	dynasty = 3000081
+	554.1.1 = { birth = yes }
+	633.1.1 = { death = yes }
+}
+403104 = {
+	name = "Sigurdr"
+	religion = norse_pagan
+	culture = norse
+	dynasty = 3000082
+	554.1.1 = { birth = yes }
+	633.1.1 = { death = yes }
+}
+403105 = {
+	name = "Grauntis"
+	religion = baltic_pagan
+	culture = lithuanian
+	dynasty = 3000083
+	father = 4030107
+	554.1.1 = {
+		birth = yes
+	}
+	652.1.1 = {
+		death =yes
+	}
+}
+403106 = {
+	name = "Jogailla"
+	religion = baltic_pagan
+	culture = lithuanian
+	dynasty = 3000083
+	father = 4030107
+	554.1.1 = {
+		birth = yes
+	}
+	652.1.1 = {
+		death = yes
+	}
+}
+403107 = {
+	name = "Raumuvas"
+	religion = baltic_pagan
+	culture = lithuanian
+	dynasty = 3000083
+	536.1.1 = {
+		birth = yes
+	}
+	570.1.1 = {
+		culture = ilmenian
+	}
+	600.1.1 = {
+		death = yes
+	}
+}
+403108 = {
+	name = "Gintras"
+	religion = baltic_pagan
+	culture = lithuanian
+	dynasty = 3000084
+	550.1.1 = { birth = yes }
+	640.1.1 = { death = yes }
+}
+403109 = {
+	name = "Waldo"
+	religion = catholic
+	culture = burgundian
+	dynasty = 3000142
+	521.1.1 = { birth = yes }
+	597.1.1 = { death = yes }
+}
+403110 = {
+	name = "Audoin"
+	religion = catholic
+	culture = burgundian
+	dynasty = 3000142
+	father = 403109
+	549.1.1 = { birth = yes }
+	613.1.1 = { death = yes }
+}
+403111 = {
+	name = "Karlmann"
+	religion = catholic
+	culture = burgundian
+	dynasty = 3000142
+	father = 403110
+	570.1.1 = { birth = yes }
+	623.1.1 = { culture = old_frankish }
+	633.1.1 = { death = yes }
+}
+403112 = {
+	name = "Gerhard"
+	religion = catholic
+	culture = old_frankish
+	dynasty = 3000143
+	551.1.1 = { birth = yes }
+	634.1.1 = { death = yes }
+}
+403113 = {
+	name = "Reno"
+	religion = catholic
+	culture = old_frankish
+	dynasty = 3000144
+	549.1.1 = { birth = yes }
+	597.1.1 = { death = yes }
+}
+403114 = {
+	name = "Arsulf"
+	religion = catholic
+	culture = old_frankish
+	dynasty = 3000144
+	father = 403113
+	571.1.1 = { birth = yes }
+	637.1.1 = { death = yes }
+}
+403115 = {
+	name = "Arnold"
+	religion = catholic
+	culture = old_frankish
+	dynasty = 3000144
+	father = 403114
+	601.1.1 = { birth = yes }
+	654.1.1 = { death = yes }
+}
+403116 = {
+	name = "Charibert" # Charibert de Hesbaye
+	religion = catholic
+	culture = old_frankish
+	dynasty = 743
+	555.1.1 = { birth = yes }
+	570.1.1 = { add_spouse = 403117 }
+	636.1.1 = { death = yes }
+}
+403117 = {
+	name = "Wulfgard"
+	religion = catholic
+	culture = old_frankish
+	female = yes
+	556.1.1 = { birth = yes }
+	623.1.1 = { death = yes }
+}
+403118 = {
+	name = "Aldebert"
+	religion = catholic
+	culture = old_frankish
+	dynasty = 743
+	father = 403116
+	mother = 403117
+	trait = monk
+	trait = celibate
+	581.1.1 = { birth = yes }
+	661.1.1 = { death = yes }
+}
+403119 = {
+	name = "Erlebert"
+	religion = catholic
+	culture = old_frankish
+	dynasty = 743
+	father = 403116
+	mother = 403117
+	602.1.1 = { birth = yes }
+	657.1.1 = { death = yes }
+}
+403120 = {
+	name = "Lambert"
+	religion = catholic
+	culture = old_frankish
+	dynasty = 743
+	father = 403119
+	trait = erudite
+	trait = mastermind_theologian
+	625.1.1 = { birth = yes }
+	688.1.1 = { death = yes }
+}
+403121 = {
+	name = "Zvonimir"
+	dynasty = 3000150
+	religion = slavic_pagan
+	culture = croatian
+	570.1.1 = { birth = yes }
+	641.1.1 = { death = yes }
+}
+403122 = {
+	name = "Budec"
+	dynasty = 3000150
+	father = 403121
+	religion = slavic_pagan
+	culture = croatian
+	613.1.1 = { birth =yes }
+	667.1.1 = { death = yes }
+}
+403123 = {
+	name = "Kirill"
+	dynasty = 3000150
+	father = 403122
+	religion = slavic_pagan
+	culture = croatian
+	640.1.1 = { birth =yes }
+	717.1.1 = { death = yes }
+}
+403124 = {
+	name = "Zvonimir"
+	dynasty = 3000150
+	father = 403123
+	religion = slavic_pagan
+	culture = croatian
+	683.1.1 = { birth =yes }
+	735.1.1 = { death = yes }
+}
+403125 = {
+	name = "Kresimir"
+	dynasty = 3000150
+	father = 403124
+	religion = slavic_pagan
+	culture = croatian
+	715.1.1 = { birth =yes }
+	768.1.1 = { death = yes }
+}
+403126 = {
+	name = "Vladimir"
+	dynasty = 3000150
+	father = 403125
+	religion = slavic_pagan
+	culture = croatian
+	746.1.1 = { birth =yes }
+	801.1.1 = { death = yes }
+}
+403127 = {
+	name = "Budec"
+	dynasty = 3000150
+	father = 403126
+	religion = slavic_pagan
+	culture = croatian
+	793.1.1 = { birth =yes }
+	866.1.1 = { death = yes }
+}
+403128 = {
+	name = "Zvonimir"
+	dynasty = 3000150
+	father = 403127
+	religion = slavic_pagan
+	culture = croatian
+	813.1.1 = { birth =yes }
+	899.1.1 = { death = yes }
+}
+403129 = {
+	name = "Vratislav"
+	dynasty = 3000150
+	father = 403128
+	religion = slavic_pagan
+	culture = croatian
+	853.1.1 = { birth =yes }
+	937.1.1 = { death = yes }
+}
+403130 = {
+	name = "Tomislav"
+	dynasty = 3000150
+	father = 403129
+	religion = slavic_pagan
+	culture = croatian
+	895.1.1 = { birth =yes }
+	962.1.1 = { death = yes }
+}
+403131 = {
+	name = "Miroslav"
+	dynasty = 3000150
+	father = 403130
+	religion = slavic_pagan
+	culture = croatian
+	936.1.1 = { birth =yes }
+	1007.1.1 = { death = yes }
+}
+403132 = {
+	name = "Boris"
+	dynasty = 3000150
+	father = 403131
+	religion = slavic_pagan
+	culture = croatian
+	989.1.1 = { birth = yes }
+	1045.1.1 = { death = yes }
+}
+403133 = {
+	name = "Stjepan"
+	dynasty = 3000150
+	father = 403132
+	religion = slavic_pagan
+	culture = croatian
+	1037.11.1 = { birth = yes }
+	1054.1.1 = { religion = catholic }
+	1067.1.1 = { death = yes }
+}
+403134 = {
+	name = "Theodahad"
+	religion = arian
+	culture = ostrogothic
+	547.1.1 = { birth = yes }
+	596.1.1 = { death = yes }
+}
+403135 = {
+	name = "Melisande"
+	religion = catholic
+	culture = occitan
+	female = yes
+	dynasty = 3000165
+	trait = fair
+	trait = groomed
+	trait = charitable
+	trait = erudite
+	trait = diligent
+	trait = kind
+	trait = gregarious
+	trait = strong
+	trait = robust
+	trait = quick
+	554.3.1 = { birth = yes }
+	603.1.1 = { death = yes }
+}
+403136 = {
+	name = "Robert"
+	religion = catholic
+	culture = occitan
+	dynasty = 3000165
+	mother = 403135
+	trait = strong
+	trait = brave
+	572.1.1 = { birth = yes }
+	607.1.1 = { death = yes }
+}
+403137 = {
+	name = "Matilda"
+	religion = catholic
+	culture = occitan
+	dynasty = 3000165
+	mother = 403135
+	female = yes
+	trait = strong
+	trait = shrewd
+	trait = diligent
+	trait = fair
+	trait = groomed
+	580.1.1 = { birth = yes }
+	633.11.25 = { death = yes }
+}
+403138 = {
+	name = "Cathrine"
+	religion = catholic
+	culture = occitan
+	dynasty = 3000165
+	mother = 403137
+	female = yes
+	trait = groomed
+	trait = shrewd
+	607.2.1 = { birth = yes }
+	659.1.1 = { death = yes }
+}
+403139 = {
+	name = "Jean"
+	religion = catholic
+	culture = occitan
+	dynasty = 3000165
+	mother = 403138
+	trait = groomed
+	trait = diligent
+	trait = brave
+	632.1.1 = { birth = yes }
+	700.1.1 = { death = yes }
+}
+403140 = {
+	name = "Louis"
+	religion = catholic
+	culture = occitan
+	dynasty = 3000165
+	father = 403139
+	trait = brave
+	676.1.1 = { birth = yes }
+	735.1.1 = { death = yes }
+}
+403141 = {
+	name = "Alienor"
+	religion = catholic
+	culture = occitan
+	dynasty = 3000165
+	father = 403140
+	female = yes
+	700.1.1 = { birth = yes }
+	759.1.1 = { death = yes }
+}
+403142 = {
+	name = "Helgi"
+	dynasty = 3000166
+	religion = norse_pagan
+	culture = norse
+	550.1.1 = { birth = yes }
+	634.1.1 = { death = yes }
+}
+403143 = {
+	name = "Aldgisl"
+	dynasty = 3000166
+	religion = norse_pagan
+	culture = frisian
+	father = 403142
+	570.1.1 = { birth = yes }
+	570.4.1 = {
+		culture = norse
+	}
+	657.1.1 = { death = yes }
+}
+403144 = {
+	name = "Luxamd"
+	religion = catholic
+	culture = old_frankish
+	558.1.1 = { birth = yes }
+	655.1.1 = { death = yes }
+}
+403145 = {
+	name = "Loup"
+	religion = catholic
+	culture = old_frankish
+	550.1.1 = { birth = yes }
+	645.1.1 = { death = yes }
+}
+403146 = {
+	name = "Reno"
+	culture = burgundian
+	religion = catholic
+	545.1.1 = { birth = yes }
+	634.1.1 = { death = yes }
+}
+403147 = {
+	name = "Tancred"
+	culture = old_frankish
+	religion = catholic
+	535.1.1 = { birth = yes }
+	634.1.1 = { death = yes }
+}
+403148 = {
+	name = "Caribert"
+	culture = old_frankish
+	religion = catholic
+	555.1.1 = { birth = yes }
+	651.1.1 = { death = yes }
+}
+403149 = {
+	name = "Ludwig"
+	dynasty = 3000167
+	culture = swabian
+	religion = norse_pagan
+	534.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+403150 = {
+	name = "Theodorich"
+	dynasty = 3000167
+	father = 403149
+	culture = swabian
+	religion = norse_pagan
+	trait = sympathy_christendom
+	554.1.1 = { birth = yes }
+	634.1.1 = { death = yes }
+}
+403151 = {
+	name = "Thrall"
+	dynasty = 3000168
+	culture = swabian
+	religion = catholic
+	trait = sympathy_pagans
+	550.1.1 = { birth = yes }
+	645.11.1 = { death = yes }
+}
+403152 = {
+	name = "Kaalansvi"
+	dynasty = 3000169
+	culture = lappish
+	religion = finnish_pagan
+	549.1.1 = { birth = yes }
+	612.1.1 = { death = yes }
+}
+403153 = {
+	name = "Kaise"
+	dynasty = 3000169
+	father = 403152
+	culture = lappish
+	religion = finnish_pagan
+	595.1.1 = { birth = yes }
+	661.1.1 = { death = yes }
+}
+403154 = {
+	name = "Meiderii"
+	dynasty = 3000169
+	father = 403153
+	culture = lappish
+	religion = finnish_pagan
+	632.1.1 = { birth = yes }
+	687.1.1 = { death = yes }
+}
+403155 = {
+	name = "Hrafn"
+	dynasty = 3000170
+	culture = norse
+	religion = norse_pagan
+	554.1.1 = { birth = yes }
+	611.1.1 = { death = yes }
+}
+403156 = {
+	name = "Olafr"
+	dynasty = 3000170
+	father = 403155
+	culture = norse
+	religion = norse_pagan
+	596.1.1 = { birth = yes }
+	636.1.1 = { death = yes }
+}
+403157 = {
+	name = "Anundr"
+	dynasty = 3000170
+	father = 403156
+	culture = norse
+	religion = norse_pagan
+	620.1.1 = { birth = yes }
+	698.1.1 = { death = yes }
+}
+403158 = {
+	name = "Knut"
+	dynasty = 3000170
+	father = 403157
+	culture = norse
+	religion = norse_pagan
+	657.1.1 = { birth = yes }
+	733.1.1 = { death = yes }
+}
+403159 = {
+	name = "Olafr"
+	dynasty = 3000171
+	culture = norse
+	religion = norse_pagan
+	550.1.1 = { birth = yes }
+	602.1.1 = { death = yes }
+}
+403160 = {
+	name = "Ivar"
+	dynasty = 3000171
+	father = 403159
+	culture = norse
+	religion = norse_pagan
+	587.1.1 = { birth = yes }
+	634.1.1 = { death = yes }
+}
+403161 = {
+	name = "Anundr"
+	dynasty = 3000171
+	father = 403160
+	culture = norse
+	religion = norse_pagan
+	617.1.1 = { birth = yes }
+	684.1.1 = { death = yes }
+}
+403162 = {
+	name = "Ytrau"
+	dynasty = 3000172
+	culture = norse
+	religion = norse_pagan
+	515.1.1 = { birth = yes }
+	586.1.1 = { death = yes }
+}
+403163 = {
+	name = "Hrafn"
+	father = 403162
+	dynasty = 3000172
+	culture = norse
+	religion = norse_pagan
+	552.1.1 = { birth = yes }
+	632.1.1 = { death = yes }
+}
+403164 = {
+	name = "Dyre"
+	father = 403163
+	dynasty = 3000172
+	culture = norse
+	religion = norse_pagan
+	599.6.11 = { birth = yes }
+	654.1.1 = { death = yes }
+}
+403165 = {
+	name = "Tyr"
+	dynasty = 3000173
+	culture = norse
+	religion = norse_pagan
+	555.1.1 = { birth = yes }
+	644.1.1 = { death = yes }
+}
+403166 = {
+	name = "Wodhan"
+	dynasty = 3000174
+	culture = norse
+	religion = norse_pagan
+	546.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+403167 = {
+	name = "Amalfrida"
+	female = yes
+	dynasty = 3000174
+	father = 403166
+	culture = norse
+	religion = norse_pagan
+	570.1.1 = { birth = yes }
+	632.1.1 = { death = yes }
+}
+403168 = {
+	name = "Olafr"
+	dynasty = 3000174
+	mother = 403167
+	culture = norse
+	religion = norse_pagan
+	593.1.1 = { birth = yes }
+	651.1.1 = { death = yes }
+}
+403169 = {
+	name = "Eirik"
+	dynasty = 3000175
+	culture = norse
+	religion = norse_pagan
+	551.1.1 = { birth = yes }
+	604.1.1 = { death = yes }
+}
+403170 = {
+	name = "Idunn"
+	female = yes
+	culture = norse
+	religion = norse_pagan
+	555.1.1 = { birth = yes }
+	569.1.1 = { add_spouse = 403169 }
+	622.1.1 = { death = yes }
+}
+403171 = {
+	name = "Arnulf"
+	dynasty = 3000175
+	culture = norse
+	religion = norse_pagan
+	father = 403169
+	mother = 403170
+	570.1.1 = { birth = yes }
+	615.1.1 = { death = yes }
+}
+403172 = {
+	name = "Arsulf"
+	dynasty = 3000175
+	father = 403171
+	culture = norse
+	religion = norse_pagan
+	600.1.1 = { birth = yes }
+	655.1.1 = { death = yes }
+}
+403173 = {
+	name = "Harald"
+	dynasty = 3000176
+	culture = norse
+	religion = norse_pagan
+	trait = brave
+	trait = wroth
+	trait = dull
+	trait = strong
+	553.1.1 = { birth = yes }
+	570.1.1 = { add_claim = c_uppland }
+	621.1.1 = { death = yes }
+}
+403174 = {
+	name = "Sigurdr"
+	father = 403173
+	dynasty = 3000176
+	culture = norse
+	religion = norse_pagan
+	581.1.1 = { birth = yes }
+	656.1.1 = { death = yes }
+}
+403175 = {
+	name = "Hrane"
+	father = 403174
+	dynasty = 3000176
+	culture = norse
+	religion = norse_pagan
+	629.5.1 = { birth = yes }
+	700.6.1 = { death = yes }
+}
+403176 = {
+	name = "Borg"
+	dynasty = 3000177
+	culture = norse
+	religion = norse_pagan
+	trait = brilliant_strategist
+	trait = brave
+	trait = strong
+	trait = quick
+	513.1.1 = { birth = yes }
+	546.1.1 = { add_nickname = nick_the_great }
+	570.1.1 = { death = yes }
+}
+403177 = {
+	name = "Hrane"
+	father = 403176
+	dynasty = 3000177
+	culture = norse
+	religion = norse_pagan
+	548.1.1 = { birth = yes }
+	606.1.1 = { death = yes }
+}
+403178 = {
+	name = "Harald"
+	father = 403176
+	dynasty = 3000177
+	culture = norse
+	religion = norse_pagan
+	553.1.1 = { birth = yes }
+	621.1.1 = { death = yes }
+}
+403179 = {
+	name = "Rjuriks"
+	father = 403176
+	dynasty = 3000177
+	culture = norse
+	religion = norse_pagan
+	564.1.1 = { birth = yes }
+	647.1.1 = { death = yes }
+}
+403180 = {
+	name = "Siegfried"
+	father = 403177
+	dynasty = 3000177
+	culture = norse
+	religion = norse_pagan
+	585.1.1 = { birth = yes }
+	638.4.1 = { death = yes }
+}
+403181 = {
+	name = "Eymund"
+	father = 403178
+	dynasty = 3000177
+	culture = norse
+	religion = norse_pagan
+	589.6.7 = { birth = yes }
+	651.1.1 = { death = yes }
+}
+403182 = {
+	name = "Snorri"
+	father = 403181
+	dynasty = 3000177
+	culture = norse
+	religion = norse_pagan
+	624.5.3 = { birth = yes }
+	685.11.2 = { death = yes }
+}
+403183 = {
+	name = "Sturlus"
+	father = 403182
+	dynasty = 3000177
+	culture = norse
+	religion = norse_pagan
+	657.1.1 = { birth = yes }
+	714.1.1 = { death = yes }
+}
+403184 = {
+	name = "Eyak"
+	culture = norse
+	religion = norse_pagan
+	554.1.1 = { birth = yes }
+	645.1.1 = { death = yes }
+}
+403185 = {
+	name = "Eric"
+	culture = norse
+	religion = norse_pagan
+	554.1.1 = { birth = yes }
+	645.1.1 = { death = yes }
+}
+403186 = {
+	name = "Torfinn"
+	dynasty = 3000178
+	culture = norse
+	religion = norse_pagan
+	trait = adventurer
+	554.1.1 = { birth = yes }
+	645.1.1 = { death = yes }
+}
+403187 = {
+	name = "Ragnarr"
+	dynasty = 3000179
+	culture = norse
+	religion = norse_pagan
+	543.1.1 = { birth = yes }
+	641.1.1 = { death = yes }
+}
+403188 = {
+	name = "Aslaug"
+	female = yes
+	dynasty = 3000180
+	culture = norse
+	religion = norse_pagan
+	trait = shieldmaiden
+	trait = brilliant_strategist
+	trait = adventurer
+	trait = brave
+	trait = strong
+	trait = robust
+	trait = patient
+	trait = fair
+	553.4.6 = { birth = yes }
+	618.5.1 = { death = yes }
+}
+403189 = {
+	name = "Konnet"
+	dynasty = 3000180
+	mother = 403188
+	culture = norse
+	religion = norse_pagan
+	585.1.7 = { birth = yes }
+	652.1.1 = { death = yes }
+}

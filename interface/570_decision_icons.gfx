@@ -1,0 +1,58 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_restore_wre"
+		texturefile = "gfx\\interface\\decision_icon_restore_roman_empire.dds"
+	}
+	spriteType = {
+		name = "GFX_justinian_legacy"
+		texturefile = "gfx\\interface\\decision_icon_restore_byzantine_empire.dds"
+	}
+	spriteType = {
+		name = "unite_francia"
+		texturefile = "gfx\\interface\\decision_icon_unite_francia.dds"
+	}
+	spriteType = {
+		name = "GFX_unite_lombardy"
+		texturefile = "gfx\\interface\\decision_icon_restore_byzantine_empire.dds"
+	}
+	spriteType = {
+		name = "GFX_unite_tibet_yarlung"
+		texturefile = "gfx\\interface\\decision_icon_adopt_tribalism.dds"
+	}
+	spriteType = {
+		name = "GFX_integrate_syria"
+		texturefile = "gfx\\interface\\decision_icon_restore_roman_empire.dds"
+	}
+	spriteType = {
+		name = "GFX_integrate_egypt"
+		texturefile = "gfx\\interface\\decision_icon_restore_roman_empire.dds"
+	}
+	spriteType = {
+		name = "GFX_integrate_africa"
+		texturefile = "gfx\\interface\\decision_icon_restore_roman_empire.dds"
+	}
+	spriteType = {
+		name = "GFX_integrate_africa"
+		texturefile = "gfx\\interface\\decision_icon_restore_roman_empire.dds"
+	}
+	spriteType = {
+		name = "GFX_integrate_ravenna"
+		texturefile = "gfx\\interface\\decision_icon_restore_roman_empire.dds"
+	}
+	spriteType = {
+		name = "GFX_integrate_spania"
+		texturefile = "gfx\\interface\\decision_icon_restore_roman_empire.dds"
+	}
+	spriteType = {
+		name = "GFX_independence_governate"
+		texturefile = "gfx\\interface\\decision_icon_restore_roman_empire.dds"
+	}
+	spriteType = {
+		name = "GFX_pick_era_image_0"
+		texturefile = "gfx\\interface\\pick_era_image_0.dds"
+	}
+	spriteType = {
+		name = "GFX_pick_era_image_islam"
+		texturefile = "gfx\\interface\\pick_era_image_islam.dds"
+	}
+}

@@ -1,0 +1,15 @@
+# 2052 - Rahhaliyah
+
+# County Title
+title = c_rahhaliyah
+
+# Settlements
+max_settlements = 1
+b_rahhaliyah = castle
+
+# Misc
+culture = bedouin_arabic
+religion = arabic_pagan
+
+637.1.1 = { religion = islamism }
+661.1.1 = { religion = sunni }

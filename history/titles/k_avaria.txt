@@ -1,0 +1,17 @@
+20.1.1={
+	holder=0
+#	active = no
+}
+
+557.1.1 = {
+	active = yes
+	historical_nomad = yes
+}
+562.1.1 = {
+	holder = 407000
+}
+769.1.1 = {
+	active = no
+	historical_nomad = no
+	holder = 0
+}

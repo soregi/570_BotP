@@ -1,0 +1,27 @@
+# 1728 - Tebessa
+
+# County Title
+title = c_tebessa
+
+# Settlements
+max_settlements = 3
+
+b_tebessa = castle
+b_baghaya = city
+
+#b_tala
+#b_maydara
+#b_maskiyana
+#b_kasserine
+#b_khenchela
+
+# Misc
+culture = alan
+religion = arian
+
+# History
+600.1.1 = { religion = catholic culture = maghreb_latin }
+670.1.1 = {
+culture = maghreb_arabic
+religion = sunni
+}

@@ -1,0 +1,10 @@
+570.1.1 = {
+	liege = e_gokturks
+	holder = 407035
+	historical_nomad = yes
+}
+936.1.1 = {
+	holder = 261081
+	liege = k_liao
+	historical_nomad = yes
+}

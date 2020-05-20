@@ -1,0 +1,22 @@
+# 461 - Zagreb
+
+# County Title
+title = c_zagreb
+
+# Settlements
+max_settlements = 4
+b_zagreb = tribal
+
+# Misc
+culture = ostrogothic
+religion = arian
+
+# History
+600.1.1 = { religion = catholic }
+633.1.1 = { culture = croatian religion = slavic_pagan }
+800.1.1 = {
+	religion = catholic
+	b_zagreb = castle
+	b_cetin = city
+	b_sisak = temple
+}

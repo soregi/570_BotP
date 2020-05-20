@@ -1,0 +1,19 @@
+# 1727 - Arigh
+
+# County Title
+title = c_arigh
+
+# Settlements
+max_settlements = 2
+
+b_arigh = tribal
+#b_ajlu
+
+# Misc
+culture = berber
+religion = west_african_pagan
+
+# History
+681.1.1 = { religion = kharijite }
+790.1.1 = { b_arigh = castle }
+1000.1.1 = { religion = sunni }

@@ -1,0 +1,592 @@
+namespace = slavic
+#Slavic Migration Age Begun
+narrative_event = {
+	id = slavic.1
+	title = EVTTITLE_slavic_1
+	desc = EVTDESC_slavic_1
+	picture = GFX_evt_pagan_reformation
+	border = GFX_event_narrative_frame_war
+	major = yes
+	only_playable = yes
+	major_trigger = {
+		is_playable = yes
+	}
+	trigger = {
+		NOT = { has_global_flag = slavic_migration }
+		year = 632
+		culture_group = south_slavic
+	}
+	mean_time_to_happen = {
+		months = 6
+	}
+	immediate = {
+		set_global_flag = slavic_migration
+
+	}
+	option = {
+		name = EVTOPTA_slavic_1
+		trigger = {
+			OR = {
+				culture_group = south_slavic
+				culture_group = west_slavic
+			}
+		}
+		prestige = 50
+		piety = 50
+	}
+	option = {
+		name = EVTOPTB_slavic_1
+		trigger = {
+			NOR = {
+				culture_group = south_slavic
+				culture_group = west_slavic
+			}
+		}
+	}
+}
+character_event = {
+	id = slavic.2
+	hide_window = yes
+	trigger = {
+		year = 600
+		NOT = { has_global_flag = slavic_migration_1 }
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+	immediate = {
+		set_global_flag = slavic_migration_1
+		446 = {
+			culture = slovieni
+			religion = slavic_pagan
+		}
+		1697 = {
+			culture = slovieni
+			religion = slavic_pagan
+		}
+		1698 = {
+			culture = slovieni
+			religion = slavic_pagan
+		}
+		439 = {
+			culture = bohemian
+			religion = slavic_pagan
+		}
+		437 = {
+			culture = bohemian
+			religion = slavic_pagan
+		}
+		362 = {
+			culture = bohemian
+			religion = slavic_pagan
+		}
+		1926 = {
+			culture = bohemian
+			religion = slavic_pagan
+		}
+		457 = {
+			culture = carantanian
+			religion = slavic_pagan
+		}
+	}
+}
+province_event = { #Carantanians
+	id = slavic.3
+	title = EVTTITLE_slavic_3
+	desc = EVTDESC_slavic_3
+	picture = GFX_event_stone_church
+	has_global_flag = slavic_migration_1
+	trigger = {
+		NOR = {
+			culture = carantanian
+			culture = slovieni
+			year = 700
+		}
+		region = custom_carantania
+	}
+	mean_time_to_happen = {
+		months = 300
+		modifier = {
+			factor = 0.5
+			owner = {
+				OR = {
+					culture_group = south_slavic
+					culture_group = west_slavic
+				}
+			}
+		}
+		modifier = {
+			factor = 0.4
+			owner = {
+				culture = carantanian
+			}
+		}
+		modifier = {
+			factor = 0.1
+			has_global_flag = carantania_formed
+		}
+	}
+	option = { # Allows them to settle
+		name = EVTOPTA_slavic_3
+		culture = carantanian
+		religion = slavic_pagan
+	}
+	option = { # Push them out
+		name = EVTOPTB_slavic_3
+		trigger = {
+			owner = { NOT = { culture_group = south_slavic } }
+		}
+		ROOT = {
+		owner = {
+			prestige = 50
+			piety = 50
+			create_character = {
+				culture = carantanian
+				religion = slavic_pagan
+				age = 24
+				female = no
+				health = 5.0
+				fertility = 0.7
+				trait = adventurer
+			}
+			new_character = {
+				create_title = {
+				tier = DUKE
+				landless = yes
+				temporary = yes
+				culture = carantanian
+				name = d_carinthia
+				holder = THIS
+				}
+				war = {
+					target = PREV
+					casus_belli = carantanian_invasion
+					thirdparty_title = PREVPREV
+				}
+				spawn_unit = {
+				owner = THIS
+				leader = THIS
+				province = 235
+				home = 235
+				troops = {
+					archers = { 4000 4000 }
+					light_infantry = { 8000 8000 }
+					heavy_infantry = { 1000 1000 }
+					light_cavalry = { 500 500 }
+				}
+				attrition = 0.0
+				}
+				spawn_unit = {
+				owner = THIS
+				leader = THIS
+				province = 235
+				home = 235
+				troops = {
+					archers = { 4000 4000 }
+					light_infantry = { 8000 8000 }
+					heavy_infantry = { 1000 1000 }
+					light_cavalry = { 500 500 }
+				}
+				attrition = 0.0
+				}
+			}
+			
+		}
+		}
+	}
+}
+character_event = {
+	id = slavic.4
+	hide_window = yes
+	has_global_flag = slavic_migration_1
+	trigger = {
+		NOT = { has_global_flag = carantania_formed }
+		any_provinces = {
+			limit = { culture = carantanian }
+			count = 6
+		}
+	}
+	mean_time_to_happen = {
+		months = 6
+	}
+	immediate = {
+		set_global_flag = carantania_formed
+		create_character = {
+			culture = carantanian
+			religion = slavic_pagan
+			dynasty = 1062175
+			age = 20
+			female = no
+			trait = adventurer
+			random_traits = yes
+		}
+		new_character =  {
+			d_carinthia = { grant_title = PREV }
+			c_karnten = { grant_title = PREV }
+			any_playable_ruler = {
+				limit = {
+					OR = {
+						culture = carantanian
+						capital_scope = {
+							region = custom_carantania
+						}
+					}
+					tier = COUNT
+				}
+				set_defacto_liege = PREV
+				culture = carantanian
+				religion = slavic_pagan
+			}
+			any_provinces = {
+				limit = {
+					culture = carantanian
+					owner = { NOT = { culture = carantanian } }
+				}
+				county = {
+					PREVPREV = {
+						grant_title = { target = PREV type = invasion }
+					}
+				}
+			}
+		}
+	}
+}
+character_event = {
+	id = slavic.5
+	hide_window = yes
+	trigger = {
+		has_global_flag = slavic_migration
+		NOT = { has_global_flag = serb }
+		has_landed_title = k_illyricum
+		war = no
+	}
+	mean_time_to_happen = {
+		months = 2
+	}
+	immediate = {
+		set_global_flag = serb
+		create_character = {
+			culture = serbian
+			religion = slavic_pagan
+			age = 24
+			female = no
+			trait = adventurer
+			random_traits = yes
+		}
+		new_character = {
+			create_title = {
+				tier = DUKE
+				landless = yes
+				temporary = yes
+				culture = serbian
+				name = k_serbia
+				holder = THIS
+			}
+			spawn_unit = {
+				owner = THIS
+				leader = THIS
+				province = 235
+				home = 235
+				troops = {
+					archers = { 4000 4000 }
+					light_infantry = { 8000 8000 }
+					light_cavalry = { 500 500 }
+				}
+				attrition = 0.0
+			}
+			spawn_unit = {
+				owner = THIS
+				leader = THIS
+				province = 235
+				home = 235
+				troops = {
+					archers = { 4000 4000 }
+					light_infantry = { 8000 8000 }
+					light_cavalry = { 500 500 }
+				}
+				attrition = 0.0
+				}
+			spawn_unit = {
+				owner = THIS
+				leader = THIS
+				province = 235
+				home = 235
+				troops = {
+					archers = { 4000 4000 }
+					light_infantry = { 8000 8000 }
+					light_cavalry = { 500 500 }
+				}
+				attrition = 0.0
+				}
+			add_claim = k_illyricum
+			war = {
+				target = ROOT
+				casus_belli = invasion
+				thirdparty_title = k_illyricum
+			}
+		}
+	}
+}
+character_event = {
+	id = slavic.6
+	hide_window = yes
+	has_global_flag = serb
+	trigger = {
+		culture = serbian
+		has_landed_title = k_illyricum
+		war = no
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		k_serbia = {
+			grant_title = ROOT
+		}
+		d_vidin = {
+			de_jure_liege = k_bulgaria
+		}
+		k_illyricum = {
+			destroy_landed_title = THIS
+			clr_title_flag = roman_governate
+		}
+		any_realm_province = {
+			limit = {
+				kingdom = {
+					title = k_croatia
+				}
+			}
+			culture = croatian
+			religion = slavic_pagan
+		}
+		any_realm_province = {
+			limit = {
+				kingdom = {
+					NOT = { title = k_croatia }
+				}
+			}
+			culture = serbian
+			religion = slavic_pagan
+		}
+		any_realm_province = {
+			limit = {
+				duchy = {
+					title = d_bosnia
+				}
+			}
+			culture = bosnian
+		}
+	}
+}
+
+character_event = {
+	id = slavic.7
+	hide_window = yes
+	trigger = {
+		has_global_flag = slavic_migration
+		has_landed_title = d_antes
+		NOT = { has_global_flag = antae_invasion }
+	}
+	mean_time_to_happen = {
+		months = 10
+	}
+	immediate = {
+		set_global_flag = antae_invasion
+		spawn_unit = {
+			owner = THIS
+			leader = THIS
+			province = 235
+			home = 235
+			troops = {
+				archers = { 4000 4000 }
+				light_infantry = { 8000 8000 }
+				light_cavalry = { 500 500 }
+			}
+			attrition = 0.0
+			}
+		spawn_unit = {
+			owner = THIS
+			leader = THIS
+			province = 235
+			home = 235
+			troops = {
+				archers = { 4000 4000 }
+				light_infantry = { 8000 8000 }
+				light_cavalry = { 500 500 }
+			}
+			attrition = 0.0
+		}
+		spawn_unit = {
+			owner = THIS
+			leader = THIS
+			province = 235
+			home = 235
+			troops = {
+				archers = { 4000 4000 }
+				light_infantry = { 8000 8000 }
+				light_cavalry = { 500 500 }
+			}
+			attrition = 0.0
+			}
+		spawn_unit = {
+			owner = THIS
+			leader = THIS
+			province = 235
+			home = 235
+			troops = {
+				archers = { 4000 4000 }
+				light_infantry = { 8000 8000 }
+				light_cavalry = { 500 500 }
+			}
+			attrition = 0.0
+		}
+		e_byzantium = {
+			holder_scope = {
+				reverse_war = {
+					target = ROOT
+					casus_belli = antae_invasion
+				}
+			}
+		}
+	}
+}
+#character_event = {
+#	id = slavic.8
+#	
+# Fall of Sirmium
+narrative_event = {
+	id = slavic.10
+	title = EVTTITLE_slavic_10
+	desc = EVTDESC_slavic_10
+	major = yes
+	trigger = {
+		OR = {
+			culture = avar
+			has_landed_title = e_dyn_407000
+		}
+		NOT = { has_global_flag = fall_syrmia }
+		c_syrmia = {
+			holder_scope = {
+				top_liege = {
+					culture = avar
+				}
+			}
+		}
+	}
+	major_trigger = {
+		is_playable = yes
+		OR = {
+			religion_group = christian
+			top_liege = {
+				has_landed_title = e_byzantium
+			}
+			e_byzantium = {
+				holder_scope = {
+					ROOT = {
+						is_tributary = { type = governate suzerain = PREV }
+					}
+				}
+			}
+			top_liege = {
+				has_landed_title = e_dyn_407000
+			}
+		}
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	immediate = {
+		set_global_flag = fall_syrmia
+		d_slavonia = {
+			holder_scope = {
+				if = {
+					limit = {
+						tier == DUKE
+					}
+					any_realm_province = {
+						culture = sclaveni
+						religion = slavic_pagan
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				d_slavonia = {
+					holder_scope = {
+						ai = yes
+					}
+				}
+			}
+		d_sclaveni = {
+			holder_scope = {
+				d_slavonia = {
+					holder_scope = {
+						any_demesne_title = {
+							grant_title = PREVPREVPREV
+						}
+						death = yes
+					}
+				}
+			}
+		}
+		}
+		if = {
+			limit = {
+				d_slavonia ={
+					holder_scope = {
+						ai = no
+					}
+				}
+			}
+			d_sclaveni = {
+				holder_scope = {
+				spawn_unit = {
+					owner = PREV
+					leader = PREV
+					province = 1968
+					troops = {
+						archers = { 1000 1000 }
+						light_infantry = { 1500 1500 }
+						heavy_infantry = { 1000 1000 }
+						light_cavalry = { 500 500 }
+						knights = { 2500 2500 }
+					}
+					attrition = 0.0
+					}
+				spawn_unit = {
+					owner = PREV
+					leader = PREV
+					province = 1968
+					troops = {
+						archers = { 1000 1000 }
+						light_infantry = { 1500 1500 }
+						heavy_infantry = { 1000 1000 }
+						light_cavalry = { 500 500 }
+						knights = { 2500 2500 }
+					}
+					attrition = 0.0
+					}
+					d_slavonia = {
+						holder_scope = {
+							top_liege = {
+								reverse_war = {
+									target = PREV
+									casus_belli = tribal_invasion
+									thirdparty_title = k_croatia
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		1968 = {
+			culture = sclaveni
+			religion = slavic_pagan
+		}
+	}
+	option = {
+		name = EVTOPTA_slavic_10
+	}
+}

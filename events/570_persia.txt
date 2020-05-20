@@ -1,0 +1,53 @@
+namespace = persis
+character_event = {
+	id = persis.1
+	hide_window = yes
+	trigger = {
+		character = 408000
+		year = 572
+		NOT = { has_global_flag = arminia_a }
+	}
+	mean_time_to_happen = {
+		months = 2
+	}
+	immediate = {
+		set_global_flag = arminia_a
+		any_demesne_title = {
+			grant_title = c_159863
+		}
+		death = yes
+		if = {
+			limit = {
+				ai = no
+				c_408015 = { is_alive = yes }
+			}
+			set_player_character = c_408015
+		}
+	}
+}
+narrative_event = {
+	id = persis.2
+	title = persis_2
+	desc = persis_2_desc
+	trigger = {
+		NOT = { has_global_flag = fall_ctesiphon }
+		has_landed_title = e_persia
+		c_baghdad = {
+			holder_scope = {
+				religion_group = muslim
+			}
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+	}
+	option = {
+		name = persis_2_a
+		destroy_landed_title = d_zoroastrian
+		destroy_landed_title = e_persia
+		set_global_flag = fall_ctesiphon
+		death = yes
+	}
+}

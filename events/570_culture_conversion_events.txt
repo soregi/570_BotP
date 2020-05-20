@@ -1,0 +1,263 @@
+namespace = CCCP
+
+# Germanic culture to Unified German Culture
+province_event = {
+	id = CCCP.1
+	desc = EVTDESC_CCCP_1
+	picture = GFX_evt_stone_church
+
+	trigger = {
+		should_evolve_cultures_trigger = yes
+		OR = {
+			culture = thuringian
+			culture = bavarian
+			culture = swabian
+		}
+		owner = {
+			NOT = { culture = thuringian }
+			NOT = { culture = bavarian }
+			NOT = { culture = swabian }
+		}
+		NOT = {
+			owner = { 
+				top_liege = { 
+					OR = {
+						culture = thuringian
+						culture = bavarian
+						culture = swabian
+					}
+					OR = {
+						tier = emperor
+						num_of_king_titles = 2
+					}
+				} 
+			}
+		}
+		year = 650
+	}
+	
+	mean_time_to_happen = {
+		months = 1200
+		modifier = {
+			factor = 0.3
+			OR = {
+				has_game_rule = {
+					name = culture_conversion
+					value = faster_melting_pots
+				}
+				has_game_rule = {
+					name = culture_conversion
+					value = faster_melting_pots_and_slower_normal
+				}
+			}
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { religion = norse_pagan }
+		}
+		modifier = {
+			factor = 0.75
+			religion_group = christian
+		}
+	}
+
+	option = {
+		name = EVTOPTA_CM_1
+		culture = german
+	}
+}
+# Ibero-Romance to Castilian
+province_event = {
+	id = CCCP.2
+	desc = EVTDESC_CCCP_2
+	picture = GFX_evt_stone_church
+
+	trigger = {
+		should_evolve_cultures_trigger = yes
+		culture = iberian_latin
+		NOT = { religion_group = muslim }
+		OR = {
+			region = custom_castillian
+			owner = { culture = castillan }
+		}
+		any_province_holding = {
+			NOT = { holding_type = nomad }
+		}
+		NOT = {
+			owner = { 
+				top_liege = { 
+					culture = iberian_latin 
+					OR = {
+						tier = emperor
+						num_of_king_titles = 2
+					}
+				} 
+			}
+		}
+		NOT = {
+			owner = { 
+				religion_head = { culture = iberian_latin }
+			}
+		}
+		year = 850
+	}
+	
+	mean_time_to_happen = {
+		months = 3600
+		modifier = {
+			factor = 0.5
+			owner = {
+				culture = castillan
+			}
+		}
+		modifier = {
+			factor = 0.3
+			OR = {
+				has_game_rule = {
+					name = culture_conversion
+					value = faster_melting_pots
+				}
+				has_game_rule = {
+					name = culture_conversion
+					value = faster_melting_pots_and_slower_normal
+				}
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTA_CM_7
+		culture = castillan
+	}
+}
+
+# iberian_latin province converts to Catalan
+province_event = {
+	id = CCCP.3
+	desc = EVTDESC_CCCP_3
+	picture = GFX_evt_stone_church
+
+	trigger = {
+		should_evolve_cultures_trigger = yes
+		culture = iberian_latin
+		NOT = { religion_group = muslim }
+		OR = {
+			region = custom_catalan
+			owner = { culture = catalan }
+		}
+		any_province_holding = {
+			NOT = { holding_type = nomad }
+		}
+		NOT = {
+			owner = { 
+				top_liege = { 
+					culture = iberian_latin 
+					OR = {
+						tier = emperor
+						num_of_king_titles = 2
+					}
+				} 
+			}
+		}
+		NOT = {
+			owner = { 
+				religion_head = { culture = iberian_latin }
+			}
+		}
+		year = 850
+	}
+	
+	mean_time_to_happen = {
+		months = 3600
+		modifier = {
+			factor = 0.5
+			owner = {
+				culture = catalan
+			}
+		}
+		modifier = {
+			factor = 0.3
+			OR = {
+				has_game_rule = {
+					name = culture_conversion
+					value = faster_melting_pots
+				}
+				has_game_rule = {
+					name = culture_conversion
+					value = faster_melting_pots_and_slower_normal
+				}
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTA_CM_8
+		culture = catalan
+	}
+}
+
+
+# iberian_latin province converts to Andalusian
+province_event = {
+	id = CCCP.4
+	desc = EVTDESC_CCCP_4
+	picture = GFX_evt_monk_muslim
+
+	trigger = {
+		should_evolve_cultures_trigger = yes
+		culture = iberian_latin
+		religion_group = muslim
+		OR = {
+			region = custom_andalusian
+			owner = { culture_group = arabic }
+		}
+		any_province_holding = {
+			NOT = { holding_type = nomad }
+		}
+		NOT = {
+			owner = { 
+				top_liege = { 
+					culture = iberian_latin 
+					OR = {
+						tier = emperor
+						num_of_king_titles = 2
+					}
+				} 
+			}
+		}
+		NOT = {
+			owner = { 
+				religion_head = { culture = iberian_latin }
+			}
+		}
+		year = 850
+	}
+	
+	mean_time_to_happen = {
+		months = 3600
+		modifier = {
+			factor = 0.5
+			owner = {
+				culture_group = arabic
+			}
+		}
+		modifier = {
+			factor = 0.3
+			OR = {
+				has_game_rule = {
+					name = culture_conversion
+					value = faster_melting_pots
+				}
+				has_game_rule = {
+					name = culture_conversion
+					value = faster_melting_pots_and_slower_normal
+				}
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTA_CM_10
+		culture = andalusian_arabic
+	}
+}

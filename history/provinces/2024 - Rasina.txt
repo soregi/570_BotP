@@ -1,0 +1,35 @@
+# 2024 - Rasina
+
+# County Title
+title = c_rasina
+
+# Settlements
+max_settlements = 4
+
+b_krusevac = castle
+b_kragujevac = temple
+#b_svetispas = castle
+#b_trepca = castle
+#b_zvecan = castle
+#b_djakovica = castle
+#b_polog = castle
+
+# Misc
+culture = romanian
+religion = orthodox
+
+# History
+632.1.1 = {
+	culture = serbian
+	religion = slavic_pagan
+	b_krusevac = tribal
+	remove_settlement = b_kragujevac
+}
+
+870.1.1 = {
+	religion = orthodox
+	b_krusevac = castle
+	b_kragujevac = temple
+	b_kraljevo = city
+}
+

@@ -1,0 +1,15 @@
+# 2047 - Najd
+
+# County Title
+title = c_najd
+
+# Settlements
+max_settlements = 3
+b_najd = tribal
+#b_riyadh = city
+# Misc
+culture = bedouin_arabic
+religion = arabic_pagan
+#History
+633.1.1 = { religion = islamism }
+661.1.1 = { religion = sunni }

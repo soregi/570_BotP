@@ -1,0 +1,106 @@
+EVTDESC_lombard_1;Ticinum, The Roman City, has captured by Lombards after a long-time siege. The city has become the capital of Lombard Kingdom, and also renamed to 'Pavia'.;;;;;;;;;;;;;x
+EVTTITLE_lombard_1;Fall of Ticinum;;;;;;;;;;;;;x
+EVTOPTA_lombard_1;A Great Development.;;;;;;;;;;;;;x
+EVTOPTB_lombard_1;Was the Reconquest true?;;;;;;;;;;;;;x
+EVTOPTC_lombard_1;My Lands.....;;;;;;;;;;;;;x
+EVTOPTD_lombard_1;There is no concern of us;;;;;;;;;;;;;x
+EVTTITLE_lombard_3;Narses dies;;;;;;;;;;;;;x
+EVTDESC_lombard_3; Narses, Roman Eunuch and Great General, died in $YEAR$. He had finished the Gothic War, and became the first Praetorian Prefect of Italy.;;;;;;;;;;;;;x
+EVTOPTA_lombard_3;He will be remembered as a great person.;;;;;;;;;;;;;x
+EVTTITLE_lombard_4;War for Pavia;;;;;;;;;;;;;x
+EVTDESC_lombard_4;We had settled in northern Italy, but the fortress of Ticinum isn't fallen. We should capture the fort, and make it our capital.;;;;;;;;;;;;;x
+EVTOPTA_lombard_4;Go to WAR!;;;;;;;;;;;;;x
+EVTTITLE_lombard_5;War for Benevento;;;;;;;;;;;;;x
+EVTDESC_lombard_5;We should secure the land of Campania and Samnium. Many People need for more land. We recruited many warriors, and waiting for your decision.;;;;;;;;;;;;;x
+EVTOPTA_lombard_5;Go!;;;;;;;;;;;;;x
+EVTTITLE_lombard_6;Duchy of Benevento;;;;;;;;;;;;;x
+EVTDESC_lombard_6;After our successful invasion, Duke [Root.GetName] gained Duchy of Benevento.;;;;;;;;;;;;;x
+EVTOPTA_lombard_6;Now My Rule Begins.;;;;;;;;;;;;;x
+EVTTITLE_lombard_7;Feast afther the Triumph;;;;;;;;;;;;;x
+EVTDESC_lombard_7;After the Conquest of Pavia, all lords of the realm came up and holding a feast. ;;;;;;;;;;;;;x
+EVTOPTA_lombard_7;Well, where's my wife?;;;;;;;;;;;;;x
+EVTTITLE_lombard_8;Revenge of Rosamund;;;;;;;;;;;;;x
+EVTDESC_lombard_8;Rosamund is wife of Alboin, but he executed her father and took her. she didn't forget it, and time is come.;;;;;;;;;;;;;x
+EVTOPTA_lombard_8;So..... my head?;;;;;;;;;;;;;x
+EVTTITLE_lombard_9;Throne of Lombards;;;;;;;;;;;;;x
+EVTDESC_lombard_9;TODO;;;;;;;;;;;;;x
+EVTOPTA_lombard_9;TODO;;;;;;;;;;;;;x
+EVTOPTB_lombard_9;I'll play as Cleph.;;;;;;;;;;;;;x
+EVTTITLE_lombard_10;Rule of Dukes;;;;;;;;;;;;;x
+EVTDESC_lombard_10;Cleph had assasinated. after the death of Cleph, Lombard lords refused to elect new king.;;;;;;;;;;;;;x
+EVTOPTA_lombard_10;I will restore the Kingdom!;;;;;;;;;;;;;x
+EVTTITLE_lombard_11;The King Returns;;;;;;;;;;;;;x
+EVTDESC_lombard_11;Lombard Kingdom is re-established. our new king is ready for your loyalty.;;;;;;;;;;;;;x
+EVTOPTA_lombard_11;Heil to new king!;;;;;;;;;;;;;x
+EVTTITLE_lombard_12;Warriors are angry;;;;;;;;;;;;;x
+EVTDESC_lombard_12;You have declared a campaign against Roman Empire. but Warriors had waited for a long-time. They are angry because you had broke the promise.;;;;;;;;;;;;;x
+EVTOPTA_lombard_12;Ah...;;;;;;;;;;;;;x
+EVTTITLE_lombard_13;Fall of Ravenna;;;;;;;;;;;;;x
+EVTDESC_lombard_13;Ravenna was the political capital of Italy from 402. Later that city become the capital of Exarchate of Ravenna. but the prosperous era is about to end. Lombard army entered the city, and the last Exarch ran away. the Exarchate is no more.;;;;;;;;;;;;;x
+EVTOPTA_lombard_13;Lombards rule the Italy!;;;;;;;;;;;;;x
+EVTTITLE_RHO_1;Restoration of Western Empire;;;;;;;;;;;;;x
+EVTDESC_RHO_1;Western Roman Empire had fallen in 476 by Odoacer. After that, Rome has ruled by barbarians. Justinian Reconquest on Italy restored Roman rule, In 568, However, Lombard barbarians invaded Italy. [Root.GetName] expelled all barbarians, and United Italy under your authority. By Now, Western Roman Empire will reborn.. and restore all its former Territory.;;;;;;;;;;;;;x
+EVTOPTA_RHO_1;Imperium Romanum.. Occidentale!;;;;;;;;;;;;;x
+EVTTITLE_RHO_2;Restoration of Western Roman Empire;;;;;;;;;;;;;x
+EVTDESC_RHO_2;Western Empire has restored, by [Root.GetName]. Western Roman Empire had fallen in 476 by Odoacer. After that, Rome has ruled by barbarians. Justinian Reconquest on Italy restored Roman rule, In 568, However, Lombard barbarians invaded Italy. [Root.GetName] expelled all barbarians, and United Italy under your authority. By Now, Western Roman Empire will reborn.. and restore all its former Territory.;;;;;;;;;;;;;x
+EVTOPTA_RHO_2;Is it could be?;;;;;;;;;;;;;x
+EVTOPTB_RHO_2;Then.. What is my throne?;;;;;;;;;;;;;x
+EVTTITLE_RHO_3;Maurikios;;;;;;;;;;;;;x
+EVTDESC_RHO_3;Maurikios was born in Arabissos, Cappadocia. He became a brilliant general, and nominated as emperor.;;;;;;;;;;;;;x
+EVTOPTA_RHO_3;Great.;;;;;;;;;;;;;x
+EVTTITLE_RHO_6;Revolt of Bahram Chobin;;;;;;;;;;;;;x
+EVTDESC_RHO_6;Bahram was great general of the Empire. TODO;;;;;;;;;;;;;x
+EVTOPTA_RHO_6;I will rule Eranshahr!;;;;;;;;;;;;;x
+EVTTITLE_RHO_7;Revolt of Bahram Chobin;;;;;;;;;;;;;x
+EVTDESC_RHO_7;TODO;;;;;;;;;;;;;x
+EVTOPTA_RHO_7;Ask Help for Roman Empire;;;;;;;;;;;;;x
+EVTTITLE_RHO_8;Revolt of Bahram Chobin;;;;;;;;;;;;;x
+EVTDESC_RHO_8;TODO;;;;;;;;;;;;;x
+EVTOPTA_RHO_8;Support Them.;;;;;;;;;;;;;x
+EVTTITLE_RHO_11;Revolt against Phokas;;;;;;;;;;;;;x
+EVTDESC_RHO_11;You should not wait more that Tyrant Phokas ruins our empire. You revolted with African Army, to destroy Phokas. ;;;;;;;;;;;;;x
+EVTOPTA_RHO_11;To Arms!;;;;;;;;;;;;;x
+EVTTITLE_RHO_14;Revolt of Phokas;;;;;;;;;;;;;x
+EVTDESC_RHO_14;Phokas became new emperor of Romans. he killed your benefactor Maurikios and his family. You declares revenge.;;;;;;;;;;;;;x
+EVTOPTA_RHO_14;To Arms!;;;;;;;;;;;;;x
+EVTTITLE_islam_3;Khadijah bint Khuwayilid;;;;;;;;;;;;;x
+EVTDESC_islam_3;Khadijah is a wealthy trader. Muhammad fell in love with her. their age gap is too big, though. With this marriage Muhammad will become wealthy thanks to her wife.;;;;;;;;;;;;;x
+EVTOPTA_islam_3;Good;;;;;;;;;;;;;x
+EVTTITLE_islam_4;Journey to the Cave;;;;;;;;;;;;;x
+EVTDESC_islam_4;Life is good, but why we lives? It is a great problem. You wants to go a journey.;;;;;;;;;;;;;x
+EVTOPTA_islam_4;My Journey Begins!;;;;;;;;;;;;;x
+EVTOPTB_islam_4;Not now.;;;;;;;;;;;;;x
+EVTTITLE_islam_5;Meditation in Caves;;;;;;;;;;;;;x
+EVTDESC_islam_5;*Thinking;;;;;;;;;;;;;x
+EVTOPTA_islam_5;I feel better;;;;;;;;;;;;;x
+EVTTITLE_islam_6;Jibril;;;;;;;;;;;;;x
+EVTDESC_islam_6;READ.;;;;;;;;;;;;;x
+EVTOPTA_islam_6;TODO;;;;;;;;;;;;;x
+EVTTITLE_islam_9;A new Religion;;;;;;;;;;;;;x
+EVTDESC_islam_9;Muhammad has founded new monothiestic religion, called 'Islam'. Could You follow this new movement?;;;;;;;;;;;;;x
+EVTOPTA_islam_9;He is true prophet!;;;;;;;;;;;;;x
+EVTOPTB_islam_9;Heathens!;;;;;;;;;;;;;x
+EVTTITLE_islam_12;Aisha;;;;;;;;;;;;;x
+EVTDESC_islam_12;Aisha is daughter of My Friend, Abu Bakr. She is just a kid, but we can marry...;;;;;;;;;;;;;x
+EVTOPTA_islam_12;*Censored pedophilia*;;;;;;;;;;;;;x
+EVTOPTB_islam_12;I... I am not wickened!;;;;;;;;;;;;;x
+EVTTITLE_islam_13;Hijra;;;;;;;;;;;;;x
+EVTDESC_islam_13;Persecuation towards Islam is more stronger and stronger. Tribes in Yathrib called us for settle their disputes.;;;;;;;;;;;;;x
+EVTOPTA_islam_13;I think this is a great chance...;;;;;;;;;;;;;x
+EVTTITLE_islam_14;Hijra;;;;;;;;;;;;;x
+EVTDESC_islam_14;Persecuation towards Islam is more stronger and stronger. Tribes in Yathrib called Muhammad for arbitration. In $YEAR$, Muhammad and his followers had left Mecca, and settled in Yathrib, now Medina.;;;;;;;;;;;;;x
+EVTOPTA_islam_14;Oh..;;;;;;;;;;;;;x
+EVTTITLE_islam_15;Conquest of Mecca;;;;;;;;;;;;;x
+EVTDESC_islam_15;Muhammad conquered Mecca. The Prophet Muhammad destructed statues of Arabian Gods in Kaaba, and declared it as the holy site of Islam.;;;;;;;;;;;;;x
+EVTOPTA_islam_15;Allahu Akbar!!;;;;;;;;;;;;;x
+EVTOPTB_islam_15;What is happening in Arabia...??;;;;;;;;;;;;;x
+EVTTITLE_islam_16;Death of Muhammad;;;;;;;;;;;;;x
+EVTDESC_islam_16;Now The Prophet has gone to Allah;;;;;;;;;;;;;x
+EVTOPTA_islam_16;TODO;;;;;;;;;;;;;x
+EVTTITLE_bharat_1;Fall of Gupta Empire;;;;;;;;;;;;;x
+EVTDESC_bharat_1;Gupta Empire was once most powerful realm in the world. But after death of Kumaragupta, The Empire suffered Huna Invasion from central asia. India has successfully expelled out them, but local powers has arised, and Guptas were replaced by Later Gupta Dynasty. Later Guptas ruled old Gupta core region. but their rule also goes to end. Gupta Empire -- is over. Later Guptas became a small kingdom of Magagha. and all vassals became independent.;;;;;;;;;;;;;x
+EVTOPTA_bharat_1;Interesting...;;;;;;;;;;;;;x
+EVTTITLE_gov_1;The Empire;;;;;;;;;;;;;x
+EVTDESC_gov_1;New emperor took power- me, as roman independent governor, swear to empire.;;;;;;;;;;;;;x
+EVTOPTA_gov_1;OK;;;;;;;;;;;;;x
+fall_of_ravenna_opt;The Exarchate of Ravenna has dismantled.;;;;;;;;;;;;;x

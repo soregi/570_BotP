@@ -1,0 +1,16 @@
+# 2056 - Fallujah
+
+# County Title
+title = c_fallujah
+
+# Settlements
+max_settlements = 4
+b_fallujah = castle
+b_fahalat = city
+b_halabsa = city
+b_saqlawia = temple
+# Misc
+culture = chaldean
+religion = nestorian
+
+647.1.1 = { culture = assyrian }

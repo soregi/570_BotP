@@ -1,0 +1,27 @@
+# 252 - Ulm
+
+# County Title
+title = c_ulm
+
+# Settlements
+max_settlements = 4
+b_teck = castle
+b_ulm = city
+b_zwiefalten = temple
+
+#b_biberach = castle
+#b_memmingen = castle
+#b_isny = castle
+#b_goppingen = castle
+#b_erbach = castle
+
+# Misc
+culture = swabian
+religion = norse_pagan
+
+# History
+630.1.1 = { religion = catholic }
+760.1.1 = {
+	culture = german
+}
+

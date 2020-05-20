@@ -1,0 +1,18 @@
+# 2018 - Varna
+
+# County Title
+title = c_varna
+# Settlements
+max_settlements = 4
+
+b_varna = castle
+b_odessos = temple
+b_topoli = city
+
+# Misc
+culture = greek
+religion = orthodox
+
+# History
+786.1.1 = { culture = bulgarian }
+

@@ -1,0 +1,26 @@
+# 1584 - Saumur
+
+# County Title
+title = c_saumur
+
+# Settlements
+max_settlements = 4
+
+b_saumur = castle
+b_cholet = city
+b_fontevraud-l_abbaye = temple
+
+#b_doue_la_fontaine
+#b_maulevrier
+#b_beaupreau
+#b_vauchretien
+
+# Misc
+culture = gallic_latin
+religion = catholic
+
+# History
+650.1.1 = { culture = old_frankish }
+790.1.1 = { culture = frankish }
+
+

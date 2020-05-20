@@ -1,0 +1,33 @@
+# 2030 - Podrinje
+
+# County Title
+title = c_podrinje
+
+# Settlements
+max_settlements = 3
+
+b_brankovina = castle
+
+#b_svetispas = castle
+#b_trepca = castle
+#b_zvecan = castle
+#b_djakovica = castle
+#b_polog = castle
+
+# Misc
+culture = pannonian
+religion = catholic
+
+# History
+632.1.1 = { culture = serbian religion = slavic_pagan }
+632.1.1 = {
+	b_brankovina = tribal
+}
+
+800.1.1 = {
+	b_brankovina = castle
+	b_valjevo = city
+}
+870.1.1 = {
+	religion = orthodox
+}

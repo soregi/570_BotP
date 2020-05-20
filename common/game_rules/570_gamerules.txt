@@ -1,0 +1,20 @@
+rise_islam = {
+	name = "RULE_ISLAM"
+	group = "RULE_GROUP_QARA"
+	option = {
+		name = historical
+		text = "RULE_OPTION_HISTORICAL"
+		desc = "RULE_ISLAM_HISTORICAL_DESC"
+	}
+	option = {
+		name = on
+		text = "RULE_OPTION_ON"
+		desc = "RULE_ISLAM_ON_DESC"
+	}
+	option = {
+		name = off
+		achievements = no
+		text = "RULE_OPTION_OFF"
+		desc = "RULE_ISLAM_OFF_DESC"
+	}
+}

@@ -1,0 +1,8 @@
+spriteTypes = 
+{
+	spriteType = {
+		name = "GFX_evt_throneroom"
+		texturefile = "gfx\\event_pictures\roi_throneroom.tga"
+		allwaystransparent = yes
+	}
+}

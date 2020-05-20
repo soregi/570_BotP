@@ -1,0 +1,34 @@
+# 2023 - Karlovac
+# County Title
+title = c_karlovac
+
+# Settlements
+max_settlements = 4
+
+b_frankopan = castle
+b_karlovac = temple
+
+# Misc
+culture = dalmatian
+religion = orthodox
+
+# History
+640.1.1 = {
+	culture = croatian
+	religion = slavic_pagan
+	capital = b_karlovac
+	b_karlovac = tribal
+	remove_settlement = b_frankopan
+}
+769.1.1 = {
+	b_frankopan = castle
+	b_karlovac = temple
+}
+800.1.1 = {
+	religion = catholic
+}
+
+1000.1.1 = {
+	b_vrbovsko = city
+}
+1146.1.1 = { trade_post = b_contarini }

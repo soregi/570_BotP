@@ -1,0 +1,20 @@
+# 1780 - Ziz
+
+# County Title
+title = c_ziz
+
+# Settlements
+max_settlements = 2
+
+b_ziz = tribal
+
+#b_bechar
+#b_boudnib
+
+# Misc
+culture = berber
+religion = west_african_pagan
+
+# History
+681.1.1 = { religion = kharijite b_ziz = castle }
+947.1.1 = { religion = sunni }

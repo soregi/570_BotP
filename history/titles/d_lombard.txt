@@ -1,0 +1,12 @@
+20.1.1={
+	holder=0
+	active = no
+}
+571.1.1 = {
+	holder = 190127
+	active = yes
+}
+584.1.1 = {
+	holder = 0
+	active = no
+}

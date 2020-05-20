@@ -1,0 +1,22 @@
+528.1.1 = {
+	de_jure_liege = d_irbid
+	holder=404007
+	liege = k_ghassan
+}
+569.1.1 = {
+	holder=404008
+}
+750.1.1={
+	de_jure_liege = d_damascus
+	liege=e_arabia
+	holder=0
+}
+860.1.1 = {
+	liege = 0
+}
+1074.1.1 = {
+	liege = d_damascus
+}
+1096.1.1 = {
+	liege = 0
+}

@@ -1,0 +1,16 @@
+# 490 - Thessalonike
+
+# County Title
+title = c_vodena
+
+# Settlements
+max_settlements = 4
+b_servia = castle
+b_giannitsa = city
+b_voden = temple 
+# Misc
+culture = greek
+religion = orthodox
+
+# History
+

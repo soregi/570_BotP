@@ -1,0 +1,36 @@
+# 2019 - Preslav
+
+# County Title
+title = c_preslav
+# Settlements
+max_settlements = 5
+
+b_pliska = castle
+#b_preslav = castle
+b_shumen = city
+b_venets = temple
+
+# Misc
+culture = romanian
+religion = orthodox
+
+# History
+681.1.1 = {
+	culture = bolghar
+	religion = tengri_pagan
+	name = "b_pliska"
+}
+858.1.1 = {
+	religion = orthodox
+}
+893.1.1 = {
+	b_preslav = castle
+	capital = b_preslav
+	name = "PROV2019"
+}
+901.1.1 = {
+	culture = bulgarian
+}
+969.1.1 = {
+	remove_settlement = b_pliska
+}

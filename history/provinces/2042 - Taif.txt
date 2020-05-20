@@ -1,0 +1,19 @@
+# 2042 - Taif
+
+# County Title
+title = c_taif
+
+# Settlements
+max_settlements = 5
+b_taif = castle
+b_alhuda = city
+b_banisaad = temple
+
+# Misc
+culture = bedouin_arabic
+religion = arabic_pagan
+
+# History
+630.1.1 = { religion = islamism }
+661.1.1 = { religion = shiite }
+712.1.1 = { religion = sunni }

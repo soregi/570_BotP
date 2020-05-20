@@ -1,0 +1,17 @@
+570.1.1 = {
+	de_jure_liege = k_byzantium
+	liege = e_byzantium
+	vice_royalty = yes
+	holder = 400060
+}
+637.1.1 = {
+	liege = 0
+	vice_royalty = no
+}
+751.1.1={
+	holder=145816
+	de_jure_liege = 0
+}
+789.1.1={
+	holder=0
+}

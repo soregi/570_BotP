@@ -1,0 +1,271 @@
+pagan_group = {
+	###################################
+	#      Qara Mod Religions         #
+	#                                 #
+	###################################
+	arabic_pagan_reformed = {
+		graphical_culture = muslimgfx
+		alternate_start = { always = no }
+		interface_skin = { muslim_interface }
+
+		icon = 61
+		heresy_icon = 62
+		
+		color = { 0.6 0.9 0.2 }
+		
+		high_god_name = GOD_THE_CREATOR
+		ai_convert_other_group = 2	# always try to convert
+		god_names = {
+			GOD_HUBAL GOD_AL_UZZA GOD_MANAF GOD_ATHTAR GOD_AL_LAT GOD_MANAT GOD_ALMAQAH GOD_DUSHARA GOD_SHAMS
+		}# Hubal, al-'Uzza, Manaf, Athtar, al-Lat, Manat, Almaqah, Dushara, Shams.
+		evil_god_names = {
+			THE_DARK_SPIRITS
+		}
+		crusade_name = JIHAD
+		scripture_name = THE_LEGENDS
+		priest_title = PRIEST
+		priests_can_marry = yes
+		female_temple_holders = no
+		max_consorts = 3
+		
+		defensive_attrition = yes
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+		
+		allow_in_ruler_designer = yes
+		
+		dislike_tribal_organization = yes
+		uses_decadence = yes		
+	
+	}
+	arabic_pagan = {
+		graphical_culture = pagangfx
+		alternate_start = { always = no } 
+		interface_skin = { pagan_interface }
+		
+		reformed = arabic_pagan_reformed
+
+		icon = 61
+		heresy_icon = 14
+		ai_convert_other_group = 1	# try to convert if zealous
+		color = { 0.8 0.7 0.2 }
+		
+		high_god_name = GOD_THE_CREATOR
+		
+		god_names = {
+			GOD_HUBAL GOD_AL_UZZA GOD_MANAF GOD_ATHTAR GOD_AL_LAT GOD_MANAT GOD_ALMAQAH GOD_DUSHARA GOD_SHAMS
+		}# Hubal, al-'Uzza, Manaf, Athtar, al-Lat, Manat, Almaqah, Dushara, Shams.
+		evil_god_names = {
+			THE_DARK_SPIRITS
+		}
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_LEGENDS
+		priest_title = PRIEST
+		priests_can_marry = yes
+		female_temple_holders = no
+		max_consorts = 3
+		
+		defensive_attrition = yes
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+		
+		can_demand_religious_conversion = no
+		
+		intermarry = buddhist
+		intermarry = nestorian
+		intermarry = west_african_pagan
+		intermarry = west_african_pagan_reformed
+		intermarry = arabic_pagan_reformed
+		intermarry = zun_pagan
+		intermarry = zun_pagan_reformed
+		intermarry = zoroastrian
+		intermarry = jewish
+	}
+#	yazdan_pagan_reformed = {
+#		
+#	}
+#	yazdan_pagan = {
+#		graphical_culture = persiangfx
+#		alternate_start = { always = no }
+#		interface_skin = { pagan_interface }
+#
+#		icon = 63
+#		heresy_icon = 64
+#		
+#		color = { 0.6 0.9 0.2 }
+#		
+#		high_god_name = GOD_YAZDAN
+#		ai_convert_other_group = 1	# always try to convert
+#		god_names = {
+#			GOD_YAZDAN
+#		}
+#		evil_god_names = {
+#			THE_DARK_SPIRITS
+#		}
+#		crusade_name = GREAT_HOLY_WAR
+#		scripture_name = THE_LEGENDS
+#		priest_title = PRIEST
+#		priests_can_marry = yes
+#		female_temple_holders = no
+#		max_consorts = 3
+#		
+#		defensive_attrition = yes
+#		
+#		religious_clothing_head = 3
+#		religious_clothing_priest = 3
+#		
+#		allow_in_ruler_designer = yes
+#		
+#		can_demand_religious_conversion = no
+#		
+#		intermarry = buddhist
+#		intermarry = nestorian
+#		intermarry = west_african_pagan
+#		intermarry = west_african_pagan_reformed
+#		intermarry = arabic_pagan_reformed
+#		intermarry = zun_pagan
+#		intermarry = zun_pagan_reformed
+#		intermarry = zoroastrian
+#		intermarry = jewish
+#		dislike_tribal_organization = yes
+#	}
+}
+christian = {
+
+	arian = {
+		graphical_culture = westerngfx
+		alternate_start = { always = no }
+
+		icon = 1
+		heresy_icon = 6
+		
+		color = { 0.8 0.6 0.3 }
+		parent = catholic
+		
+		crusade_name = CRUSADE
+		scripture_name = THE_BIBLE
+		priest_title = PRIEST
+		
+		high_god_name = GOD_GOD
+		
+		god_names = {
+			GOD_GOD GOD_THE_LORD GOD_THE_BLESSED_VIRGIN
+		}
+		
+		evil_god_names = {
+			SATAN LUCIFER THE_DEVIL
+		}
+		can_retire_to_monastery = yes
+		priests_can_inherit = no
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+		
+		intermarry = catholic
+		intermarry = orthodox
+		intermarry = miaphysite
+		intermarry = nestorian
+
+		intermarry = donatism
+		intermarry = cathar
+		intermarry = fraticelli
+		intermarry = waldensian
+		intermarry = monophysite
+		intermarry = bogomilist
+		intermarry = monothelite
+		intermarry = iconoclast
+		intermarry = paulician
+		intermarry = messalian
+	}
+	donatism = {
+		graphical_culture = westerngfx
+		alternate_start = { always = no }
+
+		icon = 1
+		heresy_icon = 6
+		
+		color = { 0.8 0.4 0.85 }
+		parent = catholic
+		
+		crusade_name = CRUSADE
+		scripture_name = THE_BIBLE
+		priest_title = PRIEST
+		
+		high_god_name = GOD_GOD
+		
+		god_names = {
+			GOD_GOD GOD_THE_LORD GOD_THE_BLESSED_VIRGIN
+		}
+		
+		evil_god_names = {
+			SATAN LUCIFER THE_DEVIL
+		}
+		can_retire_to_monastery = yes
+		priests_can_inherit = no
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+		
+		intermarry = catholic
+		intermarry = orthodox
+		intermarry = miaphysite
+		intermarry = nestorian
+		
+		intermarry = arian
+		intermarry = cathar
+		intermarry = fraticelli
+		intermarry = waldensian
+		intermarry = monophysite
+		intermarry = bogomilist
+		intermarry = monothelite
+		intermarry = iconoclast
+		intermarry = paulician
+		intermarry = messalian
+	}
+}
+muslim = {
+	islamism = {
+		graphical_culture = muslimgfx
+		icon = 3
+		heresy_icon = 8
+		
+		color = { 0 0.7 0.2 }
+		
+		crusade_name = JIHAD
+		scripture_name = THE_KORAN
+		priest_title = IMAM_PRIEST
+		
+		high_god_name = GOD_ALLAH
+		
+		god_names = {
+			GOD_ALLAH GOD_THE_GREATEST
+		}
+		
+		evil_god_names = {
+			IBLIS SHAYTAN
+		}
+		
+		can_call_crusade = yes
+		priests_can_marry = yes
+		psc_marriage = no # Disallow uncle-nice and aunt-nephew marriages
+		max_wives = 4
+		matrilineal_marriages = no
+		
+		landed_kin_prestige_bonus = yes
+		attacking_same_religion_piety_loss = yes
+		uses_decadence = yes
+		uses_jizya_tax = yes
+
+		intermarry = sunni
+		intermarry = zikri
+		intermarry = yazidi
+		intermarry = ibadi
+		intermarry = kharijite
+		intermarry = shiite
+		intermarry = druze
+		intermarry = hurufi
+		intermarry = qarmatian
+	}
+}

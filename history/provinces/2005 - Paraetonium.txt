@@ -1,0 +1,19 @@
+# 2005 - Paraetonium
+
+# County Title
+title = c_paraetonium
+
+# Settlements
+max_settlements = 3
+b_zygis = castle
+b_paraetonium = city
+
+# Misc
+culture = coptic
+religion = miaphysite
+
+# History
+641.1.1 = { culture = egyptian_arabic }
+750.1.1 = { religion = sunni }
+909.1.1 = { religion = shiite } 
+1171.1.1 = { religion = sunni }

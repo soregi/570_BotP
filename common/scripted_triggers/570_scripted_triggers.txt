@@ -1,0 +1,68 @@
+true_religion_arabic_pagan_trigger = {
+	true_religion = arabic_pagan
+}
+
+true_religion_arabic_pagan_reformed_trigger = {
+	true_religion = arabic_pagan_reformed 
+}
+
+has_satanists_prerequisites = {
+	has_common_devilworship_prerequisites = yes
+	OR = {
+		religion_group = christian
+		religion_group = muslim
+		religion_group = zoroastrian_group
+		religion_group = jewish_group
+		religion = zun_pagan
+		religion = zun_pagan_reformed
+		religion = arabic_pagan
+		religion = arabic_pagan_reformed
+	}
+}
+
+religion_openly_arabic_or_reformed_trigger = {
+	custom_tooltip = {
+		text = religion_openly_arabic_or_reformed_tooltip
+		hidden_trigger = {
+			OR = {
+				religion = arabic_pagan
+				religion = arabic_pagan_reformed
+			}
+		}
+	}
+}
+
+roman_governorate_title_trigger = {
+	OR = {
+		AND = {
+			title = k_illyricum
+			has_global_flag = dacia_gov
+		}
+		AND = {
+			title = k_dalmatia
+			has_global_flag = dalmatia_gov
+		}
+		AND = {
+			title = k_andalusia
+			has_global_flag = spania_gov
+		}
+		AND = {
+			title = k_africa
+			has_global_flag = africa_gov
+		}
+		AND = {
+			title = k_egypt
+			has_global_flag = egypt_gov
+		}
+		AND = {
+			title = k_syria
+			has_global_flag = oriens_gov
+		}
+		AND = {
+			title = k_romagna
+			has_global_flag = ravenna_gov
+		}
+		has_title_flag = roman_governate
+	}
+}
+	

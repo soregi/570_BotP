@@ -1,0 +1,14 @@
+# 2051 - Shabakah
+
+# County Title
+title = c_shabakah
+
+# Settlements
+max_settlements = 1
+b_shabakah = castle
+
+# Misc
+culture = bedouin_arabic
+religion = arabic_pagan
+637.1.1 = { religion = islamism }
+661.1.1 = { religion = sunni }

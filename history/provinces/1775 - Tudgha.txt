@@ -1,0 +1,19 @@
+# 1775 - Tudgha
+
+# County Title
+title = c_tudgha
+
+# Settlements
+max_settlements = 2
+
+b_tudgha = tribal
+
+#b_alnif
+
+# Misc
+culture = berber
+religion = west_african_pagan
+
+# History
+681.1.1 = { religion = kharijite b_tudgha = castle }
+947.1.1 = { religion = sunni }

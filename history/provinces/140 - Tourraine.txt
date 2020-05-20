@@ -1,0 +1,27 @@
+# 140 - Tourraine
+
+# County Title
+title = c_tourraine
+
+# Settlements
+max_settlements = 4
+
+b_chinon = temple
+b_tours = castle
+b_amboise = city
+
+#b_beaulieu = castle
+#b_loches = castle
+#b_langeais = castle
+#b_montbazon = castle
+#b_fierbois = temple
+
+# Misc
+culture = gallic_latin
+religion = catholic
+
+# History
+600.1.1 = { capital = b_tours }
+650.1.1 = { culture = old_frankish }
+790.1.1 = { culture = frankish }
+

@@ -1,0 +1,12 @@
+spriteTypes = {
+
+	### government icons
+	spriteType = {
+		name = "GFX_icon_high_tribal_government"
+		texturefile = "gfx\\interface\\government_icon_high_tribal.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_roman_governate_government"
+		texturefile = "gfx\\interface\\government_icon_roman_imperial.dds"
+	}
+}

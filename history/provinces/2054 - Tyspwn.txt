@@ -1,0 +1,36 @@
+# 2054 - Tyspwn
+
+# County Title
+title = c_tyspwn
+
+# Settlements
+max_settlements = 7
+
+b_ctesiphon = castle
+b_madain = city
+b_veh_ardashir = temple
+b_vologesia = city
+b_asbanabr = city
+b_sayifiya = castle
+b_veh_antiok = city
+# Misc
+culture = chaldean
+religion = nestorian
+
+226.1.1 = { culture = persian }
+637.12.1 = {
+	remove_settlement = b_veh_ardashir
+	remove_settlement = b_vologesia
+	remove_settlement = b_asbanabr
+	remove_settlement = b_veh_antiok
+	capital = b_sayifiya
+	remove_settlement = b_ctesiphon
+	max_settlements = 3
+}
+641.1.1 = {
+	culture = levantine_arabic
+}
+867.1.1 = {
+	b_jisr_diyala = temple
+	religion = sunni
+}

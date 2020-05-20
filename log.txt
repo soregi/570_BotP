@@ -1,0 +1,12 @@
+v0.5_0-alpha(2020.05.14 22:00 GMT +09:00)
+This text is not written by automatic programs
+
+570년 모드 알파 개발버전입니다
+
+불안정할수 있으니 조심(제보하면됨 버그뜨면)
+모드 버그나 오류제보, 발번역 문제 등등은 디시인사이드 드라가시스(soregix)갤로그에 방명록으로 글남기시든가
+아니면 eranshahr651@gmail.com에 보내주십시요
+@Author soregix
+
+역대 버전들
+0.1 0.1(에러수정본)0.2 0.2.1 0.3 0.4 0.5_0

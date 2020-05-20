@@ -1,0 +1,24 @@
+# 2022 - Kruje
+
+# County Title
+title = c_kruje
+
+# Settlements
+max_settlements = 2
+
+b_kruje = castle
+# Misc
+culture = arberian
+religion = orthodox
+
+# History
+651.1.1 = {
+	b_kruje = tribal
+	religion = slavic_pagan
+}
+793.1.1 = {
+	b_kruje = castle
+}
+860.1.1 = {
+	religion = orthodox
+}

@@ -1,0 +1,258 @@
+ namespace = tibet
+character_event = {
+	id = tibet.1
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		father = {
+			character = c_247073
+		}
+		female = no
+		NOT = { has_global_flag = songtsen_gampo }
+	}
+	immediate = {
+		save_event_target_as = songtsen_gampoo
+		set_global_flag = songtsen_gampo
+		set_character_flag = songtsen_gampo
+		name = "Songtsen Gampo"
+		if = {
+			limit = {
+				trait = bastard
+			}
+			remove_trait = bastard
+		}
+		add_character_modifier = { name = prophet_blessing duration = -1 }
+	}
+}
+character_event = {
+	id = tibet.2
+	title = EVTTITLE_tibet_2
+	desc = EVTDESC_tibet_2
+	picture = GFX_evt_throneroom
+	border = GFX_event_normal_frame_religion
+	has_global_flag = organized_tibet_realm
+	trigger = {
+		NOT = { has_global_flag = assasinated_tibet_king }
+		year = 600
+		has_global_flag = songtsen_gampo
+		has_landed_title = k_yarlung
+	}
+	mean_time_to_happen = {
+		years = 10
+		modifier = {
+			factor = 0.9
+			character = c_247073
+		}
+	}
+	option = {
+		name = EVTOPTA_tibet_2
+		death = yes
+		set_global_flag = assasinated_tibet_king
+		any_demesne_title = {
+			grant_title = event_target:songtsen_gampoo
+		}
+		any_vassal = {
+			limit = {
+				tier = COUNT
+				NOT = { culture = ROOT }
+			}
+			reverse_war = {
+				target = ROOT
+				casus_belli = independence
+			}
+		}
+	}
+}
+character_event = {
+	id = tibet.3
+	hide_window = yes
+	is_triggered_only = yes
+	has_character_flag = namri
+	trigger = {
+		has_global_flag = organized_tibet_realm
+	}
+	immediate = {
+		set_global_flag = assasinated_tibet_king
+	#	any_demesne_title = {
+	#		grant_title = event_target:songtsen_gampoo
+	#	}
+		any_vassal = {
+			limit = {
+				tier = COUNT
+				NOT = { culture = ROOT }
+			}
+			reverse_war = {
+				target = ROOT
+				casus_belli = independence
+			}
+		}
+	}
+}
+character_event = {
+	id = tibet.4
+	title = EVTTITLE_tibet_4
+	desc = EVTDESC_tibet_4
+	picture = GFX_evt_throneroom
+	border = GFX_event_normal_frame_war
+	has_global_flag = assasinated_tibet_king
+	has_character_flag = songtsen_gampo
+	trigger = {
+		NOT = { has_global_flag = purgyal }
+	}
+	mean_time_to_happen = {
+		months = 12
+	}
+	option = {
+		name = EVTOPTA_tibet_3
+		set_global_flag = purgyal
+		add_character_modifier = {
+			name = great_conqueror
+			duration = -1
+		}
+		spawn_unit = {
+			owner = ROOT
+			leader = ROOT
+			province = 1498
+			troops = {
+				archers = { 1000 1000 }
+				light_infantry = { 3500 3500 }
+				heavy_infantry = { 1000 1000 }
+				light_cavalry = { 1000 1000 }
+				knights = { 500 500 }
+			}
+			attrition = 0.0
+		}
+		spawn_unit = {
+			owner = ROOT
+			leader = ROOT
+			province = 1498
+			troops = {
+				archers = { 1000 1000 }
+				light_infantry = { 3500 3500 }
+				heavy_infantry = { 1000 1000 }
+				light_cavalry = { 1000 1000 }
+				knights = { 500 500 }
+			}
+			attrition = 0.0
+		}
+		spawn_unit = {
+			owner = ROOT
+			leader = ROOT
+			province = 1498
+			troops = {
+				archers = { 1000 1000 }
+				light_infantry = { 3500 3500 }
+				heavy_infantry = { 1000 1000 }
+				light_cavalry = { 1000 1000 }
+				knights = { 500 500 }
+			}
+			attrition = 0.0
+		}
+		spawn_unit = {
+			owner = ROOT
+			leader = ROOT
+			province = 1498
+			troops = {
+				archers = { 1000 1000 }
+				light_infantry = { 3500 3500 }
+				heavy_infantry = { 1000 1000 }
+				light_cavalry = { 1000 1000 }
+				knights = { 500 500 }
+			}
+			attrition = 0.0
+		}
+		spawn_unit = {
+			owner = ROOT
+			leader = ROOT
+			province = 1498
+			troops = {
+				archers = { 1000 1000 }
+				light_infantry = { 3500 3500 }
+				heavy_infantry = { 1000 1000 }
+				light_cavalry = { 1000 1000 }
+				knights = { 500 500 }
+			}
+			attrition = 0.0
+		}
+		spawn_unit = {
+			owner = ROOT
+			leader = ROOT
+			province = 1498
+			troops = {
+				archers = { 1000 1000 }
+				light_infantry = { 3500 3500 }
+				heavy_infantry = { 1000 1000 }
+				light_cavalry = { 1000 1000 }
+				knights = { 500 500 }
+			}
+			attrition = 0.0
+		}
+	}
+}
+character_event = {
+	id = tibet.5
+	title = EVTTITLE_tibet_5
+	desc = EVTDESC_tibet_5
+	picture = GFX_evt_battle
+	border = GFX_event_normal_frame_war
+	has_character_flag = songtsen_gampo
+	trigger = {
+		war = no
+		has_character_flag = purgyal
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+	option = {
+		name = EVTOPTA_tibet_4
+		prestige = 500
+		character_event = { id = tibet.6 days = 20 }
+	}
+}
+character_event = {
+	id = tibet.6
+	hide_window = yes
+	is_triggered_only = yes
+	immediate = {
+		e_tibet = {
+			grant_title = ROOT
+		}
+		if = {
+			limit = {
+				any_owned_bloodline = {
+					NOT = { type = songtsen_gampo }
+				}
+			}
+		create_bloodline = {
+			type = songtsen_gampo
+		}
+		}
+		if = {
+			hidden_tooltip = {
+				remove_character_modifier = prophet_blessing
+			}
+			limit = {
+				d_sumparu = {
+					holder_scope = {
+						NOT = {
+							is_vassal_or_below_of = ROOT
+							character = ROOT
+						}
+					}
+				}
+			}
+			d_sumparu = {
+				holder_scope = {
+					top_liege = {
+					reverse_war = {
+						target = ROOT
+						casus_belli = tribal_invasion
+						thirdparty_title = k_yarlung
+						infamy = 0
+					}
+					}
+				}
+			}
+		}		
+	}
+}

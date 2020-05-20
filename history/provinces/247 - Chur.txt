@@ -1,0 +1,27 @@
+# 247 - Chur
+
+# County Title
+title = c_chur
+
+# Settlements
+max_settlements = 3
+b_chur = temple
+b_davos = city
+b_glurns = castle
+
+#b_churwalden = temple
+#b_maienfeld = castle
+#b_illanz = castle
+#b_thusis = castle
+
+#b_zuoz = castle
+
+# Misc
+culture = swabian
+religion = norse_pagan
+
+# History
+630.1.1 = { religion = catholic }
+760.1.1 = {
+	culture = german
+}

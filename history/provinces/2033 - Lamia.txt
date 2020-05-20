@@ -1,0 +1,22 @@
+# 2033 - Lamia
+
+# County Title
+title = c_lamia
+
+# Settlements
+max_settlements = 3
+
+b_molos = castle
+b_lamia = city
+b_amfissa = temple
+
+# Misc
+culture = greek
+religion = orthodox
+
+# History
+1089.1.1 = { trade_post = b_morosini }
+
+  
+
+

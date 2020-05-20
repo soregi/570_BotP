@@ -1,0 +1,1026 @@
+1022186={
+	name="Iustinianus"
+	religion="orthodox"
+	coat_of_arms=
+	{
+		template = 0
+		layer = {
+			texture = 10
+			texture_internal = 0
+		}
+		religion="catholic"
+	}
+	forced_coa_religiongroup="christian"
+}
+613={
+	name="Seljuk"
+	culture="turkish"
+	religion="sunni"
+	coat_of_arms=
+	{
+		template = 0
+		layer = {
+			texture = 10
+			texture_internal = 2
+		}
+		religion="catholic"
+	}
+	#can_appear=no
+	used_for_random=no
+	#forced_coa_religiongroup="muslim"
+}
+3000000 = {
+	name="Narses Aurelianus"
+	culture="roman"
+	religion="orthodox"
+}
+3000001 = {
+	name="Faroalding"
+	culture="lombard"
+	religion="norse_pagan"
+}
+3000002 = {
+	name="Gepid"
+	culture="german"#Gepid
+	religion="norse_pagan"
+}
+3000003 = {
+	name="du Torino"
+	culture="lombard"
+	religion="norse_pagan"
+}
+3000004 = {
+	name="Alagising"
+	culture="lombard"
+	religion="arian"
+}
+3000005 = {
+	name = "Vallaring"
+	culture = "lombard"
+	religion = "arian"
+}
+3000006 = {
+	name = "di Ticinum"
+	culture = "italian"
+	religion = "catholic"
+}
+3000007 = {
+	name = "Boëthius"
+	culture = "roman"
+	religion = "catholic"
+}
+3000008 = {
+	name = "Rogathinus"
+	culture = "roman"
+	religion = "orthodox"
+}
+3000009 = {
+	name = "Garamantes"
+	culture = "maghreb_arabic"
+	religion = "west_african_pagan"
+}
+3000010 = {
+	name = "Uí Maine"
+	culture = "irish"
+	religion = "catholic"
+}
+3000011 = {
+	name = "Mauri"
+	culture = maghreb_arabic
+	religion = west_african_pagan
+}
+3000012 = {
+	name = "Suevi"
+	culture = "suebi"
+	religion = "catholic"
+}
+3000013 = {
+	name = "Apion"
+	culture = "coptic"
+	religion = "miaphysite"
+	coat_of_arms=
+	{
+		template = 0
+		layer = {
+			texture = 10
+			texture_internal = 1
+		}
+		religion="catholic"
+	}
+}
+3000014 = {
+	name = "e Oxyrrynchos"
+	culture = "coptic"
+	religion = "miaphysite"
+}
+3000015 = {
+	name = "Sumpala"
+	culture = sumpa
+	religion = bon
+}
+3000016 = {
+	name = "Bayanid"
+	culture = avar
+	religion = tengri_pagan
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 10
+			texture_internal = 3
+		}
+		religion = catholic
+	}
+}
+3000017 = {
+	name = "Omurtagid"
+	culture = avar
+	religion = tengri_pagan
+}
+3000018 = {
+	name = "Utigur"
+	culture = bolghar
+	religion = tengri_pagan
+}
+3000019 = {
+	name = "Ghassanid"
+	culture = bedouin_arabic
+	religion = monophysite
+}
+3000020 = {
+	name = "Lakhmid"
+	culture = bedouin_arabic
+	religion = nestorian
+}
+3000021 = {
+	name = Chlorokos
+	culture = greek
+	religion = orthodox
+}
+3000022 = {
+	name = "Banu Bakr"
+	culture = bedouin_arabic
+	religion = sunni
+}
+3000023 = {
+	name = "Banu Ghatafan"
+	culture = bedouin_arabic
+	religion = sunni
+}
+3000024 = {
+	name = "Banu Aws"
+	culture = levantine_arabic
+	religion = sunni
+}
+3000025 = {
+	name = "Banu Qaynuqa"
+	culture = levantine_arabic
+	religion = jewish
+}
+3000026 = {
+	name = "Mahra"
+	culture = bedouin_arabic
+	religion = sunni
+}
+3000027 = {
+	name = "Ma'afir"
+	culture = bedouin_arabic
+	religion = monophysite
+}
+3000028 = {
+	name = "Murad"
+	culture = bedouin_arabic
+	religion = sunni
+}
+3000029 = {
+	name = "Banu Hamdan"
+	culture = bedouin_arabic
+	religion = sunni
+}
+3000030 = {
+	name = "Varaz"
+	culture = parthian
+	religion = zoroastrian
+}
+3000031 = {
+	name = "Moor"
+	culture = maghreb_arabic
+	religion = catholic
+}
+3000032 = {
+	name = "Gideons"
+	culture = ethiopian
+	religion = jewish
+	coat_of_arms=
+	{
+		data=
+		{
+0 8 0 37 0 0 0 			}
+		religion="catholic"
+	}
+}
+3000033 = {
+	name = "Gupta" # Imperial Gupta
+	culture = hindustani
+	religion = hindu
+		coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 10
+			texture_internal = 4
+		}
+		#religion = hindu
+		religion = nestorian
+	}
+}
+3000034 = {
+	name = "Maukhari"
+	culture = hindustani
+	religion = hindu
+}
+3000035 = {
+	name = "Pushyabhuti" # Vardhana
+	culture = hindustani
+	religion = hindu
+}
+3000036 = {
+	name = "Aspahbadh"
+	culture = parthian
+	religion = zoroastrian
+}
+3000037 = {
+	name = "Zik"
+	culture = persian
+	religion = zoroastrian
+}
+3000038 = {
+	name = "Espandiar"
+	culture = persian
+	religion = zoroastrian
+}
+3000039 = {
+	name = "Pecheneg"
+	culture = pecheneg
+	religion = tengri_pagan
+}
+3000040 = {
+	name = "Karluk"
+	culture = karluk
+	religion = tengri_pagan
+}
+3000041 = {
+	name = "Rai"
+	culture = sindhi
+	religion = hindu
+}
+3000042 = {
+	name = "Hephthalites"
+	culture = saka
+	religion = zoroastrian
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 10
+			texture_internal = 7
+		}
+		religion = nestorian
+	}
+}
+3000043 = {
+	name = "Magyar"
+	culture = hungarian
+	religion = tengri_pagan
+}
+3000044 = {
+	name = "Kirghiz"
+	culture = kirghiz
+	religion = tengri_pagan
+}
+3000045 = {
+	name = "Taqiraid"
+	culture = cuman
+	religion = tengri_pagan
+}
+3000046 = {
+	name = "Uigur"
+	culture = uyghur
+	religion = tengri_pagan
+}
+3000047 = {
+	name = "Onogur"
+	culture = bolghar
+	religion = tengri_pagan
+}
+3000048 = {
+	name = "Aliak"
+	culture = alan
+	religion = tengri_pagan
+}
+3000049 = {
+	name = "Adyghe"
+	culture = adyghe
+	religion = tengri_pagan
+}
+3000050 = {
+	name = "Alan"
+	culture = alan
+	religion = tengri_pagan
+}
+3000051 = {
+	name = "Yenisei"
+	culture = kirghiz
+	religion = manichean
+}
+3000052 = {
+	name = "Uighur"
+	culture = uyghur
+	religion = manichean
+}
+3000053 = {
+	name = "Ante"
+	culture = sclaveni
+	religion = slavic_pagan
+}
+3000054 = {
+	name = "Dovic"
+	culture = sclaveni
+	religion = slavic_pagan
+}
+3000055 = {
+	name = "Arnulfing"
+	culture = swabian
+	religion = norse_pagan
+}
+3000056 = {
+	name = "Guffing"
+	culture = thuringian
+	religion = catholic
+}
+3000057 = {
+	name = "Hlodving"
+	culture = swabian
+	religion = catholic
+}
+3000058 = {
+	name = "Audulfing"
+	culture = frisian
+	religion = catholic
+}
+3000059 = {
+	name = "Asad"
+	culture = bedouin_arabic
+	religion = sunni
+}
+3000060 = {
+	name = "Wallid"
+	culture = bedouin_arabic
+	religion = sunni
+}
+3000061 = {
+	name = "Tuujl"
+	culture = uyghur
+	religion = manichean
+}
+3000062 = {
+	name = "Dai Ord"
+	culture = mongol
+	religion = tengri_pagan
+}
+3000063 = {
+	name = "Kalabhra"
+	culture = tamil
+	religion = jain
+}
+3000064 = {
+	name = "Visaya Pallava"
+	culture = tamil
+	religion = hindu
+}
+3000065 = {
+	name = "Cola"
+	culture = tamil
+	religion = hindu
+}
+3000066 = {
+	name = "Gauda"
+	culture = bengali
+	religion = hindu
+}
+3000067 = {
+	name = "Wandana"
+	culture = bengali
+	religion = hindu
+}
+3000068 = {
+	name = "Samatata"
+	culture = bengali
+	religion = hindu
+}
+3000069 = {
+	name = "Aulikara"
+	culture = hindustani # Malwi
+	religion = hindu
+}
+3000070 = {
+	name = "Kalachuri"
+	culture = hindustani
+	religion = hindu
+}
+3000071 = {
+  name = "Hermeric"
+  culture = suebi
+  religion = norse_pagan
+}
+3000072 = {
+	name = "Lech"
+	culture = polish
+	religion = slavic_pagan
+}
+3000073 = {
+	name = "Vishnukundina"
+	culture = marathi
+	religion = hindu
+}
+3000074 = {
+	name = "Rublijaski"
+	culture = polish
+	religion = slavic_pagan
+}
+3000075 = {
+	name = "Modzitski"
+	culture = polish
+	religion = slavic_pagan
+}
+3000076 = {
+	name = "vi Alayavo"
+	culture = volhynian
+	religion = slavic_pagan
+}
+3000077 = {
+	name = "Mourrhos"
+	culture = greek
+	religion = orthodox
+}
+3000078 = {
+	name = "Ingrijaa"
+	culture = ugricbaltic
+	religion = finnish_pagan
+}
+3000079 = {
+	name = "Vepsi"
+	culture = finnish
+	religion = finnish_pagan
+}
+3000080 = {
+	name = "Ilmenski"
+	culture = ilmenian
+	religion = slavic_pagan
+}
+3000081 = {
+	name = "Pskovsky"
+	culture = ilmenian
+	religion = slavic_pagan
+}
+3000082 = {
+	name = "Jute"
+	culture = norse
+	religion = norse_pagan
+}
+3000083 = {
+	name = "Lietvis"
+	culture = lithuanian
+	religion = baltic_pagan
+}
+3000084 = {
+	name = "Yatviagis"
+	culture = lithuanian
+	religion = baltic_pagan
+}
+3000085 = {
+	name = "Makrani"
+	culture = persian
+	religion = zoroastrian
+}
+3000086 = {
+	name = "Soyaka"
+	culture = assyrian
+	religion = nestorian
+}
+3000087 = {
+	name = "Yuhanna"
+	culture = assyrian
+	religion = nestorian
+}
+3000088 = {
+	name = "Himyarid"
+	culture = bedouin_arabic
+	religion = jewish
+}
+3000089 = {
+	name = "Wahrezi"
+	culture = persian
+	religion = zoroastrian
+}
+3000090 = {
+	name = "Salman"
+	culture = parthian
+	religion = zoroastrian
+}
+3000091 = {
+	name = "Mazdaki"
+	culture = persian
+	religion = mazdaki
+}
+3000092 = {
+	name = "Yezdan"
+	culture = persian
+	religion = zoroastrian
+}
+3000093 = {
+	name = "Dashor"
+	culture = persian
+	religion = zoroastrian
+}
+3000094 = {
+	name = "Morazbad"
+	culture = persian
+	religion = zoroastrian
+}
+3000095 = {
+	name = "Marvyani"
+	culture = parthian
+	religion = zoroastrian
+}
+3000096 = {
+	name = "Talaq"
+	culture = parthian
+	religion = zoroastrian
+}
+3000097 = {
+	name = "Herat"
+	culture = bactrian
+	religion = zoroastrian
+}
+3000098 = {
+	name = "Bamiyand"
+	culture = bactrian
+	religion = zoroastrian
+}
+3000099 = {
+	name = "Dahaid"
+	culture = parthian
+	religion = zoroastrian
+}
+3000100 = {
+	name = "Nala"
+	culture = telugu
+	religion = hindu
+}
+3000101 = {
+	name = "Prokoulos"
+	culture = greek
+	religion = orthodox
+}
+3000102 = {
+	name = "Ioannakis"
+	culture = greek
+	religion = orthodox
+}
+3000103 = {
+	name = "Majara"
+	culture = marathi
+	religion = hindu
+}
+3000104 = {
+	name = "Ruxolani"
+	culture = marathi
+	religion = hindu
+}
+3000105 = {
+	name = "Mumbaya Garata"
+	culture = marathi
+	religion = jain
+}
+3000106 = {
+	name = "Estela"
+	culture = kannada
+	religion = hindu
+}
+3000107 = {
+	name = "Kadamba"
+	culture = kannada
+	religion = hindu
+}
+3000108 = {
+	name = "Kalyani"
+	culture = kannada
+	religion = hindu
+}
+3000109 = {
+	name = "Menandros"
+	culture = greek
+	religion = orthodox
+}
+3000110 = {
+	name = "Papandreou"
+	culture = greek
+	religion = orthodox
+}
+3000111 = {
+	name = "Psoleikoulos"
+	culture = greek
+	religion = orthodox
+}
+3000112 = {
+	name = "Rhominakos"
+	culture = greek
+	religion = orthodox
+}
+3000113 = {
+	name = "di Malacci"
+	culture = italian
+	religion = catholic
+}
+3000114 = {
+	name = "Capevano"
+	culture = italian
+	religion = catholic
+}
+3000115 = {
+	name = "Andreatto"
+	culture = italian
+	religion = orthodox
+}
+3000116 = {
+	name = "Agiapontites"
+	culture = greek
+	religion = orthodox
+}
+3000117 = {
+	name = "Mothonias"
+	culture = greek
+	religion = orthodox
+}
+3000118 = {
+	name = "Rhodiprenos"
+	culture = greek
+	religion = orthodox
+}
+3000119 = {
+	name = "Karthigios"
+	culture = greek
+	religion = orthodox
+}
+3000120 = {
+	name = "Kaleianos"
+	culture = greek
+	religion = orthodox
+}
+3000121 = {
+	name = "Karakos"
+	culture = greek
+	religion = orthodox
+}
+3000122 = {
+	name = "Masaios"
+	culture = greek
+	religion = orthodox
+}
+3000123 = {
+	name = "Taraplisi"
+	culture = maghreb_latin
+	religion = orthodox
+}
+3000124 = {
+	name = "Baratho"
+	culture = maghreb_latin
+	religion = catholic
+}
+3000125 = {
+	name = "Capatan"
+	culture = maghreb_latin
+	religion = catholic
+}
+3000126 = {
+	name = "Bogipano"
+	culture = italian
+	religion = catholic
+}
+3000127 = {
+	name = "Karantsis"
+	culture = greek
+	religion = orthodox
+}
+3000128 = {
+	name = "Volosis"
+	culture = greek
+	religion = orthodox
+}
+3000129 = {
+	name = "Numidios"
+	culture = greek
+	religion = orthodox
+}
+3000130 = {
+	name = "Levci"
+	culture = maghreb_latin
+	religion = orthodox
+}
+3000131 = {
+	name = "Malagis"
+	culture = greek
+	religion = orthodox
+}
+3000132 = {
+	name = "Roucretis"
+	culture = iberian_latin
+	religion = catholic
+}
+3000133 = {
+	name = "Arborean"
+	culture = sardinian
+	religion = orthodox
+}
+3000134 = {
+	name = "de Gallures"
+	culture = sardinian
+	religion = orthodox
+}
+3000135 = {
+	name = "Photonos"
+	culture = greek
+	religion = orthodox
+}
+3000136 = {
+	name = "Almatalitreios"
+	culture = greek
+	religion = orthodox
+}
+3000137 = {
+	name = "Telemachos"
+	culture = greek
+	religion = catholic
+}
+3000138 = {
+	name = "Venizelos"
+	culture = greek
+	religion = orthodox
+}
+3000139 = {
+	name = "Mistafi"
+	culture = kurdish
+	religion = zoroastrian
+}
+3000140 = {
+	name = "Zebandid"
+	culture = kurdish
+	religion = zoroastrian
+}
+3000141 = {
+	name = "Ortakid"
+	culture = kurdish
+	religion = nestorian
+}
+3000142 = {
+	name = "Walding"
+	culture = burgundian
+	religion = catholic
+}
+3000143 = {
+	name = "Gerrard"# Humba Humba
+	culture = old_frankish# english
+	religion = catholic #anglican
+}
+3000144 = {
+	name = "Reno"
+	culture = old_frankish
+	religion = catholic
+}
+3000145 = {
+	name = "Tsakonis"
+	culture = greek
+	religion = orthodox
+}
+3000146 = {
+	name = "Ares"
+	culture = greek
+	religion = hellenic_pagan
+}
+3000147 = {
+	name = "Osmanopoulos"
+	culture = turkish
+	religion = orthodox
+}
+3000148 = {
+	name = "Kutrigur"
+	culture = bolghar
+	religion = tengri_pagan
+}
+3000149 = {
+	name = "Bangazi"
+	culture = avar
+	religion = tengri_pagan
+}
+3000150 = {
+	name = "Narentani"
+	culture = sclaveni	
+	religion = slavic_pagan
+}
+3000151 = {
+	name = "Doulafios"
+	culture = greek
+	religion = orthodox
+}
+3000152 = {
+	name = "Banu Juhaynah"
+	culture = bedouin_arabic
+	religion = sunni
+}
+3000153 = {
+	name = "Banu Hawazan"
+	culture = bedouin_arabic
+	religion = sunni
+}
+3000154 = {
+	name = "al Harith"
+	culture = bedouin_arabic
+	religion = sunni
+}
+3000155 = {
+	name = "Bahilaid"
+	culture = bedouin_arabic
+	religion = sunni
+}
+3000156 = {
+	name = "Banu Hanifa"
+	culture = bedouin_arabic
+	religion = sunni
+}
+3000157 = {
+	name = "Wa'il"
+	culture = bedouin_arabic
+	religion = sunni
+}
+3000158 = {
+	name = "Hassani"
+	culture = bedouin_arabic
+	religion = shiite
+}
+3000159 = {
+	name = "Marib"
+	culture = bedouin_arabic
+	religion = sunni
+}
+3000160 = {
+	name = "Rhaxilios"
+	culture = greek
+	religion = orthodox
+}
+3000161 = {
+	name = "Santalliano"
+	culture = cantabri
+	religion = catholic
+}
+3000162 = {
+	name = "Astures"
+	culture = asturian
+	religion = catholic
+}
+3000163 = {
+	name = "Dontais"
+	culture = frankish
+	religion = catholic
+}
+3000164 = {
+	name = "Saliid"
+	culture = old_frankish
+	religion = catholic
+}
+3000165 = {
+	name = "Foix"
+	culture = occitan
+	religion = catholic
+}
+3000166 = {
+	name = "Alger"
+	culture = norse
+	religion = norse_pagan
+}
+3000167 = {
+	name = "Suawig"
+	culture = swabian
+	religion = norse_pagan
+}
+3000168 = {
+	name = "Thralling"
+	culture = swabian
+	religion = catholic
+}
+3000169 = {
+	name = "Kaalit"
+	culture = lappish
+	religion = finnish_pagan
+}
+3000170 = {
+	name = "Arnoldring"
+	culture = norse
+	religion = norse_pagan
+}
+3000171 = {
+	name = "Kvitling"
+	culture = norse
+	religion = norse_pagan
+}
+3000172 = {
+	name = "Ytrski"
+	culture = norse
+	religion = norse_pagan
+}
+3000173 = {
+	name = "Gutna"
+	culture = norse
+	religion = norse_pagan
+}
+3000174 = {
+	name = "Gauts"
+	culture = norse
+	religion = norse_pagan
+}
+3000175 = {
+	name = "Kalmar"
+	culture = norse
+	religion = norse_pagan
+}
+3000176 = {
+	name = "Uppsale"
+	culture = norse
+	religion = norse_pagan
+}
+3000177 = {
+	name = "af Noregr"
+	culture = norse
+	religion = norse_pagan
+}
+3000178 = {
+	name = "Karlsefni"
+	culture = norse
+	religion = catholic
+}
+3000179 = {
+	name = "Raginar"
+	culture = norse
+	religion = catholic
+}
+3000180 = {
+	name = "af Skane"
+	culture = norse
+	religion = norse_pagan
+}
+3000181 = {
+	name = "Bahramiyan"
+	culture = persian
+	religion = zoroastrian
+}
+3000182 = {
+	name = "Khajeyani"
+	culture = persian
+	religion = zoroastrian
+}
+3000183 = {
+	name = "Ashrvani"
+	culture = persian
+	religion = zoroastrian
+}
+542={
+	name="Meroving"
+	culture="frankish"
+	coat_of_arms={ data={ 0 2 0 41 0 3 3 } 
+	religion="catholic" }
+}
+48=
+{
+	name="Palaiologos"
+	culture="greek"
+	religion="orthodox"
+	coat_of_arms=
+	{
+		data=
+		{
+0 3 0 32 0 0 0 			}
+		religion="catholic"
+	}
+#	used_for_random=no
+}
+634=
+{
+	name="Komnenos"
+	culture="greek"
+	religion="orthodox"
+	coat_of_arms=
+	{
+		data=
+		{
+0 3 0 26 0 0 0 			}
+		religion="catholic"
+	}
+#	used_for_random=no
+}

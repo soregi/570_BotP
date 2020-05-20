@@ -1,0 +1,27 @@
+# 2032 - Livno
+
+# County Title
+title = c_livno
+
+# Settlements
+max_settlements = 1
+
+b_livno = castle
+
+# Misc
+culture = dalmatian
+religion = orthodox
+
+# History
+632.1.1 = {
+	culture = croatian
+	religion = slavic_pagan
+	b_livno = tribal
+}
+
+870.1.1 = {
+	culture = bosnian
+	religion = orthodox
+	b_livno = castle
+}
+

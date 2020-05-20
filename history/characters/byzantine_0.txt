@@ -1,0 +1,1445 @@
+##################################
+#  This mod starts from 400001   #
+# Byzantine Vassals and cultures #
+##################################
+
+70510 = {
+	name="Maurikios"
+	dynasty=1022184
+	father = 168719
+	martial=8
+	diplomacy=7
+	intrigue=6
+	stewardship=3
+	religion="orthodox"
+	culture="greek"
+	trait="brave"
+	trait="scholar"
+	trait="greedy"
+	trait="fortune_builder"
+	trait = administrator
+	trait = robust
+	trait = diligent
+	539.1.1={
+		birth="539.1.1"
+	}
+	602.11.27={
+	#	death="602.11.27"
+		death={
+				death_reason = death_execution
+				killer = 145072 # Phocas
+			}
+	}
+}
+
+70511 = {
+	name="Ioustinos"
+	dynasty=1022186
+	martial=5
+	diplomacy=4
+	intrigue=5
+	stewardship=6
+	religion="orthodox"
+	culture="greek"
+	trait="lunatic"
+	trait="mystic"
+	trait="amateurish_plotter"
+	mother=70527
+	
+	520.1.1={
+		birth="520.1.1"
+	}
+
+	578.10.5={
+		death="578.10.5"
+	}
+}
+145069 = {
+	name="Tiberios"
+	dynasty=1022179
+	religion="orthodox"
+	culture="greek"
+	trait="proud"
+	trait="deceitful"
+	trait="tough_soldier"
+	665.1.1={
+		birth="665.1.1"
+	}
+	706.2.1={
+		death="706.2.1"
+	}
+}
+
+145070 = {
+	name="Herakleonas"
+	# AKA: Konstantinos Herakleios
+	dynasty=1022137
+	religion="orthodox"
+	culture="greek"
+	father=145071
+	626.1.1={
+		birth="626.1.1"
+	}
+	641.12.1={
+		death="641.12.1"
+	}
+}
+
+145071 = {
+	 name="Herakleios"
+	 dynasty=1022137
+	 
+	 father = 400059
+	 
+	 religion="orthodox"
+	 culture="greek"
+	 trait="diligent"
+	 trait="brave"
+	 trait="proud"
+	 trait="just"
+	 trait="skilled_tactician"
+	 trait="crusader"
+	 575.1.1={
+		birth="575.1.1"
+		effect = { set_character_flag = heraclius }
+	 }
+	 641.2.11={
+		 death="641.2.11"
+	 }
+}
+
+145072 = {
+	name="Phokas"
+	dynasty=1022183
+	religion="orthodox"
+	culture="greek"
+	martial = 10
+	intrigue = 7
+	learning = 2
+	trait="envious"
+	trait="proud"
+	trait="wroth"
+	trait="deceitful"
+	trait="arbitrary"
+	trait="cruel"
+	trait="tough_soldier"
+	547.1.1={
+		birth="547.1.1"
+	}
+	
+	610.10.5={
+		death="610.10.5"
+	}
+}
+
+145073 = {
+	name="Tiberios"
+	dynasty=1022185
+	religion="orthodox"
+	culture="greek"
+	trait="charitable"
+	trait="temperate"
+	trait="honest"
+	trait="kind"
+	trait="cynical"
+	trait="thrifty_clerk"
+	535.1.1={
+		birth="535.1.1"
+	}
+	582.8.14={
+		death="582.8.14"
+	}
+}
+
+400001 = {
+	name="Ioannes"
+	female=no
+	dynasty = 3000102
+	religion="orthodox"
+	culture="greek"
+	trait="fortune_builder"
+	550.1.1={
+		birth=yes
+	}
+	575.1.1={
+		death=yes
+	}
+}
+400002 = {
+	name="Belisarius"
+	female=no
+	martial=26
+	diplomacy=15
+	intrigue=9
+	stewardship=12
+	learning=11
+	religion="orthodox"
+	culture="greek"
+	trait="brilliant_strategist"
+	trait="strong"
+	trait="quick"
+	trait="strategist"
+	trait="brave"
+	trait="kind"
+	trait="robust"
+	trait="patient"
+	500.1.1={
+		birth=yes
+	}
+	565.3.1={
+		death=yes
+	}
+}
+400003 = {
+	name="Narses"
+	female=no
+	dynasty=1029099
+	#father = 159565 # Fic
+	religion="orthodox"
+	culture="armenian"
+	martial=24
+	diplomacy=11
+	intrigue=12
+	stewardship=15
+	learning=11
+	trait="brilliant_strategist"
+	trait="strong"
+	trait="eunuch"
+	trait="brave"
+	trait="patient"
+	trait="robust"
+	trait="shrewd"
+	480.1.1={
+		birth=yes
+		effect = { set_character_flag = narses }
+	}
+	573.1.1={
+		death=yes
+	}
+}
+
+400004 = {
+	name = "Flavius Petrus"
+	# His Full name is Flavius Marianus Michaelius Gabrielius Petrus Iohannes Narses Aurelianus Limenius Stephanus Aurelianus
+	# The last praetorian prefect of italy
+	dynasty = 3000000
+	trait = "martial_cleric"
+	diplomacy = 7
+	martial = 10
+	stewardship = 12
+	intrigue = 5
+	learning = 5
+	religion = "orthodox"
+	culture = "roman"
+	trait = "craven"
+	trait = "content"
+	trait = "shy"
+	trait = "naive_appeaser"
+	525.1.1 = { birth = yes }
+	575.1.1 = { death = yes }
+}
+
+400005 = {
+	name = "Decius"
+	dynasty = 0
+	religion = "orthodox" culture="roman"
+	trait = "misguided_warrior"
+	540.1.1 = { birth = yes } # Fic.
+	587.1.1 = { death = yes } # Fic 
+}
+400006 = { name = "Smaragdus" dynasty = 0
+	religion = "orthodox" culture="greek"
+	trait = "tough_soldier"
+	trait = "cynical"
+	554.1.1 = { birth = yes } # Fic
+	612.1.1 = { death = yes } # Fic
+	}
+400007 = { name = "Romanus" dynasty = 0
+	religion = "orthodox"  culture = "roman"
+	trait = "tough_soldier"
+	learning = 5
+	martial = 8
+	550.1.1 = { birth = yes } # Fic
+	597.1.1 = { death = yes } 
+}
+400008 = { name = "Kallinikos" #Exarch Callinicus
+	religion = "orthodox"
+	culture = "greek"
+	dynasty = 0
+	trait = "fortune_builder"
+	560.1.1 = { birth = yes } # Fic
+	618.1.1 = { death = yes } # Fic
+}
+400009 = { name = "Ioannes" # Exarch of Ravenna, also.
+	religion = "orthodox"
+	culture = "greek" dynasty = 0
+	trait = "charismatic_negotiator"
+	trait = "craven"
+	martial = 8
+	569.1.1 = { birth = yes } # Fic
+	615.1.1 = { death = yes }
+}
+400010 = { name = "Eleftherios" dynasty = 0
+	religion = "orthodox"
+	culture = "greek"
+	trait = "eunuch"
+	trait = "deceitful"
+	trait = "ambitious"
+	trait = "envious"
+	569.2.1 = { birth = yes } # Fic
+	620.1.1 = { death = yes }
+}
+#나머지는 더 안한다 걍
+#400011~400023은 라벤나 총독직으로 예약
+#여기서부터는 그냥 테마 스트라티고스들.
+400024 = {
+	 name = "Alexandros" # Fictional Character. Used for Sicily
+	 dynasty = 3000101
+	 religion = "miaphysite"
+	 culture = "greek"
+	 trait = "thrifty_clerk"
+	 520.1.1 = { birth = yes }
+	 600.1.1 = { death = yes }
+}
+400025 = {
+	name = "Rethalic" # Fantasy Character. Used for Malta
+	# In this mod this character can restore the Vandal Kingdom!
+	# He is considered the niece of Gelimer
+	religion = "catholic"
+	secret_religion = "arian"
+	culture = "vandal"
+	dynasty = 9618
+	father = 168807
+	diplomacy = 11
+	martial = 7
+	stewardship = 9
+	intrigue = 10
+	learning = 10
+	trait = "erudite"
+	trait = "grey_eminence"
+	trait = "deceitful"
+	trait = "envious"
+	trait = "patient"
+	trait = "shrewd"
+	trait = "wounded"
+	trait = "ambitious"
+	trait = "scholar"
+	522.1.1 = { birth = yes }
+	533.1.1 = { add_claim = k_africa } 
+	580.1.1 = { death = yes }
+}
+400026 = {
+	name = "Flavios Petros" # For Pisa
+	religion = "catholic"
+	culture = "italian"
+	dynasty = 3000113
+	540.1.1 = { birth = yes }
+	572.1.1 = { death = yes }
+}
+400027 = {
+	name = "Phokas" # For Pentapolis
+	religion = "catholic"
+	culture = "greek"
+	dynasty = 3000109
+	535.1.1 = { birth = yes }
+	586.1.1 = { death = yes }
+}
+400028 = {
+	name = "Romanus" # For Capua
+	religion = "orthodox"
+	culture = "italian"
+	dynasty = 3000114
+	551.1.1 = { birth = yes }
+	583.1.1 = { death = yes }
+}
+
+400029 = {
+	name = "Marinos" # For Amalfi
+	culture = "greek"
+	religion = "orthodox"
+	dynasty = 3000110
+	550.1.1 = { birth = yes }
+	594.1.1 = { death = yes }
+}
+
+400030 = {
+	name = "Mariano" # For Parma & Modena
+	dynasty = 3000006
+	culture = "italian" religion = "catholic"
+	534.1.1 = { birth = yes }
+	572.1.1 = { death = yes }
+}
+400031 = {
+	name = "Giorgio" # For Genua
+	culture = "italian"
+	religion = "catholic"
+	dynasty = 3000115
+	543.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+400032 = {
+	name = "Theodoros" #For Calabria
+	culture = "greek"
+	religion = "orthodox"
+	dynasty = 3000111
+	545.1.1 = { birth  = yes }
+	603.1.1 = { death = yes }
+}
+400033 = {
+	name = "Markios" # For Apulia
+	culture = "greek"
+	religion = "orthodox"
+	dynasty = 3000112
+	530.1.1 = { birth = yes }
+	602.1.1 = { death = yes }
+}
+400034 = {
+	name = "Anastasios" # For Byzantine Benevento
+	culture = greek
+	religion = orthodox
+	dynasty = 3000116
+	524.1.1 = { birth = yes }
+	571.1.1 = { death = yes }
+}
+400035 = {
+	name = "Alexis" # For  Achaea
+	culture = greek
+	religion = orthodox
+	dynasty = 3000117
+	542.1.1 = { birth = yes }
+	590.1.1 = { death = yes }
+}
+400036 = {
+	name = "Theodosios" # For Ohrid, Strymon
+	culture = "greek"
+	religion = "orthodox"
+	dynasty = 3000118
+	551.1.1 = { birth = yes }
+	603.1.1 = { death = yes }
+}
+#List of PRAEFECTI PRAETORIO AFRICAE 
+400037 = {
+	name = "Archaelaus"
+	religion = "catholic"
+	culture = "roman"
+	476.1.1 = { birth = yes } # Fic
+	536.1.1 = { death = yes } # f
+}
+400038 = {
+	name = "Solomon"
+	religion = "orthodox"
+	culture = "greek"
+	trait = "eunuch"
+	stewardship = 7
+	martial = 8
+	trait = "robust"
+	trait = "tough_soldier"
+	488.1.1 = { birth = yes } #f
+	544.1.1 = { death = {
+		death_reason = death_battle
+		}
+	}
+}
+400039 = {
+	name = "Symmachus"
+	religion = "orthodox"
+	culture = "roman"
+	490.1.1 = { birth = yes } # Fic
+	550.1.1 = { death = yes } # Fic
+}
+400040 = {
+	name = "Sergius" #Nephew of Solomon
+	religion= "orthodox"
+	culture = "greek"
+	510.1.1 = { birth = yes }
+	563.1.1 = { death = yes }
+}
+400041 = {
+	name = "Athanasius"
+	religion=orthodox
+	culture = greek
+	trait="brilliant_strategist"
+	trait ="brave"
+	509.1.1 = { birth = yes }
+	565.1.1 = { death = yes }
+}
+400042 = { 
+	name = "Paulos"
+	religion = orthodox
+	culture = greek
+	520.1.1 = { birth = yes }
+	572.1.1 = { death = yes }
+}
+400043 = {
+	name = "Ioannes"
+	religion = orthodox
+	culture = greek
+	520.1.1 = { birth = yes }
+	570.1.1 = { death = yes }
+}
+400044 = {
+	name = "Anicius Manlius Severinus" #Boethius
+	religion = "catholic"
+	culture = "roman"
+	dynasty = 3000007
+	trait = "mastermind_theologian"
+	trait = "scholar"
+	trait = "erudite"
+	trait = "diligent"
+	trait = "kind"
+	diplomacy = 6
+	martial = 3
+	stewardship = 8
+	intrigue = 4
+	learning = 13
+	477.1.1 = { birth = yes }
+	524.1.1 = { death = {
+		death_reason = death_execution
+		killer = 168775 # Theoderich the Great
+		}
+	}
+}
+400045 = {
+	name = "Symmachus"
+	dynasty = 3000007
+	father = 400044
+	culture = roman
+	religion = catholic
+	493.1.1 = { birth = yes }
+	557.1.1 = { death = yes }
+}
+400046 = {
+	name = "Flavius Boethius" # Flavius Boethius
+	dynasty = 3000007
+	father = 400044
+	culture = roman
+	religion = catholic  
+	497.1.1 = { birth = yes }
+	564.1.1 = { death = yes }
+}
+400047 = {
+	name = "Boethius"
+	dynasty = 3000007
+	father = 400046
+	culture =  roman
+	religion = catholic
+	526.1.1 = { birth = yes }
+	590.1.1 = { death = yes }
+}
+400048 = {
+	name = "Iohannes"
+	dynasty = 3000008
+	culture = roman
+	religion = catholic
+	523.1.1 = { birth = yes }
+	570.1.1 = { death = yes }
+}
+400049 = {
+	name = "Thomas"
+	culture = greek
+	religion = orthodox
+	trait = "thrifty_clerk"
+	trait = "content"
+	trait = "kind"
+	trait = "diligent"
+	diplomacy = 7
+	martial = 6
+	stewardship = 9
+	intrigue = 8
+	learning = 10
+	526.1.1 = { birth = yes }
+	580.1.1 = {  death = yes }
+}
+400050 = {
+	name = "Theodoros"
+	culture = greek
+	religion = catholic
+	trait = tough_soldier
+	trait = robust
+	trait = diligent
+	trait = patient
+	diplomacy = 6
+	martial = 9
+	stewardship = 5
+	intrigue = 3
+	learning = 7
+	524.1.1 = { birth = yes }
+	580.1.1 = { death = yes }
+}
+400051 = {
+	name = "Theodoros"
+	culture = greek
+	religion = orthodox
+	trait = fortune_builder
+	trait = robust
+	trait = architect
+	trait = diligent
+	trait = patient
+	dynasty = 3000119
+	diplomacy = 6
+	martial = 4
+	stewardship = 8
+	intrigue = 3
+	learning = 7
+	534.1.1 = { birth = yes }
+	592.1.1 = { death = yes }
+}
+400052 = {
+	name = "Thranakis" # For lyncentis & strymon
+	culture = greek
+	religion = orthodox
+	dynasty  = 3000120
+	554.1.1 = { birth = yes }
+	584.1.1 = { death = yes }
+}
+400053 = {
+	name = "Niketas" # For Methone
+	culture = greek
+	religion = orthodox
+	dynasty = 3000121
+	541.1.1 = { birth = yes }
+	632.1.1 = { death = yes }
+}
+400054 = {
+	name = "Nikephoros" # For Epeiros 
+	culture = greek
+	religion = orthodox
+	dynasty = 3000122
+	523.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+	
+400055 = {
+	name = "Galerios" # For Tripolitania
+	culture = "maghreb_latin"
+	religion = "catholic"
+	dynasty = 3000123
+	534.1.1 = { birth = yes }
+	602.1.1 = { death = yes }
+}
+400056 = {
+	name = "Lucius" # For Corsica
+	culture = "italian"
+	religion = "catholic"
+	dynasty = 3000126
+	540.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+400057 = {
+	name = "Andronikos" # For Athens and Aegean Islands
+	culture = greek
+	religion = orthodox
+	dynasty = 3000127
+	554.1.1 = { birth = yes }
+	605.1.1 = { death = yes }
+}
+400058 = { # KAbylia
+	name = "Markos"
+	culture = "maghreb_latin"
+	religion = "catholic"
+	dynasty = 3000124
+	540.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+400059 = {
+	name = "Herakleios" # Heraclius the Elder, Father of Emperor Heraclius
+	culture = armenian
+	religion = orthodox
+	dynasty = 1022137
+	547.1.1 = {
+		birth = yes
+		effect = { set_character_flag = heraclius_elder }
+	}
+	610.12.1 = { death = yes }
+}
+400060 = { # For Demetrias
+	name = "Loukas"
+	religion = orthodox
+	culture = greek
+	dynasty = 3000128
+	543.1.1 = { birth = yes }
+	622.12.13 = { death = yes }
+}
+400061 = {
+	name = "Julius"
+	religion = catholic
+	culture = maghreb_latin
+	dynasty = 3000125
+	550.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+400062 = {
+	name = "Demetrios"
+	culture = greek
+	religion = catholic
+	dynasty = 3000129
+	534.1.1 = { birth = yes }
+	580.1.1 = { death = yes }
+}
+400063 = {
+	name = "Leo"
+	culture = maghreb_latin
+	religion = catholic
+	dynasty = 3000130
+	553.1.1 = { birth = yes }
+	610.1.1 = { death = yes }
+}
+400064 = {
+	name = "Petros"
+	culture = greek
+	religion = orthodox
+	dynasty = 3000131
+	534.1.1 = { birth = yes }
+	587.1.1 = { death = yes }
+}
+400065 = {
+	name = "Manuel"
+	culture = greek
+	religion = orthodox
+	dynasty = 3000132
+	540.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+400066 = {
+	name = "Giovanni"
+	culture = sardinian
+	religion = orthodox
+	dynasty = 3000133
+	541.1.1 = { birth = yes }
+	591.1.1 = { death = yes }
+}
+400067 = { 
+	name = "Giorgio"
+	culture = sardinian
+	religion = orthodox
+	dynasty = 3000134
+	530.1.1 = { birth = yes }
+	596.1.1 = { death = yes }
+}
+400068 = {
+	name = "Iosef"
+	culture = greek
+	religion = orthodox
+	dynasty = 3000135
+	534.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+400069 = {
+	name = "Ioustinianos"
+	culture = greek
+	religion = orthodox
+	dynasty = 3000136
+	525.1.1 = { birth = yes }
+	590.1.1 = { death = yes }
+}
+400070 = { 
+	name = "Telemachos"
+	culture = greek
+	religion = catholic
+	dynasty = 3000137
+	550.1.1 = { birth = yes }
+	570.1.1 = {
+		add_claim = c_valencia
+		add_claim = c_denia
+	}
+	623.1.1 = { death = yes }
+}
+400071 = {
+	name = "Georgios"
+	culture = greek
+	religion = catholic
+	514.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+400072 = {
+	name = "Iulianus"
+	culture = maghreb_latin
+	religion = miaphysite
+	540.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+400073 = {
+	name = "Hypatios"
+	culture = greek
+	religion = miaphysite
+	523.1.1 = { birth = yes }
+	590.1.1 = { death = yes }
+}
+#### Apion Family of Egypt ####
+400074 = {
+	name = "Strategius"
+	culture = coptic
+	religion = miaphysite
+	dynasty = 3000014
+	trait = "midas_touched"
+	trait = "administrator"
+	trait = "erudite"
+	trait = "gregarious"
+	trait = "fair"
+	diplomacy = 6
+	martial = 5
+	stewardship = 10
+	intrigue = 7
+	learning = 9
+	424.1.1 = { birth = yes }
+	462.12.1 = { death = yes }
+}
+400075 = {
+	name = "Flavianus"
+	culture = coptic
+	religion = miaphysite
+	dynasty = 3000013
+	trait = "fortune_builder"
+	425.1.1 = { birth = yes }
+	470.1.1 = { death = yes }
+}
+400076 = {
+	name = "Isis"
+	female = yes
+	father = 400074
+	dynasty = 3000014
+	culture = coptic
+	religion = miaphysite
+	446.1.1 = { birth = yes }
+	459.1.1 = { add_spouse = 400077 }
+	525.1.1 = { religion = orthodox }
+	530.1.1 = { death = yes }
+}
+400077 = {
+	name = "Apion"
+	father = 400075
+	culture = coptic
+	religion = miaphysite
+	dynasty = 3000013
+	trait = "robust"
+	444.1.1 = { birth = yes }
+	459.1.1 = { add_spouse = 400076 }
+	525.1.1 = { religion = orthodox }
+	530.1.1 = { death = yes }
+}
+400078 = {
+	name = "Herakleidas"
+	father = 400077
+	mother = 400076
+	culture = coptic
+	religion = miaphysite
+	dynasty = 3000013
+	diplomacy = 6
+	martial = 9
+	stewardship = 7
+	intrigue = 6
+	learning = 8
+	trait = "skilled_tactician"
+	trait = "strategist"
+	trait = "robust"
+	trait = "architect"
+	463.1.1 = { birth = yes }
+	525.1.1 = { religion = orthodox }
+	542.1.1 = { death = yes }
+}
+400079 = {
+	name = "Strategius"
+	father = 400077
+	mother = 400076
+	culture = coptic
+	religion = miaphysite
+	dynasty = 3000013
+	465.1.1 = { birth = yes }
+	489.1.1 = { add_spouse = 400080 }
+	525.1.1 = { religion = orthodox }
+	543.1.1 = { death = yes }
+}
+400080 = {
+	name = "Leontia"
+	female = yes
+	culture = coptic
+	religion = miaphysite
+	470.11.1 = { birth = yes }
+	489.1.1 = { add_spouse = 400079 }
+	525.1.1 = { religion = orthodox }
+	534.1.1 = { death = yes }
+}
+400081 = {
+	name = "Apion"
+	father = 400079
+	mother = 400080
+	culture = coptic
+	religion = orthodox
+	dynasty = 3000013
+	diplomacy = 5
+	martial = 9
+	stewardship = 7
+	intrigue = 4
+	learning = 7
+	trait = "skilled_tactician"
+	trait = "robust"
+	trait = "strong"
+	493.1.1 = { birth = yes }
+	524.1.1 = { add_spouse = 400082 }
+	578.1.1 = { death = yes }
+}
+400082 = {
+	name = "Eusebia"
+	female = yes 
+	culture = coptic
+	religion = miaphysite
+	500.1.1 = { birth = yes }
+	524.1.1 = { add_spouse = 400081 }
+	564.1.1 = { death = yes }
+}
+400083 = {
+	name = "Praeiecta"
+	female = yes
+	culture = coptic
+	religion = miaphysite
+	534.1.1 = { birth = yes }
+	549.1.1 = { add_spouse = 400084 }
+	591.1.1 = { death = yes  }
+}
+400084 = {
+	name = "Strategius"
+	culture = coptic
+	religion = miaphysite
+	father = 400081
+	mother = 400082
+	dynasty = 3000013
+	527.1.1 = { birth = yes }
+	549.1.1 = { add_spouse = 400083 }
+	571.1.1 = { death = yes }
+}
+400085 = {
+	name = "Georgios"
+	culture = coptic
+	religion = miaphysite
+	dynasty = 3000013
+	father = 400081
+	mother = 400082
+	534.1.1 = { birth = yes }
+	590.1.1 = { death = yes }
+}
+400086 = {
+	name = "Apion"
+	culture = coptic
+	religion = orthodox
+	dynasty = 3000013
+	father = 400081
+	mother = 400082
+	540.1.1 = { birth = yes }
+	620.1.1 = { death = yes }
+}
+400087 = {
+	name = "Strategius"
+	culture = coptic
+	religion = orthodox
+	dynasty = 3000013
+	father = 400086
+	568.1.1 = { birth = yes }
+	626.1.1 = { death = yes }
+}
+
+400088 = {
+	name = "Kleopatra"
+	female = yes
+	culture = coptic
+	religion = miaphysite
+	dynasty = 3000013
+	father = 400084
+	mother = 400083
+	552.1.1 = { birth = yes }
+	622.1.1 = { death = yes }
+}
+## End of Apiones
+
+400089 = {
+	name = "Sethis"
+	culture = coptic
+	religion = miaphysite
+	531.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+400090 = {
+	name = "Noumalis"
+	culture = coptic
+	religion = miaphysite
+	540.1.1 = { birth = yes }
+	610.11.1 =  { death = yes }
+}
+400091 = {
+	name = "Ptolemaios"
+	culture = coptic
+	religion = orthodox
+	523.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+400092 = {
+	name = "Phakom"
+	culture = coptic
+	religion = miaphysite
+	540.1.1 = { birth = yes }
+	591.1.1 ={ death = yes }
+}
+400093 = {#Venezia
+	name = "Juliano"
+	culture = italian
+	religion = catholic
+	534.1.1 = { birth = yes }
+	600.11.1 = { death = yes }
+}
+400094 = {
+	name = "Stephano"
+	culture = dalmatian
+	religion = orthodox
+	543.1.1 = { birth = yes }
+	590.1.1 = { death = yes }
+}
+400095 = {
+	name = "Paulo"
+	culture = dalmatian
+	religion = orthodox
+	547.1.1 = { birth = yes }
+	623.1.1 = { death = yes }
+}
+400096 = {
+	name = "Giorgios"
+	culture = greek
+	religion = orthodox
+	529.1.1 = { birth = yes }
+	598.1.1 = { death = yes }
+}
+400097 = {
+	name = "Thrakis"
+	culture = dalmatian
+	religion = orthodox
+	526.1.1 = { birth = yes }
+	590.1.1 = { death = yes }
+}
+400098 = {
+	name = "Loukas"
+	culture = greek
+	religion = orthodox
+	531.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+400099 = {
+	name = "Ioseph"
+	culture = pannonian
+	religion = catholic
+	534.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+400100 = {
+	name = "Ioustinos"
+	culture = greek
+	religion = orthodox
+	539.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+400101 = {
+	name = "Dragases"
+	culture = greek
+	religion = orthodox
+	523.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+400102 = {
+	name = "Christophoros"
+	culture = greek
+	religion = miaphysite
+	534.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+400103 = {
+	name = "Ioannes"
+	culture = greek
+	religion = miaphysite
+	546.1.1 = { birth = yes }
+	600.1.1 =  {death = yes }
+}
+400104 = {
+	name = "Damianos"
+	culture = greek
+	religion = orthodox
+	530.1.1 = { birth = yes }
+	600.1.1 = { death=  yes }
+}
+400105 = {
+	name = "Agritis"
+	culture = greek
+	religion = orthodox
+	dynasty = 3000021
+	523.1.1 = { birth = yes }
+	594.1.1 = { death = yes }
+}
+400106 = {
+	name = "Konstantinos"
+	culture = greek
+	religion = orthodox
+	dynasty = 3000021
+	father = 400105
+	551.1.1 = { birth = yes }
+	608.1.1 = { death = yes }
+}
+400107 = {
+	name = "Anastasios"
+	culture = greek
+	religion = orthodox
+	dynasty = 3000021
+	father = 400105
+	553.1.1 = { birth = yes }
+	610.1.1 = { death = yes }
+}
+400108 = {
+	name = "Mircea"
+	culture = romanian
+	religion = orthodox
+	540.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+400109 = {
+	name = "Jeshua"
+	culture = syriac
+	religion = miaphysite
+	537.12.1 = { birth = yes }
+	589.1.1 = { death = yes }
+}
+400110 = {
+	name = "Yusuf"
+	culture = syriac
+	religion = orthodox
+	541.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+400111 = {
+	name = "Markos"
+	culture = greek
+	religion = orthodox
+	536.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+400112 = {
+	name = "Butros"
+	culture = syriac
+	religion = orthodox
+	541.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+400113 = {
+	name = "Morianis"
+	culture = greek
+	religion = orthodox
+	534.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+400114 = {
+	name = "Giorva"
+	culture = greek
+	religion = orthodox
+	534.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+400115 = {
+	name = "Mechmetos"
+	dynasty = 3000147
+	culture = greek
+	religion = orthodox
+	553.1.14 = { birth = yes }
+	622.1.1 = { death = yes }
+}
+400116 = {
+	name = "Konstantinos"
+	culture = greek
+	religion = orthodox
+	525.1.1 = { birth = yes }
+	590.1.1 = { death = yes }
+}
+400117 = {
+	name = "Thomma"
+	culture = syriac
+	religion = orthodox
+	535.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+400118 = {
+	name = "Simon"
+	culture = syriac
+	religion = orthodox
+	534.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+400119 = {
+	name = "Andronikos"
+	culture = greek
+	religion = orthodox
+	531.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+400120 = {
+	name = "Tiberios"
+	culture = greek
+	religion = orthodox
+	543.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+400121 = {
+	name = "Paulos"
+	culture = syriac
+	religion = orthodox
+	534.1.1 = { birth= yes }
+	600.1.1 = { death = yes }
+}
+400122 = {
+	name = "Aetios"
+	culture = greek
+	religion = miaphysite
+	541.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+400123 = {
+	name = "Olvianos"
+	culture = greek
+	religion = miaphysite
+	538.1.1 = { birth = yes }
+	600.1.1 = { death= yes }
+}
+400124 = {
+	name = "Ioulianos"
+	culture = greek
+	religion = orthodox
+	541.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+400125 = {
+	name = "Konstantinos"
+	culture = greek
+	religion = miaphysite
+	534.1.1 = { birth =yes }
+	595.1.1 = { death= yes }
+}
+400126 = {
+	name = "Maurikios"
+	culture = greek
+	religion = miaphysite
+	546.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+400127 = {
+	name = "Bardas"
+	culture = greek
+	religion = miaphysite
+	551.1.1 = { birth = yes }
+	610.1.1 = { death = yes }
+}
+400128 = {
+	name = "Georgios"
+	culture = greek
+	religion = orthodox
+	540.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+400129 = {
+	name = "Michael"
+	culture = greek
+	religion = orthodox
+	554.1.1 = { birth = yes }
+	622.1.1 = { death = yes }
+}
+400130 = {
+	name = "Bringias"
+	culture = greek
+	religion = miaphysite
+	549.1.1 = { birth = yes }
+	604.1.1 = { death = yes }
+}
+400131 = {
+	name = "Andreas"
+	culture = greek
+	religion = orthodox
+	548.1.1 = { birth = yes }
+	602.1.1 = { death = yes }
+}
+400132 = {
+	name = "Malinas"
+	culture = greek
+	religion = orthodox
+	546.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+400133 = {
+	name = "Methodios"
+	culture = greek
+	religion = orthodox
+	550.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+400134 = {
+	name = "Theodosios"
+	culture = greek
+	religion = orthodox
+	544.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+400135 = {
+	name = "Kallinikos"
+	culture = greek
+	religion = orthodox
+	546.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+400136 = {
+	name = "Magistros"
+	culture = greek
+	religion = orthodox
+	546.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+400137 = {
+	name = "Polykarpos"
+	culture = greek
+	religion = orthodox
+	540.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+400138 = {
+	name = "Christophoros"
+	culture = greek
+	religion = orthodox
+	540.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+400139 = {
+	name = "Gennadios"
+	culture = greek
+	religion = orthodox
+	540.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+400140 = {
+	name = "Pyrros"
+	culture = greek
+	religion = orthodox
+	540.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+400141 = {
+	name = "Thiudareiks"
+	culture = crimean_gothic
+	religion = orthodox
+	547.1.1 = { birth = yes }
+	593.1.1 = { death = yes }
+}
+400142 = {
+	name = "Jabril"
+	culture = assyrian
+	religion = nestorian
+	539.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+400143 = {
+	name = "Psellos"
+	culture = greek
+	religion = miaphysite
+	541.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+400144 = {
+	name = "Vlad"
+	culture = romanian
+	religion = orthodox
+	554.1.1 = { birth = yes }
+	620.1.1 = { death = yes }
+}
+400145 = {
+	name = "Eleftherios"
+	culture = greek
+	religion = orthodox
+	dynasty = 3000138
+	trait = quick
+	567.1.1 = { birth = yes }
+	656.1.1 = { death = yes }
+}
+400146 = {
+	name = "Issakios"
+	culture = greek
+	religion = orthodox
+	dynasty = 3000145
+	secret_religion = hellenic_pagan
+	550.1.1 = { birth = yes }
+	637.1.1 = { death = yes }
+}
+400147 = {
+	name = "Apollonios"
+	culture = greek
+	religion = hellenic_pagan
+	dynasty = 3000146
+	trait = mastermind_theologian
+	trait = erudite
+	trait = zodiac_leo
+	553.1.1 = { birth = yes }
+	636.1.1 = { death = yes }
+}
+400148 = {
+	name = "Theodoktos"
+	culture = greek
+	religion = orthodox
+	dynasty = 3000151
+	549.1.1 = { birth = yes }
+	647.1.1 = { death = yes }
+}
+400149 = {
+	name = "Marco"
+	culture = dalmatian
+	religion = orthodox
+	dynasty = 3000152
+	551.1.1 = { birth = yes }
+	643.1.1 = { death = yes }
+}
+400150 = {
+	name = "Pyrrhos"
+	culture = greek
+	religion = orthodox
+	dynasty = 3000160
+	539.1.1 = { birth = yes }
+	638.1.1 = { death = yes }
+}
+400151 = {
+	name = "Leonardo"
+	culture = dalmatian
+	religion = orthodox
+	547.1.1 = { birth = yes }
+	645.1.1 = { death = yes }
+}
+400152 = {
+	name = "Iosephus"
+	culture = dalmatian
+	religion = orthodox
+	551.1.1 = { birth = yes }
+	643.1.1 = { death = yes }
+}
+400153 = {
+	name = "Tourkios"
+	culture = greek
+	religion = orthodox
+	534.1.1 = { birth = yes }
+	633.1.1 = { death = yes }
+}
+400154 = {
+	name = "Kyrillos"
+	culture = greek
+	religion = hellenic_pagan
+	544.1.1 = { birth = yes }
+	632.11.1 = { death = yes }
+}
+400155 = {
+	name = "Yusef"
+	culture = coptic
+	religion = orthodox
+	543.1.1 = { birth = yes }
+	638.1.1 = { death = yes }
+}
+400156 = {
+	name = "Yuhanna"
+	culture = syriac
+	religion = orthodox
+	551.1.1 = { birth = yes }
+	645.1.1 = { death = yes }
+}

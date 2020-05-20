@@ -1,0 +1,29 @@
+BM_LOMBARDY;The Lombardian Invasion;;;;;;;;x
+BM_LOMBARDY_DESC;Justinian the Great had recovered Western Roman core territories. But after a long war and great plague, Rome has weakened. Avars migrated into Pannonian plains, destroying Gepid Kingdom. Lombards, allied with Avars, migrated into North Italy which is devasted by long Gothic War. In Asia, Gokturks and Sassanid have destroyed the Hephthalites together. Indian kingdoms are fighting themselves after fall of the Guptas. In Arabia, a baby has born today. his name is Muhammad.;;;;;;;;x
+ERA_SASSANID;Sassanid;;;;;;;;x
+era_char_name_190124;Alboin;;;;;;;;x
+ERA_CHAR_INFO_190124;Alboin was chief of Lombards. He allied with Avars and destroyed Gepids. after He migrated into Northern Italy with his tribe. He assasinated in 572 by his wife Rosamund, daughter of the Gepid king who executed by Alboin.;;;;;;;;x
+era_char_name_70511;Justin II;;;;;;;;x
+ERA_CHAR_INFO_70511;Ioustinos II was the nephew of Justinian the Great. unlike his uncle, Justin's reign started with territorial loss. Avars, Lombards, Visigoths, Berbers invaded the Empire. eventually Justin became lunatic, making his wife as a regent.;;;;;;;;x
+era_char_name_180628;Khosrau I;;;;;;;;x
+ERA_CHAR_INFO_180628;Khosrau I 'Anushirvan' was one of the greatest Shahanshah of Sassanid. His internal and external achievements made Persia a great empire.;;;;;;;;x
+era_char_name_407012;Muqan of Gokturks;;;;;;;;x
+ERA_CHAR_INFO_407012;Muqan Qaghan was the second son of Bumin Qaghan and the third qaghan of the Turks. He started his reign with finishing off remnants of Rouran khaganate. He made China as his tributary. In the West, Turkic army destroyed Hephthalite Empire in 557 and divided its land. Northern part of the Oxus annexed to the Turks and Southern part to Sassanids.
+This expansion pushed Avars to the Pannonian plateau. He brought the golden age of the Turkic Empire.;;;;;;;;x
+era_char_name_407000;Bayan of Avaria;;;;;;;;x
+ERA_CHAR_INFO_407000;Bayan was the leader of Avars.;;;;;;;;x
+era_char_name_200275;Liuva I;;;;;;;;x
+ERA_CHAR_INFO_200275;Liuva ruled with his younger brother, Liuvigild. He had no son so Liuvigild became the king of Visigoths.;;;;;;;;x
+BM_RULE_OF_DUKES;Rule of the dukes;;;;;;;;x # 575
+BM_RULE_OF_DUKES_DESC;'Rule of the dukes' means era that Lombard throne was in interregnum, leaving the kingdom's control by some powerful dukes. every lombard dukes struggles for them, to become new king. Could they unite once again, or became Dismantled and disappear?;;;;;;;;x
+BM_BAHRAM;Bahram's Revolt;;;;;;;;x # 587
+BM_BAHRAM_DESC;Bahram Mihran was great general for Persia. He won many wars. but Shahanshah Hormizd IV distrusted and insulted him. This is why this civil war happened;;;;;;;;x
+BM_HERACLIUS;Heraclius;;;;;;;;x # 608
+BM_HERACLIUS_DESC;Tyranny and misrule of Phokas weakened army and caused Invasion of Persia,Avars,Slavs. Exarch Heraclius the old revolted to save the empire.;;;;;;;;x
+BM_HIJRA;Hijra;;;;;;;;x # 622
+BM_HIJRA_DESC;Muhammad took over the control of Yathrib. He and his 'muslim' army are about to unite entire Arabia. In north, Byzantine East are occupied by Persians. India has united once again, by King Harsha.;;;;;;;;x
+BM_CALIPHATE;Death of Muhammad;;;;;;;;x # 632
+BM_NEW_ORDER;The Rise of Islam;;;;;;;;x # 637
+BM_NEW_ORDER_DESC;The Muslim forces defeated mighty Romans and Persians.;;;;;;;;x
+BM_FALL_PERSIA;Fall of Sassanid Empire;;;;;;;;x # 651
+BM_FIRST_FITNA;First Fitna;;;;;;;;x # 656

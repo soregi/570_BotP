@@ -1,0 +1,23 @@
+# 245 - Zurichgau
+
+# County Title
+title = c_zurichgau
+
+# Settlements
+max_settlements = 4
+b_winterthur = castle
+b_zurich = city
+b_kappel = temple
+
+# Misc
+culture = swabian
+religion = norse_pagan
+
+# History
+630.1.1 = { religion = catholic }
+760.1.1 = {
+	culture = german
+}
+
+
+1291.7.15 = { capital = b_zurich } 

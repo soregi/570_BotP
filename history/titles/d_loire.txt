@@ -1,0 +1,13 @@
+559.1.1={
+	holder = 159664 #Alan I
+	liege = k_france
+}
+907.1.1 = {
+	holder = 260602
+}
+930.1.1 = {
+	holder = 261303
+}
+937.1.1 = {
+	holder = 0
+}

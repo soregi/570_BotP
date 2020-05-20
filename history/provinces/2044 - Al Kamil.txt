@@ -1,0 +1,19 @@
+# 2044 - Al Kamil
+
+# County Title
+title = c_al_kamil
+
+# Settlements
+max_settlements = 3
+b_al_kamil = tribal
+b_hajar = temple
+# Misc
+culture = bedouin_arabic
+religion = arabic_pagan
+
+# History
+630.1.1 = { religion = islamism }
+661.1.1 = { religion = sunni }
+769.1.1 = {
+	b_al_kamil = castle
+}

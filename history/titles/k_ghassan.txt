@@ -1,0 +1,19 @@
+512.1.1 = {
+	holder = 404006
+}
+523.1.1 = {
+	set_tribute_suzerain = { who = e_byzantium type = vassal }
+}
+528.1.1 = {
+	holder = 404007
+}
+569.1.1 = {
+	holder = 404008
+}
+602.1.1 = {}
+
+636.1.1 = {
+	holder = 0
+	clear_tribute_suzerain = e_byzantium
+	active = no
+}

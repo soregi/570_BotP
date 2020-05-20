@@ -1,0 +1,15 @@
+# 2053 - Nasiriyah
+
+# County Title
+title = c_nasiriyah
+
+# Settlements
+max_settlements = 4
+b_nasiriyah = castle
+b_samawah = city
+
+# Misc
+culture = chaldean
+religion = nestorian
+647.1.1 = { culture = levantine_arabic }
+935.1.1 = { religion = sunni }

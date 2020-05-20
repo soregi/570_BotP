@@ -1,0 +1,96 @@
+# Anglo-Saxons Use 401001~
+
+401001 = { # Fantasy. No Records for surrey ruler fuck
+	name="Caedrild"
+	martial=2
+	diplomacy=4
+	intrigue=6
+	stewardship=8
+	religion="norse_pagan"
+	culture="saxon"
+	trait="honest"
+	trait="strong"
+	trait="content"
+	trait="fortune_builder"
+	543.8.7={
+		birth=yes
+	}
+	575.7.8={
+		death=yes
+	}
+}
+401002 = { # Fantasy. Sussex
+	name="Alfred"
+	martial=6
+	diplomacy=4
+	intrigue=6
+	stewardship=2
+	religion="norse_pagan"
+	culture="saxon"
+	trait="honest"
+	trait="strong"
+	trait="content"
+	trait="tough_soldier"
+	500.8.7={
+		birth=yes
+	}
+	575.7.8={
+		death=yes
+	}
+}
+401003 = {
+	name = "Erp"
+	culture = old_saxon
+	religion = norse_pagan
+	551.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+401004 = {
+	name = "Cord"
+	culture = old_saxon
+	religion = norse_pagan
+	549.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+401005 = {
+	name = "Ludwig"
+	culture = old_saxon
+	religion = norse_pagan
+	549.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+401006 = {
+	name = "Detmar"
+	culture = old_saxon
+	religion = norse_pagan
+	549.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+401007 = {
+	name = "Herbert"
+	culture = old_saxon
+	religion = norse_pagan
+	549.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+401008 = {
+	name = "Theodoric"
+	culture = old_saxon
+	religion = norse_pagan
+	545.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+401009 = {
+	name = "Aoffa"
+	culture = old_saxon
+	religion = norse_pagan
+	545.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+401010 = {
+	name = "Banzleib"
+	culture = old_saxon
+	religion = norse_pagan
+	545.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}

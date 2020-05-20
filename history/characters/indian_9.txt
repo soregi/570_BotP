@@ -1,0 +1,1166 @@
+409000 = {
+	name = "Ishanavarman"
+	dynasty=3000034 
+	religion="hindu"
+	culture="hindustani"
+	trait="kshatriya"
+	trait="vaishnavist_hindu"
+	500.1.1={
+		birth=yes
+	}
+	516.1.1={
+		trait=brilliant_strategist
+		trait=hunter
+		trait=strong
+		trait=proud
+	}
+	560.1.1={
+		death = yes
+	}
+	
+}
+409001 = {
+	name = "Sharvavarman"
+	dynasty=3000034 
+	religion="hindu"
+	culture="hindustani"
+	trait="kshatriya"
+	trait="vaishnavist_hindu"
+	father = 409000
+	522.1.1={
+		birth=yes
+	}
+	575.1.1 = {
+		death = yes
+	}
+}
+409002 = {
+	name = "Avantivarman"
+	dynasty=3000034 
+	religion="hindu"
+	culture="hindustani"
+	trait="kshatriya"
+	trait="vaishnavist_hindu"
+	father = 409001
+	550.1.1={
+		birth=yes
+	}
+	600.1.1 = {
+		death = yes
+	}
+}
+409010 = {
+	name = "Adityavardhana"
+	dynasty=3000035
+	religion="hindu"
+	culture="hindustani"
+	trait="kshatriya"
+	trait="vaishnavist_hindu"
+	510.1.1={
+		birth=yes
+	}
+	580.1.1 = {
+		death = yes
+	}
+}
+409011 = {
+	name = "Diwaji"
+	dynasty = 3000041
+	religion = hindu
+	culture = sindhi
+	trait = kshatriya
+	trait = vaishnavist_hindu
+	480.1.1 = {
+		birth = yes
+	}
+	545.1.1 = {
+		death = yes 
+	}
+}
+409012 = {
+	name = "Sahiras"
+	dynasty = 3000041 # Rai
+	father = 409011
+	religion = hindu
+	culture = sindhi
+	trait = kshatriya
+	trait = vaishnavist_hindu
+	500.1.1 = {
+		birth = yes
+	}
+	567.1.1 = {
+		death = yes
+	}
+}
+409013 = {
+	name = "Sahasi"
+	dynasty = 3000041
+	father = 409012
+	religion = hindu
+	culture = sindhi
+	trait = kshatriya
+	trait = vaishnavist_hindu
+	535.1.1 = {
+		birth = yes
+	}
+	600.1.1 = {
+		death = yes
+	}
+}
+409014 = {
+	name = "Sahiras"
+	dynasty = 3000041
+	father = 409013
+	culture = sindhi
+	religion = buddhist
+	trait = kshatriya
+	trait = mahayana_buddhist
+	568.1.1 = {
+		birth = yes
+	}
+	615.1.1 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+409015 = {
+	name = "Sahasi"
+	dynasty = 3000041
+	father = 409014
+	religion = buddhist
+	culture = sindhi
+	trait = kshatriya
+	trait = mahayana_buddhist
+	593.1.1 = { birth = yes }
+	632.1.1 = { death = yes }
+}
+409016 = {
+	name = "Kalias"
+	dynasty = 3000063 # Kalabhra
+	religion = jain
+	culture = tamil
+	530.1.1 = {
+		birth = yes
+	}
+	600.1.1 = { death = yes }
+}
+409017 = {
+	name = "Cheranna"
+	dynasty = 1043010 # Cheranna
+	religion = hindu
+	culture = tamil
+	trait = kshatriya
+	542.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+409018 = {
+	name = "Calani"
+	religion = hindu
+	culture = panjabi
+	trait = kshatriya
+	550.1.1 = { birth = yes }
+	630.1.1 = { death = yes }
+}
+409019 = {
+	name = "Bhardumi"
+	religion = hindu
+	culture = panjabi
+	trait = kshatriya
+	534.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+409020 = {
+	name = "Maradhra"
+	religion = hindu
+	culture = tamil
+	trait = kshatriya
+	trait = shaivist_hindu
+	567.1.1 = {
+		birth = yes
+	}
+	650.1.1 = {
+		death=	yes
+	}
+}
+409021 = {
+	name = "Kanhat"
+	religion = hindu
+	culture = tamil
+	trait = kshatriya
+	trait = shaivist_hindu
+	647.1.1 = {
+		birth = yes
+	}
+	740.1.1 = {
+		death = yes
+	}
+}
+189400 = {
+	name="Irâcâcekara" #
+	dynasty=1043008
+	religion="hindu"
+	culture="tamil"
+	trait=kshatriya
+	trait=shaivist_hindu
+	father = 409021
+	740.1.1={
+		birth="740.1.1"
+	}
+	801.1.1={
+		death="801.1.1"
+	}
+}
+409022 = {
+	name = "Pappatevan"
+	dynasty = 1043007 # Pallavas
+	religion = hindu
+	culture = tamil
+	trait = kshatriya
+	trait = shaivist_hindu
+	trait = quick
+	trait = strong
+	258.1.1 = {
+		birth = yes
+	}
+	300.1.1 = {
+		death = yes
+	}
+}
+409023 = {
+	name = "Sivagandhavarman"
+	dynasty = 1043007
+	religion = hindu
+	culture = tamil
+	trait = kshatriya
+	trait = shaivist_hindu
+	father = 409022
+	283.1.1 = { birth = yes }
+	325.1.1 = { death = yes }
+}
+409024 = {
+	name = "Visayas Kandhavarman"
+	dynasty = 3000064
+	religion = hindu
+	culture = tamil
+	trait = kshatriya
+	trait = shaivist_hindu
+	307.1.1 = { birth = yes }
+	325.1.1 = { add_spouse = 409026 }
+	349.1.1 = { death = yes }
+}
+409025 = {
+	name = "Buddhavarman"
+	dynasty = 3000064
+	religion = hindu
+	culture = tamil
+	father = 409024
+	mother = 409026
+	trait = kshatriya
+	trait = shaivist_hindu
+	330.1.1 = { birth = yes }
+	354.1.1 = { death = yes }
+}
+409026 = {
+	name = "Sarudevi"
+	dynasty = 1043007
+	religion = hindu
+	culture = tamil
+	female = yes
+	father = 409023
+	trait = kshatriya
+	trait = shaivist_hindu
+	311.1.1 = { birth = yes }
+	360.1.1 = { death = yes }
+}
+409027 = {
+	name = "Vitnukopan"
+	dynasty = 1043007
+	religion = hindu
+	culture = tamil
+	trait = kshatriya
+	trait = shaivist_hindu
+	father = 409023
+	323.1.1 = { birth = yes }
+	361.1.1 = { death = yes }
+}
+409028 = {
+	name = "Kumaravithanu"
+	dynasty = 1043007
+	religion = hindu
+	culture = tamil
+	trait = kshatriya
+	trait = shaivist_hindu
+	father = 409027
+	348.1.1 = {
+		birth = yes
+	}
+	384.1.1 = {
+	death = yes
+	}
+}
+409029 = {
+	name = "Kandhavarman"
+	dynasty = 1043007
+	religion = hindu
+	culture = tamil
+	trait = kshatriya
+	trait = shaivist_hindu
+	father = 409028
+	365.1.1 = {
+		birth = yes
+	}
+	398.1.1 = { death = yes }
+}
+409030 = {
+	name = "Virakucha"
+	dynasty = 1043007
+	religion = hindu
+	culture = tamil
+	trait = kshatriya
+	trait = shaivist_hindu
+	father = 409029
+	384.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+409031 = {
+	name = "Kandhavarman"
+	dynasty = 1043007
+	religion = hindu
+	culture = tamil
+	trait = kshatriya
+	trait = shaivist_hindu
+	father = 409030
+	400.1.1 = {
+		birth = yes
+	}
+	436.1.1 = {
+		death = yes
+	}
+}
+409032 = {
+	name = "Simhavarman"
+	dynasty = 1043007
+	religion = hindu
+	culture = tamil
+	trait = kshatriya
+	trait = shaivist_hindu
+	father = 409031
+	420.1.1 = { birth = yes }
+	458.1.1 = { death = yes }
+}
+409033 = {
+	name = "Vitnokopan"
+	dynasty = 1043007
+	religion = hindu
+	culture = tamil
+	trait = kshatriya
+	trait = shaivist_hindu
+	father = 409031
+	422.1.1 = { birth = yes }
+	461.1.1 = { death = yes }
+}
+409034 = { 
+	name = "Kumaravithanu"
+	dynasty = 1043007
+	religion = buddhist
+	culture = tamil
+	trait = kshatriya
+	trait = mahayana_buddhist
+	father = 409031
+	436.1.1 = { birth = yes }
+	470.1.1	= { death = yes }
+}
+409035 = {
+	name = "Kandhavarman"
+	dynasty = 1043007
+	religion = hindu
+	culture = tamil
+	trait = kshatriya
+	trait = shaivist_hindu
+	father = 409032
+	438.1.1 = { birth =	yes }
+	475.1.1 = { death = yes }
+}
+409036 = {
+	name = "Simhavarman"
+	dynasty = 1043007
+	religion = hindu
+	culture = tamil
+	trait = kshatriya
+	trait = shaivist_hindu
+	father = 409035
+	454.1.1 = { birth = yes }
+	476.1.1 = { death = yes }
+}
+409040 = {
+	name = "Buddhavarman"
+	dynasty = 1043007
+	religion = hindu
+	culture = tamil
+	trait = kshatriya
+	trait = shaivist_hindu
+	father = 409034
+	456.1.1 = { birth = yes }
+	475.1.1	= {death = yes }
+}
+409037 = {
+	name = "Nantivarman"
+	dynasty = 1043007
+	religion = hindu
+	culture = tamil
+	trait = kshatriya
+	trait = shaivist_hindu
+	father = 409035
+	460.1.1 = { birth = yes }
+	510.1.1 = { death = yes }
+}
+409038 = {
+	name = "Vitnukopan"
+	dynasty = 1043007
+	religion = hindu
+	culture = tamil
+	trait = kshatriya
+	trait = shaivist_hindu
+	father = 409037
+	493.1.1 = {
+		birth = yes
+	}
+	536.1.1 = {
+		death = yes
+	}
+}
+409039 = {
+	name = "Kumaravithanu"
+	dynasty = 1043007
+	religion = hindu
+	culture = tamil
+	trait = kshatriya
+	trait = shaivist_hindu
+	father = 409038
+	520.1.1 = { birth = yes }
+	550.1.1 = { death = yes }
+}
+409041 = {
+	name = "Simhavarman"
+	dynasty = 1043007
+	religion = hindu
+	culture = tamil
+	trait = kshatriya
+	trait = shaivist_hindu
+	father = 409038
+	530.1.1 = { birth = yes }
+	575.1.1 = { death = yes }
+}
+409042 = {	
+	name = "Simhavishnu"
+	dynasty = 1043007
+	religion = hindu
+	culture = tamil
+	trait = kshatriya
+	trait = shaivist_hindu
+	father = 409041
+	550.1.1 = { birth= yes }
+	600.1.1 = { death=	yes }
+}
+409043 = {
+	name = "Mahendravarman"
+	dynasty = 1043007
+	religion = hindu
+	culture = tamil
+	trait = kshatriya
+	trait = shaivist_hindu
+	father = 409042
+	570.1.1 = { birth = yes }
+	630.1.1 = { death = yes }
+}
+409044 = {
+	name = "Narasimhavarman"
+	dynasty = 1043007
+	religion = hindu
+	culture = tamil
+	trait = kshatriya
+	trait = shaivist_hindu
+	father = 409043
+	597.1.1 = { birth = yes }
+	668.1.1 = { death = yes }
+}
+409045 = {
+	name = "Mahendravarman"
+	dynasty = 1043007
+	religion = hindu
+	culture = tamil
+	trait = kshatriya
+	trait = shaivist_hindu
+	father = 409044
+	619.1.1 = { birth = yes }
+	670.12.1 = { death = yes }
+}
+409046 = {
+	name = "Paramesvaravarman"
+	dynasty = 1043007
+	religion = hindu
+	culture = tamil
+	trait = kshatriya
+	trait = shaivist_hindu
+	father = 409045
+	632.1.1 = { birth = yes }
+	695.1.1 = { death = yes }
+}
+409047 = {
+	name = "Narasimhavarman"
+	dynasty = 1043007
+	religion = hindu
+	culture = tamil
+	trait = kshatriya
+	trait = shaivist_hindu
+	father = 409046
+	651.1.1 = { birth = yes }
+	728.1.1 = { death= yes }
+}
+409048 = {
+	name = "Paramesvaravarman"
+	dynasty = 1043007
+	religion = hindu
+	culture = tamil
+	trait = kshatriya
+	trait = shaivist_hindu
+	father = 409047
+	690.1.1 = { birth = yes }
+	732.1.1 = { death = yes }
+}
+409049 = {
+	name = "Bhimavarman"
+	dynasty = 1043007
+	religion = hindu
+	culture = tamil
+	trait = kshatriya
+	trait = shaivist_hindu
+	father = 409041
+	560.1.1 = { birth = yes }
+	610.1.1 = { death = yes }
+}
+409050 = {
+	name = "Maharavarman"
+	dynasty = 1043007
+	religion = hindu
+	culture = tamil
+	trait = kshatriya
+	trait = shaivist_hindu
+	father = 409049
+	593.1.1 = { birth = yes }
+	660.1.1 = { death = yes }
+}
+409051 = {
+	name = "Vicayavishnu"
+	dynasty = 1043007
+	religion = hindu
+	culture = tamil
+	trait = kshatriya
+	trait = shaivist_hindu
+	father = 409050
+	637.1.1 = { birth = yes }
+	690.1.1 = { death = yes }
+}
+409052 = {
+	name = "Nantivarman"
+	dynasty = 1043007
+	religion = hindu
+	culture = tamil
+	trait = kshatriya
+	trait = shaivist_hindu
+	father = 409051
+	660.1.1 = { birth = yes }
+	711.1.1 = { death = yes }
+}
+409053 = {
+	name = "Varmagutta"
+	dynasty = 1043007
+	religion = hindu
+	culture = tamil
+	trait = kshatriya
+	trait = shaivist_hindu
+	father = 409052
+	681.1.1 = { birth = yes }
+	730.1.1 = { death = yes }
+}
+409054 = {
+	name = "Viravarman"
+	dynasty = 1043007
+	religion = hindu
+	culture = tamil
+	trait = kshatriya
+	trait = shaivist_hindu
+	father = 409053
+	701.1.1 = { birth = yes }
+	730.1.1 = { death = yes }
+}
+189073 = {
+	name="Nantivarman"	#Nandivarman II
+	dynasty=1043007
+	religion="hindu"
+	culture="tamil"
+	trait=kshatriya
+	trait=shaivist_hindu
+	father = 409054
+	720.1.1={
+		birth="720.1.1"
+	}
+	796.1.1={
+		death="796.1.1"
+	}
+}
+## end of pallavas
+## Pushyabhuti(Vardhana) Dynasty
+409055 = {
+	name = "Phravakara Vardhana"
+	dynasty=3000035
+	religion="hindu"
+	culture="hindustani"
+	trait="kshatriya"
+	trait="vaishnavist_hindu"
+	trait = grey_eminence
+	father = 409010
+	550.1.1={
+		birth=yes
+	}
+	604.1.1 = {
+		death = yes
+	}
+}
+409056 = {
+	name = "Rajyavardhana"
+	dynasty = 3000035
+	religion = hindu
+	culture = hindustani
+	trait = kshatriya
+	trait = vaishnavist_hindu
+	father = 409055
+	585.1.1 = {
+		birth = yes
+	}
+	606.1.1 = {
+		death = yes
+	}
+}
+409057 = {
+	name = "Harsha" # Harshavardhana
+	dynasty = 3000035
+	religion = hindu
+	culture = hindustani
+	father = 409055
+	trait = kshatriya
+	trait = vaishnavist_hindu
+	trait = genius
+	trait = strong
+	trait = erudite
+	trait = robust
+	trait = poet
+	trait = kind
+	trait = midas_touched
+	trait = ambitious
+	trait = brave
+	trait = war_elephant_leader
+	trait = inspiring_leader
+	trait = gregarious
+	trait = just
+	trait = charitable
+	trait = diligent
+	trait = groomed
+	trait = organizer
+	diplomacy = 12
+	martial = 11
+	stewardship = 8
+	intrigue = 6
+	learning = 10
+	590.1.1 = {
+		birth = yes
+		effect = { set_character_flag = harsha } 
+	}
+	613.1.1 = {
+		create_bloodline = {
+			type = harsha
+			has_dlc = "Holy Fury"
+		}
+	}
+	630.1.1 = {
+		religion = buddhist
+		trait = mahayana_buddhist
+	}
+	647.1.1 = {
+		death = yes
+	}
+}
+409058 = {
+	name = "Mahadinha"
+	dynasty = 3000066 # Gauda
+	religion = hindu
+	culture = bengali
+	trait = kshatriya
+	trait = vaishnavist_hindu
+	537.1.1 = {
+		birth = yes
+	}
+	581.1.1 = {
+		death = yes
+	}
+}
+409059 = {
+	name = "Shashanka"
+	dynasty = 3000066
+	religion = hindu
+	culture = bengali
+	trait = kshatriya
+	trait = vaishnavist_hindu
+	trait = skilled_tactician
+	trait = ambitious
+	father = 409058
+	561.1.1 = { birth = yes }
+	625.1.1 = { death = yes }
+}
+409060 = {
+	name = "Manava"
+	dynasty = 3000066
+	religion = hindu
+	culture = bengali
+	trait = kshatriya
+	trait = vaishnavist_hindu
+	father = 409059
+	587.1.1 = { birth = yes }
+	625.10.1 = { death = yes }
+}
+409061 = {
+	name = "Wandana"
+	dynasty = 3000067
+	religion = hindu
+	culture = bengali
+	trait = kshatriya
+	trait = vaishnavist_hindu
+	551.1.1 = { birth = yes }
+	610.1.1 = { death = yes }
+}
+409062 = {
+	name = "Idiyavarman"
+	dynasty = 3000068
+	religion = hindu
+	culture = bengali
+	trait = kshatriya
+	trait = vaishnavist_hindu
+	550.1.1 = {	birth = yes	}
+	615.1.1 = { death = yes }
+}
+409063 = {
+	name = "Yashodharman"
+	dynasty = 3000069
+	religion = hindu
+	culture = hindustani
+	trait = kshatriya
+	trait = shaivist_hindu
+	trait = brilliant_strategist
+	492.1.1 = { birth = yes }
+	545.1.1 = { death = yes }
+}
+409064 = {
+	name = "Krishnaraja"
+	dynasty = 3000070
+	religion = hindu
+	culture = hindustani
+	trait = kshatriya
+	trait = shaivist_hindu
+	525.1.1 = { birth = yes }
+	575.1.1 = { death = yes }
+}
+409065 = {
+	name = "Shankaragana"
+	dynasty = 3000070
+	religion = hindu
+	culture = hindustani
+	trait = kshatriya
+	trait = shaivist_hindu
+	father = 409064
+	554.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+409066 = {
+	name = "Buddharaja"
+	dynasty = 3000070
+	religion = hindu
+	culture = hindustani
+	trait = kshatriya
+	trait = shaivist_hindu
+	father = 409065
+	570.1.1 = { birth = yes }
+	625.1.1 = { death = yes }
+}
+409067 = {
+	name = "Adiya"
+	religion = hindu
+	culture = hindustani
+	trait = kshatriya
+	trait = vaishnavist_hindu
+	550.1.1 = { birth = yes }
+	620.1.1 = { death = yes }
+}
+409068 = {
+	name = "Manyendra"
+	religion = buddhist
+	culture = oriya
+	trait = kshatriya
+	trait = mahayana_buddhist
+	550.1.1 = { birth = yes }
+	630.1.1 = { death = yes }
+}
+409069 = {
+	name = "Vicaya"
+	dynasty = 3000065
+	culture = tamil
+	religion = hindu
+	trait = kshatriya
+	trait = vaishnavist_hindu
+	550.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+409070 = {
+	name = "Govinda"
+	dynasty = 3000073 # Vishnukundina
+	culture = telugu
+	religion = hindu
+	trait = kshatriya
+	trait = vaishnavist_hindu
+	father = 409078
+	533.1.1 = { birth = yes }
+	573.1.1 = { death = yes }
+}
+409071 = {
+	name = "Mahaya"
+	culture = telugu
+	religion = hindu
+	trait = kshatriya
+	trait = vaishnavist_hindu
+	547.1.1 = { birth = yes }
+	621.1.1 = { death = yes }
+}
+409072 = {
+	name = "Govinda"
+	dynasty = 3000073 # Vishnukundina
+	culture = telugu
+	religion = hindu
+	trait = kshatriya
+	trait = vaishnavist_hindu
+	374.1.1 = { birth = yes }
+	420.1.1 = { death = yes }
+}
+409073 = {
+	name = "Madhav"
+	dynasty = 3000073 # Vishnukundina
+	culture = telugu
+	religion = hindu
+	trait = kshatriya
+	trait = vaishnavist_hindu
+	father = 409072
+	395.1.1 = { birth = yes }
+	455.1.1 = { death = yes }
+}
+409074 = {
+	name = "Madhav"
+	dynasty = 3000073 # Vishnukundina
+	culture = telugu
+	religion = hindu
+	trait = kshatriya
+	trait = vaishnavist_hindu
+	father = 409073
+	420.1.1 = { birth = yes }
+	508.1.1 = { death = yes }
+}
+409075 = {
+	name = "Virakmendra"
+	dynasty = 3000073 # Vishnukundina
+	culture = telugu
+	religion = hindu
+	trait = kshatriya
+	trait = vaishnavist_hindu
+	father = 409074
+	450.1.1 = { birth = yes }
+	528.1.1 = { death = yes }
+}
+409076 = {
+	name = "Phrakara"
+	dynasty = 3000073 # Vishnukundina
+	culture = telugu
+	religion = hindu
+	trait = kshatriya
+	trait = vaishnavist_hindu
+	father = 409075
+	476.12.1 = { birth = yes }
+	513.1.1 = { death = yes }
+}
+409077 = {
+	name = "Indra Bhattaraka"
+	dynasty = 3000073 # Vishnukundina
+	culture = telugu
+	religion = hindu
+	trait = kshatriya
+	trait = vaishnavist_hindu
+	father = 409076
+	493.1.1 = { birth = yes }
+	555.1.1 = { death = yes }
+}
+409078 = {
+	name = "Virakmendra"
+	dynasty = 3000073 # Vishnukundina
+	culture = telugu
+	religion = hindu
+	trait = kshatriya
+	trait = vaishnavist_hindu
+	father = 409077
+	515.1.1 = { birth = yes }
+	569.1.1 = { death = yes }
+}
+409079 = {
+	name = "Madhav"
+	dynasty = 3000073 # Vishnukundina
+	culture = telugu
+	religion = hindu
+	trait = kshatriya
+	trait = vaishnavist_hindu
+	father = 409070
+	561.1.1 = { birth = yes }
+	621.1.1 = { death = { death_reason = death_battle } }
+}
+409080 = {
+	name = "Manchana Bhattaraka"
+	dynasty = 3000073 # Vishnukundina
+	culture = telugu
+	religion = hindu
+	trait = kshatriya
+	trait = vaishnavist_hindu
+	father = 409079
+	590.1.1 = { birth = yes }
+	651.1.1 = { death = yes }#End in 624
+}
+#Nala Dynasty 
+409081 = {
+	name = "Varaharaja"
+	dynasty = 3000100 # Nala
+	culture = telugu
+	religion = hindu
+	trait = kshatriya
+	trait = vaishnavist_hindu
+	486.1.1 = { birth = yes }
+	542.1.1 = { death = yes }
+}
+409082 = {
+	name = "Arthapati"
+	dynasty = 3000100 # Nala
+	culture = telugu
+	religion = hindu
+	trait = kshatriya
+	trait = vaishnavist_hindu
+	father = 409081
+	507.1.1 = { birth = yes }
+	549.1.1 = { death = yes }
+}
+409083 = {
+	name ="Virakucha"
+	dynasty = 3000100 # Nala
+	culture = telugu
+	religion = hindu
+	trait = kshatriya
+	trait = vaishnavist_hindu
+	father = 409082
+	526.1.1 = { birth = yes }
+	561.1.1 = { death = yes }
+}
+409084 = {
+	name = "Bhavadatta"
+	dynasty = 3000100 # Nala
+	culture = telugu
+	religion = hindu
+	trait = kshatriya
+	trait = vaishnavist_hindu
+	father = 409082
+	529.1.1 = { birth = yes }
+	571.1.1 = { death = yes }
+}
+409085 = {
+	name = "Skandavarman"
+	dynasty = 3000100 # Nala
+	culture = telugu
+	religion = hindu
+	trait = kshatriya
+	trait = vaishnavist_hindu
+	father = 409084
+	545.1.1 = { birth = yes }
+	583.1.1 = { death = yes }
+}
+# Marathi Fantasy Raja
+409086 = {
+	name = "Huvendakunda"
+	dynasty = 3000103
+	culture = marathi
+	religion = hindu
+	trait = kshatriya
+	trait = shaivist_hindu
+	trait = adventurer
+	trait = ambitious
+	trait = skilled_tactician
+	trait = wroth
+	trait = cruel
+	543.1.1 = { birth = yes }
+	592.1.1 = { death = yes }
+}
+409087 = {
+	name = "Bhattasvaha"
+	dynasty = 3000103
+	father = 409086
+	culture = marathi
+	religion = hindu
+	trait = kshatriya
+	trait = shaivist_hindu
+	567.1.1 = { birth = yes }
+	645.1.1 = { death = yes }
+}
+409088 = {
+	name = "Bindumaha"
+	dynasty = 3000103
+	culture = marathi
+	religion = hindu
+	trait = kshatriya
+	trait = shaivist_hindu
+	father = 409087
+	622.1.1 = { birth = yes }
+	700.1.1 = { death = yes }
+}
+409089 = {
+	name = "Orayarta Bhatta"
+	dynasty = 3000104
+	culture = marathi
+	religion = hindu
+	trait = kshatriya
+	trait = vaishnavist_hindu
+	550.12.1 = { birth = yes }
+	623.1.1 =  { death = yes }
+}
+409090 = {
+	name = "Maharavarma"
+	dynasty = 3000104
+	culture = marathi
+	religion = hindu
+	trait = kshatriya
+	trait = vaishnavist_hindu
+	father = 409089
+	570.3.1 = { birth = yes }
+	610.1.1 = { death = yes }
+}
+409091 = {
+	name = "Buddharaja"
+	dynasty = 3000104
+	culture = marathi
+	religion = hindu
+	trait = kshatriya
+	trait = vaishnavist_hindu
+	father = 409090
+	597.1.1 = { birth = yes }
+	651.1.1 = { death = yes }
+}
+409092 = {
+	name = "Bhattavarma"
+	dynasty = 3000104
+	culture = marathi
+	religion = hindu
+	trait = kshatriya
+	trait = vaishnavist_hindu
+	father = 409091
+	637.1.1 = { birth = yes }
+	676.1.1 = { death = yes }
+}
+409093 = {
+	name = "Pulakesi"
+	dynasty = 3000105
+	culture = marathi
+	religion = jain
+	trait = kshatriya
+	trait = svetambara_jain
+	554.1.1 = { birth = yes }
+	613.1.1 = { death = yes }
+}
+409094 = {
+	name = "Brijnath"
+	dynasty = 3000105
+	culture = marathi
+	religion = jain
+	trait = kshatriya
+	trait = svetambara_jain
+	father = 409093
+	570.1.1 = { birth = yes }
+	622.1.1 = { death = yes }
+}
+409095 = {
+	name = "Goggaraja"
+	dynasty = 3000105
+	culture = marathi
+	religion = jain
+	trait = kshatriya
+	trait = svetambara_jain
+	father = 409094
+	598.1.1 = { birth = yes }
+	656.1.1 = { death = yes }
+}
+#other
+409096 = {
+	name = "Vinyatha"
+	culture = kannada
+	religion = hindu
+	trait = kshatriya
+	trait = vaishnavist_hindu
+	dynasty = 3000106
+	550.1.1 = { birth = yes }
+	620.11.1 = { death = yes }
+}
+409097 = {
+	name = "Maharaja"
+	culture = kannada
+	religion = hindu
+	trait = kshatriya
+	trait = vaishnavist_hindu
+	father = 409096
+	dynasty = 3000106
+	597.1.1 = { birth = yes }
+	650.1.1 = { death = yes }
+}
+409098 = {
+	name = "Krishna"
+	culture = kannada
+	religion = hindu
+	trait = kshatriya
+	trait = shaivist_hindu
+	dynasty = 3000107
+	537.1.1 = { birth = yes }
+	543.1.1 = { add_claim = k_maharastra }
+	582.1.1 = { death = yes }
+}
+409099 = {
+	name = "Simhavarman"
+	culture = kannada
+	religion = hindu
+	trait = kshatriya
+	trait = shaivist_hindu
+	dynasty = 3000107
+	father = 409098
+	565.1.1 = { birth = yes add_claim = k_karnata }
+	618.1.1 = { death = yes }
+}
+409100 = {
+	name = "Krishna"
+	culture = kannada
+	religion = hindu
+	trait = kshatriya
+	trait = vaishnavist_hindu
+	dynasty = 3000108
+	554.1.1 = { birth = yes }
+	570.4.27 = { death = yes }
+}

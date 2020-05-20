@@ -1,0 +1,72 @@
+570.1.1 = {
+	liege = d_bosnia
+	holder = 400151
+}
+750.1.1={
+	liege="d_croatia"
+	holder=146005
+}
+856.1.1={
+	holder=167855
+}
+925.1.1={
+	holder=8604
+	liege = k_croatia
+	#law = agnatic_succession
+	#law = succ_seniority
+}
+928.1.1={
+	holder=8605
+}
+936.1.1 = {
+	liege="k_croatia"
+	holder = 260643
+}
+1066.1.1=
+{
+holder=20381
+}
+1097.1.1=
+{
+holder=93556
+}
+1130.1.1=
+{
+holder=93557
+}
+1150.1.1=
+{
+holder=93558
+}
+1165.1.1=
+{
+liege="d_bosnia"
+} 
+1165.1.1=
+{
+holder=219500
+}
+1172.3.4=
+{
+holder=218800
+}
+1204.1.1=
+{
+holder=218801
+}
+1232.1.1=
+{
+holder=34145
+}
+1244.1.1=
+{
+holder=260476
+}
+1299.1.1=
+{
+holder=260477
+}
+1312.5.1=
+{
+holder=260478
+}

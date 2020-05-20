@@ -1,0 +1,28 @@
+# 504 - Soli
+
+# County Title
+title = c_rama
+
+# Settlements
+max_settlements = 3
+b_soli = tribal
+
+# Misc
+culture = pannonian
+religion = catholic
+terrain = mountain
+
+# History
+634.1.1 = { culture = serbian religion = slavic_pagan }
+800.1.1 = {
+	b_soli = castle
+	b_srebrenica = city
+	b_olovo = temple
+}
+800.1.1= { 
+	culture = bosnian
+} 
+870.1.1 = {
+	religion = orthodox
+}
+1000.1.1= { religion = bogomilist }

@@ -1,0 +1,55 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+GOD_SHAMS;Shams;Shams;Shams;;aa;;;;;;;;;x
+GOD_HUBAL;Hubal;;;;;;;;;;;;;x
+GOD_AL_UZZA;al Uzza;al Uzza;al Uzza;;;;;;;;;;;x
+GOD_MANAF;Manaf;Manaf;Manaf;;;;;;;;;;;x
+GOD_ATHTAR;Shams;Shams;Shams;;aa;;;;;;;;;x
+GOD_AL_LAT;Al Lat;Al Lat;Al Lat;;;;;;;;;;;x
+GOD_MANAT;Manat;Manat;Manats;;aa;;;;;;;;;x
+GOD_ALMAQAH;Almaqah;Almaqah;Almaqah;;aa;;;;;;;;;x
+GOD_DUSHARA;Dushara;Dushara;Dushara;;aa;;;;;;;;;x
+arabic_pagan;Arabic;;;;;;;;;;;;;x
+arabic_pagan_reformed;Reformed Arabic;;;;;;;;;;;;;x
+arabic_pagan_DESC;Before the Rise of Islam, Ancient Arabic Religion is a polythestic religion. Their religion was influenced by Christianity(mostly non-chalcedonian), Zoroastrianism, Judaism. There are many temples and shrines, like the Kaaba in Mecca.;;;;;;;;;;;;;x
+arabic_pagan_reformed_DESC;Reformed Arabic Religion;;;;;;;;;;;;;x
+arian;Arian;;;;;;;;;;;;;x
+arian_opinion;Arian Opinion;;;;;;;;;;;;;x
+ostrogothic_opinion;Ostrogothic Opinion;;;;;;;;;;;;;x
+visigothic_opinion;Visigothic Opinion;;;;;;;;;;;;;x
+arian_DESC;Arianism is a nontrinitarian Christological doctrine which asserts the belief that Jesus Christ is the Son of God who was begotten by God the Father at a point in time, a creature distinct from the Father and is therefore subordinate to him, but the Son is also God. Arian teachings were first attributed to Arius, a Christian presbyter in Alexandria of Egypt. Arianism was declared heresy in First Council of Nicaea, but Arianism has accepted many germanic tribes. They survived until 7th century, before Lombards and Goths convert to Catholic. ;;;;;;;;;;;;;x
+donatism;Donatist;;;;;;;;;;;;;x
+donatism_DESC;Donatism is a heresy which originates from Carthage, Africa. It is because of the Traditors, who betrayed other Christians under threat of persecutions. Many church members forgived them, in Council of Arles, But Donatists are refused to forgive.;;;;;;;;;;;;;x
+islamism;Islam;;;;;;;;;;;;;x
+islamism_DESC;This represents Early Islamic Religion in game. It will be separated with many other islamic varieties, such like Sunni, Shiite, Kharijite, Ibadi.;;;;;;;;;;;;;x
+yazdan_pagan;Yazdanist;;;;;;;;;;;;;x
+yazdan_pagan;Yazdanism is Kurdish pre-Islamic folk religion. ;;;;;;;;;;;;;x
+secret_religious_society_arabic_pagan;Followers of the Old Gods;;;;;;;;;;;;;
+secret_religious_society_arabic_pagan_reformed;Rule of the Desert;;;;;;;;;;;;;
+secret_religious_society_arian;Descendants of Arius;;;;;;;;;;;;;
+warrior_lodge_arabic;The Children of the Desert;;;;;;;;;;;;;
+warrior_lodge_arabic_desc;The Children of the Desert Description;;;;;;;;;;;;;
+religion_openly_arabic_or_reformed_tooltip;religion_openly_arabic_or_reformed_tooltip. yeap.;;;;;;;;;;;;;
+ducal_invasion_desc;Ducal Invasion;;;;;;;;;;;;;x
+county_conquest_special_desc;County Conquest(Special);;;;;;;;;;;;;x
+nick_anushirwan;the Immortal Soul;;;;;;;;;;;;;x
+nick_chobin;Chobin;;;;;;;;;;;;;x
+warrior_lodge_arabic_rank_1_male;Student;;;;;;;;;;;;;
+warrior_lodge_arabic_rank_1_female;Student;;;;;;;;;;;;;
+warrior_lodge_arabic_rank_2_male;Initiate;;;;;;;;;;;;;
+warrior_lodge_arabic_rank_2_female;Initiate;;;;;;;;;;;;;
+warrior_lodge_arabic_rank_3_male;Warrior;;;;;;;;;;;;;
+warrior_lodge_arabic_rank_3_female;Warrior;;;;;;;;;;;;;
+warrior_lodge_arabic_rank_4_male;Hero;;;;;;;;;;;;;
+warrior_lodge_arabic_rank_4_female;Hero;;;;;;;;;;;;;
+RULE_ISLAM;Rise of Islam;;;;;;;;;;;;;x
+RULE_ISLAM_HISTORICAL_DESC;Islam will rise and follows its historical way, and receives many events(and armies).;;;;;;;;;;;;;x
+RULE_ISLAM_ON_DESC;Islam will created, but It may not rise its historical expansion.;;;;;;;;;;;;;x
+RULE_ISLAM_OFF_DESC;Rise of Islam will not occur.;;;;;;;;;;;;;x
+VASSAL_NAME;Vassal State;;;;;;;;;;;;;x
+VASSAL_PLURAL;Vassal States;;;;;;;;;;;;;x
+GOVERNATE_NAME;Governorate;;;;;;;;;;;;;x
+GOVERNATE_PLURAL;Governorates;;;;;;;;;;;;;x
+high_tribal_government;High Tribal;;;;;;;;;;;;;x
+high_tribal_government_desc;Semi-advanced type government, but tribal chiefs still hold power. It has many penalties, so fast reform is good. The way to advanced society is to convert organized religion... or reform the paganism.;;;;;;;;;;;;;x
+roman_governate_government;Governorate;;;;;;;;;;;;;x
+roman_governate_government_desc;In-game the Governorate government represents semi-decentralized roman prefectures and exarchates. It can be absorbed into the empire by decisions.;;;;;;;;;;;;;x

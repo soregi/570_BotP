@@ -1,0 +1,22 @@
+# 456 - Kärnten
+
+# County Title
+title = c_karnten
+b_villach = tribal
+
+# Settlements
+max_settlements = 4
+
+# Misc
+culture = pannonian
+religion = catholic
+
+# History
+632.1.1 = { culture = carantanian  religion = slavic_pagan }
+
+846.1.1 = { 
+	religion = catholic
+	b_villach = castle
+	b_klagenfurt = city
+	b_treffen = temple
+}

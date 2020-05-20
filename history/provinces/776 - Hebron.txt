@@ -1,0 +1,29 @@
+# 776 - Hebron
+
+# County Title
+title = c_hebron
+
+# Terrain
+terrain = hills
+
+# Settlements
+max_settlements = 3
+b_hebron = castle
+b_deimachar = city
+b_bethlehem = temple
+
+#b_syrbelmont = castle
+#b_alsamoa = castle
+#b_saintcharlton = temple
+#b_latrun = castle
+#b_bethgibelin = castle
+
+# Misc
+culture = syriac
+religion = miaphysite
+
+# History
+638.1.1 = {
+culture = levantine_arabic
+religion = sunni
+}

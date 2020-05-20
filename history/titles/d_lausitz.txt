@@ -1,0 +1,7 @@
+570.1.1 = {
+	holder = 403077
+	liege = d_lausitz
+}
+1000.1.1={
+	de_jure_liege = k_germany
+}

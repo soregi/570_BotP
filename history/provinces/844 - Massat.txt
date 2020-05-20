@@ -1,0 +1,31 @@
+# 844 - Massat
+
+# County Title
+title = c_massat
+
+# Settlements
+max_settlements = 4
+
+b_anfa = tribal
+
+#b_mazaghan
+#b_fadala
+#b_azammut
+
+# Misc
+culture = maghreb_latin
+religion = catholic
+
+# History
+687.1.1 = { religion = shiite }
+723.1.1 = { culture = maghreb_arabic }
+
+767.1.1 = { religion = ibadi }
+947.1.1 = { religion = sunni }
+1062.1.1 = {
+	b_anfa = castle
+	b_mazaghan = city
+	b_fadala = temple
+	b_azammut = city
+}
+1145.1.1 = { trade_post = b_doria }

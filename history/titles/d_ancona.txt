@@ -1,0 +1,67 @@
+553.1.1 = { de_jure_liege = k_romagna liege = k_romagna }
+554.1.1 = {
+	name = PENTAPOLIS
+	adjective = PENTAPOLIS_ADJ
+	effect = { set_coa = d_pentapolis }
+	holder = 400027
+}
+
+752.1.1 = {
+	reset_name = yes
+	reset_adjective = yes
+	effect = { reset_coa = THIS }
+	de_jure_liege = k_papacy 
+	holder = 0
+}
+
+1095.1.1=
+{
+holder=30657
+liege=e_hre
+}
+1119.1.1=
+{
+holder=7656
+}
+1137.1.1=
+{
+	holder=0
+}
+
+1149.1.1={
+	holder=73495
+	liege=0
+}
+1155.1.1={
+	holder=73496
+}
+1170.1.1={
+	holder=73497
+}
+1177.1.1={
+	holder=213025
+}
+1199.1.1={
+	holder=73498
+}
+1212.1.1={
+	holder=73499
+}
+1221.1.1={
+	holder=73500
+}
+1245.1.1={
+	holder=73501
+}
+1263.1.1={
+	holder=73502
+}
+1289.1.1={
+	holder=73503
+}
+1315.1.1={
+	holder=73504
+}
+1336.1.1={
+	holder=463470
+}

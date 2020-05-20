@@ -1,0 +1,444 @@
+decisions = {
+	restore_wre = {
+		is_high_prio = yes
+		only_independent = yes
+		potential = {
+			is_playable = yes
+			has_dlc = "Legacy of Rome"
+			NOT = { has_landed_title = e_wre }
+			OR = {
+				culture_group = latin
+				culture = greek
+				culture = iberian_latin
+			}
+			OR = {
+				religion_group = christian
+				religion = hellenic_pagan
+				religion = hellenic_pagan_reformed
+			}
+			is_adult = yes
+			prisoner = no
+			NOT = { trait = incapable }
+			NOT = { has_global_flag = wre_restored }
+			NOT = { year = 800 }
+		}
+		allow = {
+			prestige = 2500
+			completely_controls = d_latium
+			completely_controls = d_venice
+			completely_controls = d_ferrara
+			completely_controls = d_genoa
+			completely_controls = d_capua
+			completely_controls = d_spoleto
+			has_landed_title = c_ravenna
+			OR = {
+				has_landed_title = k_italy
+				has_landed_title = e_italy
+			}
+			e_hre = {
+				has_holder = no
+			}
+			e_wre = {
+				has_holder = no
+			}
+		}
+		effect = {
+			set_global_flag = wre_restored
+			narrative_event = { id = RHO.1 tooltip = EVTTOOLTIPLoR.20 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	justinian_legacy = {
+		only_independent = yes
+		is_high_prio = yes
+		potential = {
+			dynasty = 1022186
+			NOT = {
+				any_owned_bloodline = {
+					has_bloodline_flag = bloodline_justinian
+				}
+			}
+			year <= 650
+		}
+		allow = {
+			higher_tier_than = KING
+			prestige = 1000
+			piety = 500
+			NOT = { trait = incapable }
+			war = no
+		}
+		effect = {
+				prestige = -500
+				piety = -300
+				if = {
+					limit = {
+						NOT = {
+						any_owned_bloodline = {
+							has_bloodline_flag = bloodline_justinian
+						}
+					}
+				}
+				any_bloodline = {
+					limit = {
+						has_bloodline_flag = bloodline_justinian
+					}
+					add_bloodline_member = root
+				}
+			}
+			culture = roman
+			if = {
+				limit = {
+					NOT = { religion = orthodox }
+				}
+				religion = orthodox
+			}
+		}
+	}
+	unite_francia = {
+		is_high_prio = yes
+		only_independent = yes
+		potential = {
+			OR = {
+				has_landed_title = k_france
+				has_landed_title = k_orleans
+				has_landed_title = k_lotharingia
+				has_landed_title = k_paris
+			}
+			e_france = {
+				has_holder = no
+			}
+		}
+		allow = {
+			prestige = 2000
+			OR = {
+				has_landed_title = k_paris
+				k_paris = { has_holder = no }
+			}
+			OR = {
+				has_landed_title = k_orleans
+				k_orleans = { has_holder = no }
+			}
+			has_landed_title = k_france
+			has_landed_title = k_lotharingia
+		}
+		effect = {
+			e_france = {
+				grant_title = ROOT
+				
+			}
+			any_demesne_title = {
+				limit = {
+					tier = KING
+				}
+				destroy_landed_title = THIS
+			}
+			hidden_tooltip = {
+				d_aquitane = {
+					holder_scope = {
+						k_aquitane = {
+							grant_title = PREV
+						}
+						any_playable_ruler = {
+							limit = {
+								de_jure_liege_or_above = k_aquitane
+							}
+							set_defacto_liege = PREV
+						}
+					}
+				}
+			}
+		}
+	}
+	unite_lombardy = {
+		is_high_prio = yes
+		only_independent = yes
+		potential = {
+			has_global_flag = rule_of_dukes
+			culture = lombard
+			k_italy = { has_holder = no }
+		}
+		allow = {
+			prestige = 1000
+			realm_size = 20
+		}
+		effect = {
+			grant_title = k_italy
+			clr_global_flag = rule_of_dukes
+			any_independent_ruler = {
+				limit = {
+					culture = lombard
+					mercenary = no
+				}
+				character_event = { id = lombard.11 }
+			}
+		}
+	}
+	end_duke_rule = {
+		is_high_prio = yes
+		potential = {
+			has_global_flag = rule_of_dukes
+			k_italy = { holder = ROOT }
+		}
+		allow = {
+			realm_size = 20
+			culture = lombard
+			prestige = 500
+		}
+		effect = {
+			clr_global_flag = rule_of_dukes
+			any_independent_ruler = {
+				limit = {
+					culture = lombard
+					mercenary = no
+				}
+				character_event = { id = lombard.11 }
+			}
+		}
+	}
+	campaign_for_byzantium = { # For Lombardy
+		is_high_prio = yes
+		potential = {
+			culture = lombard
+			NOT = {
+				has_character_modifier = declared_campaign
+			}
+			NOT = {
+				completely_controls_region = custom_lombard
+			}
+		}
+		allow = {
+			NOT = { trait = incapable }
+			war = no
+			higher_tier_than = DUKE
+			prestige = 100
+		}
+		effect = {
+			hidden_tooltip = {
+				add_character_modifier = { name =  declared_campaign years = 10 }
+			}
+			set_character_flag = preparing_invasion
+			ROOT = {
+				prestige = -1000
+				spawn_unit = {
+					owner = THIS
+					leader = THIS
+					province = 235
+					home = 235
+					troops = {
+						archers = { 1000 1000 }
+						light_infantry = { 1500 1500 }
+						heavy_infantry = { 1000 1000 }
+						light_cavalry = { 500 500 }
+					}
+					attrition = 0.0
+				}
+				spawn_unit = {
+					owner = THIS
+					leader = THIS
+					province = 235
+					home = 235
+					troops = {
+						archers = { 1000 1000 }
+						light_infantry = { 1500 1500 }
+						heavy_infantry = { 1000 1000 }
+						light_cavalry = { 500 500 }
+					}
+					attrition = 0.0
+				}
+				spawn_unit = {
+					owner = THIS
+					leader = THIS
+					province = 235
+					home = 235
+					troops = {
+						archers = { 1000 1000 }
+						light_infantry = { 1500 1500 }
+						heavy_infantry = { 1000 1000 }
+						light_cavalry = { 500 500 }
+					}
+					attrition = 0.0
+				}
+				spawn_unit = {
+					owner = THIS
+					leader = THIS
+					province = 235
+					home = 235
+					troops = {
+						archers = { 1000 1000 }
+						light_infantry = { 1500 1500 }
+						heavy_infantry = { 1000 1000 }
+						light_cavalry = { 500 500 }
+					}
+					attrition = 0.0
+				}
+			}
+		}
+	}
+	revoke_lakhmid_power = {
+		potential = {
+			NOT = { has_global_flag = revoked_lakhmid_power }
+			has_landed_title = e_persia
+			k_lakhm = {
+				has_holder = yes
+			}
+		}
+		allow = {
+			war = no
+			prestige = 1000
+			year = 590
+		}
+		effect = {
+			k_lakhm = {
+				holder_scope = {
+					any_vassal = {
+						limit = {
+							tier = COUNT
+						}
+						set_defacto_liege = THIS
+					}
+					any_demesne_title = {
+						limit = {
+							tier <= COUNT
+							de_jure_liege_or_above = k_iraq
+						}
+						grant_title = ROOT
+					}
+					ROOT = {
+						remove_tributary = PREV
+					}
+				}
+			}
+			prestige = -2000
+		}
+	}
+	unite_tibet_yarlung = {
+		potential = {
+			NOT = { has_global_flag = organized_tibet_realm }
+			has_landed_title = k_yarlung
+			dynasty = 105800 # Yarlung(Purgyal)
+		}
+		allow = {
+			OR = {
+				prestige = 500
+				AND = {
+					character = 247073
+					prestige = 100
+					year = 598
+				}
+			}
+		}# 뭔가 다른 조건이 있기는 있어야겠지..
+		effect = {
+			prestige = -100
+			set_global_flag = organized_tibet_realm
+			spawn_unit = {
+				province = 1496
+				owner = ROOT
+				troops = {
+					light_infantry = { 700 700 }
+					light_cavalry = { 200 200 }
+					archers = { 500 500 }
+				}
+				attrition = 1
+			}
+			spawn_unit = {
+				province = 1496
+					owner = ROOT
+				troops = {
+					light_infantry = { 700 700 }
+					light_cavalry = { 200 200 }
+					archers = { 500 500 }
+				}
+				attrition = 1
+			}
+			spawn_unit = {
+				province = 1496
+				owner = ROOT
+				troops = {
+					light_infantry = { 700 700 }
+					light_cavalry = { 200 200 }
+					archers = { 500 500 }
+				}
+				attrition = 1
+			}
+			any_tributary = {
+				limit = {
+					NOT = { tier = KING }
+				}
+				set_defacto_liege = ROOT
+			}
+			if = {
+				limit = {
+					c_shigatse = {
+						holder_scope = {
+							culture = sumpa
+						}
+					}
+				}
+				usurp_title = c_shigatse
+			}
+			if = {
+				limit = {
+					c_shigatse = {
+						holder_scope = {
+							tier = COUNT
+						}
+					}
+				}
+				c_shigatse = {
+					holder_scope = {
+						set_defacto_liege = ROOT
+					}
+				}
+			}
+			1498 = {
+				culture = bodpa
+			}
+			1499 = {
+				culture = bodpa
+			}
+			1554 = {
+				culture = bodpa
+			}
+			1556 = {
+				culture = bodpa
+			}
+			1557 = {
+				culture = bodpa
+			}
+			1558 = {
+				culture = bodpa
+			}
+			
+		}	
+	}
+	independence_governate = {
+		potential = {
+			OR = {
+				primary_title = {
+					has_title_flag = roman_governate
+				}
+				government = roman_governate_government
+			}
+		}
+		allow = {
+			prestige = 1500
+			piety = 500
+			war = no
+			OR = {
+				trait = ambitious
+				diplomacy = 15
+				intrigue = 15
+			}
+		}
+		effect = {
+			prestige = -1000
+			e_byzantium = {
+				holder_scope = {
+					character_event = gov.2
+				}
+			}
+		}
+	}
+}

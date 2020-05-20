@@ -1,0 +1,521 @@
+407000 = {
+	name = "Bayan"
+	culture = avar
+	religion = tengri_pagan
+	dynasty = 3000016
+	trait = "brilliant_strategist"
+	trait = "brave"
+	trait = "robust"
+	trait = "ambitious"
+	trait = "cavalry_leader"
+	trait = "tengri_leader"
+	trait = "inspiring_leader"
+	trait = "organizer"
+	trait = "winter_soldier"
+	diplomacy = 6
+	martial = 11
+	stewardship = 3
+	intrigue = 7
+	learning = 2
+	546.1.1 = { birth = yes }
+	602.1.1 = { death = yes }
+}
+407001 = {
+	name = "Omortag"
+	dynasty = 3000017
+	culture = avar
+	religion = tengri_pagan
+	540.1.1 = { birth = yes }
+	602.1.1 = { death = yes }
+}
+407002 = {
+	name = "Baghatur"
+	dynasty = 3000018
+	culture = bolghar
+	religion = tengri_pagan
+	546.1.1 = { birth = yes }
+	600.1.1 =	{ death = yes }
+}
+407003 = {
+	name = "Bayan"
+	dynasty = 3000016
+	father = 407000
+	culture = avar
+	religion = tengri_pagan
+	567.1.1 = { birth = yes }
+	617.1.1 = { death = yes }
+}
+407004 = {
+	name = "Molasic"
+	culture = sclaveni
+	religion = slavic_pagan
+	553.1.1 = { birth = yes }
+	610.1.1 = { death = yes }
+}
+407005 = {
+	name = "Kunzarat"
+	dynasty = 9570
+	religion = tengri_pagan
+	culture = avar
+	553.1.1 = { birth = yes }
+	622.1.1 = { death = yes }
+}
+407006 = {
+	name = "Isperikh"
+	dynasty = 9570
+	father = 407005
+	religion = tengri_pagan
+	culture = avar
+	595.1.1 = { birth = yes }
+	661.1.1 = { death = yes }
+}
+407007 = {
+	name = "Daurentius"
+	religion = slavic_pagan
+	culture = sclaveni
+	dynasty = 3000054
+	532.1.1 = { birth = yes }
+	600.1.1 = { death= yes }
+}
+407008 = {
+	name = "Mladzic"
+	religion = slavic_pagan
+	culture = croatian
+	dynasty = 3000053
+	543.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+407015 = {
+	name = "Tuwu"
+	dynasty = 12269
+	culture = turkish
+	religion = tengri_pagan
+	469.1.1 = {
+		birth = yes
+		create_bloodline = {
+			type = ashina
+			has_dlc = "Holy Fury"
+		}
+	}
+	520.1.1 = {
+		death = yes
+	}
+}
+407009 = {
+	name = "Bumin" # Founder of the Gokturk Empire
+	dynasty = 12269 # Ashina
+	culture = turkish
+	religion = tengri_pagan
+	father = 407015
+	490.1.1 = {
+		birth = yes
+	}
+	546.1.1 = {
+		
+	}
+	552.1.1 = {
+		death = yes
+	}
+}
+407010 = {
+	name = "Issik"
+	dynasty = 12269
+	culture = turkish
+	religion = tengri_pagan
+	father = 407009
+	510.1.1 = {
+		birth = yes
+	}
+	553.10.1 = {
+		death = yes
+	}
+}
+407011 = {
+	name = "Taspar"
+	dynasty = 12269
+	culture = turkish
+	religion = tengri_pagan
+	father = 407009
+	524.1.1 = {
+		birth = yes
+	}
+	581.1.1 = {
+		death = yes
+	}
+}
+407012 = {
+	name = "Muqan"
+	dynasty = 12269
+	culture = turkish
+	father = 407009
+	religion = tengri_pagan
+	520.1.1 = {
+		birth = yes
+	}
+	572.1.1 = {
+		death = yes
+	}
+}
+
+407014 = {
+	name="Amrak"
+	dynasty=12269
+	father = 407011
+	culture="turkish"
+	religion="tengri_pagan"
+
+	548.1.1={
+		birth=yes
+		
+	}
+	583.1.1={
+		death= yes
+	}
+}
+407013 = {
+	name = "Apa"
+	dynasty = 12269
+	father = 407012
+	culture = turkish
+	religion = tengri_pagan
+	548.1.1 = { birth = yes }
+	587.1.1 = { death = yes }
+}
+407016 = {
+	name = "Istëmi" # Yabgu of Western Parts
+	father = 407015
+	dynasty = 12269
+	culture = turkish
+	religion = tengri_pagan
+	511.1.1 = { birth = yes }
+	576.1.1 = { death = yes }
+}
+407017 = {
+	name = "Tardu"
+	father = 407016
+	dynasty = 12269
+	culture = turkish
+	religion = tengri_pagan
+	534.1.1 = { birth = yes }
+	603.1.1 = { death = yes }
+}
+407018 = {	
+	name = "Ishbara"
+	father = 407010
+	dynasty = 12269
+	culture = turkish
+	religion = tengri_pagan
+	532.1.1 ={ birth = yes }
+	587.1.1 = { death = yes }
+}
+407019 = {
+	name = "Tulan"
+	father = 407018
+	dynasty = 12269
+	culture = turkish
+	religion = tengri_pagan
+	550.1.1 = { birth = yes }
+	587.1.1 = { death = yes }
+}
+407020 = {
+	name = "Bagha"
+	father = 407010
+	dynasty = 12269
+	culture = turkish
+	religion = tengri_pagan
+	540.1.1 = { birth =yes }
+	589.1.1 = {
+		death = {
+			death_reason = death_battle
+			killer = 180645 # Bahram Chobin
+		}
+	}
+}
+	
+74000 = {
+	name = "Muhan"
+	dynasty = 12269
+	culture = khazar
+	father = 407016
+	religion = tengri_pagan
+	560.1.1 = {
+		birth = yes
+	}
+	611.1.1 = {
+		death = yes
+	}
+}
+
+74001 = {
+	name="Tun-Yagbu"
+	dynasty=12269
+	father = 74000
+	culture="khazar"
+	religion="tengri_pagan"
+
+	580.1.1={
+		birth="580.1.1"
+	}
+	628.1.1={
+		death="628.1.1"
+	}
+}
+
+74002 = {
+	name="Bagha-Shad"
+	dynasty=12269
+	father = 74000
+	culture="khazar"
+	religion="tengri_pagan"
+
+	582.1.1={
+		birth="582.1.1"
+	}
+	626.1.1={
+		death="626.1.1"
+	}
+}
+
+74003 = {
+	name="Böri-Shad"
+	dynasty=12269
+	father = 74002
+	culture="khazar"
+	religion="tengri_pagan"
+
+	603.1.1={
+		birth="603.1.1"
+	}
+	654.1.1={
+		death="654.1.1"
+	}
+}
+407021 = {
+	name = "Bayek"
+	dynasty = 3000039 # Pecheneg
+	culture = pecheneg
+	religion = tengri_pagan
+	545.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+407022 = {
+	name = "Barçuq"
+	dynasty = 3000040 # Karluk
+	culture = karluk
+	religion = manichean
+	541.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+407023 = {
+	name = "Árpád"
+	dynasty = 3000043
+	culture = hungarian
+	religion = tengri_pagan
+	546.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+407024 = {
+	name = "Karapak"
+	dynasty = 3000044
+	culture = kirghiz
+	religion = tengri_pagan
+	551.1.1 = { birth = yes }
+	610.1.1 = { death = yes }
+}
+407025 = {
+	name = "Amadagh"
+	dynasty = 3000045
+	culture = cuman
+	religion = tengri_pagan
+	552.1.1 = { birth = yes }
+	620.1.1 = { death = yes }
+}
+407026 = {
+	name = "Herboj"
+	dynasty = 3000045
+	father = 407025
+	culture = cuman
+	religion = tengri_pagan
+	560.1.1 = { birth = yes }
+	640.1.1 = { death = yes }
+}
+407027 = {
+	name = "Kutrach"
+	dynasty = 3000047
+	culture = bolghar
+	religion = tengri_pagan
+	544.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+407028 = {
+	name = "Arazi"
+	dynasty = 3000049
+	culture = adyghe
+	religion = tengri_pagan
+	550.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+407029 = {
+	name = "Adhan"
+	dynasty = 3000050
+	culture = alan
+	religion = tengri_pagan
+	550.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+159117 = {
+	name="Kubrat"
+	dynasty=591
+	religion="tengri_pagan"
+	culture="bolghar"
+	father = 407030
+	600.1.2={
+		birth="600.1.2"
+		create_bloodline = {
+			type = attila
+			has_dlc = "Holy Fury"
+		}
+	}
+	665.1.2={
+		death="665.1.2"
+	}
+}
+407030 = {
+	name = "Dulo"
+	dynasty = 591
+	religion = "tengri_pagan"
+	culture = bolghar
+	554.1.1 = {
+		birth = yes
+	}
+	610.1.1 = {
+		death = yes
+	}
+}
+407031 = {
+	name = "Yenya"
+	dynasty = 3000051
+	religion = tengri_pagan
+	culture = kirghiz
+	550.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+407032 = {
+	name = "Mehmud"
+	dynasty = 3000052
+	religion = tengri_pagan
+	culture = uyghur
+	550.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+407033 = {
+	name = "Menja"
+	dynasty = 3000051
+	father = 407031
+	religion = tengri_pagan
+	culture = kirghiz
+	568.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+407034 = {
+	name = "Tuul"
+	dynasty = 3000061
+	religion = manichean
+	culture = uyghur
+		550.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+407035 = {
+	name = "Kublai"
+	dynasty = 3000062
+	religion = tengri_pagan
+	culture = mongol
+	550.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+407036 = {
+	name = "Luo"
+	religion = taoist
+	culture = han
+	540.1.1 = { birth = yes }
+	650.1.1 = { death = yes }
+}
+407037 = {
+	name = "Arta"
+	religion = finnish_pagan
+	culture = komi
+	554.1.1 = { birth = yes }
+	640.1.1 = { death = yes }
+}
+407038 = {
+	name = "Chumbul"
+	religion = finnish_pagan
+	culture = mordvin
+	554.1.1 = { birth = yes }
+	640.1.1 = { death = yes }
+}
+407039 = {
+	name = "Murdaoj"
+	religion = finnish_pagan
+	culture = mordvin
+	554.1.1 = { birth = yes }
+	654.1.1 = { death = yes }
+}
+407040 = {
+	name = "Churma"
+	religion = finnish_pagan
+	culture = mordvin
+	554.1.1 = { birth = yes }
+	654.1.1 = { death = yes }
+}
+407041 = {
+	name = "Velmayka"
+	religion = finnish_pagan
+	culture = mordvin
+	554.1.1 = { birth = yes }
+	651.1.1 = { death = yes }
+}
+407042 = {
+	name = Olavai
+	religion = finnish_pagan
+	culture = mordvin
+	554.1.1 = { birth = yes }
+	651.1.1 = { death = yes }
+}
+407043 = {
+	name = Tuii
+	religion = finnish_pagan
+	culture = meshchera
+	554.1.1 = { birth = yes }
+	651.1.1 = { death = yes }
+}
+407044 = {
+	name = "Burtasi"
+	religion = manichean
+	culture = alan
+	550.1.1 = { birth =yes }
+	649.1.1 = { death = yes }
+}
+407045 = {
+	name = "Ruman"
+	religion = finnish_pagan
+	culture = komi
+	550.1.1 = { birth = yes }
+	649.1.1 = { death = yes }
+}
+407046 = {
+	name = "Dengizi"
+	religion = tengri_pagan
+	culture = bolghar
+	dynasty = 3000148
+	550.1.1 = { birth = yes }
+	633.1.1 = { death = yes }
+}
+407047 = {
+	name = "Bangaz"
+	religion = tengri_pagan
+	culture = avar
+	dynasty = 3000149
+	554.1.1 = { birth =yes }
+	637.1.1 = { death = yes }
+}

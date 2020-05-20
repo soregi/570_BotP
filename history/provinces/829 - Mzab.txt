@@ -1,0 +1,26 @@
+# 829 - Mzab
+
+# County Title
+title = c_mzab
+
+# Settlements
+max_settlements = 2
+
+b_ghardaia = tribal
+
+#b_noumerat = city
+#b_sebseb = temple
+
+#b_elalia = castle
+#b_ouargla = castle
+#b_zelfana = castle
+#b_bermane = castle
+#b_elbour = castle
+
+# Misc
+culture = berber
+religion = west_african_pagan
+
+# History
+700.1.1 = { religion = ibadi }
+900.1.1 = { b_ghardaia = castle }

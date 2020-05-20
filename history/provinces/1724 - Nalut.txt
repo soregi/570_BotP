@@ -1,0 +1,19 @@
+# 1724 - Nalut
+
+# County Title
+title = c_nalut
+
+# Settlements
+max_settlements = 2
+
+b_nalut = tribal
+#b_fursata
+
+# Misc
+culture = berber
+religion = west_african_pagan
+terrain = desert
+
+# History
+680.1.1 = { religion = ibadi }
+1059.1.1 = { religion = sunni }

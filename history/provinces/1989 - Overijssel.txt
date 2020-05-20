@@ -1,0 +1,22 @@
+# 1989 - Overijssel
+
+# County Title
+title = c_overijssel
+
+# Settlements
+max_settlements = 4
+b_zwolle = tribal
+# Misc
+culture = frisian
+religion = norse_pagan
+
+# History
+630.1.1 = { religion = catholic }
+650.1.1 = {
+	b_zwolle = castle
+b_enschede = city
+b_deventer = temple
+}
+790.1.1 = { culture = dutch }
+1066.1.1 = { capital = b_deventer }
+1306.1.1 = { trade_post = b_warendorp }

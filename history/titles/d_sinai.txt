@@ -1,0 +1,12 @@
+557.1.1 = {
+	holder = 400085
+	liege = k_egypt
+}
+1220.1.1 = {
+	liege = k_egypt
+	holder = 32926
+}
+1240.1.1 = {
+	holder = 32925
+}
+

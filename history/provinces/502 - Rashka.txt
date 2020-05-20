@@ -1,0 +1,37 @@
+# 502 - Rashka
+
+# County Title
+title = c_rashka
+
+# Settlements
+max_settlements = 4
+
+b_ras = castle
+b_dioclea = city
+
+#b_svetispas = castle
+#b_trepca = castle
+#b_zvecan = castle
+#b_djakovica = castle
+#b_polog = castle
+
+# Misc
+culture = romanian
+religion = orthodox
+
+# History
+632.1.1 = { culture = serbian religion = slavic_pagan }
+632.1.1 = {
+	capital = b_dioclea
+	b_dioclea = tribal
+}
+
+800.1.1 = {
+	b_ras = castle
+	b_dioclea = city
+	b_decani = temple
+	capital = b_ras
+}
+870.1.1 = {
+	religion = orthodox
+}

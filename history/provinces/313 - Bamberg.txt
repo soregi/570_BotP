@@ -1,0 +1,26 @@
+# 313 - Bamberg
+
+# County Title
+title = c_bamberg 
+
+# Settlements
+max_settlements = 4
+#b_ansbach = castle
+b_babenberg = castle
+b_bamberg = temple
+
+#b_cadolzburg = castle
+#b_colmberg = castle
+b_roth = city
+#b_uffenheim = castle
+#b_crailsheim = castle
+
+culture = old_frankish
+religion = norse_pagan
+
+# History
+650.1.1 = { religion = catholic }
+760.1.1 = {
+	culture = german
+}
+1337.1.1 = { b_ansbach = castle }

@@ -1,0 +1,1243 @@
+404001 = {
+	name = "Ghabliah" # Fictional King of Garamantes
+	dynasty = 3000009 # Garamantes
+	religion = west_african_pagan
+	culture = berber
+	540.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+404002 = {
+	name = "Rutagh" # Maur
+	religion = west_african_pagan
+	dynasty = 3000011
+	culture = berber
+	534.2.3 = { birth = yes }
+	591.1.1 = { death = yes }
+}
+404003 = {
+	name = "Isa"
+	religion = catholic
+	culture = berber
+	546.1.1 = { birth = yes }
+	621.1.1 = { death = yes }
+}
+404004 = {
+	name = "Yusuf" 
+	religion = catholic
+	culture = berber
+	549.1.1 = { birth = yes }
+	631.1.1 = { death = yes }
+}
+404005 = {
+	name = "Musa"
+	religion = miaphysite
+	culture = berber
+	540.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+404006 = {
+	name = "Jabalah"
+	religion = monophysite
+	culture = bedouin_arabic
+	dynasty = 3000019 # Ghassanid
+	477.1.1 = { birth = yes }
+	529.1.1 = { death = yes }
+}
+404007 = {
+	name = "Al-Harith"
+	religion = miaphysite
+	culture = bedouin_arabic
+	dynasty = 3000019 # Ghassanid
+	father = 404006
+	502.1.1 = { birth = yes }
+	569.1.1 = { death = yes }
+}
+404008 = {
+	name = "Al-Mundir"
+	religion = miaphysite
+	culture = bedouin_arabic
+	dynasty = 3000019
+	father = 404007
+	diplomacy = 9
+	martial = 11
+	stewardship = 8
+	intrigue = 5
+	learning = 6
+	trait = "brilliant_strategist"
+	trait = "desert_terrain_leader"
+	trait = "inspiring_leader"
+	trait = "robust"
+	trait = "brave"
+	trait = "erudite"
+	trait = "trusting"
+	trait = "experimenter"
+	trait = cavalry_leader
+	543.1.1 = { birth = yes }
+	602.1.1 = { death = yes }
+}
+404009 = {
+	name = "Al-Mundhir"
+	religion = arabic_pagan
+	culture = bedouin_arabic
+	dynasty = 3000020
+	490.1.1 = { birth = yes }
+	520.1.1 = { add_spouse = 404010 }
+	554.6.1 = {
+		death = {
+			death_reason = death_battle
+			killer = 404007
+		}
+	}
+}
+404010 = {
+	name = "Hind"
+	religion = arabic_pagan
+	culture = bedouin_arabic
+	female = yes
+	500.1.1 = { birth = yes }
+	520.1.1 = { add_spouse = 404009 }
+	557.1.1 = { death = yes }
+}
+404011 = {
+	name = "'Amr" # Amr ibn Kulthum
+	religion = monophysite
+	culture = bedouin_arabic
+	dynasty = 582 # Taghlibid
+	trait = poet
+	535.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+404012 = {
+	name = "'Amr" # 'Amr III ibn Al-Mundhir
+	religion = arabic_pagan
+	culture = bedouin_arabic
+	dynasty = 3000020 # Lakhmid
+	father = 404009
+	mother = 404010
+	523.1.1 = { birth = yes }
+	569.6.1 = {
+		death = {
+			death_reason = death_murder
+			killer = 404011
+		}
+	}
+}
+404013 = {
+	name = "Qabus" # Qabus ibn al-Mundhir
+	religion = nestorian
+	culture =  bedouin_arabic
+	dynasty = 3000020 # Lakhmid
+	father = 404009
+	mother = 404010
+	528.1.1 = { birth = yes }
+	573.1.1 = { death = yes }
+}
+404014 = {
+	name = "Al-Mundhir"
+	religion = arabic_pagan
+	culture = bedouin_arabic
+	dynasty = 3000020 # Lakhmid
+	father = 404009
+	mother = 404010
+	530.1.1 = { birth = yes }
+	552.1.1 = { add_spouse = 404015 }
+	553.1.1 = { add_spouse = 404016 }
+	580.1.1 = { death = yes }
+}
+404015 = {
+	name = "Salma"#bint al Sa'igh
+	female = yes
+	religion = jewish
+	culture = sephardi
+	533.1.1 = { birth = yes }
+	590.1.1 = { death = yes }
+}
+404016 = {
+	name = "Mariya" # bint al-Harith ibn Djulhum
+	female = yes
+	religion = nestorian
+	culture = bedouin_arabic
+	535.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+404017 = {
+	name = "Al-Nu'man"
+	religion = nestorian
+	culture = bedouin_arabic
+	dynasty = 3000020 # Lakhmid
+	father = 404014
+	mother = 404015
+	555.1.1 = { birth = yes }
+	609.1.1 = { death = {
+					death_reason = death_execution
+					#killer = Khosrau II
+				}
+			}
+}
+404018 = {
+	name = "Salman"
+	dynasty = 1042116 # Banu Kalb
+	culture = bedouin_arabic
+	religion = miaphysite
+	543.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+404019 = {
+	name = "Yunus"
+	dynasty = 1042118 # Banu Judham
+	culture = bedouin_arabic
+	religion = miaphysite
+	537.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+404020 = {
+	name = "as-Sarif"
+	dynasty = 1042119 # Banu Udhrah
+	culture = bedouin_arabic
+	religion = jewish
+	553.1.1 = { birth = yes }
+	618.1.1 = { death = yes }
+}
+404021 = {
+	name = "al-Marqa"
+	dynasty = 1042119
+	culture = bedouin_arabic
+	religion = jewish
+	father = 404020
+	570.4.1 = {birth = yes }
+	627.1.1 = { religion = islamism }
+	632.1.1 = { death = yes }
+}
+404022 = {
+	name = "Hassan"
+	dynasty = 1042117 # Banu Tayy
+	culture = bedouin_arabic
+	religion = arabic_pagan
+	554.1.1 = { birth = yes }
+	615.1.1 = { death = yes }
+}
+404023 = {
+	name = "Tamim"
+	dynasty = 1042122 # Banu Tamim
+	culture = bedouin_arabic
+	religion = arabic_pagan
+	546.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+404024 = {
+	name = "Yaffar"
+	culture = bedouin_arabic
+	religion = arabic_pagan
+	father = 404023
+	dynasty = 1042122
+	570.1.1 = { birth = yes }
+	628.6.1 = { religion = islamism }
+	630.1.1 = { death = yes }
+}
+404025 = {
+	name = "Abdullah"
+	dynasty = 3000022 # Banu Bakr ibn Wa'il
+	culture = bedouin_arabic
+	religion = arabic_pagan
+	537.1.1 = { birth = yes }
+	600.1.1 =  {death = yes }
+}
+404026 = {
+	name = "Yunus"
+	culture = bedouin_arabic
+	religion = nestorian
+	dynasty = 1042121 #Abd al-Qays
+	540.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+404027 = {
+	name = "Mundhir"
+	culture = bedouin_arabic
+	religion = arabic_pagan
+	dynasty = 1029035 # Banu Kilab
+	547.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+} # Asir Hilal Najran Uqayl
+404028 = {
+	name = "Mansur"
+	culture = bedouin_arabic
+	religion = arabic_pagan
+	dynasty = 101731 # Banu Hilal{ Hilalid
+	550.1.1 = { birth = yes }
+	610.1.1 = { death = yes }
+}
+404029 = {
+	name = "al-Mustansir"
+	culture = bedouin_arabic
+	religion = arabic_pagan
+	dynasty = 101862 # Uqaylid
+	552.1.1 = { birth = yes }
+	615.1.1 = { religion = islamism }
+	622.1.1 = { death = yes }
+}
+404030 = {
+	name = "Kilab"
+	culture = bedouin_arabic
+	religion = arabic_pagan
+	dynasty = 1042120 # Banu Kinanah
+	550.1.1 = { birth = yes }
+	620.1.1 = { death = yes }
+}
+404031 = {
+	name = "Abram"
+	culture = bedouin_arabic
+	religion = arabic_pagan
+	dynasty = 1042181 # Azd 'Uman
+	548.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+404032 = {
+	name = "Khalid"
+	culture = bedouin_arabic
+	religion = arabic_pagan
+	dynasty = 3000023 # Ghatafan
+	556.1.1 = { birth = yes }
+	612.1.1 = { death = yes }
+}
+404033 = {
+	name = "Aaron"
+	culture = levantine_arabic
+	religion = jewish
+	dynasty = 3000025 # Banu Qaynuqa
+	553.1.1 = { birth = yes }
+	610.1.1 = { death = yes }
+}
+404034 = {
+	name = "al-Qasim"
+	culture = levantine_arabic
+	religion = arabic_pagan
+	dynasty = 3000024 # Banu Aws
+	554.1.1 = { birth = yes }
+	602.1.1 = { death = yes }
+}
+404035 = {
+	name = "Abd al-Rahman"
+	culture = bedouin_arabic
+	religion = arabic_pagan
+	dynasty = 1042103 # Kindah
+	550.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+404036 = {
+	name = "Bakr"
+	culture = bedouin_arabic
+	religion = arabic_pagan
+	dynasty = 3000026 # Mahra
+	550.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+404037 = {
+	name = "Isma'il"
+	culture = bedouin_arabic
+	religion = jewish
+	544.1.1 = { birth = yes }
+	600.11.1 = { death = yes }
+}
+404038 ={
+	name = "Sulayman"
+	culture = bedouin_arabic
+	religion = arabic_pagan
+	dynasty = 1042169
+	550.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+404039 = {
+	name = "Hussayn"
+	culture = bedouin_arabic
+	religion = arabic_pagan
+	dynasty = 3000029
+	551.1.1 = { birth = yes }
+	607.1.1 = { death = yes }
+}
+# Axumite King(Emperor)s
+404040 = {
+	name = "Ousas"
+	culture = ethiopian
+	religion = miaphysite
+	dynasty = 7246 # Solomonid
+	470.1.1 = {
+		birth = yes
+		create_bloodline = {
+			type = solomon
+			has_dlc = "Holy Fury"
+		}
+	}
+	510.1.1 = {
+		death = yes
+	}
+}
+404041 = {
+	name = "Kaleb"
+	culture = ethiopian
+	religion = miaphysite
+	dynasty = 7246 # Solomonid
+	father = 404040
+	trait = zealous
+	trait = theologian
+	trait = mastermind_theologian
+	500.1.1 = {
+		birth = yes
+	}
+	540.1.1 = {
+		death = yes
+	}
+}
+404042 = {
+	name = "Alla Amidas"
+	culture = ethiopian
+	religion = miaphysite
+	dynasty = 7246 # Solomonid
+	father = 404040
+	502.1.1 = {
+		birth = yes
+	}
+	549.1.1 = {
+		death = yes
+	}
+}
+404043 = {
+	name = "Wazena"
+	culture = ethiopian
+	religion = miaphysite
+	dynasty = 7246 # Solomonid
+	father = 404040
+	505.1.1 = { birth = yes }
+	552.1.1 = { death = yes }
+}
+404044 = {
+	name = "Wazeb" # W'ZB, Or Ella Gabaz
+	culture = ethiopian
+	religion = miaphysite
+	dynasty = 7246 # Solomonid
+	father = 404041
+	518.1.1 = { birth = yes }
+	568.1.1 = { death = yes }
+}
+404045 = {
+	name = "Ioel"
+	culture = ethiopian
+	religion = miaphysite
+	dynasty = 7246
+	father = 404042
+	523.1.1 = { birth = yes }
+	570.4.25 = {
+		add_claim = k_yemen
+		add_claim = d_sanaa
+	}
+	575.1.1 = { death = yes }
+}
+404046 = {
+	name = "Hataz"
+	culture = ethiopian
+	religion = miaphysite
+	dynasty = 7246
+	father = 404044
+	537.1.1 = { birth = yes }
+	570.1.1 = {
+		add_claim = k_yemen
+		add_claim = d_sanaa
+	}
+	577.1.1 = { death = yes }
+}
+404047 = {
+	name = "Saifu"
+	culture = ethiopian
+	religion = miaphysite
+	dynasty = 7246
+	father = 404044
+	541.1.1 = { birth = yes }
+	570.1.1 = {
+		add_claim = k_yemen
+		add_claim = d_sanaa
+	}
+	590.1.1 = { death = yes }
+}
+404048 = {
+	name = "Gabra Masqal"
+	culture = ethiopian
+	religion = miaphysite
+	dynasty = 7246
+	father = 404041
+	530.1.1 = { birth = yes }
+	569.1.1 = { death = yes }
+}
+404049 = {
+	name = "Israel"
+	culture = ethiopian
+	religion = miaphysite
+	dynasty = 7246
+	father = 404041
+	538.1.1 = {
+		birth = yes
+	}
+	570.1.1 = {
+		add_claim = k_yemen
+		add_claim = d_sanaa
+	}
+	600.1.1 = {
+		death = yes 
+	}
+}
+404050 = {
+	name = "Gersem"
+	culture = ethiopian
+	religion = miaphysite
+	dynasty = 7246
+	father = 404049
+	568.1.1 = {
+		birth = yes
+	}
+	570.1.1 = {
+		add_claim = k_yemen
+		add_claim = d_sanaa
+	}
+	614.1.1 = {
+		death = yes
+	}
+}
+404051 = {
+	name = "Armah"
+	culture = ethiopian
+	religion = miaphysite
+	dynasty = 7246
+	father = 404050
+	585.1.1 = {
+		birth = yes
+	}
+	631.1.1 = {
+		death = yes
+	}
+}
+404052 = {
+	name = "Kwanstantinos"
+	culture = ethiopian
+	religion = miaphysite
+	dynasty = 7246
+	father = 404047
+	570.1.1 = {
+		birth = yes
+	}
+	633.1.1 = { death = yes }
+}
+404053 = {
+	name = "Wasan Sagad"
+	culture = ethiopian
+	religion = miaphysite
+	dynasty = 7246
+	father = 404048
+	569.1.1 = {
+		birth = yes
+	}
+	636.1.1 = { death = yes }
+}
+404054 = {
+	name = "Fere Shany"
+	culture = ethiopian
+	religion = miaphysite
+	dynasty = 7246
+	father = 404051
+	612.1.1 = { birth = yes }
+	638.1.1 = { death = yes }
+}
+404055 = {
+	name = "'Ader'az"
+	culture = ethiopian
+	religion = miaphysite
+	dynasty = 7246
+	father = 404053
+	600.1.1 = {
+		birth = yes }
+	641.1.1 = {
+		death = yes
+	}
+}
+404056 = {
+	name = "'Akla Wedem"
+	culture = ethiopian
+	religion = miaphysite
+	dynasty = 7246
+	father = 404053
+	610.1.1 = { birth = yes }
+	645.1.1 = { death = yes }
+}
+404057 = {
+	name = "Germa Safar"
+	culture = ethiopian
+	religion = miaphysite
+	dynasty = 7246
+	father = 404052
+	618.1.1 = {
+		birth = yes }
+	650.1.1 = { death = yes }
+}
+404058 = {
+	name = "Zergaz"
+	culture = ethiopian
+	religion = miaphysite
+	dynasty = 7246
+	father = 404055
+	619.1.1 = {
+		birth = yes
+	}
+	656.1.1 = {
+		death = {
+			death_reason = death_murder
+			killer = 145983
+		} # This is a fantasy, No one can knows!
+	}
+}
+145983 = {
+	name="Degna Mikael"
+	dynasty=7246
+	religion="miaphysite"
+	culture="ethiopian"
+
+	father = 404055
+	
+	
+	620.1.1={
+		birth="620.1.1"
+	#	create_bloodline = {
+	#		type = solomon
+	#		has_dlc = "Holy Fury"
+	#	}
+	}
+	677.1.1={
+		death="677.1.1"
+	}
+}
+404059 = {
+	name = "Bietu"
+	dynasty = 1040009 # Alwa
+	culture = "nubian"
+	religion = west_african_pagan
+	520.1.1 = {
+		birth = yes
+	}
+	580.1.1 = {
+		religion = miaphysite
+	}
+	585.1.1 = {
+		death = yes
+	}
+}
+166153 = {
+	name="Asabysos"
+	dynasty=1040009
+	religion = west_african_pagan
+	culture="nubian"
+	
+	father = 404059
+	
+	562.1.1={
+		birth="562.1.1"
+	}
+	580.1.1 = {
+		religion = miaphysite
+	}
+	634.1.1={
+		death="634.1.1"
+	}
+}
+404060 = {
+	name = "Shamma"
+	religion = west_african_pagan
+	culture = nubian
+	540.1.1 = { birth = yes }
+	580.1.1 = {
+		death = {
+			death_reason = death_execution
+			killer = 166153
+		}
+	}
+}
+404061 = {
+	name = "Mohab"
+	religion = miaphysite
+	culture = nubian
+	547.1.1 = {
+		birth = yes
+	}
+	600.1.1 = { death = yes }
+}
+404062 = {
+	name = "Zakharias"
+	religion = west_african_pagan
+	culture = nubian
+	546.1.1 = {
+		birth = yes 
+	}
+	569.1.1 = {
+		religion = orthodox
+	}
+	600.1.1 = {
+		death = yes
+	}
+}
+404063 = {
+	name = "Garmul" #Last Mauro-Roman King
+	religion = catholic
+	culture = berber
+	dynasty = 3000031
+	540.1.1 = { birth = yes }
+	579.1.1 = { death = yes }
+}
+404065 = {
+	name = "Garmes"
+	religion = catholic
+	culture = berber
+	dynasty = 3000031
+	father = 404063
+	558.1.1 = { birth = yes }
+	620.1.1 = { death = yes }
+}
+404064 = {
+	name = "Yesas"
+	religion = catholic
+	culture = berber
+	dynasty = 3000031
+	father = 404063
+	562.1.1 = { birth = yes }
+	640.1.1 = { death = yes }
+}
+404066 = {
+	name = "Dorsale"
+	religion = catholic
+	culture = berber
+	549.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+404067 = {
+	name = "Capsus"
+	religion = catholic
+	culture = berber
+	549.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+404068 = {
+	name = "Hodna"
+	religion = catholic
+	culture = berber
+	549.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+404069 = {
+	name = "Aures"
+	religion = catholic
+	culture = berber
+	549.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+404070 = {
+	name = "Nemencha"
+	religion = catholic
+	culture = berber
+	549.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+404071 = {
+	name = "Munis"
+	religion = west_african_pagan
+	culture = berber
+	546.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+404072 = {
+	name = "Cabanon"
+	religion = donatism
+	culture = berber
+	550.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+404073 = {
+	name = "Talha"
+	religion = west_african_pagan
+	culture = somali
+	540.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+404074 = {
+	name = "Talib"
+	culture = bedouin_arabic
+	religion = monophysite
+	dynasty = 3000027
+	547.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+404075 = {
+	name = "Gideon"
+	culture = ethiopian
+	religion = jewish
+	dynasty = 3000032
+	530.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+404076 = {
+	name = "Gideon"
+	culture = ethiopian
+	religion = jewish
+	dynasty = 3000032
+	father = 404075
+	552.1.1 = { birth = yes }
+	634.1.1 = { death = yes }
+}
+404077 = {
+	name = "Kwanstantinos"
+	culture = ethiopian
+	religion = miaphysite
+	dynasty = 3000032
+	father = 404075
+	559.1.1 = { birth = yes }
+	620.1.1 = { death = yes }
+}
+404078 = {
+	name = "Asad"
+	culture = bedouin_arabic
+	religion = arabic_pagan
+	dynasty = 3000059
+	519.1.1 = { birth = yes }
+	572.1.1 = { death = yes }
+}
+404079 = {
+	name = "Khuwaylid"
+	culture = bedouin_arabic
+	religion = arabic_pagan
+	dynasty = 3000059
+	father = 404078
+	537.1.1 = {
+		birth = yes
+	}
+	598.1.1 = {
+		death = yes
+	}
+}
+404080 = {
+	name = "Khadijah"
+	culture = bedouin_arabic
+	religion = arabic_pagan
+	dynasty = 3000059
+	female = yes
+	father = 404079
+	trait = midas_touched
+	stewardship = 9
+	trait = gardener
+	555.1.1 = {
+		birth = yes
+		effect = { set_character_flag = khadijah }
+	}
+	570.1.1 = {
+		wealth = 1200
+	}
+	595.1.1 = {
+		add_spouse = 33922
+	}
+	610.1.1 = {
+		religion = islamism
+	}
+	619.11.22 = {
+		death = yes
+	}
+}
+404081 = {
+	name = "Suad"
+	culture = berber
+	religion = west_african_pagan
+	540.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+404082 = {
+	name = "Isli"
+	culture = berber
+	religion = west_african_pagan
+	546.1.1 = { birth = yes }
+	620.1.1 = { death = yes }
+}
+404083 = {
+	name = "Guanaresh"
+	culture = berber
+	religion = west_african_pagan
+	550.1.1 = { birth  =yes }
+	633.1.1 = { death = yes }
+}
+404084 = {
+	name = "Gulusa"
+	culture = berber
+	religion = west_african_pagan
+	546.1.1 = { birth = yes }
+	620.1.1 = { death = yes }
+}
+404085 = {
+	name = "Maghes"
+	culture = berber
+	religion = west_african_pagan
+	546.1.1 = { birth = yes }
+	620.1.1 = { death = yes }
+}
+404086 = {
+	name = "Taghlia"
+	culture = soninke
+	religion = west_african_pagan
+	550.1.1 = { birth = yes }
+	630.1.1 = { death = yes }
+}
+404087 = {
+	name = "Kiffa"
+	culture = soninke
+	religion = west_african_pagan
+	553.1.1 = { birth = yes }
+	630.1.1 = { death = yes }
+}
+404088 = {
+	name = "Zakar"
+	culture = songhay
+	religion = west_african_pagan
+	553.1.1 = { birth = yes }
+	630.1.1 = { death = yes }
+}
+404089 = {
+	name = "Mekene"
+	culture = ethiopian
+	religion = west_african_pagan
+	540.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+404090 = {
+	name = "Darbas"
+	culture = ethiopian
+	religion = miaphysite
+	551.1.1 = { birth = yes }
+	621.1.1 = { death = yes }
+}
+404091 = {
+	name = "Lewis"
+	culture = ethiopian
+	religion = miaphysite
+	547.1.1 = { birth = yes }
+	610.1.1 = { death = yes }
+}
+404092 = {
+	name = "Pangiro"
+	culture = nubian
+	religion = miaphysite
+	549.1.1 = { birth = yes }
+	622.1.1 = { death = yes }
+}
+404093 = {
+	name = "Zakharia"
+	culture = nubian
+	religion = west_african_pagan
+	553.1.1 = { birth = yes }
+	630.1.1 = { death=  yes }
+}
+404094 = {
+	name = "Ashar"
+	culture = kanuri
+	religion = west_african_pagan
+	551.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+404095 = {
+	name = "Ghania"
+	culture = berber
+	religion = west_african_pagan
+	543.1.1 = { birth = yes }
+	632.1.1 = { death = yes }
+}
+404096 = {
+	name = "Badar"
+	culture = bedouin_arabic
+	religion = arabic_pagan
+	540.1.1 = { birth = yes }
+	622.1.1 = { death = yes }
+}
+404097 = {
+	name = "Dhu Yazan"
+	dynasty = 3000088
+	culture = bedouin_arabic
+	religion = jewish
+	476.1.1 = { birth = yes }
+	520.1.1 = { death = yes }
+}
+404098 = {
+	name = "Sayf"
+	dynasty = 3000088
+	father = 404097
+	culture = bedouin_arabic
+	religion = jewish
+	516.1.1 = { birth = yes }
+	578.1.1 = { death = yes }
+}
+404099 = {
+	name = "Ma'di Karib"
+	dynasty = 3000088
+	father = 404098
+	culture = bedouin_arabic
+	religion = jewish
+	550.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+404100 = {
+	name = "Aisha"
+	father = 163014
+	dynasty = 7296
+	female = yes
+	religion = islamism
+	culture = bedouin_arabic
+	614.2.1 = {	birth = yes }
+	620.7.1 = { add_spouse = 33922 }
+	656.1.1 = {
+		religion = sunni
+	}
+	678.7.13 = {
+		death = yes
+	}
+}
+404101 = {
+	name = "Abu Said"
+	dynasty = 3000152
+	religion = arabic_pagan
+	culture = bedouin_arabic
+	547.1.1 = { birth = yes }
+	634.1.1 = { death = yes }
+}
+404102 = {
+	name = "Amr"
+	dynasty = 3000153
+	religion = arabic_pagan
+	culture = bedouin_arabic
+	551.1.1 = { birth = yes }
+	634.1.1 = { death = yes }
+}
+404103 = {
+	name = "Khalid"
+	dynasty = 3000154
+	religion = arabic_pagan
+	culture = bedouin_arabic
+	547.1.1 = { birth = yes }
+	634.1.1 = { death = yes }
+}
+404104 = {
+	name = "Abdullah"
+	dynasty = 101057
+	religion = arabic_pagan
+	culture = bedouin_arabic
+	551.1.1 = { birth = yes }
+	630.1.1 = { religion = islamism }
+	651.1.1 = { death = yes }
+}
+404105 = {
+	name = "Bahila"
+	dynasty = 3000155
+	religion = arabic_pagan
+	culture = bedouin_arabic
+	545.1.1 = { birth = yes }
+	633.9.1 = { death =	yes }
+}
+404106 = {
+	name = "Hanifi"
+	dynasty = 3000156
+	religion = arabic_pagan
+	culture = bedouin_arabic
+	554.1.1 = { birth = yes }
+	637.1.1 = { death = yes }
+}
+404107 = {
+	name = "Abu Said"
+	dynasty = 3000157
+	religion = arabic_pagan
+	culture = bedouin_arabic
+	550.1.1 = { birth = yes }
+	633.1.1 = { death = yes }
+}
+404108 = {
+	name = "Bakr"
+	dynasty = 3000158
+	religion = arabic_pagan
+	culture = bedouin_arabic
+	549.1.1 = { birth = yes }
+	634.1.1 = { death = yes }
+}
+404109 = {
+	name = "Ghalidh"
+	dynasty = 3000159
+	religion = nestorian
+	culture = bedouin_arabic
+	535.1.1 = { birth = yes }
+	607.1.1 = { death = yes }
+}
+404110 = {
+	name = "Yoshua"
+	dynasty = 3000020
+	father = 404009
+	religion = nestorian
+	culture = bedouin_arabic
+	trait = sympathy_pagan
+	553.1.1 = { birth = yes }
+	587.1.1 = { death = yes }
+}
+# Connections
+404111 = {
+	name = "Ubayd"
+	dynasty = 1042117 # Banu Tayy
+	father = 404022
+	culture = bedouin_arabic
+	religion = arabic_pagan
+	594.1.1 = { birth = yes }
+	632.1.1 = { religion = islamism }
+	659.1.1 = { death = yes }
+}
+404112 = {
+	name = "Abdullah"
+	dynasty = 1042117
+	father = 404111
+	culture = bedouin_arabic
+	religion = sunni
+	636.1.1 = { birth = yes }
+	689.1.1 = { death = yes }
+}
+404113 = {
+	name = "Hafiz"
+	dynasty = 1042117
+	father = 404112
+	culture = bedouin_arabic
+	religion = sunni
+	663.1.1 = { birth = yes }
+	723.1.1 = { death = yes }
+} # To 188614
+404114 = {
+	name = "Umar"
+	dynasty = 1042116 # Banu Kalb
+	father = 404018
+	culture = bedouin_arabic
+	religion = miaphysite
+	593.1.1 = { birth = yes }
+	645.1.1 = { death = yes }
+}
+404115 = {
+	name = "Zeyd"
+	dynasty = 1042116 # Banu Kalb
+	father = 404114
+	culture = bedouin_arabic
+	religion = sunni
+	630.1.1 = { birth = yes }
+	697.1.1 = { death = yes }
+}
+404116 = {
+	name = "Al-Fadl"
+	dynasty = 1042116 # Banu Kalb
+	father = 404115
+	culture = bedouin_arabic
+	religion = sunni
+	680.1.1 = { birth = yes }
+	755.1.1 = { death = yes }
+}# To 188613
+404117 = {
+	name = "Abdullah"
+	dynasty = 1042118# Banu Judham
+	father = 404019
+	culture = bedouin_arabic
+	religion = miaphysite
+	570.1.1 = { birth = yes }
+	636.1.1 = { death = yes }
+}
+404118 = {
+	name = "Nizam"
+	dynasty = 1042118
+	father = 404117
+	culture = bedouin_arabic
+	religion = islamism
+	613.1.1 = { birth = yes }
+	660.1.1 = { death = yes }
+}
+404119 = {
+	name = "Hasan"
+	dynasty = 1042118
+	father = 404118
+	culture = bedouin_arabic
+	religion = sunni
+	654.1.1 = { birth = yes }
+	718.1.1 = { death = yes }
+}
+404120 = {
+	name = "Umar"
+	dynasty = 1042118
+	father = 404119
+	culture = bedouin_arabic
+	religion = sunni
+	689.1.1 = { birth = yes }
+	720.1.1 = { death = yes }
+}
+# To 188617
+404121 = {
+	name = "Al-Harith"
+	dynasty = 1042119 # Banu Udhrah
+	culture = bedouin_arabic
+	religion = islamism
+	father = 404021
+	628.4.1 = { birth = yes }
+	661.1.1 = { religion = shia }
+	680.1.1 =  {death = yes }
+}
+404122 = {
+	name = "Hussayn"
+	dynasty = 1042119
+	culture = bedouin_arabic
+	religion = shia
+	father = 404121
+	656.1.1 = { birth = yes }
+	681.1.1 = { religion = sunni }
+	710.1.1 = { death = yes }
+}
+404123 = {
+	name = "Bahr"
+	dynasty = 1042119
+	father = 404122
+	culture = bedouin_arabic
+	religion = sunni
+	685.1.1 = { birth = yes }
+	737.1.1 = { death = yes }
+}
+404124 = {
+	name = "Halil"
+	dynasty = 1042119
+	father = 404123
+	culture =  bedouin_arabic
+	religion = sunni
+	720.1.1 = { birth = yes }
+	767.1.1 = { death = yes }
+}# To 188620
+404125 = {
+	name = "Qabus"
+	culture = bedouin_arabic
+	religion = arabic_pagan
+	father = 404024
+	dynasty = 1042122 # Tamim
+	618.1.1 = { birth = yes }
+	628.6.1 = { religion = islamism }
+	670.1.1 = { death = yes }
+}
+404126 = {
+	name = "Amr"
+	culture = bedouin_arabic
+	religion = islamism
+	father = 404125
+	dynasty = 1042122
+	637.1.1 = { birth = yes }
+	661.1.1 = { religion = shiite }
+	681.1.1 = { death = yes }
+}
+404127 = {
+	name = "Muhammad"
+	culture = bedouin_arabic
+	religion = shiite
+	father = 404126
+	dynasty = 1042122
+	673.1.1 = { birth = yes }
+	692.1.1 = { religion = sunni }
+	715.1.1 = { death = yes }
+} #To 188629

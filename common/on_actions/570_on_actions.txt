@@ -1,0 +1,27 @@
+on_death = {
+	events = {
+		lombard.2
+		lombard.9
+		RHO.4
+		islam.16
+		tibet.3
+		horde.4
+	}
+}
+on_adulthood = {
+	events = {
+		islam.2
+	}
+}
+on_birth = {
+	events = {
+		islam.7
+		islam.10
+	}
+}
+on_post_birth = {
+	events = {
+		RHO.10
+		tibet.1
+	}
+}

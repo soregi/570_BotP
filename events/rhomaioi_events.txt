@@ -1,0 +1,243 @@
+namespace = RHO
+
+narrative_event = { # 서롬 복원
+	id = RHO.1
+	title = EVTTITLE_RHO_1
+	desc = EVTDESC_RHO_1
+	
+	picture = GFX_evt_rome_restored_byzantine
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_RHO_1
+		hidden_tooltip = {
+			k_italy = {
+				de_jure_liege = e_wre
+			}
+			k_venice = {
+				de_jure_liege = e_wre
+			}
+			k_romagna = {
+				de_jure_liege = e_wre
+			}
+			k_sardinia = {
+				de_jure_liege = e_wre
+			}
+			k_sicily = {
+				de_jure_liege = e_wre
+			}
+		}
+		e_wre = {
+			show_scope_change = no
+			grant_title = ROOT
+			hidden_tooltip = { make_primary_title = yes }
+		}
+		
+		add_claim = k_france
+		add_claim = k_aquitane
+		add_claim = k_burgundy
+		add_claim = k_aragon
+		add_claim = k_navarra
+		add_claim = k_lotharingia
+		add_claim = k_africa
+		add_claim = k_mauretania
+		add_claim = k_andalusia
+		add_claim = k_valencia
+		add_claim = k_badajoz
+		add_claim = k_sardinia
+		add_claim = k_galicia
+		add_claim = k_asturias
+		add_claim = k_leon
+		add_claim = k_carinthia
+		add_claim = k_castille
+		add_claim = k_england
+		add_claim = k_britanny
+		add_claim = d_britanny
+		add_claim = k_frisia
+		add_claim = k_croatia
+		add_claim = d_pecs
+		add_claim = k_bavaria
+		
+		any_demesne_title = {
+			limit = {
+				tier = empire
+			}
+			any_direct_de_jure_vassal_title = {
+				de_jure_liege = e_wre
+			}
+			destroy_landed_title = THIS
+		}
+		hidden_tooltip = {
+			any_playable_ruler = {
+				narrative_event = { id = RHO.2 }
+			}
+		}
+		give_nickname = nick_the_glorious
+		if = { #New Imperial Bloodline. (male)
+				limit = {
+					has_dlc = "Holy Fury" 
+					is_female = no
+					is_alternate_start = no
+					OR = { 
+						religion_group = christian
+						religion = hellenic_pagan
+						religion = hellenic_pagan_reformed
+					}
+	    			NOT = {
+	    				any_owned_bloodline = {
+    						has_bloodline_flag = roman_bloodline #Not if already member of a famous historical Roman Bloodline.
+    					}
+    				}
+				}
+				create_bloodline = {
+					type = roman_emperor_male
+				}
+				new_bloodline = {
+					set_description = "bloodline_desc_roman"
+				}	
+				sound_effect = bloodline_added			
+			}
+		if = { #New Imperial Bloodline. (female)
+			limit = { 
+				has_dlc = "Holy Fury" 
+				is_female = yes
+				is_alternate_start = no
+				OR = { 
+					religion_group = christian
+					religion = hellenic_pagan
+					religion = hellenic_pagan_reformed
+				}
+    			NOT = {
+    				any_owned_bloodline = {
+						has_bloodline_flag = roman_bloodline #Not if already member of a famous historical Roman Bloodline.
+					}
+				}
+			}
+			create_bloodline = {
+				type = roman_emperor_female
+			}
+			new_bloodline = {
+				set_description = "bloodline_desc_roman"
+			}				
+			sound_effect = bloodline_added
+		}
+	}
+}
+narrative_event = { # 서롬 복원 알림이벤트
+	id = RHO.2
+	title = EVTTITLE_RHO_2
+	desc = EVTDESC_RHO_2
+	
+	picture = GFX_evt_rome_restored_byzantine
+	
+	is_triggered_only = yes
+	only_playable = yes
+	option = {
+		name = EVTOPTA_RHO_2
+		trigger = {
+			NOT = { has_landed_title = e_hre }
+		}
+	}
+	option = {
+		name = EVTOPTB_RHO_2
+		trigger = {
+			has_landed_title = e_hre
+		}
+		destroy_landed_title = e_hre
+		prestige = -500
+	}
+}
+character_event = {
+	id = RHO.3
+	title = EVTTITLE_RHO_3
+	desc = EVTDESC_RHO_3
+	picture = GFX_evt_armory
+	is_triggered_only = yes
+	immediate = {
+				k_africa = {
+					holder_scope = {
+						save_event_target_as = africana
+					}
+				}
+	}
+	option = { name = EVTOPTA_RHO_3 }
+	after = {
+		k_andalusia = {
+			if = {
+				limit = {
+					has_title_flag = roman_governate
+				}
+				clr_title_flag = roman_governate
+				holder_scope = {
+					any_vassal = {
+						limit = {
+							OR = {
+								tier = COUNT
+								tier = DUKE
+							}
+						}
+						set_defacto_liege = event_target:africana
+					}
+					destroy_landed_title = k_andalusia
+					set_defacto_liege = event_target:africana
+				}
+			}
+		}
+		d_sicily = {
+			holder_scope = {
+				if = {
+					limit = {
+						tier = DUKE
+					}
+					set_defacto_liege = event_target:africana
+				}
+			}
+		}
+	}
+}
+character_event = {
+	id = RHO.4
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		e_byzantium = {
+			holder = ROOT
+		}
+		NOT = {
+			has_global_flag = maurice
+		}
+		NOT = {
+			c_70510 = {
+				death = yes
+			}
+		}
+		year = 580
+	}
+	immediate = {
+		set_global_flag = maurice
+		c_70510 = {
+			grant_title = e_byzantium
+			character_event = { id = RHO.3 }
+		}
+	}
+}
+character_event = {
+	id = RHO.5
+	hide_window = yes
+	only_playable = yes
+	trigger = {
+		NOT = {
+			has_global_flag = maurice
+		}
+		character = c_70510
+		has_landed_title = e_byzantium
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		set_global_flag = maurice
+		character_event = { id = RHO.3 }
+	}
+}

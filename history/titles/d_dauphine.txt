@@ -1,0 +1,14 @@
+534.1.1 = {
+	liege = k_burgundy
+	holder=168681 #Clotaire Ier - Burgundian Southern parts
+}
+561.11.29 = {
+	holder = 168686
+}
+565.1.1 = {
+	holder = 403034 # Granted
+	liege = k_orleans
+}
+600.1.1 = {
+	liege = k_burgundy
+}

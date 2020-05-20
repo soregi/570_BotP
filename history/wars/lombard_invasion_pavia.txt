@@ -1,0 +1,20 @@
+name = "Lombard Invasion of Pavia"
+
+casus_belli = {
+	actor = 190124 # Alboin
+	recipient = 70511 # Justin II of Rome
+	casus_belli=county_conquest_special
+	landed_title=c_pavia
+#	date=569.1.1
+	date=570.4.27
+}
+
+570.4.27 = {
+	add_attacker = 190124
+	add_defender = 70511
+}
+
+572.6.1 = {
+	rem_attacker = 190124
+	rem_defender = 70511
+}

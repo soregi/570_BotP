@@ -1,0 +1,29 @@
+# 1645 - Targu Jiu
+
+# County Title
+title = c_targu_jiu
+
+# Settlements
+max_settlements = 3
+
+b_targu_jiu = tribal
+
+#b_polovragi = temple
+#b_visina = temple
+#b_tismana = temple
+#b_vulcan = castle
+
+# Misc
+culture = romanian
+religion = orthodox
+
+# History
+633.1.1 = { religion = slavic_pagan }
+740.1.1 = {
+	b_targu_jiu = castle
+	b_bistrita = city
+	b_baia_de_arama = castle
+}
+870.1.1 = {
+	religion = orthodox
+}

@@ -1,0 +1,11 @@
+300.1.1 = {
+	liege = e_persia
+	vice_royalty = yes
+}
+570.1.1 = {
+	holder = 408011
+}
+642.1.1 = {
+	liege = 0
+	vice_royalty = no
+}

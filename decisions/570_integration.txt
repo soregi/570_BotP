@@ -1,0 +1,248 @@
+decisions = {
+	integrate_syria = {
+		is_high_prio = yes
+		potential = {
+			has_landed_title = e_byzantium
+			k_syria = {
+				has_title_flag = roman_governate
+			}
+		}
+		allow = {
+			prestige = 2000
+			wealth = 1500
+			year = 610
+			war = no
+		}
+		effect = {
+			clr_global_flag = oriens_gov
+			k_syria = {
+				holder_scope = {
+					set_defacto_liege = ROOT
+					government = feudal_government
+					hidden_tooltip = {
+						any_vassal = {
+							limit = {
+								tier = DUKE
+							}
+							primary_title = {
+								grant_title = ROOT
+							}
+						}
+						any_demesne_title = {
+							limit = {
+								tier = DUKE
+							}
+							grant_title = ROOT
+						}
+					}
+				}
+				hidden_tooltip = {
+					clr_title_flag = roman_governate
+				}
+				grant_title = ROOT
+			}
+			prestige = -1500
+			wealth = -1000
+		}
+	}
+	integrate_egypt = {
+		is_high_prio = yes
+		potential = {
+			has_landed_title = e_byzantium
+			k_egypt = {
+				has_title_flag = roman_governate
+			}
+		}
+		allow = {
+			prestige = 4000
+			wealth = 2000
+		}
+		effect = {
+			clr_global_flag = egypt_gov
+			k_egypt = {
+				holder_scope = {
+					set_defacto_liege = ROOT
+					government = feudal_government
+					hidden_tooltip = {
+						any_vassal = {
+							limit = {
+								tier = DUKE
+							}
+							primary_title = {
+								grant_title = ROOT
+							}
+						}
+						any_demesne_title = {
+							limit = {
+								tier = DUKE
+							}
+							grant_title = ROOT
+						}
+					}
+				}
+				hidden_tooltip = {
+					clr_title_flag = roman_governate
+				}
+				grant_title = ROOT
+			}
+			prestige = -1500
+			wealth = -1500
+		}
+	}
+	integrate_africa = {
+		is_high_prio = yes
+		potential = {
+			has_landed_title = e_byzantium
+			k_africa = {
+				has_title_flag = roman_governate
+			}
+			OR = {
+				has_global_flag = hxt
+				year = 622
+			}
+		}
+		allow = {
+			prestige = 2000
+			wealth = 500
+
+		}
+		effect = {
+			clr_global_flag = africa_gov
+			k_africa = {
+				holder_scope = {
+					set_defacto_liege = ROOT
+					government = feudal_government
+					hidden_tooltip = {
+						any_vassal = {
+							limit = {
+								tier = DUKE
+							}
+							primary_title = {
+								grant_title = ROOT
+							}
+						}
+						any_demesne_title = {
+							limit = {
+								tier = DUKE
+							}
+							grant_title = ROOT
+						}
+					}
+				}
+				hidden_tooltip = {
+					clr_title_flag = roman_governate
+				}
+				grant_title = ROOT
+			}
+			prestige = -1500
+			wealth = -1500
+		}
+	}
+	integrate_ravenna = {
+		is_high_prio = yes
+		potential = {
+			has_landed_title = e_byzantium
+			k_romagna = {
+				has_title_flag = roman_governate
+			}
+		}
+		allow = {
+			OR = {
+				AND = {
+					prestige = 6000
+					wealth = 2500
+					year = 620
+				}
+				AND = {
+					prestige = 4000
+					wealth = 2000
+					year = 610
+					k_romagna = {
+						holder_scope = {
+							realm_size < 30
+						}
+					}
+				}
+			}
+			war = no
+		}
+		effect = {
+			clr_global_flag = ravenna_gov
+			k_romagna = {
+				holder_scope = {
+					set_defacto_liege = ROOT
+					government = feudal_government
+					hidden_tooltip = {
+						any_vassal = {
+							limit = {
+								tier = DUKE
+							}
+							primary_title = {
+								grant_title = ROOT
+							}
+						}
+						any_demesne_title = {
+							limit = {
+								tier = DUKE
+							}
+							grant_title = ROOT
+						}
+					}
+				}
+				hidden_tooltip = {
+					clr_title_flag = roman_governate
+				}
+				grant_title = ROOT
+			}
+			prestige = -5000
+			wealth = -2000
+		}
+	}
+	integrate_illyria = {
+		is_high_prio = yes
+		potential = {
+			has_landed_title = e_byzantium
+			k_illyricum = {
+				has_title_flag = roman_governate
+			}
+			has_global_flag = serb
+		}
+		allow = {
+			prestige = 6000
+			wealth = 2500
+			
+			war = no
+		}
+		effect = {
+			clr_global_flag = dacia_gov
+			k_illyricum = {
+				holder_scope = {
+					set_defacto_liege = ROOT
+					government = feudal_government
+					hidden_tooltip = {
+						any_vassal = {
+							limit = {
+								tier = DUKE
+							}
+							primary_title = {
+								grant_title = ROOT
+							}
+						}
+						any_demesne_title = {
+							limit = {
+								tier = DUKE
+							}
+							grant_title = ROOT
+						}
+					}
+				}
+				hidden_tooltip = {
+					clr_title_flag = roman_governate
+				}
+				destroy_landed_title = THIS
+			}
+			prestige = -5000
+			wealth = -2000
+		}
+	}
+}

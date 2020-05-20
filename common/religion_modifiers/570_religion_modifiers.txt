@@ -1,0 +1,8 @@
+arian = {
+	authority = -20
+	years = 30
+}
+catholic = {
+	authority = 30
+	years = 50
+}

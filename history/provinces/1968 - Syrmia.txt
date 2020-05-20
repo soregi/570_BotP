@@ -1,0 +1,32 @@
+# 1968 - Syrmia
+
+# County Title
+title = c_syrmia
+
+# Settlements
+max_settlements = 3
+b_zvecan_syrmia = castle
+b_zemlen = city
+
+# Misc
+culture = pannonian
+religion = catholic
+
+# History
+632.1.1 = {
+	culture = croatian
+	religion = slavic_pagan
+	b_zvecan_syrmia = tribal
+	remove_settlement = b_zemlen
+}
+800.1.1 = {
+	religion = catholic
+	b_zvecan_syrmia = castle
+	b_zemlen = city
+}
+930.1.1 = {
+	b_zvecan_syrmia = tribal
+}
+950.1.1 = {
+	b_zvecan_syrmia = castle
+}

@@ -1,0 +1,25 @@
+# 139 - Bourges
+
+# County Title
+title = c_bourges
+
+# Settlements
+max_settlements = 5
+
+b_bourges = castle
+b_deols = temple
+b_chateauroux = city
+
+#b_issoudun
+#b_stsatur
+#b_mehun
+#b_vierzon
+
+# Misc
+culture = gallic_latin
+religion = catholic
+
+# History
+650.1.1 = { culture = old_frankish }
+790.1.1 = { culture = frankish }
+1151.1.1 = { b_issoudun = castle }

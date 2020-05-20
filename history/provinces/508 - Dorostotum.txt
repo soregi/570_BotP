@@ -1,0 +1,32 @@
+# 508 - Dorostotum
+
+# County Title
+title = c_dorostotum
+
+# Settlements
+max_settlements = 3
+b_dorosturum = castle
+
+b_rusi = city
+
+#b_borovo = castle
+#b_slivopole = castle
+#b_byaladve = castle
+#b_tsenovo = castle
+#b_samuil = castle
+
+# Misc
+culture = romanian
+religion = orthodox
+
+# History
+645.1.1 = { culture = bulgarian }
+681.1.1= { religion = slavic_pagan } 
+865.1.1= { religion = orthodox } 
+901.1.1 = {
+	b_razgrad = temple
+}
+1187.1.1 = {
+	max_settlements = 4
+	b_slivopole = castle
+} 

@@ -1,0 +1,19 @@
+511.11.27 = {
+	de_jure_liege = e_france
+	holder = 168680
+}
+558.12.23 = {
+	holder = 168681
+}
+561.11.29 = {
+	holder = 168685
+}
+568.1.1 = {
+	holder = 0
+}
+595.3.28 = {
+	holder=168695 #Clotaire II
+}
+613.12.1 = {
+	holder = 0
+}

@@ -1,0 +1,31 @@
+# County Title
+title = c_yoredale
+
+# Settlements
+max_settlements = 3
+b_yoredale = castle
+b_settle = city
+
+#b_ilkley = temple
+#b_bolton = castle
+#b_skipton = castle
+#b_bainbridge = castle
+#b_middleham = castle
+
+# Misc
+culture = welsh
+religion = catholic
+
+# History
+595.1.1 = { culture = saxon }
+610.1.1 = { religion = norse_pagan }
+634.1.11 = { religion = catholic }
+866.1.1 = {
+	culture = norse 
+	religion = norse_pagan
+}
+954.1.1 = {
+	culture = saxon 
+	religion = catholic
+}
+1100.11.11 = { culture = english }

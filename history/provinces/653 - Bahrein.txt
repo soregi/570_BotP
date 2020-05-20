@@ -1,0 +1,30 @@
+# 653 - Bahrein
+
+# County Title
+title = c_bahrein
+
+# Settlements
+max_settlements = 4
+b_batn_ardasir = castle
+b_al_masqar = city
+b_murwab = temple
+
+#b_sitra = castle
+#b_jidda = castle
+#b_umm_as_sabaan = castle
+#b_hamala = castle
+#b_aldur = castle
+
+# Misc
+culture = bedouin_arabic
+religion = nestorian
+
+# History
+633.1.1 = { religion = islamism }
+661.1.1 = { religion = shiite }
+894.1.1 = {
+	religion = qarmatian
+}
+1077.1.1 = {
+	religion = shiite
+}

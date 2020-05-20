@@ -1,0 +1,160 @@
+# Types:
+# 0 - Light Infantry
+# 1 - Heavy Infantry
+# 2 - Pikemen
+# 3 - Light Cavalry
+# 4 - Heavy Cavalry
+# 5 - Archers
+# 6 - Special troops
+
+RETTYPE_CUL_BYZ = 
+{
+	first_type = 4
+	first_amount = 150
+	
+	second_type = 6
+	second_amount = 100
+
+	special_troops = horse_archers
+	
+	potential = {
+		is_nomadic = no
+		OR = {
+		AND = {
+		culture_group = byzantine
+		NOT = { culture = coptic }
+		NOT = { culture = alan }
+		NOT = { culture = assyrian }
+		NOT = { culture = arberian }
+		}
+		culture = persian
+		culture = parthian
+		culture = syriac
+		culture = georgian
+		}
+	}
+	
+	modifier = {
+		knights_offensive = 0.1
+		knights_defensive = 0.1
+		knights_morale = 0.2
+	}
+}
+RETTYPE_CUL_GOT = {
+	first_type = 0
+	first_amount = 250
+	second_type = 3
+	second_amount = 150
+	potential =  {
+		is_nomadic = no
+		OR = {
+			culture = visigothic
+			culture = ostrogothic
+			culture = crimean_gothic
+		}
+	}
+	modifier = {
+		light_infantry_offensive = 0.2
+		light_infantry_defensive = 0.2
+		light_infantry_morale = 0.4
+		light_cavalry_defensive = 0.1
+		light_cavalry_offensive = 0.1
+		light_cavalry_morale = 0.25
+	}
+}
+RETTYPE_CUL_ARAMAIC = 
+{
+	first_type = 5
+	first_amount = 200
+
+	
+	potential = {
+		is_nomadic = no
+		AND = {
+		culture_group = aramaic
+		NOT = { culture = assyrian }
+		}
+		
+	}
+	
+	modifier = {
+		archers_offensive = 0.3
+		archers_defensive = 0.4
+	}
+}
+RETTYPE_CUL_ALTAIC = 
+{
+	first_type = 6
+	first_amount = 130
+	
+	second_type = 3
+	second_amount = 120
+
+	special_troops = horse_archers
+	
+	potential = {
+		is_nomadic = no
+		OR = {
+			culture_group = altaic
+			culture_group = iranian
+			culture_group = caucasian
+		}
+		NOT = {
+			culture = jurchen
+			culture = georgian
+		}
+	}
+	
+	modifier = {
+		horse_archers_offensive = 0.2
+		horse_archers_morale = 0.12
+	}
+}
+RETTYPE_CUL_FRANK_NOR_GER = 
+{
+	first_type = 4
+	first_amount = 150
+	
+	second_type = 3
+	second_amount = 100
+	
+	potential = {
+		is_nomadic = no
+		OR = {
+			culture = frankish
+			culture = occitan
+			culture = norman
+			culture = german
+			culture = breton
+			culture = thuringian
+			culture = bavarian
+			culture = swabian
+			culture = gallic_latin
+			culture = burgundian
+		}
+	}
+	
+	modifier = {
+		knights_offensive = 0.1
+		knights_defensive = 0.1
+		knights_morale = 0.2
+	}
+}
+RETTYPE_CUL_BERBER = 
+{
+	first_type = 3
+	first_amount = 400
+
+	potential = {
+		is_nomadic = no
+		OR = {
+			culture = maghreb_arabic
+			culture = berber
+		}
+	}
+
+	modifier = {
+		light_cavalry_offensive = 0.5
+		light_cavalry_morale = 0.3
+	}
+}

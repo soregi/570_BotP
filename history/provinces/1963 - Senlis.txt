@@ -1,0 +1,23 @@
+# 1588 - Senlis
+
+# County Title
+title = c_senlis
+
+# Settlements
+max_settlements = 5
+
+b_senlis = castle
+b_beaumont_IdF = city
+b_compiegne = temple
+
+#b_crepy
+#b_creil
+#b_roissy
+#b_chantilly
+
+culture = gallic_latin
+religion = catholic
+
+# History
+650.1.1 = { culture = old_frankish }
+790.1.1 = { culture = frankish }

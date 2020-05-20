@@ -1,0 +1,28 @@
+# 1428 - Damot
+
+# County Title
+title = c_damot
+
+# Settlements
+max_settlements = 4
+b_awasa = tribal
+
+#b_yirga_chefe = city
+
+#b_fasha = temple
+#b_malbarde = castle
+
+#b_muger = temple
+#b_zima = city
+#b_teltele = castle
+
+# Misc
+culture = ethiopian
+religion = west_african_pagan
+
+# History
+650.1.1 = { religion = miaphysite }
+1050.1.1 = {
+	b_awasa = castle
+	b_yirga_chefe = city
+}

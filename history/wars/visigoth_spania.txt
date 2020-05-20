@@ -1,0 +1,18 @@
+name = "Visigothic Reconquest of Cordoba"
+
+casus_belli = {
+	actor = 200275
+	recipient = 400069
+	casus_belli=claim_all
+	date=568.5.22
+}
+
+568.5.22 = {
+	add_attacker = 200275
+	add_defender = 400069
+}
+
+571.8.1 = {
+	rem_attacker = 200275
+	rem_defender = 400069
+}

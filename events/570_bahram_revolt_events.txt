@@ -1,0 +1,259 @@
+namespace = RHO
+# Bahram Chobin(바흐람 초빈)의 반란
+character_event = {
+	id = RHO.6
+	title = EVTTITLE_RHO_6
+	desc = EVTDESC_RHO_6
+	only_playable = yes
+	picture = GFX_evt_armory #이벤트그림
+	has_character_flag = bahram_vi
+	trigger = {
+		year = 585
+		NOT = {
+			has_landed_title = e_persia
+		}
+		NOT = {
+			has_global_flag = bahram_revolt
+		}
+		war = no
+		top_liege = {
+			primary_title = {
+				temporary = no
+			}
+		}
+	}
+	mean_time_to_happen = {
+		years = 5
+	}
+	option = {
+		name = EVTOPTA_RHO_6
+		add_claim = e_persia
+		set_global_flag = bahram_revolt
+		e_persia = {
+			holder_scope = {
+				reverse_war = { #페르시아 제국에 반란선포
+					target = ROOT
+					casus_belli = claim_on_liege
+					thirdparty_title = e_persia
+					infamy = 0
+				}
+			}
+		}
+			spawn_unit = { # 이벤트 병력 스폰
+				owner = ROOT
+				leader = ROOT
+				province = 663
+				earmark = faction_revolters
+				troops = {
+					archers = { 1000 1000 }
+					light_infantry = { 1500 1500 }
+					heavy_infantry = { 1000 1000 }
+					light_cavalry = { 500 500 }
+					knights = { 2500 2500 }
+				}
+				attrition = 0.0
+			}
+			spawn_unit = {
+				owner = ROOT
+				leader = ROOT
+				province = 663
+				earmark = faction_revolters
+				troops = {
+					archers = { 1000 1000 }
+					light_infantry = { 1500 1500 }
+					heavy_infantry = { 1000 1000 }
+					light_cavalry = { 500 500 }
+					knights = { 2500 2500 }
+				}
+				attrition = 0.0
+			}
+			spawn_unit = {
+				owner = ROOT
+				leader = ROOT
+				province = 663
+				earmark = faction_revolters
+				troops = {
+					archers = { 1000 1000 }
+					light_infantry = { 1500 1500 }
+					heavy_infantry = { 1000 1000 }
+					light_cavalry = { 500 500 }
+					knights = { 2500 2500 }
+				}
+				attrition = 0.0
+			}
+			spawn_unit = {
+				owner = ROOT
+				leader = ROOT
+				province = 663
+				earmark = faction_revolters
+				troops = {
+					archers = { 1000 1000 }
+					light_infantry = { 1500 1500 }
+					heavy_infantry = { 1000 1000 }
+					light_cavalry = { 500 500 }
+					knights = { 2500 2500 }
+				}
+				attrition = 0.0
+			}
+		
+	}
+}
+character_event = { # 로마에 도움요청
+	id = RHO.7
+	title = EVTTITLE_RHO_7
+	desc = EVTDESC_RHO_7
+	has_global_flag = bahram_revolt
+	picture = GFX_evt_courier_riding
+	trigger = {
+		c_180645 = { # Bahram 
+			has_landed_title = e_persia # 반란군이 이겨서 황제 먹은상황
+		}
+		ROOT = {
+			has_claim = e_persia
+			OR = {
+				has_landed_title = c_baghdad
+				has_landed_title = c_tyspwn
+			}
+			dynasty = 1029100 # 사산 왕조(Sassanid)
+		}
+		NOR = {
+			has_global_flag = roman_support_on_revolt_yes
+			has_global_flag = roman_support_on_revolt_no
+		}
+		e_byzantium = {
+			holder_scope = {
+				NOT = { trait = cruel } # 동롬 황제: 잔혹함 트레잇 없을것
+			}
+		}
+	}
+	mean_time_to_happen = {
+		months = 16
+		modifier = {
+			factor = 0.25
+			character = 180631 # Khosrau II
+		}
+	}
+	option = {
+		name = EVTOPTA_RHO_7
+		if = {
+			limit = {
+				prisoner = yes
+			}
+			imprison = no
+		}
+		e_byzantium = {
+			holder_scope = {
+				character_event = { id = RHO.8 days = 1 } # RHO.8 이벤트를 동롬 황제에게 실행
+			}
+		}
+		hidden_tooltip = {
+			set_character_flag = sassanid_claimant
+		}
+	}
+}
+character_event = { # 동롬 황제의 지원
+	id = RHO.8
+	title = EVTTITLE_RHO_8
+	desc = EVTDESC_RHO_8
+	is_triggered_only = yes
+	picture = GFX_evt_victory_arch_byzantine
+	option = {
+		name = EVTOPTA_RHO_8
+		FROM = {
+			set_defacto_liege = ROOT
+		}
+		e_persia = { # 지원요청한놈의 클레임으로 페르시아에 전쟁선포
+			holder_scope = {
+				reverse_war = {
+					target = FROM
+					casus_belli = other_claim
+					thirdparty_title = e_persia
+					thirdparty = ROOT
+				}
+			}
+		}
+		set_global_flag = roman_support_on_revolt_yes
+	} # 지원 거절은 귀찮아서 안만듬
+}
+character_event = { # 동롬이 반란 지원했을 때 승리함
+	id = RHO.15
+	hide_window = yes
+	has_global_flag = roman_support_on_revolt_yes
+	trigger = {
+		e_persia = {
+			holder_scope = {
+				dynasty = 1029100
+				war = no
+			}
+		}
+		has_landed_title = e_byzantium
+		NOT = { has_global_flag = are }
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		set_global_flag = are
+			#d_armenia = { # 아르메니아 동롬에 넘겨주는 부분
+			#	holder_scope = {
+			#		if = {
+			#			limit = {
+			#					tier = KING
+			#				}
+			#			PREV = { grant_title = ROOT }
+			#		}
+			#		if = {
+			#			limit = {
+			#				tier = DUKE
+			#				any_demesne_title = {
+			#					limit = {
+			#						tier = DUKE
+			#					}
+			#					count = 2
+			#				}
+			#			}
+			#			PREV = { grant_title = ROOT }
+			#		}
+			#		if = {
+			#			limit = {
+			#				tier = DUKE
+			#				any_demesne_title = {
+			#					limit = {
+			#						tier = DUKE
+			#					}
+			#					count == 1
+			#				}
+			#			}
+			#			set_defacto_liege = ROOT
+			#		}
+			#	}
+			#}
+			
+	}
+}
+character_event = { # 패배
+	id = RHO.15
+	hide_window = yes
+	has_global_flag = roman_support_on_revolt_yes
+	trigger = {
+		e_persia = {
+			holder_scope = {
+				NOT = { dynasty = 1029100 }
+				war = no
+			}
+		}
+		has_character_flag = sassanid_claimant
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		e_persia = {
+			holder_scope = {
+				ROOT = {
+					set_defacto_liege = PREV
+				}
+			}
+		}	
+	}
+}

@@ -1,0 +1,14 @@
+# 2057 - Ramadi
+
+# County Title
+title = c_ramadi
+
+# Settlements
+max_settlements = 4
+b_khalidiya = castle
+b_ramadi = city
+b_habbaniyah = temple
+
+# Misc
+culture = assyrian
+religion = nestorian

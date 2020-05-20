@@ -1,0 +1,617 @@
+#Altaic horse breeders (and Persian)
+	ca_culture_group_altaic_1 = {
+		desc = ca_culture_group_altaic_1_desc
+		potential = {
+			OR = { 
+				custom_tooltip = {
+					OR = {
+						culture = turkish
+						culture = pecheneg
+						culture = cuman
+						culture = khazar
+						culture = bolghar
+						culture = avar
+						culture = karluk
+						culture = kirghiz
+						culture = uyghur
+						culture = mongol
+						culture = khitan
+						culture = adyghe
+						culture = dagestani
+					}
+					text = ALTAIC_BUT_NOT_JURCHEN_TT
+				}
+				culture_group = iranian
+				has_building = ca_culture_group_altaic_1
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					custom_tooltip = {
+						OR = {
+							culture = turkish
+							culture = pecheneg
+							culture = cuman
+							culture = khazar
+							culture = bolghar
+							culture = avar
+							culture = karluk
+							culture = kirghiz
+							culture = uyghur
+							culture = mongol
+							culture = khitan
+							culture = adyghe
+						culture = dagestani
+						}
+						text = ALTAIC_BUT_NOT_JURCHEN_TT
+					}
+					culture_group = iranian
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 0 
+			ROOT = {
+				OR = {
+					custom_tooltip = {
+						OR = {
+							culture = turkish
+							culture = pecheneg
+							culture = cuman
+							culture = khazar
+							culture = bolghar
+							culture = avar
+							culture = karluk
+							culture = kirghiz
+							culture = uyghur
+							culture = mongol
+							culture = khitan
+							culture = adyghe
+						culture = dagestani
+						}
+						text = ALTAIC_BUT_NOT_JURCHEN_TT
+					}
+					culture_group = iranian
+				}
+			}
+		}
+		prerequisites = { ca_wall_2 }
+		gold_cost = 200
+		build_time = 730
+		light_cavalry = 10
+		knights = 5
+		horse_archers = 10
+		horse_archers_offensive = 0.1
+		horse_archers_morale = 0.05
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_culture_group_altaic_2 = {
+		desc = ca_culture_group_altaic_1_desc
+		potential = {
+			OR = { 
+				custom_tooltip = {
+					OR = {
+						culture = turkish
+						culture = pecheneg
+						culture = cuman
+						culture = khazar
+						culture = bolghar
+						culture = avar
+						culture = karluk
+						culture = kirghiz
+						culture = uyghur
+						culture = mongol
+						culture = khitan
+						culture = adyghe
+						culture = dagestani
+					}
+					text = ALTAIC_BUT_NOT_JURCHEN_TT
+				}
+				culture_group = iranian
+				has_building = ca_culture_group_altaic_1
+				has_building = ca_culture_group_altaic_2
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					custom_tooltip = {
+						OR = {
+							culture = turkish
+							culture = pecheneg
+							culture = cuman
+							culture = khazar
+							culture = bolghar
+							culture = avar
+							culture = karluk
+							culture = kirghiz
+							culture = uyghur
+							culture = mongol
+							culture = khitan
+							culture = adyghe
+						culture = dagestani
+						}
+						text = ALTAIC_BUT_NOT_JURCHEN_TT
+					}
+					culture_group = iranian
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 1
+			ROOT = {
+				OR = {
+					custom_tooltip = {
+						OR = {
+							culture = turkish
+							culture = pecheneg
+							culture = cuman
+							culture = khazar
+							culture = bolghar
+							culture = avar
+							culture = karluk
+							culture = kirghiz
+							culture = uyghur
+							culture = mongol
+							culture = khitan
+							culture = adyghe
+						culture = dagestani
+						}
+						text = ALTAIC_BUT_NOT_JURCHEN_TT
+					}
+					culture_group = iranian
+				}
+			}
+		}
+		upgrades_from = ca_culture_group_altaic_1
+		gold_cost = 300
+		build_time = 1095
+		light_cavalry = 15
+		knights = 5
+		horse_archers = 15
+		horse_archers_offensive = 0.1
+		horse_archers_morale = 0.05
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_culture_group_altaic_3 = {
+		desc = ca_culture_group_altaic_1_desc
+		potential = {
+			OR = { 
+				custom_tooltip = {
+					OR = {
+						culture = turkish
+						culture = pecheneg
+						culture = cuman
+						culture = khazar
+						culture = bolghar
+						culture = avar
+						culture = karluk
+						culture = kirghiz
+						culture = uyghur
+						culture = mongol
+						culture = khitan
+						culture = adyghe
+						culture = dagestani
+					}
+					text = ALTAIC_BUT_NOT_JURCHEN_TT
+				}
+				culture_group = iranian
+				has_building = ca_culture_group_altaic_1
+				has_building = ca_culture_group_altaic_2
+				has_building = ca_culture_group_altaic_3
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					custom_tooltip = {
+						OR = {
+							culture = turkish
+							culture = pecheneg
+							culture = cuman
+							culture = khazar
+							culture = bolghar
+							culture = avar
+							culture = karluk
+							culture = kirghiz
+							culture = uyghur
+							culture = mongol
+							culture = khitan
+							culture = adyghe
+						culture = dagestani
+						}
+						text = ALTAIC_BUT_NOT_JURCHEN_TT
+					}					
+					culture_group = iranian
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 2
+			ROOT = {
+				OR = {
+					custom_tooltip = {
+						OR = {
+							culture = turkish
+							culture = pecheneg
+							culture = cuman
+							culture = khazar
+							culture = bolghar
+							culture = avar
+							culture = karluk
+							culture = kirghiz
+							culture = uyghur
+							culture = mongol
+							culture = khitan
+							culture = adyghe
+						culture = dagestani
+						}
+						text = ALTAIC_BUT_NOT_JURCHEN_TT
+					}
+					culture_group = iranian
+				}
+			}
+		}
+		upgrades_from = ca_culture_group_altaic_2
+		gold_cost = 400
+		build_time = 2190
+		light_cavalry = 15
+		knights = 10
+		horse_archers = 15
+		horse_archers_offensive = 0.1
+		horse_archers_morale = 0.05
+		ai_creation_factor = 99
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_culture_group_altaic_4 = {
+		desc = ca_culture_group_altaic_1_desc
+		potential = {
+			OR = { 
+				custom_tooltip = {
+					OR = {
+						culture = turkish
+						culture = pecheneg
+						culture = cuman
+						culture = khazar
+						culture = bolghar
+						culture = avar
+						culture = karluk
+						culture = kirghiz
+						culture = uyghur
+						culture = mongol
+						culture = khitan
+						culture = adyghe
+						culture = dagestani
+					}
+					text = ALTAIC_BUT_NOT_JURCHEN_TT
+				}
+				culture_group = iranian
+				has_building = ca_culture_group_altaic_1
+				has_building = ca_culture_group_altaic_2
+				has_building = ca_culture_group_altaic_3
+				has_building = ca_culture_group_altaic_4
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					custom_tooltip = {
+						OR = {
+							culture = turkish
+							culture = pecheneg
+							culture = cuman
+							culture = khazar
+							culture = bolghar
+							culture = avar
+							culture = karluk
+							culture = kirghiz
+							culture = uyghur
+							culture = mongol
+							culture = khitan
+							culture = adyghe
+						culture = dagestani
+						}
+						text = ALTAIC_BUT_NOT_JURCHEN_TT
+					}
+					culture_group = iranian
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 4
+			ROOT = {
+				OR = {
+					custom_tooltip = {
+						OR = {
+							culture = turkish
+							culture = pecheneg
+							culture = cuman
+							culture = khazar
+							culture = bolghar
+							culture = avar
+							culture = karluk
+							culture = kirghiz
+							culture = uyghur
+							culture = mongol
+							culture = khitan
+							culture = adyghe
+						culture = dagestani
+						}
+						text = ALTAIC_BUT_NOT_JURCHEN_TT
+					}
+					culture_group = iranian
+				}
+			}
+		}
+		upgrades_from = ca_culture_group_altaic_3
+		gold_cost = 500
+		build_time = 2190
+		light_cavalry = 20
+		knights = 10
+		horse_archers = 20
+		horse_archers_offensive = 0.1
+		horse_archers_morale = 0.05
+		ai_creation_factor = 98
+		
+		extra_tech_building_start = 0.8
+	}
+	#Frankish, Occitan, Norman and German Lists (and Breton)
+	ca_culture_frank_norman_german_1 = {
+		desc = ca_culture_frank_norman_german_1_desc
+		potential = {
+			OR = {
+				culture = frankish
+				culture = occitan
+				culture = norman
+				culture = german
+				culture = breton
+				culture = outremer
+				culture = thuringian
+			culture = bavarian
+			culture = swabian
+			culture = gallic_latin
+			culture = burgundian
+				has_building = ca_culture_frank_norman_german_1
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = frankish
+					culture = occitan
+					culture = norman
+					culture = german
+					culture = breton
+					culture = outremer
+					culture = thuringian
+			culture = bavarian
+			culture = swabian
+			culture = gallic_latin
+			culture = burgundian
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 0 
+			ROOT = {
+				OR = {
+					culture = frankish
+					culture = occitan
+					culture = norman
+					culture = german
+					culture = breton
+					culture = outremer
+					culture = thuringian
+			culture = bavarian
+			culture = swabian
+			culture = gallic_latin
+			culture = burgundian
+				}
+			}
+		}
+		prerequisites = { ca_wall_2 }
+		gold_cost = 200
+		build_time = 730
+		knights = 15
+		knights_offensive = 0.15
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_culture_frank_norman_german_2 = {
+		desc = ca_culture_frank_norman_german_1_desc
+		potential = {
+			OR = {
+				culture = frankish
+				culture = occitan
+				culture = norman
+				culture = german
+				culture = breton
+				culture = outremer
+				culture = thuringian
+			culture = bavarian
+			culture = swabian
+			culture = gallic_latin
+			culture = burgundian
+				has_building = ca_culture_frank_norman_german_1
+				has_building = ca_culture_frank_norman_german_2
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = frankish
+					culture = occitan
+					culture = norman
+					culture = german
+					culture = breton
+					culture = outremer
+					culture = thuringian
+			culture = bavarian
+			culture = swabian
+			culture = gallic_latin
+			culture = burgundian
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 1
+			ROOT = {
+				OR = {
+					culture = frankish
+					culture = occitan
+					culture = norman
+					culture = german
+					culture = breton
+					culture = outremer
+					culture = thuringian
+			culture = bavarian
+			culture = swabian
+			culture = gallic_latin
+			culture = burgundian
+				}
+			}
+		}
+		upgrades_from = ca_culture_frank_norman_german_1
+		gold_cost = 300
+		build_time = 1095
+		knights = 20
+		knights_offensive = 0.15
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_culture_frank_norman_german_3 = {
+		desc = ca_culture_frank_norman_german_1_desc
+		potential = {
+			OR = {
+				culture = frankish
+				culture = occitan
+				culture = norman
+				culture = german
+				culture = breton
+				culture = outremer
+				culture = thuringian
+			culture = bavarian
+			culture = swabian
+			culture = gallic_latin
+			culture = burgundian
+				has_building = ca_culture_frank_norman_german_1
+				has_building = ca_culture_frank_norman_german_2
+				has_building = ca_culture_frank_norman_german_3
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = frankish
+					culture = occitan
+					culture = norman
+					culture = german
+					culture = breton
+					culture = outremer
+					culture = thuringian
+			culture = bavarian
+			culture = swabian
+			culture = gallic_latin
+			culture = burgundian
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 2
+			ROOT = {
+				OR = {
+					culture = frankish
+					culture = occitan
+					culture = norman
+					culture = german
+					culture = breton
+					culture = outremer
+					culture = thuringian
+			culture = bavarian
+			culture = swabian
+			culture = gallic_latin
+			culture = burgundian
+				}
+			}
+		}		upgrades_from = ca_culture_frank_norman_german_2
+		gold_cost = 400
+		build_time = 2190
+		knights = 25
+		knights_offensive = 0.15
+		ai_creation_factor = 99
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_culture_frank_norman_german_4 = {
+		desc = ca_culture_frank_norman_german_1_desc
+		potential = {
+			OR = {
+				culture = frankish
+				culture = occitan
+				culture = norman
+				culture = german
+				culture = breton
+				culture = outremer
+				culture = thuringian
+			culture = bavarian
+			culture = swabian
+			culture = gallic_latin
+			culture = burgundian
+				has_building = ca_culture_frank_norman_german_1
+				has_building = ca_culture_frank_norman_german_2
+				has_building = ca_culture_frank_norman_german_3
+				has_building = ca_culture_frank_norman_german_4
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = frankish
+					culture = occitan
+					culture = norman
+					culture = german
+					culture = breton
+					culture = outremer
+					culture = thuringian
+			culture = bavarian
+			culture = swabian
+			culture = gallic_latin
+			culture = burgundian
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 4
+			ROOT = {
+				OR = {
+					culture = frankish
+					culture = occitan
+					culture = norman
+					culture = german
+					culture = breton
+					culture = outremer
+					culture = thuringian
+			culture = bavarian
+			culture = swabian
+			culture = gallic_latin
+			culture = burgundian
+				}
+			}
+		}
+		upgrades_from = ca_culture_frank_norman_german_3
+		gold_cost = 500
+		build_time = 2190
+		knights = 30
+		knights_offensive = 0.15
+		ai_creation_factor = 98
+		
+		extra_tech_building_start = 0.8
+	}	

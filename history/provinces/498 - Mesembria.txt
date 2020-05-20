@@ -1,0 +1,26 @@
+# 498 - Mesembria
+
+# County Title
+title = c_mesembria
+
+# Settlements
+max_settlements = 5
+
+b_mesembria = castle
+b_anchilios = temple
+
+#b_sozopolis = castle
+#b_bourgas = castle
+
+# Misc
+culture = greek
+religion = orthodox
+
+# History
+655.1.1 = { culture = bulgarian }
+681.1.1= { religion = slavic_pagan } 
+865.1.1= { religion = orthodox } 
+
+1216.1.1 = { trade_post = b_doria }
+ 
+1337.1.1 = { b_bourgas = castle }

@@ -1,0 +1,19 @@
+# 2041 - Yanbu
+
+# County Title
+title = c_yanbu
+
+# Settlements
+max_settlements = 4
+b_badr = castle
+b_yanbu = city
+#b_al_lith = castle
+#b_qunfudhah = castle
+
+# Misc
+culture = bedouin_arabic
+religion = arabic_pagan
+
+# History
+630.1.1 = { religion = islamism }
+661.1.1 = { religion = sunni }

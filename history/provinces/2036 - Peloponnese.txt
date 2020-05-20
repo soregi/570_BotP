@@ -1,0 +1,35 @@
+# 2036 - Peloponnese
+
+# County Title
+title = c_peloponnese
+
+# Settlements
+max_settlements = 3
+
+b_megapoli = castle
+b_ptripoli = temple
+
+# Misc
+culture = greek
+religion = hellenic_pagan
+terrain = mountain
+# History
+651.1.1 = {
+	culture = sclaveni
+	religion = slavic_pagan
+}
+756.1.1 = {
+	culture = greek
+	religion = orthodox
+}
+830.1.1 = {
+	culture = bulgarian
+	religion = slavic_pagan
+}
+886.1.1 = {
+	religion = orthodox
+}
+907.1.1 = {
+	culture = greek
+}
+# Mamluks take the county of Tripoli

@@ -1,0 +1,29 @@
+# 2035 - as-Suwayda
+
+# County Title
+title = c_suwayda
+
+# Settlements
+max_settlements = 4
+b_busra = castle
+b_suada = city
+
+
+# Misc
+culture = syriac
+religion = miaphysite
+
+# History
+650.1.1 = { culture = levantine_arabic
+religion = sunni }
+711.1.1 = {
+	b_shahba = castle
+}
+867.1.1 = {
+	b_shahba = ca_keep_1
+	b_shahba = ca_training_grounds_1
+	#b_shahba = ca_stable_1
+	b_shahba = ca_wall_1
+	b_shahba = ca_wall_2
+	b_shahba = ca_militia_barracks_1
+}

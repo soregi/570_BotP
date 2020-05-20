@@ -1,0 +1,25 @@
+# 463 - Donji Kraji
+
+# County Title
+title = c_usora
+
+# Settlements
+max_settlements = 3
+b_banjaluka = tribal
+
+# Misc
+culture = pannonian
+religion = catholic
+terrain = mountain
+
+# History
+633.1.1 = { culture = croatian religion = slavic_pagan }
+800.1.1 = {
+	religion = catholic
+	b_banjaluka = castle
+	b_jajce = temple
+}
+800.1.1= { 
+	culture = bosnian
+} 
+1000.1.1= { religion = bogomilist } 

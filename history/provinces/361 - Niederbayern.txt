@@ -1,0 +1,28 @@
+# 361 - Niederbayern
+
+# County Title
+title = c_niederbayern
+
+# Settlements
+max_settlements = 3
+b_regenstauf = castle
+b_cham = city
+b_schwandorf = temple
+
+#b_kirchroth = castle
+
+# Misc
+culture = bavarian
+religion = norse_pagan
+
+# History
+700.1.1 = { religion = catholic }
+760.1.1 = {
+	culture = german
+}
+936.1.1 = {
+	capital = b_cham
+}
+937.7.14 = {
+	capital = b_regenstauf
+}

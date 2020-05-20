@@ -1,0 +1,15 @@
+#Magadha
+321.1.1 = {
+	capital = 1154 # Magadha
+}
+# Gupta Empire(Later)
+550.1.1 = {
+	holder = 191091
+}
+580.1.1 = {
+	holder = 191092
+}
+590.1.1 = {
+	holder = 0
+	capital = 1151 # Laksmanavanti
+}

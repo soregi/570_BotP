@@ -1,0 +1,320 @@
+PENTAPOLIS;Pentapolis;;;;;;;;;;;;;x
+PENTAPOLIS_ADJ;Pentapolitan;;;;;;;;;;;;;x
+TICINUM;Ticinum;;;;;;;;;;;;;x
+TICINUM_ADJ;Ticinum;;;;;;;;;;;;;x
+VASCONIA;Vasconia;;;;;;;;;;;;;x
+VASCONIA_ADJ;Vasconic;;;;;;;;;;;;;x
+SPANIA;Spania;;;;;;;;;;;;;x
+SPANIA_ADJ;Spanish;;;;;;;;;;;;;x
+dacia;Dacia;;;;;;;;;;;;;x
+dacia_adj;Dacian;;;;;;;;;;;;;x
+yathrib;Yathrib;;;;;;;;;;;;;x
+PROV2015;Nubian Desert;;;;;;;;;;;;;x
+PROV2016;Minya;;;;;;;;;;;;;x
+PROV2017;Branicevo;;;;;;;;;;;;;x
+PROV2018;Varna;;;;;;;;;;;;;x
+PROV2019;Preslav;;;;;;;;;;;;;x
+PROV2020;Hiambouli;;;;;;;;;;;;;x
+PROV2021;Marsa;;;;;;;;;;;;;x
+PROV2022;Krujë;;;;;;;;;;;;;x
+PROV2023;Karlovac;;;;;;;;;;;;;x
+PROV2024;Rasina;;;;;;;;;;;;;x
+PROV2025;Bihac;;;;;;;;;;;;;x
+PROV2026;Vodena;;;;;;;;;;;;;x
+PROV2027;Pirin;;;;;;;;;;;;;x
+PROV2028;Vardar;;;;;;;;;;;;;x
+PROV2029;Kosovo;;;;;;;;;;;;;x
+PROV2030;Podrinje;;;;;;;;;;;;;x
+PROV2031;Pagania;;;;;;;;;;;;;x
+PROV2032;Livno;;;;;;;;;;;;;x
+PROV2033;Lamia;;;;;;;;;;;;;x
+PROV2034;Daraa;;;;;;;;;;;;;x
+PROV2035;as-Suwayda;;;;;;;;;;;;;x
+PROV2036;Peloponnese;;;;;;;;;;;;;x
+PROV2037;Latakia;;;;;;;;;;;;;x
+PROV2038;Qutayfah;;;;;;;;;;;;;x
+PROV2039;Azraq;;;;;;;;;;;;;x
+PROV2040;Syrian Desert;;;;;;;;;;;;;x
+PROV2041;Yanbu;;;;;;;;;;;;;x
+PROV2042;Taif;;;;;;;;;;;;;x
+PROV2043;Dawasir;;;;;;;;;;;;;x
+PROV2044;Al Kamil;;;;;;;;;;;;;x
+PROV2045;Thahab;;;;;;;;;;;;;x
+PROV2046;Hafar;;;;;;;;;;;;;x
+PROV2047;Najd;;;;;;;;;;;;;x
+PROV2048;Sikak;;;;;;;;;;;;;x
+PROV2049;Dammam;;;;;;;;;;;;;x
+PROV2050;Sarrar;;;;;;;;;;;;;x
+PROV2051;Al Shabakah;;;;;;;;;;;;;x
+PROV2052;Rahhaliyah;;;;;;;;;;;;;x
+PROV2053;Nasiriyah;;;;;;;;;;;;;x
+PROV2054;Tyspwn;;;;;;;;;;;;;x
+PROV2055;Al Jazira;;;;;;;;;;;;;x
+PROV2056;Al Fallujah;;;;;;;;;;;;;x
+PROV2057;Ramadi;;;;;;;;;;;;;x
+PROV709;Raqqa;;;;;;;;;;;;;x
+PROV2058;Batumi;;;;;;;;;;;;;x
+PROV2059;Thar Desert;;;;;;;;;;;;;x
+PROV2060;Dasht-e Kavir;;;;;;;;;;;;;x
+PROV2061;Dasht-e Lut;;;;;;;;;;;;;x
+PROV2062;Dasht-e Margov;;;;;;;;;;;;;x
+PROV2063;Kandahar;;;;;;;;;;;;;x
+d_donatism;The Donatist Church;;;;;;;;;;;;;x
+d_donatism_adj;Donatist;;;;;;;;;;;;;x
+d_pentapolis;Pentapolis;;;;;;;;;;;;;x
+d_pentapolis_adj;Pentapolitan;;;;;;;;;;;;;x
+d_brescia;Brescia;;;;;;;;;;;;;x
+d_brescia_adj;Brescian;;;;;;;;;;;;;x
+d_bergamo;Bergamo;;;;;;;;;;;;;x
+d_bergamo_adj;Bergamo;;;;;;;;;;;;;x
+d_lombard;Lombards;;;;;;;;;;;;;x
+d_lombard_adj;Lombard;;;;;;;;;;;;;x
+d_antes;Antes;;;;;;;;;;;;;x
+d_antes_adj;Antes;;;;;;;;;;;;;x
+d_sclaveni;Sclaveni;;;;;;;;;;;;;x
+d_sclaveni_adj;Sclaveni;;;;;;;;;;;;;x
+d_judea;Judea;;;;;;;;;;;;;x
+d_judea_adj;Judean;;;;;;;;;;;;;x
+d_phoenicia;Phoenicia;;;;;;;;;;;;;x
+d_phoenicia_adj;Punic;;;;;;;;;;;;;x
+d_bosna;Upper Bosnia;;;;;;;;;;;;;x
+d_bosna_adj;Bosnian;;;;;;;;;;;;;x
+d_mafaza;Yazd;;;;;;;;;;;;;x
+d_mafaza_adj;Yazdian;;;;;;;;;;;;;x
+#d_medina;Medina;;;;;;;;;;;;;x
+#d_medina_adj;Medinan;;;;;;;;;;;;;x
+d_mecca;Mecca;;;;;;;;;;;;;x
+d_mecca_adj;Meccan;;;;;;;;;;;;;x
+d_hail;Ha'il;;;;;;;;;;;;;x
+d_hail_adj;Ha'ili;;;;;;;;;;;;;x
+d_iraq_desert;Desertland;;;;;;;;;;;;;x
+d_iraq_desert_adj;Desert;;;;;;;;;;;;;x
+k_garamantes;Garamantes;;;;;;;;;;;;;x
+k_garamantes_adj;Garamantian;;;;;;;;;;;;;x
+k_visigothica;Visigothic Kingdom;;;;;;;;;;;;;x
+k_visigothica_adj;Visigothic;;;;;;;;;;;;;x
+k_suebia;Suebia;;;;;;;;;;;;;x
+k_suebia_adj;Suebi;;;;;;;;;;;;;x
+k_ghassan;Ghassanids;;;;;;;;;;;;;x
+k_ghassan_adj;Ghassanid;;;;;;;;;;;;;x
+k_lakhm;Lakhmids;;;;;;;;;;;;;x
+k_lakhm_adj;Lakhmid;;;;;;;;;;;;;x
+k_hejaz;Hejaz;;;;;;;;;;;;;x
+k_hejaz_adj;Hijazi;;;;;;;;;;;;;x
+MOOR;Moor-Roman Kingdom;;;;;;;;;;;;;x
+MOOR_adj;Moor;;;;;;;;;;;;;x
+k_numidia;Numidia;;;;;;;;;;;;;x
+k_numidia_adj;Numidian;;;;;;;;;;;;;x
+e_kush;Kush;;;;;;;;;;;;;x
+e_kush_adj;Cushtic;;;;;;;;;;;;;x
+e_gokturks;Göktürk Khaganate;;;;;;;;;;;;;x
+e_gokturks_adj;Göktürk;;;;;;;;;;;;;x
+e_egokturks;Eastern;;;;;;;;;;;;;x
+e_egokturks_adj;Turkic;;;;;;;;;;;;;x
+e_wgokturks;Western;;;;;;;;;;;;;x
+e_wgokturks_adj;Turkic;;;;;;;;;;;;;x
+e_hephthalites;Hephthalite Empire;;;;;;;;;;;;;x
+e_hephthalites_adj;Hephthalite;;;;;;;;;;;;;x
+k_paris;Paris;;;;;;;;;;;;;x
+k_paris_adj;Parisian;;;;;;;;;;;;;x
+k_soissons;Soissons;;;;;;;;;;;;;x
+k_soissons_adj;Soisson;;;;;;;;;;;;;x
+k_orleans;Orleans;;;;;;;;;;;;;x
+k_orleans_adj;Orleans;;;;;;;;;;;;;x
+e_samo;Samo's Empire;;;;;;;;;;;;;x
+e_samo_adj;Samo's;;;;;;;;;;;;;x
+d_circassia;Circassia;;;;;;;;;;;;;x
+d_circassia_adj;Circassian;;;;;;;;;;;;;x
+e_ere;Eastern Roman Empire;;;;;;;;;;;;;x
+e_ere_adj;Roman;;;;;;;;;;;;;x
+e_wre;Western Roman Empire;;;;;;;;;;;;;x
+e_wre_adj;Roman;;;;;;;;;;;;;x
+e_islamism;The Rashidun Caliphate;;;;;;;;;;;;;x
+e_islamism_adj;Rashidun;;;;;;;;;;;;;x
+k_opposite_caliphate;The Anti-Caliphate;;;;;;;;;;;;;x
+k_opposite_caliphate_adj;Anti-Caliphal;;;;;;;;;;;;;x
+k_illyricum;Dacia;;;;;;;;;;;;;x
+k_illyricum_adj;Dacian;;;;;;;;;;;;;x
+king_ethiopian;Negus;;;;;;;;;;;;;x
+emperor_ethiopian;Negusä Nägäst;;;;;;;;;;;;;x
+count_greek;Comes;;;;;;;;;;;;;x
+count_han;Bai;;;;;;;;;;;;;x
+duke_han;Gong;;;;;;;;;;;;;x
+king_han;Wang;;;;;;;;;;;;;x
+emperor_han;Huangdi;;;;;;;;;;;;;x
+governate_king;Exarchos;;;;;;;;;;;;;x
+governate_king_greek;Exarchos;;;;;;;;;;;;;x
+governate_king_roman;Praetorian Prefect;;;;;;;;;;;;;x
+governate_kingdom;Exarchate;;;;;;;;;;;;;x
+governate_kingdom_roman;Praetorian Prefecture;;;;;;;;;;;;;x
+governate_kingdom_of;Exarchate of;;;;;;;;;;;;;x
+governate_kingdom_of_roman;Praetorian Prefecture of;;;;;;;;;;;;;x
+c_minya;Minya;;;;;;;;;;;;;x
+b_shmun;Hermopolis;;;;;;;;;;;;;x
+b_samalut;Samalut;;;;;;;;;;;;;x
+d_irbid;Amman;;;;;;;;;;;;;x
+d_irbid_adj;Amman;;;;;;;;;;;;;x
+d_kutrigur;Kutrigurs;;;;;;;;;;;;;x
+d_kutrigur_adj;Kutrigur;;;;;;;;;;;;;x
+d_utigur;Utigurs;;;;;;;;;;;;;x
+d_utigur_adj;Utigur;;;;;;;;;;;;;x
+k_dalmatia;Dalmatia;;;;;;;;;;;;;x
+k_dalmatia_adj;Dalmatian;;;;;;;;;;;;;x
+k_makedon;Makedonia;;;;;;;;;;;;;x
+k_makedon_adj;Makedonian;;;;;;;;;;;;;x
+k_pannonia;Pannonia Superior;;;;;;;;;;;;;x
+k_pannonia_adj;Pannonian;;;;;;;;;;;;;x
+b_beroe;Beroe;;;;;;;;;;;;;x
+b_gabrovo;Gabrovo;;;;;;;;;;;;;x
+c_marsa;Marsa;;;;;;;;;;;;;x
+c_marsa_adj;Marsan;;;;;;;;;;;;;x
+c_branicevo;Branicevo;;;;;;;;;;;;;x
+c_branicevo_adj;Branicevo;;;;;;;;;;;;;x
+c_varna;Varna;;;;;;;;;;;;;x
+c_varna_adj;Varnan;;;;;;;;;;;;;x
+c_preslav;Preslav;;;;;;;;;;;;;x
+c_preslav_adj;Preslavan;;;;;;;;;;;;;x
+c_hiambouli;Yambol;;;;;;;;;;;;;x
+c_hiambouli_adj;Yamboli;;;;;;;;;;;;;x
+c_kruje;Krujë;;;;;;;;;;;;;x
+c_kruje_adj;Krujë;;;;;;;;;;;;;x
+c_karlovac;Karlovac;;;;;;;;;;;;;x
+c_karlovac_adj;Karlovac;;;;;;;;;;;;;x
+c_pirin;Pirin;;;;;;;;;;;;;x
+c_pirin_adj;Pirin;;;;;;;;;;;;;x
+c_vardar;Vardar;;;;;;;;;;;;;x
+c_vardar_adj;Vardarian;;;;;;;;;;;;;x
+c_livno;Livno;;;;;;;;;;;;;x
+c_livno_adj;Livnian;;;;;;;;;;;;;x
+c_lamia;Lamia;;;;;;;;;;;;;x
+c_lamia_adj;Lamian;;;;;;;;;;;;;x
+c_peloponnese;Peloponnese;;;;;;;;;;;;;x
+c_peloponnese_adj;Peloponnesian;;;;;;;;;;;;;x
+b_smolyan;Smolyan;;;;;;;;;;;;;x
+b_perperikon;Perperikon;;;;;;;;;;;;;x
+b_pincum;Pincum;;;;;;;;;;;;;x
+b_montana;Montana;;;;;;;;;;;;;x
+b_vratsa;Vratsa;;;;;;;;;;;;;x
+b_tervel;Tervel;;;;;;;;;;;;;x
+b_omurtag;Omurtag;;;;;;;;;;;;;x
+b_samuil;Samuil;;;;;;;;;;;;;x
+b_preslav;Preslav;;;;;;;;;;;;;x
+b_pliska;Pliska;;;;;;;;;;;;;x
+b_dulovo;Dulovo;;;;;;;;;;;;;x
+b_venets;Venets;;;;;;;;;;;;;x
+b_kubrat;Kubrat;;;;;;;;;;;;;x
+b_topoli;Topoli;;;;;;;;;;;;;x
+b_devnya;Devnya;;;;;;;;;;;;;x
+b_beloslav;Beloslav;;;;;;;;;;;;;x
+b_yambol;Yambol;;;;;;;;;;;;;x
+b_novazagora;Nova Zagora;;;;;;;;;;;;;x
+b_silven;Silven;;;;;;;;;;;;;x
+b_karnobat;Karnobat;;;;;;;;;;;;;x
+b_razgrad;Razgrad;;;;;;;;;;;;;x
+b_asparukh;Arparukh;;;;;;;;;;;;;x
+b_karlovac;Karlovac;;;;;;;;;;;;;x
+b_samobor;Samobor;;;;;;;;;;;;;x
+b_arba;Arba;;;;;;;;;;;;;x
+b_klenovica;Klenovica;;;;;;;;;;;;;x
+b_livno;Livno;;;;;;;;;;;;;x
+b_lamia;Lamia;;;;;;;;;;;;;x
+b_molos;Molos;;;;;;;;;;;;;x
+b_stilida;Stilida;;;;;;;;;;;;;x
+b_anthili;Anthili;;;;;;;;;;;;;x
+b_komma;Komma;;;;;;;;;;;;;x
+b_stavros;Stavros;;;;;;;;;;;;;x
+b_ptripoli;Tripoli;;;;;;;;;;;;;x
+b_leontari;Leontari;;;;;;;;;;;;;x
+b_levidi;Levidi;;;;;;;;;;;;;x
+b_graikos;Graikos;;;;;;;;;;;;;x
+b_kleitoria;Kleitoria;;;;;;;;;;;;;x
+b_kalamaria;Kalamaria;;;;;;;;;;;;;x
+b_sindos;Sindos;;;;;;;;;;;;;x
+b_evosmos;Evosmos;;;;;;;;;;;;;x
+b_giannitsa;Giannitsa;;;;;;;;;;;;;x
+b_ptolemaida;Ptolemaida;;;;;;;;;;;;;x
+b_kozani;Kozani;;;;;;;;;;;;;x
+b_vergina;Vergina;;;;;;;;;;;;;x
+b_pirin;Pirin;;;;;;;;;;;;;x
+b_sandanski;Sandanski;;;;;;;;;;;;;x
+b_blagoev;Blagoev;;;;;;;;;;;;;x
+b_kresna;Kresna;;;;;;;;;;;;;x
+b_bansko;Bansko;;;;;;;;;;;;;x
+b_ras;Ras;;;;;;;;;;;;;x
+b_raska;Rashka;;;;;;;;;;;;;x
+b_uzhice;Uzice;;;;;;;;;;;;;x
+b_kraljevo;Kraljevo;;;;;;;;;;;;;x
+b_krusevac;Krusevac;;;;;;;;;;;;;x
+b_paracin;Paracin;;;;;;;;;;;;;x
+b_varvarin;Varvarin;;;;;;;;;;;;;x
+b_pristina;Pristina;;;;;;;;;;;;;x
+b_mitrovica;Mitrovica;;;;;;;;;;;;;x
+b_peja;Peja;;;;;;;;;;;;;x
+b_istog;Istog;;;;;;;;;;;;;x
+b_jilan;Jilan;;;;;;;;;;;;;x
+b_brankovina;Brankovina;;;;;;;;;;;;;x
+b_shabac;Shabac;;;;;;;;;;;;;x
+b_stubo;Stubo;;;;;;;;;;;;;x
+b_osecina;Osecina;;;;;;;;;;;;;x
+b_pancevo;Pancevo;;;;;;;;;;;;;x
+b_cazin;Cazin;;;;;;;;;;;;;x
+b_dinara;Dinara;;;;;;;;;;;;;x
+b_kladusha;Kladusha;;;;;;;;;;;;;x
+b_celebic;Celebic;;;;;;;;;;;;;x
+b_grabovica;Grabovica;;;;;;;;;;;;;x
+b_bugojno;Bugojno;;;;;;;;;;;;;x
+b_malinska;Malinska;;;;;;;;;;;;;x
+b_neum;Neum;;;;;;;;;;;;;x
+b_metohija;Metohija;;;;;;;;;;;;;x
+b_pioce;Pioce;;;;;;;;;;;;;x
+b_al_nabah;Al Nabah;;;;;;;;;;;;;x
+b_al_rayis;Ar Rayis;;;;;;;;;;;;;x
+b_oyster;Oyster;;;;;;;;;;;;;x
+b_semairi;Semairi;;;;;;;;;;;;;x
+b_lahlen;Lahlen;;;;;;;;;;;;;x
+b_shajwa;Shajwa;;;;;;;;;;;;;x
+b_al_kamil;Al Kamil;;;;;;;;;;;;;x
+b_enboan;Enboan;;;;;;;;;;;;;x
+b_hajar;Hajar;;;;;;;;;;;;;x
+b_abu_dhiba;Abu Dhiba;;;;;;;;;;;;;x
+b_al_akhal;Al Akhal;;;;;;;;;;;;;x
+b_ushayrah;Ushayrah;;;;;;;;;;;;;x
+b_mahd;Mahd;;;;;;;;;;;;;x
+b_safinah;Safinah;;;;;;;;;;;;;x
+b_hathah;Hathah;;;;;;;;;;;;;x
+b_ashayrah;Ashayrah;;;;;;;;;;;;;x
+b_hafir;Hafir;;;;;;;;;;;;;x
+b_haddat;Haddat;;;;;;;;;;;;;x
+b_alhuda;Al Huda;;;;;;;;;;;;;x
+b_banisaad;Bani Saad;;;;;;;;;;;;;x
+b_alhuwaya;Al Huwaya;;;;;;;;;;;;;x
+b_as_sail;As Sail;;;;;;;;;;;;;x
+b_az_zemah;Az Zemah;;;;;;;;;;;;;x
+b_dawasir;Dawasir;;;;;;;;;;;;;x
+b_jash;Jash;;;;;;;;;;;;;x
+b_tathleeth;Tathleeth;;;;;;;;;;;;;x
+b_yadamah;Yadamah;;;;;;;;;;;;;x
+b_as_sulayyil;As Sulayyil;;;;;;;;;;;;;x
+b_samandag;Samandag;;;;;;;;;;;;;x
+b_martakla;Martakla;;;;;;;;;;;;;x
+b_sleibeh;Sleibeh;;;;;;;;;;;;;x
+b_sheer;Sheer;;;;;;;;;;;;;x
+b_sett_markho;Sett Markho;;;;;;;;;;;;;x
+b_alqisa;Al Qisa;;;;;;;;;;;;;x
+b_quneitra;Quneitra;;;;;;;;;;;;;x
+b_inkhil;Inkhil;;;;;;;;;;;;;x
+b_tafas;Tafas;;;;;;;;;;;;;x
+b_dael;Dael;;;;;;;;;;;;;x
+b_msas;Msas;;;;;;;;;;;;;x
+b_era;Era;;;;;;;;;;;;;x
+b_shaef;Shaef;;;;;;;;;;;;;x
+b_qutayfah;Qutayfah;;;;;;;;;;;;;x
+b_ruhaybah;Ruhaybah;;;;;;;;;;;;;x
+b_jayrud;Jayrud;;;;;;;;;;;;;x
+b_dumayr;Dumayr;;;;;;;;;;;;;x
+b_yabrud;Yabrud;;;;;;;;;;;;;x
+b_maaloula;Maaloula;;;;;;;;;;;;;x
+b_azraq;Azraq;;;;;;;;;;;;;x
+b_abuziad;Abu Ziad;;;;;;;;;;;;;x
+b_arramtha;Ar Ramtha;;;;;;;;;;;;;x
+b_sukhnah;Sukhnah;;;;;;;;;;;;;x

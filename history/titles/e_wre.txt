@@ -1,0 +1,12 @@
+14.1.1 = {
+	law = crown_authority_1
+	law = succ_byzantine_elective
+	law = centralization_3
+	law = imperial_administration
+	law = vice_royalty_2
+	law = revoke_title_law_1
+	law = out_of_realm_inheritance_law_1
+}
+476.1.1 = {
+	holder = 0
+}

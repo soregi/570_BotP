@@ -1,0 +1,18 @@
+# 1536 - Khaybar
+
+# County Title
+title = c_khaybar
+
+# Settlements
+max_settlements = 3
+b_khaybar = castle
+b_rabig = temple
+
+
+# Misc
+culture = bedouin_arabic
+religion = arabic_pagan
+
+# History
+632.1.1 = { religion = islamism }
+661.1.1 = { religion = sunni }

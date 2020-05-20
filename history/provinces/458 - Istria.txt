@@ -1,0 +1,19 @@
+# 468 - Istria
+
+# County Title
+title = c_istria
+
+# Settlements
+max_settlements = 4
+b_mitterburg = castle
+b_pula = city
+b_fiume = temple
+
+# Misc
+culture = dalmatian
+religion = catholic
+
+# History
+640.1.1 = { culture = croatian }
+
+1110.1.1 = { trade_post = b_contarini }

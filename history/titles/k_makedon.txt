@@ -1,0 +1,12 @@
+330.1.1 = {
+	de_jure_liege = e_byzantium
+}
+570.1.1 = {
+	liege = e_byzantium
+	#holder = 400001
+	vice_royalty = yes
+}
+650.1.1 = {
+	active = no
+	vice_royalty = no
+}

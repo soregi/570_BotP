@@ -1,0 +1,25 @@
+# 98 - Vexin
+
+# County Title
+title = c_vexin
+
+# Settlements
+max_settlements = 4
+
+b_larocheguyon = castle
+b_pontoise = city
+b_abbayedemortemer = temple
+
+#b_mantes = castle
+#b_harcourt = castle
+#b_ivry = castle
+#b_louviers = temple
+
+# Misc
+culture = gallic_latin
+religion = catholic
+
+# History
+650.1.1 = { culture = old_frankish }
+790.1.1 = { culture = frankish }
+1197.1.1 = { b_andely = city }

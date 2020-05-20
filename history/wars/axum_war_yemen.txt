@@ -1,0 +1,22 @@
+name = "Axumite War for Yemen"
+
+casus_belli = {
+	actor = 404045 # Ioel
+	recipient = 404098 # Sayf Himyarid
+	casus_belli=claim
+	landed_title=k_yemen
+	date=570.4.1
+}
+
+570.4.1 = {
+	add_attacker = 404045
+	add_defender = 404098
+}
+570.8.1 = {
+	add_defender = 180628 # Khosrow I
+}
+571.6.1 = {
+	rem_attacker = 404045
+	rem_defender = 404098
+	rem_defender = 180628
+}

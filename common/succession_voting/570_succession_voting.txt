@@ -1,0 +1,59 @@
+caliphal_elective = {
+	elector_selection = {
+		days = -5 
+		max_amount = 15
+		additive_modifier = { #Caliph is always an Elector.
+			value = 30
+			FROMFROM = {
+				holder_scope = { character = ROOT }
+			}
+		}
+		additive_modifier = { #Then the Councilors.
+			value = 10
+			vassal_of = FROMFROM 
+			OR = { 
+				has_job_title = job_chancellor
+				has_job_title = job_marshal
+				has_job_title = job_treasurer
+				has_job_title = job_spymaster
+				has_job_title = job_spiritual
+				has_minor_title = title_councilmember_king #Generic advisors
+				has_minor_title = title_councilmember_emperor
+			}
+		}
+		additive_modifier = { # Great Vassals
+			value = 7
+			vassal_of = FROMFROM
+			tier == KING
+			FROMFROM = {
+				holder_scope = {
+					tier = EMPEROR
+				}
+			}
+		}
+		additive_modifier = { # Great Vassals
+			value = 7
+			vassal_of = FROMFROM
+			tier == DUKE
+			FROMFROM = {
+				holder_scope = {
+					NOT = { tier = EMPEROR }
+				}
+			}
+		}
+	}
+	elector_vote_strength = {
+		days = 1
+		additive_modifier = {
+			value = 5
+			localisation_key = tooltip_cal
+			FROMFROM = {
+				holder_scope = { character = ROOT }
+			}
+		}
+		additive_modifier = {
+			value = 1
+			learning = 10
+		}
+	}
+}

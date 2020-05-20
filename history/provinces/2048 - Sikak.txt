@@ -1,0 +1,25 @@
+# 2048 - Sikak
+
+# County Title
+title = c_sikak
+
+# Settlements
+max_settlements = 2
+b_sikak = castle
+
+# Misc
+culture = bedouin_arabic
+religion = arabic_pagan
+
+633.1.1 = {
+	religion = islamism
+}
+662.1.1 = {
+	religion = shia
+}
+914.1.1 = {
+	religion = qarmatian
+}
+969.1.1 = {
+	religion = shia
+}

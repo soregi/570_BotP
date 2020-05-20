@@ -1,0 +1,109 @@
+namespace = horde
+
+character_event = {
+	id = horde.1
+	hide_window = yes
+	ai = no
+	trigger = {
+		year = 632
+		NOT = { has_global_flag = kubrat }
+	}
+	mean_time_to_happen = {
+		months = 3
+	}
+	immediate = {
+		create_character = {
+			random_traits = no
+			dynasty = 591 # Dulo
+			religion = tengri_pagan
+			culture = bolghar
+			name = "Kubrat"
+			age = 32
+			female = no
+			trait = strong
+			trait = genius
+			trait = shrewd
+			trait = patient
+			trait = robust
+			trait = brave 
+			trait = cavalry_leader
+			trait = diligent
+			trait = brilliant_strategist
+			trait = inspiring_leader
+			trait = desert_terrain_leader
+			trait = strategist
+			trait = game_master
+			trait = gregarious
+			attributes = {
+				diplomacy = 5
+				martial = 9
+				stewardship = 6
+				intrigue = 5
+				learning = 2
+			}
+		}
+		new_character = {
+			set_father = 407030
+			set_defacto_liege = ROOT
+			prestige = 3000
+			piety = 2000
+			wealth = 500
+			set_character_flag = kubrat
+			set_global_flag = kubrat
+			save_event_target_as = kubrat
+			add_character_modifier = { name = great_conqueror duration = -1 }
+			character_event = { id = horde.2 }
+		}
+		create_character = {
+			random_traits = no
+			dynasty = 591 # Dulo
+			religion = tengri_pagan
+			culture = bolghar
+			name = "Batbayan"
+			age = 7
+			female = no
+			trait = strong
+			trait = shrewd
+		}
+		new_character = {
+			set_father = event_target:kubrat
+			set_character_flag = batbayan
+		}
+		create_character = {
+			random_traits = no
+			dynasty = 591 # Dulo
+			religion = tengri_pagan
+			culture = bolghar
+			name = "Kotrag"
+			age = 1
+			female = no
+			trait = strong
+			trait = shrewd
+		}
+		new_character = {
+			set_father = event_target:kubrat
+			set_character_flag = kotrag
+		}
+		create_character = {
+			random_traits = no
+			dynasty = 591 # Dulo
+			religion = tengri_pagan
+			culture = bolghar
+			name = "Asparukh"
+			age = 1
+			female = no
+			trait = strong
+			trait = quick
+		}
+		new_character = {
+			set_father = event_target:kubrat
+			set_character_flag = asparukh
+		}
+		ROOT = {
+			if = {
+				limit = { dynasty = 591 }
+				character_event = horde.3
+			}
+		}
+	}
+}

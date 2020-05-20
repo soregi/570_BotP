@@ -1,0 +1,17 @@
+# 2034 - Al-Azraq
+
+# County Title
+title = c_azraq
+
+# Settlements
+max_settlements = 1
+b_azraq = castle
+
+
+# Misc
+culture = bedouin_arabic
+religion = miaphysite
+
+# History
+633.1.1 = { religion = islamism }
+661.1.1 = { religion = sunni }

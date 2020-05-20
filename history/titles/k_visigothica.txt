@@ -1,0 +1,93 @@
+# Balti Dynasty
+
+395.1.1 = {
+	holder = 200291 # Alaric I
+	de_jure_liege = e_france
+}
+410.1.1 = {
+	holder = 200290 # Athaulf
+}
+415.7.1 = {
+	holder = 200289 # Sigeric
+}
+415.7.7 = {
+	holder = 200288 # Wallia
+}
+419.1.1 = {
+	holder = 200287 # Theodoric I
+}
+451.6.20 = {
+	holder = 200286 # Thorismund
+}
+453.1.1 = {
+	holder = 200285 # Theodoric II
+}
+466.1.1 = {
+	holder = 200284 # Euric
+}
+484.1.1 = {
+	holder = 200283 # Alaric II
+}
+507.1.1 = {
+	holder = 200282 # Gesalec
+}
+511.1.1 = {
+	holder = 168775 # Theodoric the Great, regent
+}
+526.8.30 = {
+	holder = 200281 # Amalaric
+	de_jure_liege = e_spain
+}
+
+
+531.1.1 = {	
+	holder = 200280 # Theudis
+}
+548.1.1 = {
+	holder = 200279 # Theudigisel
+}
+549.12.1 = {
+	holder = 200277 # Agila I
+}
+
+# Lywigildiana
+
+554.3.1 = {
+	holder = 200276 # Athanagild
+}
+567.1.1 = {
+	holder = 200275 # Liuva I, with Liuvigild
+}
+572.1.1 = {
+	holder = 200273 # Liuvigild
+}
+586.4.21 = {
+	holder = 200272 # Reccared I
+}
+601.12.21 = {
+	holder = 200271 # Liuva II
+}
+603.7.1 = {
+	holder = 200270 # Witteric
+}
+610.4.1 = {
+	holder = 200269 # Gundemar
+}
+612.2.1 = {
+	holder = 200259 # Sisebut
+}
+621.2.1 = {
+	holder = 200258 # Reccared II
+}
+621.4.16 = {
+	holder = 200256
+}
+631.1.1 = {
+	holder = 200278
+}
+#636.3.12 = {
+	
+	
+711.1.1 = {
+	holder = 0
+}

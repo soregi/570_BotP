@@ -1,0 +1,60 @@
+510.1.1 = {
+	holder = 404097
+}
+525.1.1 = {
+	holder = 404041
+}
+540.1.1 = {
+	holder = 404042
+}
+549.1.1 = {
+	holder = 404043
+}
+552.1.1 = {
+	holder = 404044
+}
+568.1.1 = {
+	holder = 404045
+}
+570.1.1 = {
+	holder = 404098
+	set_tribute_suzerain = {
+		who = e_persia
+		type = permanent
+	}
+}
+578.1.1 = {
+	holder = 404099
+}
+628.1.1 = {
+	holder = 0
+	clear_tribute_suzerain = e_persia
+}
+1063.1.1 = {
+holder=45035 # Ali Sulayhid
+}
+1067.5.9 = {
+holder=45036 # Al-Mukarram Sulayhid
+}
+1074.4.10 = {
+holder=220820 # Arwa Sulayhid - al-Sayyida
+}
+1138.3.12 = {
+holder=0 #Yemen was split between local rulers after Arwa until the Ayyubid conquest
+}
+### Rassulids
+1229.1.1={
+	holder = 144094
+}
+1250.1.1={
+	holder = 144095
+}
+1295.1.1={
+	holder = 144096
+}
+1296.1.1={
+	holder = 144097
+}
+1322.1.1={
+	holder = 144098
+}

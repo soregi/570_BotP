@@ -1,0 +1,17 @@
+# 2021 - Marsa
+
+# County Title
+title = c_marsa
+
+# Settlements
+max_settlements = 3
+
+b_haskovo = castle
+#b_smolyan = city
+b_perperikon = temple
+
+# Misc
+culture = greek
+religion = orthodox
+
+# History

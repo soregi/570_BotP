@@ -1,0 +1,442 @@
+namespace = RHO
+
+character_event = { # 대 이라클리오스의 아프리카 총독 부임
+	id = RHO.9
+	hide_window = yes
+	has_character_flag = heraclius_elder
+	trigger = {
+		NOT = {
+			has_landed_title = k_africa
+		}
+		year = 590
+	}
+	mean_time_to_happen = {
+		years = 7
+	}
+	immediate = {
+		liege = {
+			ROOT = {
+				any_demesne_title = {
+					grant_title = PREVPREV
+				}
+			}
+		}
+		c_tunis = {
+			grant_title = ROOT
+		}
+		e_byzantium = {
+			holder_scope = {
+				set_defacto_vassal = ROOT
+			}
+		}
+		k_africa = {
+			grant_title = ROOT
+		}
+		set_global_flag = hxt
+	}
+}
+character_event = { #이라클리오스의 출생
+	id = RHO.10
+	is_triggered_only = yes
+	hide_window = yes
+	trigger = {
+		father = {
+			has_character_flag = heraclius_elder
+		}
+		NOT = { has_global_flag = heraclius_born }
+		female = no
+	}
+	immediate = {
+		name = "Herakleios"
+		add_trait = genius
+		set_character_flag = heraclius
+		set_global_flag = heraclius_born
+	}
+}
+character_event = { #이라클리오스의 반란
+	id = RHO.11
+	title = EVTTITLE_RHO_11
+	desc = EVTDESC_RHO_11
+	picture = GFX_evt_armory
+	is_triggered_only = yes
+	option = {
+		name = EVTOPTA_RHO_11
+		any_child = {
+			limit = {
+				name = "Herakleios"
+			}
+			add_claim = e_byzantium
+			war = {
+				target = c_145072
+				casus_belli = other_claim_on_liege
+				thirdparty_title = e_byzantium
+				thirdparty = ROOT
+			}
+		}
+		spawn_fleet = {
+			province = closest # closest sea zone
+			owner = ROOT
+			disband_on_peace = yes
+			troops =
+			{
+				galleys = { 150 150 }
+			}
+			earmark = claimant_adventure
+		}
+		spawn_unit = {
+			province = 718
+			home = 718
+			owner = THIS
+			#leader = THIS
+			match_character = c_145072
+			match_mult = 0.5
+			match_min = 300
+			match_max = 15000
+			attrition = 0.25
+			earmark = faction_revolters
+		}
+	}
+}
+character_event = { # 포카스의 반란
+	id = RHO.12
+	hide_window = yes
+	trigger = {
+		character = c_145072
+		year = 600
+		NOT = { has_landed_title = e_byzantium }
+		NOT = { has_global_flag = phokas_revolt }
+	}
+	mean_time_to_happen = {
+		years = 2
+	}
+	immediate = {
+		
+		add_claim = e_byzantium
+		if = {
+			limit = {
+				is_playable = yes
+			}
+			e_byzantium = {
+			holder_scope = {
+				set_defacto_vassal = ROOT
+			}
+			}
+			capital_scope = {
+				ROOT = {
+					spawn_unit = {
+					owner = THIS
+					leader = THIS
+					province = PREVPREV
+					home = PREVPREV
+					earmark = faction_revolters
+					troops = {
+						archers = { 1000 1000 }
+						light_infantry = { 1500 1500 }
+						heavy_infantry = { 1000 1000 }
+						light_cavalry = { 500 500 }
+						horse_archers = { 2000 2000 }
+						knights = { 2000 2000 }
+					}
+					attrition = 0.0
+					}
+					spawn_unit = {
+					owner = THIS
+					leader = THIS
+					province = PREVPREV
+					home = PREVPREV
+					earmark = faction_revolters
+					troops = {
+						archers = { 1000 1000 }
+						light_infantry = { 1500 1500 }
+						heavy_infantry = { 1000 1000 }
+						light_cavalry = { 500 500 }
+						horse_archers = { 2000 2000 }
+						knights = { 2000 2000 }
+					}
+					attrition = 0.0
+					}
+					spawn_unit = {
+					owner = THIS
+					leader = THIS
+					province = PREV
+					home = PREV
+					earmark = faction_revolters
+					troops = {
+						archers = { 1000 1000 }
+						light_infantry = { 1500 1500 }
+						heavy_infantry = { 1000 1000 }
+						light_cavalry = { 500 500 }
+						horse_archers = { 2000 2000 }
+						knights = { 2000 2000 }
+					}
+					attrition = 0.0
+					}
+					spawn_unit = {
+					owner = THIS
+					leader = THIS
+					province = PREV
+					home = PREV
+					earmark = faction_revolters
+					troops = {
+						archers = { 1000 1000 }
+						light_infantry = { 1500 1500 }
+						heavy_infantry = { 1000 1000 }
+						light_cavalry = { 500 500 }
+						horse_archers = { 2000 2000 }
+						knights = { 2000 2000 }
+					}
+					attrition = 0.0
+					}
+					spawn_unit = {
+					owner = THIS
+					leader = THIS
+					province = PREV
+					home = PREV
+					earmark = faction_revolters
+					troops = {
+						archers = { 1000 1000 }
+						light_infantry = { 1500 1500 }
+						heavy_infantry = { 1000 1000 }
+						light_cavalry = { 500 500 }
+						horse_archers = { 2000 2000 }
+						knights = { 2000 2000 }
+					}
+					attrition = 0.0
+					}
+					spawn_unit = {
+					owner = THIS
+					leader = THIS
+					province = PREV
+					home = PREV
+					earmark = faction_revolters
+					troops = {
+						archers = { 1000 1000 }
+						light_infantry = { 1500 1500 }
+						heavy_infantry = { 1000 1000 }
+						light_cavalry = { 500 500 }
+						horse_archers = { 2000 2000 }
+						knights = { 2000 2000 }
+					}
+					attrition = 0.0
+					}
+					spawn_unit = {
+					owner = THIS
+					leader = THIS
+					province = PREV
+					home = PREV
+					earmark = faction_revolters
+					troops = {
+						archers = { 1000 1000 }
+						light_infantry = { 1500 1500 }
+						heavy_infantry = { 1000 1000 }
+						light_cavalry = { 500 500 }
+						horse_archers = { 2000 2000 }
+						knights = { 2000 2000 }
+					}
+					attrition = 0.0
+					}
+				}
+			}
+			
+		}
+		if = {
+			limit = {
+				is_playable = no
+			}
+			c_belgrad = {
+				grant_title = ROOT
+			}
+			e_byzantium = {
+			holder_scope = {
+				set_defacto_vassal = ROOT
+			}
+			}
+			capital_scope = {
+				ROOT = {
+					spawn_unit = {
+					owner = THIS
+					leader = THIS
+					province = PREV
+					home = PREV
+					earmark = faction_revolters
+					troops = {
+						archers = { 1000 1000 }
+						light_infantry = { 1500 1500 }
+						heavy_infantry = { 1000 1000 }
+						light_cavalry = { 500 500 }
+						horse_archers = { 2000 2000 }
+						knights = { 2000 2000 }
+					}
+					attrition = 0.0
+					}
+					spawn_unit = {
+					owner = THIS
+					leader = THIS
+					province = PREV
+					home = PREV
+					earmark = faction_revolters
+					troops = {
+						archers = { 1000 1000 }
+						light_infantry = { 1500 1500 }
+						heavy_infantry = { 1000 1000 }
+						light_cavalry = { 500 500 }
+						horse_archers = { 2000 2000 }
+						knights = { 2000 2000 }
+					}
+					attrition = 0.0
+					}
+					spawn_unit = {
+					owner = THIS
+					leader = THIS
+					province = PREV
+					home = PREV
+					earmark = faction_revolters
+					troops = {
+						archers = { 1000 1000 }
+						light_infantry = { 1500 1500 }
+						heavy_infantry = { 1000 1000 }
+						light_cavalry = { 500 500 }
+						horse_archers = { 2000 2000 }
+						knights = { 2000 2000 }
+					}
+					attrition = 0.0
+					}
+					spawn_unit = {
+					owner = THIS
+					leader = THIS
+					province = PREV
+					home = PREV
+					earmark = faction_revolters
+					troops = {
+						archers = { 1000 1000 }
+						light_infantry = { 1500 1500 }
+						heavy_infantry = { 1000 1000 }
+						light_cavalry = { 500 500 }
+						horse_archers = { 2000 2000 }
+						knights = { 2000 2000 }
+					}
+					attrition = 0.0
+					}
+					spawn_unit = {
+					owner = THIS
+					leader = THIS
+					province = PREV
+					home = PREV
+					earmark = faction_revolters
+					troops = {
+						archers = { 1000 1000 }
+						light_infantry = { 1500 1500 }
+						heavy_infantry = { 1000 1000 }
+						light_cavalry = { 500 500 }
+						horse_archers = { 2000 2000 }
+						knights = { 2000 2000 }
+					}
+					attrition = 0.0
+					}
+					spawn_unit = {
+					owner = THIS
+					leader = THIS
+					province = PREV
+					home = PREV
+					earmark = faction_revolters
+					troops = {
+						archers = { 1000 1000 }
+						light_infantry = { 1500 1500 }
+						heavy_infantry = { 1000 1000 }
+						light_cavalry = { 500 500 }
+						horse_archers = { 2000 2000 }
+						knights = { 2000 2000 }
+					}
+					attrition = 0.0
+					}
+					spawn_unit = {
+					owner = THIS
+					leader = THIS
+					province = PREV
+					home = PREV
+					earmark = faction_revolters
+					troops = {
+						archers = { 1000 1000 }
+						light_infantry = { 1500 1500 }
+						heavy_infantry = { 1000 1000 }
+						light_cavalry = { 500 500 }
+						horse_archers = { 2000 2000 }
+						knights = { 2000 2000 }
+					}
+					attrition = 0.0
+					}
+				}
+			}
+		}
+		e_byzantium = {
+			holder_scope = {
+				reverse_war = {
+					target = ROOT
+					casus_belli = claim_on_liege
+					thirdparty_title = e_byzantium
+					infamy = 0
+				}
+			}
+		}
+		set_global_flag = phokas_revolt
+	}
+}
+character_event = { # 포카스 반군 승리했을때
+	id = RHO.13
+	hide_window = yes
+	has_character_flag = heraclius_elder
+	trigger = {
+		#has_global_flag = maurice
+		has_global_flag = heraclius_born
+		#has_global_flag = phokas_revolt
+		c_145072 = {
+			has_landed_title = e_byzantium
+		}
+		any_child = {
+			limit = {
+				name = "Herakleios"
+			}
+			is_alive = yes
+		}
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+	immediate = {
+		c_145072 = {
+			add_character_modifier = {
+				name = weaken_army years = 15
+			}
+		}
+		ROOT = { character_event = { id = RHO.11 years = 6 } }
+	}
+}
+character_event = { 
+	id = RHO.14
+	title = EVTTITLE_RHO_14
+	desc = EVTDESC_RHO_14
+	picture = GFX_evt_armory
+	border = GFX_event_normal_frame_war
+	trigger = {
+		has_landed_title = e_persia
+		has_global_flag = roman_support_on_revolt_yes
+		dynasty = 1029100
+		c_145072 = {
+			has_landed_title = e_byzantium
+		}
+		NOT = { has_global_flag = roman_sassanid_war }# 동롬이 사산조 복위 지원상태에서 포카스가 즉위하면
+	}
+	mean_time_to_happen = {
+		years = 1
+	}
+	option = {
+		name = EVTOPTA_RHO_14
+		set_global_flag = roman_sassanid_war
+		war = {
+			target = c_145072
+			casus_belli = sassanid_invasion
+			thirdparty_title = e_byzantium
+			infamy = 0
+		}# 페르시아는 동로마를 침공함
+	}
+}

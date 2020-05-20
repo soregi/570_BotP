@@ -1,0 +1,27 @@
+# 1967 - Imotski
+
+# County Title
+title = c_imotski
+
+# Settlements
+max_settlements = 3
+b_topana = castle
+b_imotski = city
+# Misc
+culture = dalmatian
+religion = orthodox
+
+# History
+636.1.1 = { culture = croatian religion = slavic_pagan }
+636.1.1 = {
+	remove_settlement = b_imotski
+	b_topana = tribal
+}
+800.1.1 = {
+	religion = orthodox
+	b_topana = castle
+	b_imotski = city
+}
+1000.1.1= { 
+	culture = bosnian
+} 

@@ -1,0 +1,28 @@
+450.1.1 = {
+	set_tribute_suzerain = { who = e_persia type = vassal }
+}
+503.1.1 = {
+	holder = 404009 # al-Mundhir III
+}
+554.1.1 = {
+	holder = 404012 # 'Amr III
+}
+569.1.1 = {
+	holder = 404013
+}
+573.1.1 = {
+	holder = 0 # Governed by Persians directly
+}
+574.1.1 = {
+	holder = 404014
+}
+580.1.1 = {
+	holder = 404017
+}
+602.1.1 = {
+	holder = 0
+	clear_tribute_suzerain = e_persia
+}
+636.1.1 = {
+	active = no
+}

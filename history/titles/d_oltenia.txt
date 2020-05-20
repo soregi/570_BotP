@@ -1,0 +1,14 @@
+570.1.1 = {
+	holder = 400144
+	set_tribute_suzerain = {
+		who = k_avaria
+		type = nomadic
+	}
+}
+650.1.1 = {
+	clear_tribute_suzerain = k_avaria
+}
+936.1.1 = {
+	holder = 260685
+	liege = e_bulgaria
+}

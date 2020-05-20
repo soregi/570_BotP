@@ -1,0 +1,11 @@
+500.1.1 = {
+	historical_nomad = yes
+}
+568.1.1 = {
+	holder = 407046
+	liege = k_avaria
+}
+632.7.1 = {
+	liege = 0
+	holder = 0
+}

@@ -1,0 +1,390 @@
+namespace = islam
+
+character_event = {
+	id = islam.1
+	hide_window = yes
+	has_character_flag = muhammad
+	trigger = {
+		NOT = {
+			has_character_modifier = prophet_blessing
+		}
+		year = 570
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		add_character_modifier = { name = prophet_blessing duration = -1 }
+		will_not_marry_effect = yes
+		#add_character_modifier = will_not_marry
+		#add_trait = cannot_marry
+	}
+}
+
+character_event= {
+	id = islam.2
+	picture = GFX_evt_book_carolingian_script
+	border = GFX_event_normal_frame_religion
+	is_triggered_only = yes
+	hide_window = yes
+	has_character_flag = muhammad
+	trigger = {
+		has_character_flag = muhammad
+	}
+	immediate = {
+		remove_trait = amateurish_plotter
+		remove_trait = naive_appeaser
+		remove_trait = indulgent_wastrel
+		remove_trait = misguided_warrior
+		remove_trait = detached_priest
+		remove_trait = martial_cleric
+		remove_trait = scholarly_theologian
+		if = {
+			limit = {
+				OR = {
+					trait = flamboyant_schemer
+					trait = intricate_webweaver
+					trait = elusive_shadow
+				}
+			}
+			change_intrigue = 1
+			remove_trait = flamboyant_schemer
+			remove_trait = intricate_webweaver
+			remove_trait = elusive_shadow
+		}
+		if = {
+			limit = {
+				OR = {
+					trait = underhanded_rogue
+					trait = charismatic_negotiator
+					trait = grey_eminence
+				}
+			}
+			change_diplomacy = 1
+			remove_trait = underhanded_rogue
+			remove_trait = charismatic_negotiator
+			remove_trait = grey_eminence
+		}
+		if = {
+			limit = {
+				OR = {
+					trait = thrifty_clerk
+					trait = fortune_builder
+					trait = midas_touched
+				}
+			}
+			change_stewardship = 1
+			remove_trait = thrifty_clerk
+			remove_trait = fortune_builder
+			remove_trait = midas_touched
+		}
+		if = {
+			limit = {
+				OR = {
+					trait = tough_soldier
+					trait = skilled_tactician
+					trait = brilliant_strategist
+				}
+			}
+			change_martial = 1
+			remove_trait = tough_soldier
+			remove_trait = skilled_tactician
+			remove_trait = brilliant_strategist
+		}
+		add_trait=mastermind_theologian
+		add_trait=erudite
+		add_trait=mystic
+		add_trait=zealous
+		add_trait=patient
+		add_trait=gregarious
+		add_trait=ambitious
+		if = {
+			limit = {
+				trait = homosexual
+			}
+			remove_trait = homosexual
+		}
+		character_event = { id = islam.3 years = 9 }
+	}
+}
+
+# Khadijah
+character_event= { 
+	id = islam.3
+	title = EVTTITLE_islam_3
+	desc = EVTDESC_islam_3
+	is_triggered_only = yes
+	picture = GFX_evt_marriage_muslim # GFX_evt_dancing
+	border = GFX_event_normal_frame_religion
+	immediate = {
+		remove_character_modifier = will_not_marry
+		remove_trait = cannot_marry
+		if = {
+			limit = {
+				c_404080 = {
+					num_of_spouses = 1
+				}
+			}
+			c_404080 = {
+				any_spouse = {
+					death = yes
+				}
+			}
+		}
+	}
+	option = {
+		name = EVTOPTA_islam_3
+		trigger = {
+			NOT = {
+				c_404080 = {
+					death = yes 
+				}
+			}
+		}
+		c_404080 = {
+			add_spouse = ROOT
+		}
+		wealth = 200
+	}
+	option = {
+		name = EVTOPTA_islam_3
+		trigger = {
+			c_404080 = {
+				death = yes
+			}
+		}
+	}
+}
+character_event = {
+	id = islam.4
+	title = EVTTITLE_islam_4
+	desc = EVTDESC_islam_4
+	picture = GFX_evt_pilgrims_epic_journey_desert
+	border = GFX_event_normal_frame_religion
+	min_age = 37
+	max_age = 50
+	trigger = {
+		has_character_flag = muhammad
+		NOT = { has_global_flag = met_gibril }
+	}
+	mean_time_to_happen = {
+		months = 3
+	}
+	option = {
+		name = EVTOPTA_islam_4
+		character_event = { id = islam.5 days = 10 }
+		ai_chance = {
+			factor = 10
+		}
+	}
+	option = {
+		name = EVTOPTB_islam_4
+		health = 0.1
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				has_game_rule = {
+					name = rise_islam
+					value = historical
+				}
+			}
+		}
+	}
+}
+character_event = {
+	id = islam.5
+	title = EVTTITLE_islam_5
+	desc = EVTDESC_islam_5
+	picture = GFX_evt_secluded_in_prayer
+	border = GFX_event_normal_frame_religion
+	is_triggered_only = yes
+	option = {
+		name = EVTOPTA_islam_5
+		piety = 10
+		if = {
+			limit = {
+				has_game_rule = {
+					name = rise_islam
+					value = historical
+				}
+			}
+			random_list = {
+				40 = { piety = 5 change_learning = 1 }
+				20 = { health = 0.5 }
+				20 = { change_diplomacy = 1 }
+				20 = { health = -0.5 character_event = { id = islam.6 days = 3 } }
+			}
+		}
+		if = {
+			limit = {
+					has_game_rule = {
+					name = rise_islam
+					value = on
+					}
+			}
+			random_list = {
+				50 = { piety = 5 change_learning = 1 }
+				30 = { health = 0.5 }
+				15 = { prestige = 5 change_diplomacy = 1 }
+				5 = { health = -0.5 character_event = { id = islam.6 days = 3 } }
+			}
+		}
+		if = {
+			limit = {
+				has_game_rule = {
+					name = rise_islam
+					value = off
+				}
+			}
+			random_list = {
+				50 = { piety = 5 change_learning = 1 }
+				20 = { health = 0.5 }
+				30 = { diplomacy = 1 }
+			}
+		}
+		if = {
+			limit = {
+				has_game_rule = {
+					name = rise_islam
+					value = historical
+				}
+				age = 41
+			}
+			health = -0.5
+			character_event = { id = islam.6 days = 3 }
+		}
+	}
+}
+character_event = {
+	id = islam.6
+	title = EVTTITLE_islam_6
+	desc = EVTDESC_islam_6
+	picture = GFX_evt_garden
+	border = GFX_event_normal_frame_religion
+	is_triggered_only = yes
+	trigger = {
+		NOT = {
+		
+	immediate = {
+		set_global_flag = met_gibril 
+		create_character = {
+			name = "Abu Bakr"
+			random_traits = no
+			dynasty = ROOT
+			religion = islamism
+			culture = ROOT
+			
+			age = 37
+			female = no
+			trait = honest
+			trait = brave
+			trait = diligent
+			trait = zealous
+			trait = just
+			trait = erudite
+			trait = grey_eminence
+			trait = holy_warrior
+			trait = inspiring_leader
+			trait = erudite
+			attributes = {
+				diplomacy = 7
+				martial = 6
+				stewardship = 11
+				intrigue = 8
+				learning = 10
+			}
+		}
+		new_character = {
+			set_defacto_liege = ROOT
+			set_father = 163013
+			prestige = 1000
+			piety = 2000
+			wealth = 500
+			set_character_flag = abu_bakr
+		}
+		create_character = {
+			name = "Umar"
+			random_traits = no
+			dynasty = ROOT
+			religion = islamism
+			culture = ROOT
+			
+			age = 24
+			female = no
+			trait = honest
+			trait = brave
+			trait = diligent
+			trait = zealous
+			trait = erudite
+			trait = strong
+			trait = wroth
+			trait = just
+			trait = humble
+			trait = tough_warrior
+			trait = grey_eminence
+			trait = holy_warrior
+			trait = inspiring_leader
+			trait = erudite
+			attributes = {
+				diplomacy = 7
+				martial = 10
+				stewardship = 9
+				intrigue = 8
+				learning = 10
+			}
+		}
+		new_character = {
+			set_father = 159480
+			set_defacto_liege = ROOT
+			prestige = 1000
+			piety = 2000
+			wealth = 500
+			set_character_flag = umar
+		}
+		create_character = {
+			name = "Uthman"
+			random_traits = no
+			dynasty = 597 # Umayyad
+			religion = ROOT
+			culture = ROOT
+			
+			age = 31
+			female = no
+			trait = deceitful
+			trait = stressed
+			trait = strong
+			trait = wroth
+			trait = paranoid
+			trait = fortune_builder
+			trait = holy_warrior
+			trait = inspiring_leader
+			trait = erudite
+			attributes = {
+				diplomacy = 3
+				martial = 5
+				stewardship = 6
+				intrigue = 4
+				learning = 7
+			}
+		}
+		new_character = {
+			set_defacto_liege = ROOT
+			prestige = 1000
+			piety = 2000
+			wealth = 500
+			set_character_flag = uthan
+			set_father = 163020
+		}
+	}
+	option = {
+		name = EVTOPTA_islam_6
+		health = 1.0
+		change_learning = 2
+		piety = 1000
+		religion = islamism
+		any_spouse = { character_event = islam.8 days = 1 }
+		any_child =  { character_event = islam.8 days = 1 }
+		any_courtier =  { character_event = islam.9 days = 1 }
+	}
+}

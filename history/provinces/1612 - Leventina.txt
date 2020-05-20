@@ -1,0 +1,18 @@
+# 1612 - Leventina
+
+#County title
+title = c_leventina
+max_settlements = 3
+b_castelgrande = castle
+b_bellinzona = city
+b_lugano = temple
+
+# Misc
+culture = italian
+religion = catholic
+
+# History
+700.1.1 = { culture = lombard }
+869.1.1 = { culture = italian }
+1002.1.1 = { capital = b_lugano }
+1243.1.1 = { capital = b_castelgrande }

@@ -1,0 +1,46 @@
+554.1.1 = {
+	#liege = e_byzantium
+	de_jure_liege=e_byzantium
+	#vice_royalty=yes
+	set_title_flag = roman_governate
+	set_global_flag = ravenna_gov
+	set_tribute_suzerain = {
+		who = e_byzantium type = governate }
+	active = yes
+	holder = 400003 # Narses
+}
+568.1.1 = {
+	vice_royalty = yes
+	holder = 400004 # Fl. Marianus...  Aurelius. The last recorded prefect
+}
+584.1.1 = { holder = 400005 }#Decius (584–585)
+585.1.1 = { holder = 400006 }#Smaragdus (585–589)
+589.1.1 = { holder = 400007 }#Romanus (589–596)
+596.1.1 = { holder = 400008 }#Callinicus (596–603) 
+603.1.1 = { holder = 400006 }#Smaragdus (603–608) # Second Reign
+608.1.1 = { holder = 400009 }#John I (608–616)
+616.1.1 = { holder = 400010 }#Eleutherius (616–619)
+619.1.1 = { holder = 0 }
+622.1.1 = { holder = 145071 }
+#625.1.1 =#Isaac (625–643)
+#Theodore I Calliopas (643–645)
+#Plato (645–649)
+#Olympius (649–652)
+#Theodore I Calliopas (653 – c. 666)
+#Gregory (c. 666)
+#Theodore II (678–687)
+#John II Platyn (687–702)
+#Theophylactus (702–710)
+#John III Rizocopus (710–711)
+#Scholasticus (713–723)
+#Paul (723–727)
+#Eutychius (727–752)
+752.1.1 = {
+	clr_title_flag = roman_governate
+	clear_tribute_suzerain = e_byzantium
+	holder = 0
+	vice_royalty = no
+	de_jure_liege = e_italy
+	set_global_flag = fall_of_ravenna
+	clr_global_flag = ravenna_gov
+}

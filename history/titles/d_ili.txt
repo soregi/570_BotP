@@ -1,0 +1,7 @@
+500.1.1 = {
+	historical_nomad = yes
+	}
+570.1.1 = {
+	liege = e_gokturks
+	holder = 407022
+}

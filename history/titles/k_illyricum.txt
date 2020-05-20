@@ -1,0 +1,16 @@
+400.1.1 = {
+	set_tribute_suzerain = { who = e_byzantium type = governate }
+	set_title_flag = roman_governate
+	set_global_flag = dacia_gov
+	de_jure_liege = e_byzantium
+}
+567.1.1 = {
+	holder = 400098
+}
+633.1.1 = {
+	holder = 0
+	clr_title_flag = roman_governate
+	clr_global_flag = dacia_gov
+	clear_tribute_suzerain = e_byzantium
+	active = no
+}

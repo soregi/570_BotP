@@ -1,0 +1,24 @@
+# 1590 - Dunois
+
+# County Title
+title = c_dunois
+
+# Settlements
+max_settlements = 4
+
+b_chateaudun = castle
+b_freteval = city
+b_tiron = temple 
+
+#b_cloyes
+#b_bonneval
+#b_patay
+#b_marchenoir
+
+culture = gallic_latin
+religion = catholic
+
+# History
+650.1.1 = { culture = old_frankish }
+790.1.1 = { culture = frankish }
+

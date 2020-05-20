@@ -1,0 +1,279 @@
+namespace = gov
+character_event = {
+	id = gov.1
+	title = EVTTITLE_gov_1
+	desc = EVTDESC_gov_1
+	picture = GFX_cathedral
+	only_playable = yes
+	trigger = {
+		government = roman_governate_government
+		NOT = {
+			e_byzantium = {
+				holder_scope = {
+					ROOT = {
+						is_tributary = { type = governate suzerain = PREV }
+					}
+				}
+			}
+		}
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+	option = {
+		name = EVTOPTA_gov_1
+		suzerain = {
+			remove_tributary = PREV
+		}
+		e_byzantium = {
+			holder_scope = {
+				make_tributary = {
+					who = ROOT 
+					tributary_type = governate 
+				}
+			}
+		}
+	}
+}
+character_event = {
+	id = gov.2
+	title = EVTTITLE_gov_2
+	desc = EVTDESC_gov_2
+	is_triggered_only = yes
+	option = {
+		name = EVTOPTA_gov_2 # Refuse
+		
+		ai_chance = {
+			factor = 90
+		}
+	}
+	option = {
+		name = EVTOPTB_gov_2 # Accept
+		FROM = {
+			primary_title = {
+				clr_title_flag = roman_governate
+				add_pressed_claim = ROOT
+			}
+			any_demesne_title = {
+				limit = {
+					controls_religion = no
+					higher_tier_than = BARON
+					ROOT = {
+						OR = { # If the old liege can use the subjugation CB, give no claims
+							NOT = { religion_group = pagan_group }
+							NOT = { culture_group = PREVPREV }
+						}
+					}
+				}
+						add_weak_pressed_claim = ROOT
+			}
+		}
+		hidden_tooltip = {
+			if = {
+				limit = {
+					FROM = {
+						primary_title = {
+							titie = k_egypt
+						}
+					}
+				}
+				clr_global_flag = egypt_gov
+			}
+			if = {
+				limit = {
+					FROM = {
+						primary_title = {
+							titie = k_africa
+						}
+					}
+				}
+				clr_global_flag = africa_gov
+			}
+			if = {
+				limit = {
+					FROM = {
+						primary_title = {
+							titie = k_syria
+						}
+					}
+				}
+				clr_global_flag = oriens_gov
+			}
+			if = {
+				limit = {
+					FROM = {
+						primary_title = {
+							titie = k_andalusia
+						}
+					}
+				}
+				clr_global_flag = spania_gov
+			}
+			if = {
+				limit = {
+					FROM = {
+						primary_title = {
+							titie = k_romagna
+						}
+					}
+				}
+				clr_global_flag = ravenna_gov
+			}
+			if = {
+				limit = {
+					FROM = {
+						primary_title = {
+							titie = k_dalmatia
+						}
+					}
+				}
+				clr_global_flag = dalmatia_gov
+			}
+			if = {
+				limit = {
+					FROM = {
+						primary_title = {
+							titie = k_illyricum
+						}
+					}
+				}
+				clr_global_flag = dacia_gov
+			}
+		}
+		remove_tributary = FROM
+		prestige = -100
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+character_event = {
+	id = gov.3
+	hide_window = yes
+	#Spania
+	trigger = {
+		k_andalusia = {
+			has_title_flag = roman_governate
+		}
+		k_andalusia = {
+			OR = {
+			holder_scope = {
+				culture = visigothic
+				NOT = {
+					religion = catholic
+					religion = orthodox
+				}
+			}
+			has_holder = no
+			}
+		}
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+	immediate = {
+		k_andalusia = {
+			clr_title_flag = roman_governate
+			clr_global_flag = spania_gov
+			destroy_landed_title = THIS
+		}
+	}
+}
+character_event = {
+	id = gov.4
+	hide_window = yes
+	trigger = {
+		government = roman_governate_government
+		independent = no
+		top_liege = {
+			primary_title = {
+				NOR = {
+					title = e_byzantium
+					title = e_wre
+					title = e_roman_empire
+				}
+			}
+		}
+	}
+	mean_time_to_happen = {
+		days = 10
+	}
+	immediate = {
+		primary_title = {
+			clr_title_flag = roman_governate
+		}
+		hidden_tooltip = {
+			if = {
+				limit = {
+					FROM = {
+						primary_title = {
+							titie = k_egypt
+						}
+					}
+				}
+				clr_global_flag = egypt_gov
+			}
+			if = {
+				limit = {
+					FROM = {
+						primary_title = {
+							titie = k_africa
+						}
+					}
+				}
+				clr_global_flag = africa_gov
+			}
+			if = {
+				limit = {
+					FROM = {
+						primary_title = {
+							titie = k_syria
+						}
+					}
+				}
+				clr_global_flag = oriens_gov
+			}
+			if = {
+				limit = {
+					FROM = {
+						primary_title = {
+							titie = k_andalusia
+						}
+					}
+				}
+				clr_global_flag = spania_gov
+			}
+			if = {
+				limit = {
+					FROM = {
+						primary_title = {
+							titie = k_romagna
+						}
+					}
+				}
+				clr_global_flag = ravenna_gov
+			}
+			if = {
+				limit = {
+					FROM = {
+						primary_title = {
+							titie = k_dalmatia
+						}
+					}
+				}
+				clr_global_flag = dalmatia_gov
+			}
+			if = {
+				limit = {
+					FROM = {
+						primary_title = {
+							titie = k_illyricum
+						}
+					}
+				}
+				clr_global_flag = dacia_gov
+			}
+		}
+		government = feudal_government
+	}
+}

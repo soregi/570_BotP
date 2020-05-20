@@ -1,0 +1,17 @@
+570.1.1 = {
+	liege = k_africa
+	vice_royalty = yes
+	holder = 400062
+}
+681.1.1 = {
+	liege = 0
+	holder = 0
+	vice_royalty = 0
+}
+
+832.1.1={
+	holder = 163097
+}
+871.1.1={
+	holder = 0 
+}

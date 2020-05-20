@@ -1,0 +1,35 @@
+# 2017 - Branicevo
+
+# County Title
+title = c_branicevo
+
+# Settlements
+max_settlements = 3
+
+b_pozarevac = castle
+b_branicevo = temple
+b_kucevo = city
+
+# Misc
+culture = romanian
+religion = orthodox
+
+# History
+632.1.1 = {
+	culture = serbian
+	religion = slavic_pagan
+	remove_settlement = b_branicevo
+	remove_settlement = b_kucevo
+	b_pozarevac = tribal
+}
+770.1.1 = {
+	culture = romanian
+	religion = orthodox
+}
+870.1.1 = {
+	b_pozarevac = castle
+	b_branicevo = temple
+	b_kucevo = city
+}
+892.1.1 = { culture = serbian }
+ 

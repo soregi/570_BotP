@@ -1,0 +1,30 @@
+40.1.1 = {
+	liege = "e_roman_empire"
+}
+330.1.1 = {
+	#liege = e_byzantium
+	de_jure_liege=e_byzantium
+	#vice_royalty=yes
+	set_title_flag = roman_governate
+	set_global_flag = oriens_gov
+	set_tribute_suzerain = {
+		who = e_byzantium type = governate }
+}
+
+567.1.1 = {
+	holder = 400116
+}
+
+616.1.1 = {
+	liege = e_persia
+}
+628.1.1 = {
+	liege = e_byzantium
+}
+640.1.1 = {
+	vice_royalty = no
+	clr_title_flag = roman_governate
+	clr_global_flag = oriens_gov
+	clear_tribute_suzerain = e_byzantium
+	de_jure_liege = e_arabia
+}

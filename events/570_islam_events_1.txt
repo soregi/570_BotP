@@ -1,0 +1,743 @@
+namespace = islam
+
+character_event = {
+	id = islam.7
+	hide_window = yes
+	is_triggered_only =  yes
+	trigger = {
+		ROOT = {
+			father = {
+				has_character_flag = abu_talib
+			}
+		}
+		is_female = no
+	}
+	immediate = {
+		if = {
+			limit = {
+				father = {
+					has_character_flag = abu_talib
+					NOT = {
+						any_child_even_if_dead = {
+							has_character_flag = ali
+						}
+					}
+				}
+			}
+			set_character_flag = ali
+			set_name = "Ali"
+		}
+	}
+}
+character_event = {
+	id = islam.8
+	hide_window = yes
+	is_triggered_only = yes
+	immediate = {
+		random_list = {
+			95 = { 	religion = islamism }
+			5 = { }
+		}
+	}
+}
+character_event = {
+	id = islam.9
+	title = EVTTITLE_islam_9
+	desc = EVTDESC_islam_9
+	picture = GFX_evt_garden
+	border = GFX_event_normal_frame_religion
+	is_triggered_only = yes
+	option = {
+		name = EVTOPTA_islam_9
+		religion = islamism
+		any_spouse = { religion = islamism }
+		any_child = { religion = islamism }
+		piety = 250
+		ai_chance = {
+			factor = 15
+			modifier = {
+				factor = 0.2
+				c_mecca = {
+					holder = ROOT
+				}
+			}
+			modifier = {
+				factor = 0
+				c_mecca = {
+					holder = ROOT
+				}
+				has_game_rule = {
+					name = rise_islam
+					value = historical
+				}
+			}
+		}
+	}
+	option = {
+		name = EVTOPTB_islam_9
+		ai_chance = {
+			factor = 85
+			modifier = {
+				factor = 0
+				OR = {
+					has_character_flag = umar
+					has_character_flag = uthan
+					has_character_flag = abu_talib
+					has_character_flag = abbas
+					has_character_flag = abkr_a
+					has_character_flag = abu_bakr
+					has_character_flag = ali
+					has_character_flag = aisha
+				}
+			}
+		}
+	}
+}
+character_event = {
+	id = islam.10
+	hide_window = yes
+	is_triggered_only =  yes
+	trigger = {
+		ROOT = {
+			father = { has_character_flag = abu_bakr }
+			is_female = yes
+		}
+		NOT = {
+			father = {
+				any_child_even_if_dead = { has_character_flag = aisha }
+			}
+		}
+		year = 612
+	}
+	immediate = {
+		set_character_flag = aisha
+		set_name = "Aisha"
+	}
+}
+character_event = {
+	id = islam.11
+	hide_window = yes
+	trigger = {
+		c_404080 = {
+			death = yes
+		}
+		c_33922 = {
+			NOT = { is_close_relative = ROOT }
+		}
+		has_character_flag = aisha
+		age = 6
+	}
+	mean_time_to_happen = {
+		years = 1
+	}
+	immediate = {
+		c_33922 = { character_event = { id = islam.12 } }
+	}
+}
+character_event = {
+	id = islam.12
+	title = EVTTITLE_islam_12
+	desc = EVTDESC_islam_12
+	picture = GFX_evt_garden
+	border = GFX_event_normal_frame_religion
+	is_triggered_only = yes
+	option = {
+		name = EVTOPTA_islam_12
+		add_spouse = FROM
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+# The Hijra
+character_event = {
+	id = islam.13
+	title = EVTTITLE_islam_13
+	desc = EVTDESC_islam_13
+	picture = GFX_evt_kaaba
+	border = GFX_event_normal_frame_war
+	trigger = {
+		year = 616
+		has_character_flag = muhammad
+		religion = islamism
+		NOT = { has_global_flag = hijra }
+	}
+	mean_time_to_happen = {
+		years = 6
+	}
+	immediate = {
+		narrative_event = { id = islam.14 }
+		d_sanaa = {
+			holder_scope = {
+				if = {
+					limit = { culture = persian }
+					destroy_landed_title = PREV
+					culture = bedouin_arabic
+				}
+				if = {
+					limit = { religion = zoroastrian }
+					religion = arabic_pagan
+				}
+				if = {
+					limit = {
+						is_tributary = yes
+					}
+					suzerain = {
+						remove_tributary = PREV
+					}
+				}
+			set_defacto_liege = THIS
+			}
+		}
+	}
+	option = {
+		name = EVTOPTA_islam_13
+		718 = {
+			religion = islamism
+			name = "PROV718"
+		}
+		if = {
+			limit = {
+				c_medina = {
+					holder_scope = {
+						has_landed_title = c_khaybar
+					}
+				}
+			}
+			c_khaybar = {
+				grant_title = ROOT
+			}
+		}
+		c_medina = {
+			holder_scope = {
+			b_batu_nakhl = {
+				grant_title = PREV
+				province_capital = yes
+			}
+			}
+		}
+				
+		c_medina = {
+			grant_title = ROOT
+			set_name = "c_medina"
+			set_adjective = c_medina_adj
+		}
+		add_claim = c_mecca
+		add_claim = c_jeddah
+		piety = 1000
+		grant_title = e_islamism
+		add_trait = adventurer
+		set_global_flag = hijra
+		set_global_flag = islam_era_begun
+		create_character = {
+			random_traits = no
+			dynasty = 3000060
+			religion = ROOT
+			culture = bedouin_arabic
+			age = 25
+			female = no
+			trait = honest
+			trait = brave
+			trait = diligent
+			trait = zealous
+			trait = brilliant_strategist
+			trait = holy_warrior
+			trait = inspiring_leader
+			trait = desert_terrain_leader
+			trait = mujahid
+			trait = cavalry_leader
+			attributes = {
+				diplomacy = 8
+				martial = 13
+				stewardship = 5
+				intrigue = 6
+				learning = 7
+			}
+		}
+		new_character = {
+			set_name = Khalid
+			set_defacto_liege = ROOT
+			prestige = 100
+			piety = 200
+		}
+		ROOT = {
+			spawn_unit = {
+				owner = THIS
+				leader = THIS
+				province = 718
+				home = 718
+				troops = {
+					archers = { 1000 1000 }
+					light_infantry = { 500 500 }
+					camel_cavalry = { 3000 3000 }
+					light_cavalry = { 500 500 }
+				}
+				attrition = 0.0
+			}
+			spawn_unit = {
+				owner = THIS
+				leader = THIS
+				province = 718
+				home = 718
+				troops = {
+					archers = { 500 500 }
+					light_infantry = { 500 500 }
+					camel_cavalry = { 3000 3000 }
+					light_cavalry = { 500 500 }
+				}
+				attrition = 0.0
+			}
+			spawn_unit = {
+				owner = THIS
+				leader = THIS
+				province = 718
+				home = 718
+				troops = {
+					archers = { 500 500 }
+					light_infantry = { 1000 1000 }
+					camel_cavalry = { 2500 2500 }
+					light_cavalry = { 500 500 }
+				}
+				attrition = 0.0
+			}
+			spawn_unit = {
+				owner = THIS
+				leader = THIS
+				province = 718
+				home = 718
+				troops = {
+					archers = { 500 500 }
+					light_infantry = { 1000 1000 }
+					camel_cavalry = { 2500 2500 }
+					light_cavalry = { 100 500 }
+				}
+				attrition = 0.0
+			}
+			spawn_unit = {
+				owner = THIS
+				leader = THIS
+				province = 718
+				home = 718
+				troops = {
+					archers = { 500 500 }
+					light_infantry = { 500 500 }
+					camel_cavalry = { 1500 1500 }
+					light_cavalry = { 500 500 }
+				}
+				attrition = 0.0
+			}
+			spawn_unit = {
+				owner = THIS
+				leader = THIS
+				province = 718
+				home = 718
+				troops = {
+					archers = { 500 500 }
+					light_infantry = { 500 500 }
+					camel_cavalry = { 1500 1500 }
+					light_cavalry = { 500 500 }
+				}
+				attrition = 0.0
+			}
+			spawn_unit = {
+				owner = THIS
+				leader = THIS
+				province = 718
+				home = 718
+				troops = {
+					archers = { 500 500 }
+					light_infantry = { 500 500 }
+					camel_cavalry = { 1500 1500 }
+					light_cavalry = { 500 500 }
+				}
+				attrition = 0.0
+			}
+			spawn_unit = {
+				owner = THIS
+				leader = THIS
+				province = 718
+				home = 718
+				troops = {
+					archers = { 500 500 }
+					light_infantry = { 500 500 }
+					camel_cavalry = { 1500 1500 }
+					light_cavalry = { 500 500 }
+				}
+				attrition = 0.0
+			}
+			spawn_unit = {
+				owner = THIS
+				leader = THIS
+				province = 718
+				home = 718
+				troops = {
+					heavy_infantry = { 1500 500 }
+					camel_cavalry = { 3500 1500 }
+					light_cavalry = { 500 500 }
+				}
+				attrition = 0.0
+			}
+		}
+	}
+}
+# informed Hijra
+narrative_event = {
+	id = islam.14
+	title = EVTTITLE_islam_14
+	desc = EVTDESC_islam_14
+	is_triggered_only = yes
+	major = yes
+	picture = GFX_evt_kaaba
+	border = GFX_event_narrative_frame_war
+	major_trigger = {
+		is_playable = yes
+	}
+	option = {
+		name = EVTOPTA_islam_14
+		trigger = {
+			religion_group = muslim
+		}
+	}
+	option = {
+		name = EVTOPTB_islam_14
+		trigger = {
+			NOT = {
+				religion_group = muslim
+			}
+		}
+	}
+}
+
+#Conquest of Makkah
+narrative_event = {
+	id = islam.15
+	title = EVTTITLE_islam_15
+	desc = EVTDESC_islam_15
+	major = yes
+	picture = GFX_evt_kaaba
+	border = GFX_event_narrative_frame_religion
+	has_character_flag = muhammad
+	major_trigger = {
+		OR = {
+			capital_scope = { NOT = {
+				distance = {
+					where = 719
+					distance = 1200
+			}}}
+			ai = no
+		}
+		is_playable = yes
+	}
+	trigger = {
+		NOT = {
+			has_global_flag = fall_mecca
+		}
+		has_landed_title = e_islamism
+		c_mecca = {
+			OR = {
+				holder = ROOT
+				holder_scope = {
+					is_liege_or_above = ROOT
+				}
+			}
+		}
+	}
+	mean_time_to_happen = {
+		months = 2
+	}
+	immediate = {
+		if = {
+			limit = {
+				c_mecca = {	NOT = { holder = ROOT }	}
+			}
+			c_mecca = {
+				grant_title = ROOT
+			}
+		}
+		set_global_flag = fall_mecca
+		719 = {	religion = islamism	}
+		any_province = {
+			limit = {
+				region = custom_arabia
+			}
+			random_list = {
+				65 = {
+					religion = islamism
+				}
+				35 = { }
+			}
+		}
+		remove_character_modifier = prophet_blessing
+		any_character = {
+			limit = {
+				OR = {
+					dynasty = 101727
+					dynasty = 7296
+					dynasty = 597
+				}
+			}
+			religion = islamism
+			}
+			spawn_unit = {
+				owner = THIS
+				leader = THIS
+				province = 718
+				home = 718
+				troops = {
+					heavy_infantry = { 1500 1500 }
+					camel_cavalry = { 3500 3500 }
+					light_cavalry = { 500 500 }
+				}
+				attrition = 0.0
+			}
+			spawn_unit = {
+				owner = THIS
+				leader = THIS
+				province = 718
+				home = 718
+				troops = {
+					heavy_infantry = { 1500 1500 }
+					camel_cavalry = { 3500 3500 }
+					light_cavalry = { 500 500 }
+				}
+				attrition = 0.0
+			}
+			spawn_unit = {
+				owner = THIS
+				leader = THIS
+				province = 718
+				home = 718
+				troops = {
+					heavy_infantry = { 1500 1500 }
+					camel_cavalry = { 3500 3500 }
+					light_cavalry = { 500 500 }
+				}
+				attrition = 0.0
+			}
+			spawn_unit = {
+				owner = THIS
+				leader = THIS
+				province = 718
+				home = 718
+				troops = {
+					heavy_infantry = { 1500 1500 }
+					camel_cavalry = { 3500 3500 }
+					light_cavalry = { 500 500 }
+				}
+				attrition = 0.0
+			}
+			spawn_unit = {
+				owner = THIS
+				leader = THIS
+				province = 718
+				home = 718
+				troops = {
+					heavy_infantry = { 1500 1500 }
+					camel_cavalry = { 3500 3500 }
+					light_cavalry = { 500 500 }
+				}
+				attrition = 0.0
+			}
+			spawn_unit = {
+				owner = THIS
+				leader = THIS
+				province = 718
+				home = 718
+				troops = {
+					heavy_infantry = { 1500 1500 }
+					camel_cavalry = { 3500 3500 }
+					light_cavalry = { 500 500 }
+				}
+				attrition = 0.0
+			}
+			spawn_unit = {
+				owner = THIS
+				leader = THIS
+				province = 718
+				home = 718
+				troops = {
+					heavy_infantry = { 1500 1500 }
+					camel_cavalry = { 3500 3500 }
+					light_cavalry = { 500 500 }
+				}
+				attrition = 0.0
+			}
+			spawn_unit = {
+				owner = THIS
+				leader = THIS
+				province = 718
+				home = 718
+				troops = {
+					heavy_infantry = { 1500 1500 }
+					camel_cavalry = { 3500 3500 }
+					light_cavalry = { 500 500 }
+				}
+				attrition = 0.0
+			}
+			spawn_unit = {
+				owner = THIS
+				leader = THIS
+				province = 718
+				home = 718
+				troops = {
+					heavy_infantry = { 1500 1500 }
+					camel_cavalry = { 3500 3500 }
+					light_cavalry = { 500 500 }
+				}
+				attrition = 0.0
+			}
+			spawn_unit = {
+				owner = THIS
+				leader = THIS
+				province = 718
+				home = 718
+				troops = {
+					heavy_infantry = { 3000 3000 }
+					camel_cavalry = { 5000 5000 }
+					light_cavalry = { 2000 2000 }
+				}
+				attrition = 0.0
+			}
+			spawn_unit = {
+				owner = THIS
+				leader = THIS
+				province = 718
+				home = 718
+				troops = {
+					heavy_infantry = { 3000 3000 }
+					camel_cavalry = { 5000 5000 }
+					light_cavalry = { 2000 2000 }
+				}
+				attrition = 0.0
+			}
+			spawn_unit = {
+				owner = THIS
+				leader = THIS
+				province = 718
+				home = 718
+				troops = {
+					heavy_infantry = { 3000 3000 }
+					camel_cavalry = { 5000 5000 }
+					light_cavalry = { 2000 2000 }
+				}
+				attrition = 0.0
+			}
+			spawn_unit = {
+				owner = THIS
+				leader = THIS
+				province = 718
+				home = 718
+				troops = {
+					heavy_infantry = { 3000 3000 }
+					camel_cavalry = { 5000 5000 }
+					light_cavalry = { 2000 2000 }
+				}
+				attrition = 0.0
+			}
+			spawn_unit = {
+				owner = THIS
+				leader = THIS
+				province = 718
+				home = 718
+				troops = {
+					heavy_infantry = { 3000 3000 }
+					camel_cavalry = { 5000 5000 }
+					light_cavalry = { 2000 2000 }
+				}
+				attrition = 0.0
+			}
+			spawn_unit = {
+				owner = THIS
+				leader = THIS
+				province = 718
+				home = 718
+				troops = {
+					heavy_infantry = { 3000 3000 }
+					camel_cavalry = { 5000 5000 }
+					light_cavalry = { 2000 2000 }
+				}
+				attrition = 0.0
+			}
+		if = {
+			limit = {
+				d_sanaa = {
+					has_holder = yes
+				}
+			}
+			d_sanaa = {
+				grant_title = ROOT
+			}
+		}
+		if = {
+			limit = {
+				d_taizz = {
+					has_holder = yes
+				}
+			}
+			d_taizz = {
+				grant_title = ROOT
+			}
+		}
+		if = {
+			limit = {
+				d_oman = {
+					has_holder = yes
+					holder_scope = {
+						culture = bedouin_arabic
+						tier = DUKE
+					}
+				}
+			}
+			d_oman = {
+				holder_scope = {
+					set_defacto_liege = THIS
+					religion = arabic_pagan
+				}
+			}
+		}
+				
+	}
+	after = {
+		destroy_landed_title = d_taizz
+		destroy_landed_title = d_sanaa
+	}
+	option = {
+		name = EVTOPTA_islam_15
+		trigger = {
+			religion_group = muslim
+		}
+		piety = 1000
+		if = {
+			limit = {
+				NOT = { tier = KING }
+				culture = bedouin_arabic
+				is_playable = yes
+				NOT = { is_liege_or_above = ROOT }
+				capital_scope = {
+					region = world_middle_east_arabia
+				}
+			}
+			set_defacto_liege = ROOT
+		}
+	}
+	option = {
+		name = EVTOPTB_islam_15
+		trigger = {
+			NOT = {
+				religion_group = muslim
+			}
+		}
+		if = {
+			limit = {
+				NOT = { tier = KING }
+				NOT = { is_liege_or_above = ROOT }
+				culture = bedouin_arabic
+				is_playable = yes
+				capital_scope = {
+					region = world_middle_east_arabia
+				}
+			}
+			set_defacto_liege = ROOT
+		}
+	}
+}

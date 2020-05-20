@@ -1,0 +1,19 @@
+name = "Samenia"
+
+casus_belli = {
+	actor = 200275
+	recipient = 70511
+	casus_belli=claim
+	landed_title=k_andalusia
+	date=567.5.22
+}
+
+567.5.22 = {
+	add_attacker = 200275
+	add_defender = 70511
+}
+
+567.8.1 = {
+	rem_attacker = 200275
+	rem_defender = 70511
+}

@@ -1,0 +1,24 @@
+# 1974 - Jaen
+
+# County Title
+title = c_jaen
+
+# Settlements
+max_settlements = 4
+b_jaen = castle
+b_andujar = city
+b_huescar = temple
+
+culture = iberian_latin
+religion = catholic
+
+# History
+711.1.1 = { religion = sunni }
+929.1.1 = {
+	culture = andalusian_arabic
+}
+
+1251.1.1 = {
+	culture = castillan
+	religion = catholic
+}

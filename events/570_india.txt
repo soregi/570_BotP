@@ -1,0 +1,172 @@
+namespace = bharat
+narrative_event = {
+	id = bharat.1
+	title = EVTTITLE_bharat_1
+	desc = EVTDESC_bharat_1 
+	picture = GFX_evt_ruler_riding_elephant
+	border = GFX_event_narrative_frame_war
+	only_playable = yes
+	major = yes
+	major_trigger = {
+		capital_scope = {
+			NOT = {
+				distance = {
+					where = 1154
+					distance = 1500
+				}
+			}
+		}
+		is_playable = yes
+	}
+	trigger = {
+		NOT = { has_global_flag = fall_gupta }
+		e_bengal = { has_holder = yes }
+		year  = 590
+	}
+	mean_time_to_happen = {
+		years = 1
+	}
+	immediate = {
+		destroy_landed_title = e_bengal
+		set_global_flag = fall_gupta
+	}
+	option = {
+		name = EVTOPTA_bharat_1	
+	}
+}
+character_event = {
+	id = bharat.2
+	hide_window = yes
+	trigger = {
+		year = 608
+		NOT = { has_global_flag = harsha }
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+	immediate = {
+		create_character = {
+			random_traits = no
+			name = "Harsha"
+			dynasty = 3000035
+			religion = hindu
+			culture = hindustani
+			female = no
+			age = 18
+			health = 5.5
+			fertility = 0.7
+			trait = kshatriya
+			trait = vaishnavist_hindu
+			trait = genius
+			trait = strong
+			trait = erudite
+			trait = robust
+			trait = poet
+			trait = kind
+			trait = midas_touched
+			trait = ambitious
+			trait = brave
+			trait = war_elephant_leader
+			trait = inspiring_leader
+			trait = gregarious
+			trait = just
+			trait = charitable
+			trait = diligent
+			trait = groomed
+			trait = organizer
+			attributes = {
+				diplomacy = 12
+				martial = 11
+				stewardship = 8
+				intrigue = 6
+				learning = 10
+			}
+		}
+		new_character = {
+			set_character_flag = harsha
+			set_global_flag = harsha
+			save_event_target_as = harsha
+			set_father = c_409055
+			add_claim = k_delhi
+			add_claim = k_kosala
+			prestige = 2000
+			piety = 500
+			
+			add_character_modifier = {
+				name = great_conqueror
+				duration = -1
+			}
+			character_event = { id = bharat.3 years = 3 }
+		}
+	}
+	after = {
+		event_target:harsha = {
+		father = {
+				death = yes
+			}
+			any_sibling = {
+				limit = {
+					female = no
+				}
+				death = yes
+			}
+			if = {
+				limit = {
+					k_delhi = {
+						holder_scope = {
+							culture_group = indo_aryan_group
+						}
+					}
+				}
+				k_delhi = {
+					holder_scope = {
+						any_demesne_title = {
+							grant_title = PREVPREVPREV
+						}
+					}
+				}
+			}
+		}  
+	}
+	
+}
+character_event = {
+	id = bharat.3
+	hide_window = yes
+	is_triggered_only = yes
+	immediate = {
+		k_kosala = {
+			holder_scope = {
+				reverse_war = {
+					target = ROOT
+					casus_belli = tribal_invasion
+					thirdparty_title = k_kosala
+				}
+			}
+		}
+	}
+}
+character_event = {
+	id = bharat.4
+	hide_window = yes
+	has_character_flag = harsha
+	trigger = {
+		has_landed_title = k_kosala
+		war = no
+		tier = KING
+	}
+	mean_time_to_happen = {
+		months = 3
+	}
+	immediate = {
+		e_rajastan = {
+			grant_title = ROOT
+		}
+		c_kanyakubja = {
+			grant_title = ROOT
+		}
+		create_bloodline = {
+			type = harsha
+		}
+	}
+}

@@ -1,0 +1,215 @@
+namespace = horde
+
+character_event = {
+	id = horde.2
+	is_triggered_only = yes
+	hide_window = yes
+	immediate = {
+		create_title = {
+			tier = EMPEROR
+			name = k_bulgaria
+			holder = ROOT
+			culture = bolghar
+			base_title = d_bulgar
+			nomad = yes
+		}
+		new_title = {
+			set_title_flag = great_bulgaria
+		}
+		if = {
+			limit = {
+				has_dlc = "Horse Lords"
+			}
+			set_government_type = nomadic_government
+		}
+		if = {
+			limit = {
+				NOT = { has_dlc = "Horse Lords" }
+			}
+			set_government_type = tribal_government
+		}
+		any_province = {
+			limit = {
+				OR = {
+					duchy = {
+						OR = {
+						title = d_wild_fields
+						title = d_crimea
+						title = d_azov
+						title = d_sarkel
+						title = d_bulgar
+						title = d_bashkiria
+						title = d_bessarabia
+						title = d_kazan
+						}
+					}
+					county = {
+						title = c_burtasy
+					}
+				}
+			}
+			culture = ROOT
+			religion = ROOT
+			county = {
+				grant_title = ROOT
+			}
+		}
+	}
+}
+
+character_event = {
+	id = horde.3
+	is_triggered_only = yes
+	option = {
+		name = EVTOPTA_horde_1
+		set_player_character = event_target:kubrat
+		any_demesne_title = {
+			limit = {
+				tier = COUNT
+			}
+			grant_title = event_target:kubrat
+		}
+	}
+}
+
+#Kubrat Dies
+character_event = {
+	id = horde.4
+	is_triggered_only = yes
+	hide_window = yes
+	trigger = {
+		has_character_flag = kubrat
+	}
+	immediate = {
+		set_global_flag = kubrat_died
+	}
+}
+
+character_event = {
+	id = horde.5
+	hide_window = yes
+	trigger = {
+		has_global_flag = kubrat_died
+		OR = {
+			has_character_flag = asparukh
+			has_character_flag = batbayan
+			has_character_flag = kotrag
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		if = {
+			limit = {
+				ROOT = {
+					has_character_flag = batbayan
+					NOT = { has_global_flag = batbayan_y }
+				}
+			}
+			set_global_flag = batbayan_y
+		}
+		if = {
+			limit = {
+				ROOT = {
+					has_character_flag = kotrag
+					NOT = { has_global_flag = kotrag_y }
+				}
+			}
+			any_province = {
+				limit = {
+					culture = bolghar
+					OR = {
+						duchy = {
+							d_bulgar
+							d_bashkiria
+							d_kazan
+						}
+					}
+				}
+				county = {
+					grant_title = PREVPREV
+				}
+			}
+			create_title = {
+			tier = EMPEROR
+			name = d_bulgar
+			holder = ROOT
+			base_title = d_bulgar
+			culture = bolghar
+			nomad = yes
+			}
+			if = {
+			limit = {
+				has_dlc = "Horse Lords"
+			}
+			set_government_type = nomadic_government
+		}
+			set_global_flag = kotrag_y
+		}
+		if = {
+			limit = {
+				ROOT = {
+					has_character_flag = asparukh
+					NOT = { has_global_flag = asparukh_y }
+				}
+			}
+			d_bessarabia = {
+				any_de_jure_vassal_title = {
+					grant_title = ROOT
+				}
+			}
+			d_muntenia = {
+				any_de_jure_vassal_title = {
+					grant_title = ROOT
+				}
+			}
+			create_title = {
+			tier = EMPEROR
+			name = k_bulgaria
+			holder = ROOT
+			base_title = k_bulgaria
+			nomad = yes
+			culture = bolghar
+			}
+			if = {
+			limit = {
+				has_dlc = "Horse Lords"
+			}
+			set_government_type = nomadic_government
+		}
+			set_global_flag = asparukh_y
+		}
+		random_independent_ruler = {
+			limit = {
+				culture = khazar
+				OR = {
+					tier = KING
+					tier = EMPEROR
+				}
+			}
+			any_province = {
+				limit = {
+					culture = bolghar
+					OR = {
+						duchy = {
+							d_azov
+							d_crimea
+							d_sarkel
+							d_itil
+						}
+					}
+				}
+				county = {
+					grant_title = PREVPREV
+				}
+			}
+			if = {
+			limit = {
+				has_dlc = "Horse Lords"
+			}
+			set_government_type = nomadic_government
+		}
+		}
+	}
+}

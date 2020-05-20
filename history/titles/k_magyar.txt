@@ -1,0 +1,41 @@
+20.1.1 = {
+	historical_nomad = yes
+}
+570.1.1 = {
+	set_tribute_suzerain = {
+		who = e_gokturks
+		type = nomadic
+	}
+	holder = 407023
+}
+581.1.1 = {
+	set_tribute_suzerain = {
+		who = e_wgokturks
+		type = nomadic
+	}
+	clear_tribute_suzerain = e_gokturks
+}
+700.1.1 = {
+	clear_tribute_suzerain = e_wgokturks
+}
+764.1.1={
+	holder=146214
+}
+803.1.1={
+	holder=146229
+}
+826.1.1={
+	holder=146230
+}
+845.1.1={
+	holder=159137
+}
+895.1.1={
+	holder=159136
+}
+907.1.1 = {
+	holder=0
+	effect = {
+		activate_title = { title = k_magyar status = no }
+	}
+}

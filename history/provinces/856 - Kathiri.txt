@@ -1,0 +1,29 @@
+# 856 - Kathiri
+
+# County Title
+title = c_kathiri
+
+# Settlements
+max_settlements = 4
+b_shabwa = tribal
+#b_qana = city
+#b_lodar = temple
+
+#b_seiyun = castle
+#b_mukalla = city
+#b_shihar = castle
+#b_nisab = castle
+#b_azzan = castle
+
+# Misc
+culture = bedouin_arabic
+religion = jewish
+
+# History
+633.1.1 = { religion = islamism }
+661.1.1 = { religion = ibadi }
+850.1.1 = {
+	religion = sunni
+	b_shabwa = castle
+}
+1066.1.1 = { b_qana = city }

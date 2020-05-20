@@ -1,0 +1,69 @@
+569.1.1 = {
+	holder = 404019
+	set_tribute_suzerain = {
+		who = e_byzantium
+		type = vassal
+	}
+}
+600.1.1 = {
+	holder = 404117
+}
+633.1.1 = {
+	clear_tribute_suzerain = e_byzantium
+	liege = e_islamism
+}
+636.1.1 = {
+	holder = 404118
+
+}
+767.1.1={
+	liege="d_medina"
+	holder=188619
+}
+
+866.1.1={
+	liege="d_arabia_petrae"
+	holder = 34016
+}
+869.1.1={
+	liege = 0
+}
+936.1.1 = {
+	holder = 260932
+	liege = d_arabia_petrae
+}
+1066.1.1={
+liege="d_medina"
+}
+1066.1.1=
+{
+holder=20794
+}
+1089.1.1=
+{
+holder=93359
+}
+1120.1.1=
+{
+holder=93360
+}
+1160.1.1=
+{
+holder=93361
+}
+1200.1.1=
+{
+holder=93362
+}
+1240.1.1=
+{
+holder=93363
+}
+1280.1.1=
+{
+holder=93364
+}
+1320.1.1=
+{
+holder=93365
+}

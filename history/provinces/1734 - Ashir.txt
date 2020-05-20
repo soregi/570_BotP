@@ -1,0 +1,22 @@
+# 1734 - Ashir
+
+# County Title
+title = c_ashir
+
+# Settlements
+max_settlements = 2
+
+b_asir_yasir = tribal
+b_asir_banya = city
+
+# Misc
+culture = berber
+religion = west_african_pagan
+
+# History
+700.1.1 = { religion = ibadi }
+909.1.1 = { 
+	religion = sunni 
+	b_asir_yasir = castle
+	culture = maghreb_arabic
+}

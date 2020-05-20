@@ -1,0 +1,743 @@
+188580 = {
+	name="Afrig"
+	dynasty=1042112 # Afrighid
+	religion="zoroastrian"
+	culture="parthian"
+	280.9.4={
+		birth=yes
+	}
+	350.1.1={
+		death=yes
+	}
+}
+
+188581 = {
+	name="Bagra"
+	dynasty=1042112 # Afrighid
+	religion="zoroastrian"
+	culture="parthian"
+	father=188580
+	312.1.28={
+		birth=yes
+	}
+	380.1.1={
+		death=yes
+	}
+}
+
+188582 = {
+	name="Sahhasak"
+	dynasty=1042112 # Afrighid
+	religion="zoroastrian"
+	culture="parthian"
+	father=188581
+	337.1.1={
+		birth=yes
+	}
+	410.1.1={
+		death=yes
+	}
+}
+
+188583 = {
+	name="Askajamuk"
+	dynasty=1042112 # Afrighid
+	religion="zoroastrian"
+	culture="parthian"
+	father=188582
+	365.1.1={
+		birth=yes
+	}
+	440.1.1={
+		death=yes
+	}
+}
+
+188584 = {
+	name="Azkajwar"
+	dynasty=1042112 # Afrighid
+	religion="zoroastrian"
+	culture="parthian"
+	father=188583
+	400.1.1={
+		birth=yes
+	}
+	470.1.1={
+		death=yes
+	}
+}
+
+188585 = {
+	name="Sahr"
+	dynasty=1042112 # Afrighid
+	religion="zoroastrian"
+	culture="parthian"
+	father=188584
+	430.1.1={
+		birth=yes
+	}
+	500.1.1={
+		death=yes
+	}
+}
+
+188586 = {
+	name="Shaush"
+	dynasty=1042112 # Afrighid
+	religion="zoroastrian"
+	culture="parthian"
+	father=188585
+	460.1.1={
+		birth=yes
+	}
+	530.1.1={
+		death=yes
+	}
+}
+
+188587 = {
+	name="Hamgari"
+	dynasty=1042112 # Afrighid
+	religion="zoroastrian"
+	culture="parthian"
+	father=188586
+	490.1.1={
+		birth=yes
+	}
+	560.1.1={
+		death=yes
+	}
+}
+
+188588 = {
+	name="Buzgar"
+	dynasty=1042112 # Afrighid
+	religion="zoroastrian"
+	culture="parthian"
+	father=188587
+	520.1.1={
+		birth=yes
+	}
+	600.1.1={
+		death=yes
+	}
+}
+
+188589 = {
+	name="Arsamuh"
+	dynasty=1042112 # Afrighid
+	religion="zoroastrian"
+	culture="parthian"
+	father=188588
+	560.1.1={
+		birth=yes
+	}
+	625.1.1={
+		death=yes
+	}
+}
+
+188590 = {
+	name="Sahr"
+	dynasty=1042112 # Afrighid
+	religion="zoroastrian"
+	culture="parthian"
+	father=188589
+	600.1.1={
+		birth=yes
+	}
+	665.1.1={
+		death=yes
+	}
+}
+
+180628 = {
+	name="Khosrau"
+	# Khosrau I, Emperor of Persia
+	dynasty=1029100
+	religion="zoroastrian"
+	culture="persian"
+	father=180627
+	diplomacy = 7
+	martial = 4
+	stewardship = 10
+	intrigue = 8
+	learning = 9
+	trait = midas_touched
+	trait = just
+	trait = strong
+	trait = erudite
+	trait = ambitious
+	trait = gregarious
+	trait = robust
+	trait = administrator
+	trait = temperate
+	trait = diligent
+	trait = chaste
+	trait = deceitful
+	trait = quick
+	505.1.1={
+		birth=yes
+	}
+	550.1.1 = { give_nickname = nick_anushirwan }
+	579.1.1={
+		death=yes
+	}
+}
+180645 = {
+	name="Bahram"# Bahram Chobin Mihran
+	# Bahram VI, Emperor of Persia
+	dynasty=1042070
+	religion="zoroastrian"
+	culture="persian"
+	trait = "skilled_tactician"
+	trait = "ambitious"
+	trait = "deceitful"
+	553.1.1={
+		birth="553.1.1"
+		create_bloodline = {
+			type = parthian
+			has_dlc = "Holy Fury"
+		}
+		give_nickname = nick_chobin
+		effect = { set_character_flag = bahram_vi }
+	}
+	592.1.1={
+		death="592.1.1"
+	}
+}
+408000 = {
+	name = "Chihor-Vishnasp"
+	culture = persian
+	religion = zoroastrian
+	dynasty = 1042143 # Suren
+	father = 408037
+	522.1.1 = {
+		birth = yes
+	}
+	572.2.23 = { death = yes } # Murdered by Armenian Rebel
+}
+408001 = {
+	name = "Varazdat"
+	culture = armenian
+	religion = zoroastrian
+	512.1.1 = { birth = yes }
+	569.1.1 = { death = yes }
+}
+408002 = {
+	name = "Tan-Shapur"
+	culture = persian
+	religion = zoroastrian
+	510.1.1 = { birth = yes }
+	570.1.1 = { death = yes }
+}
+408003 = {
+	name = "Judhas"
+	dynasty = 3000086
+	culture = assyrian
+	religion = nestorian
+	535.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+408004 = {
+	name = "Boe"
+	culture = persian
+	religion = zoroastrian
+	dynasty = 3000089
+	trait = skilled_tactician
+	526.1.1 = { birth = yes }
+	590.1.1 = { death = yes }
+}
+408005 = {
+	name = "Elisha"
+	dynasty = 3000087
+	culture = assyrian
+	religion = nestorian
+	549.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+408006 = {
+	name = "Salman"
+	dynasty = 3000090
+	culture = parthian
+	religion = nestorian
+	540.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+408007 = {
+	name = "Bahram"
+	dynasty = 3000091
+	culture = persian
+	religion = mazdaki
+	551.1.1 = { birth = yes }
+	582.1.1 = { death = yes }
+}
+408008 = {
+	name = "Shayrar"
+	culture =  persian
+	religion = zoroastrian
+	dynasty = 3000038
+	552.1.1 = {
+		birth = yes
+		create_bloodline = {
+			type = parthian
+			has_dlc = "Holy Fury"
+		}	
+	}
+	590.1.1 = { death = yes }
+}
+408009 = {
+	name = "Varaz"
+	culture = parthian
+	religion = zoroastrian
+	dynasty = 3000030
+	548.1.1 = { 
+		birth = yes 
+		create_bloodline = {
+			type = parthian
+			has_dlc = "Holy Fury"
+		}
+	}
+	600.1.1 = { death = yes }
+}
+408010 = {
+	name = "Mehrab"
+	culture = persian
+	religion = zoroastrian
+	dynasty = 3000092
+	541.1.1 = { birth = yes }
+	589.1.1 = { death = yes }
+}
+408011 = {
+	name = "Sokhrab"
+	dynasty = 3000093
+	culture = persian
+	religion = zoroastrian
+	548.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+408012 = {
+	name = "Kavadh"
+	dynasty = 3000094
+	culture = persian
+	religion = zoroastrian
+	553.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+408013 = {
+	name = "Bahram"
+	dynasty = 30000181
+	culture = persian
+	religion = zoroastrian
+	558.1.1 = { birth = yes }
+	622.1.1 = { death = yes }
+}
+408014 = {
+	name = "Varshab"
+	dynasty = 3000085
+	culture = persian
+	religion = zoroastrian
+	540.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+408015 = {
+	name = "Hormizd"
+	dynasty = 1042143 # Suren
+	culture = persian
+	religion = zoroastrian
+	father = 408000
+	554.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+408016 = {
+	name = "Harazasp"
+	dynasty = 3000095
+	culture = parthian
+	religion = zoroastrian
+	546.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+408017 = {
+	name = "Vishnasp"
+	dynasty = 3000096
+	culture = parthian
+	religion = zoroastrian
+	546.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+408018 = {
+	name = "Kavadh"
+	culture = bactrian
+	religion = zoroastrian
+	dynasty = 3000097
+	546.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+408019 = {
+	name = "Bahram"
+	dynasty = 3000098
+	culture = bactrian
+	religion = buddhist
+	trait = mahayana_buddhist
+	546.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+408020 = {
+	name = "Peroz"
+	dynasty = 3000099
+	culture = parthian
+	religion = zoroastrian
+	543.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+408021 = {
+	name = "Pazuir"
+	culture = afghan
+	religion = zoroastrian
+	551.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+408022 = {
+	name = Bunyat
+	culture = sogdian
+	religion = zoroastrian
+	547.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+408023 = {
+	name = "Mihran"
+	culture = parthian
+	religion = zoroastrian
+	dynasty = 3000036
+	547.1.1 = { 
+		birth = yes
+		create_bloodline = {
+			type = parthian
+			has_dlc = "Holy Fury"
+		}
+	}
+	600.1.1 = { death = yes }
+}
+408024 = {
+	name = "Kaykhosrau"
+	culture = persian
+	religion = zoroastrian
+	father = 160303
+	dynasty = 7511 # Karen
+	518.1.1 = { birth = yes }
+	569.1.1 = { death = yes }
+}
+408025 = {
+	name = "Erdewan"
+	culture = persian
+	religion = zoroastrian
+	father = 408024
+	dynasty = 7511
+	546.1.1 = { birth = yes }
+	612.1.1 = { death = yes }
+}
+408026 = {
+	name = "Farrukh"
+	culture = persian
+	religion = zoroastrian
+	dynasty = 3000037 # Zik
+	548.1.1 = {
+		birth = yes
+		create_bloodline = {
+			type = parthian
+			has_dlc = "Holy Fury"
+		}
+		}
+	620.1.1 = { death = yes }
+}
+408027 = {
+	name = "Balawar"
+	culture = sogdian
+	religion = khurmazta
+	550.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+408028 = {
+	name = "Maroush"
+	culture = bactrian
+	dynasty = 3000042
+	religion = zoroastrian
+	543.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+408029 = {
+	name = "Maros"
+	culture = saka
+	religion = buddhist
+	trait = mahayana_buddhist
+	545.1.1 = { birth = yes }
+	610.1.1 = { death = yes }
+}
+408030 = {
+	name = "Saru"
+	culture = tocharian
+	religion = buddhist
+	trait = mahayana_buddhist
+	550.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+408031 = {
+	name = "Aryndak"
+	culture = tocharian
+	religion = buddhist
+	trait = mahayana_buddhist
+	550.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+408032 = {
+	name = "Musira"
+	culture = tocharian
+	religion = buddhist
+	trait = mahayana_buddhist
+	550.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+408033 = {
+	name = "Edgom"
+	culture = tocharian
+	religion = buddhist
+	trait = mahayana_buddhist
+	550.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+408034 = {
+	name = "Huna"
+	culture = saka
+	religion = tengri_pagan
+	dynasty = 1042083
+	542.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+408035 = {
+	name = "Eligai"
+	culture = bactrian
+	religion = zoroastrian
+	dynasty = 3000042 # Hephthalites
+	540.1.1 = { birth = yes }
+	570.1.1 = {
+		add_claim = e_hephthalites
+	}
+	600.1.1 = { death = yes }
+}
+408036 = {
+	name = "Darab"
+	culture = persian
+	religion = zoroastrian
+	538.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+408037 = {
+	name = "Dariush"
+	culture = persian
+	religion = zoroastrian
+	dynasty = 1042143
+	480.1.1 = {
+		birth = yes
+		create_bloodline = {
+			type = parthian
+			has_dlc = "Holy Fury"
+		}
+	}
+	530.1.1 = { death = yes }
+}
+408038 = {
+	name = "Armee"
+	culture = afghan
+	religion = zun_pagan
+	dynasty = 1042110 # Zunbil
+	father = 408040
+	554.1.1 = { birth = yes }
+	620.1.1 = { death = yes }
+}
+408039 = {
+	name = "Danuush"
+	culture = afghan
+	religion = zun_pagan
+	dynasty = 1042110
+	father = 408038
+	570.1.1 = { birth = yes }
+	630.1.1 = { death = yes }
+}
+408040 = {
+	name = "Zuna"
+	culture = bactrian
+	religion = zoroastrian
+	525.1.1 = { birth = yes }
+	570.1.1 = { death = yes }
+}
+188700 = {
+	name="Barhatakin"
+	dynasty=1042110 # Zunbil
+	religion="zun_pagan"
+	culture="afghan"
+	father = 408039
+	610.1.1={
+		birth=yes
+	}
+	660.1.1={
+		death=yes
+	}
+}
+408041 = {
+	name = "Taaka"
+	culture = saka
+	religion = tengri_pagan
+	dynasty = 1042083
+	father = 408034
+	554.4.1 = { birth = yes }
+	610.1.1 = { death = yes }
+}
+408042 = {
+	name = "Tarke"
+	culture = saka
+	religion = hindu
+	dynasty = 1042083
+	father = 408034
+	trait = kshatriya
+	559.1.1 = { birth = yes }
+	632.1.1 = { death = yes }
+}
+408043 = {
+	name = "Torama"
+	culture = saka
+	religion = hindu
+	dynasty = 1042083
+	father = 408041
+	trait = kshatriya
+	570.1.1 = { birth = yes }
+	640.1.1 = { death = yes }
+}
+408044 = {
+	name = "Arya"
+	culture = persian
+	religion = zoroastrian
+	trait = skilled_tactician
+	550.1.1 = { birth = yes }
+	650.1.1 = { death = yes }
+}
+408045 = {
+	name = "Mistefi"
+	dynasty = 3000139
+	culture = kurdish
+	religion = zoroastrian
+	554.1.1 = { birth = yes }
+	624.1.1 = { death = yes }
+}
+408046 = {
+	name = "Zebani"
+	dynasty = 3000139
+	father = 408045
+	culture = kurdish
+	religion = zoroastrian
+	581.1.1 = { birth = yes }
+	637.1.1 = { death = yes }
+}
+408047 = {
+	name = "Gorgand"
+	dynasty = 3000139
+	father = 408046
+	culture = kurdish
+	religion = zoroastrian
+	616.1.1 = { birth = yes }
+	678.1.1 = { death = yes }
+}
+408048 = {
+	name = "Mohammed"
+	dynasty = 3000139
+	father = 408047
+	culture = kurdish
+	religion = zoroastrian
+	651.1.1 = { birth = yes }
+	681.1.1 = { religion = sunni }
+	711.1.1 = { death = yes }
+}
+408049 = {
+	name = "Zebend"
+	dynasty = 3000140
+	culture = kurdish
+	religion = zoroastrian
+	547.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+408050 = {
+	name = "Rostoum"
+	dynasty = 3000140
+	father = 408049
+	culture = kurdish
+	religion = zoroastrian
+	570.4.1 = { birth = yes }
+	623.1.1 = { death = yes }
+}
+408051 = {
+	name = "Siahgil"
+	dynasty = 3000140
+	father = 408050
+	culture = kurdish
+	religion = zoroastrian
+	611.1.1 = { birth = yes }
+	667.1.1 = { death = yes }
+}
+408052 = {
+	name = "Ortaka"
+	dynasty = 3000141
+	culture = kurdish
+	religion = nestorian
+	553.1.1 = { birth = yes }
+	620.1.1 = { death = yes }
+}
+408053 = {
+	name = "Mehrab"
+	dynasty = 3000141
+	father = 408052
+	culture = kurdish
+	religion = nestorian
+	591.1.1 = { birth = yes }
+	645.1.1 = { death = yes }
+}
+408054 = {
+	name = "Masud"
+	dynasty = 3000141
+	father = 408053
+	culture = kurdish
+	religion = nestorian
+	633.1.1 = { birth = yes }
+	682.1.1 = { death = yes }
+}
+408055 = {
+	name = "Isfandiyar"
+	dynasty = 3000182
+	culture = persian
+	religion = zoroastrian
+	540.1.1 = { birth = yes }
+	621.1.1 = { death = yes }
+}
+408056 = {
+	name = "Shariyar"
+	dynasty = 3000182
+	father = 408055
+	culture = persian
+	religion = zoroastrian
+	597.1.1 = { birth = yes }
+	645.1.1 = { death = yes }
+}
+408057 = {
+	name = "Askajam"
+	dynasty = 3000183
+	culture = parthian
+	religion = zoroastrian
+	546.1.1 = { birth = yes }
+	612.1.1 = { death = yes }
+}
+408058 = {
+	name = "Ishkaniye"
+	dynasty = 3000183
+	culture = persian
+	religion = zoroastrian
+	589.1.1 = { birth = yes }
+	657.1.1 = { death = yes }
+}

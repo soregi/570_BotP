@@ -1,0 +1,17 @@
+450.1.1 = {
+	name = MOOR
+	adjective = MOOR_adj
+}
+
+570.1.1 = {
+	holder = 404063
+}
+578.1.1 = {
+	holder = 0
+}
+
+
+632.1.1 = {
+	reset_name = yes
+	reset_adjective = yes
+}

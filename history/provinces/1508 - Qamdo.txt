@@ -1,0 +1,27 @@
+# County Title
+title = c_qamdo
+
+# Settlements
+max_settlements = 4
+
+b_qamdo = tribal
+b_karub = city
+#b_riwoche = temple
+#b_guro = {
+#b_retong = {
+#b_karma = {
+#b_asangka = {
+
+# Misc
+culture = tangut #qiang/baima di
+religion = bon
+
+# History
+650.1.1 = { b_qamdo = castle }
+700.1.1 = {
+	culture = bodpa # Tibetan culture begins to take hold
+	religion = buddhist
+}
+1276.1.1 = {
+	b_riwoche = temple
+} #Riwoche Monastery founded

@@ -1,0 +1,25 @@
+# 244 - Bern
+
+# County Title
+title = c_bern
+
+# Settlements
+max_settlements = 4
+b_unterseen = castle
+b_bern = city
+b_thun = temple
+
+#b_luzern = city
+#b_biel = castle
+#b_sursee = castle
+
+# Misc
+culture = swabian
+religion = norse_pagan
+
+# History
+630.1.1 = { religion = catholic }
+760.1.1 = {
+	culture = german
+}
+1187.1.1 = { b_luzern = city } 

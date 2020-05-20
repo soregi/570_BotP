@@ -1,0 +1,185 @@
+554.1.1 = {
+	liege = k_romagna
+	holder = 400003 # Narses
+}
+568.1.1 = {
+	holder = 400004 # Fl. Marianus...  Aurelius. The last recorded prefect
+}
+584.1.1 = { holder = 400005 }#Decius (584–585)
+585.1.1 = { holder = 400006 }#Smaragdus (585–589)
+589.1.1 = { holder = 400007 }#Romanus (589–596)
+596.1.1 = { holder = 400008 }#Callinicus (596–603) 
+603.1.1 = { holder = 400006 }#Smaragdus (603–608) # Second Reign
+608.1.1 = { holder = 400009 }#John I (608–616)
+616.1.1 = { holder = 400010 }#Eleutherius (616–619)
+619.1.1 = { holder = 0 }
+#625.1.1 =#Isaac (625–643)
+#Theodore I Calliopas (643–645)
+#Plato (645–649)
+#Olympius (649–652)
+#Theodore I Calliopas (653 – c. 666)
+#Gregory (c. 666)
+#Theodore II (678–687)
+#John II Platyn (687–702)
+#Theophylactus (702–710)
+#John III Rizocopus (710–711)
+#Scholasticus (713–723)
+#Paul (723–727)
+#Eutychius (727–752)
+763.1.1={
+	liege=k_italy
+}
+763.1.1={
+	holder = 190287 #Teuderic
+}
+776.1.1={
+	holder = 190288 #Hilderic
+}
+834.1.1=
+{
+liege="d_spoleto"
+holder=71906
+}
+836.12.30=
+{
+holder=71905
+}
+865.1.1=
+{
+holder=168002
+}
+936.1.1 = {
+	holder = 260615
+}
+1051.1.1=
+{
+holder=7740
+liege="e_hre"
+}
+1072.1.1=
+{
+holder=73529
+}
+1072.7.1=
+{
+holder=73530
+}
+1100.9.8=
+{
+holder=73531
+}
+1110.1.1=
+{
+holder=73532
+}
+1110.7.1=
+{
+holder=73533
+}
+1119.1.1=
+{
+holder=73534
+}
+1144.1.1=
+{
+holder=73535
+}
+1154.1.1=
+{
+holder=73536
+}
+1155.1.1=
+{
+holder=73537
+}
+1168.1.1=
+{
+holder=73538
+}
+1169.1.1=
+{
+holder=73539
+}
+1190.1.1=
+{
+holder=213010
+}
+1194.1.1=
+{
+holder=73540
+}
+1198.1.1=
+{
+holder=73541
+}
+1201.1.1=
+{
+holder=73542
+}
+1207.1.1=
+{
+holder=73543
+}
+1208.1.1=
+{
+holder=73544
+}
+1215.1.1=
+{
+holder=73545
+}
+1217.1.1=
+{
+holder=73546
+}
+1218.1.1=
+{
+holder=73547
+}
+1220.1.1 = {
+	liege = d_ferrara
+}
+1225.1.1=
+{
+holder=73548
+}
+1240.1.1 = {
+	holder=70661
+}
+1248.1.1=
+{
+holder=71823
+liege=k_papal_state
+}
+1254.12.7=
+{
+holder=71824
+}
+1261.5.25=
+{
+holder=71825
+}
+1264.10.2=
+{
+holder=71826
+}
+1268.11.29=
+{
+holder=70785
+}
+1275.1.1=
+{
+holder=73549
+}
+1297.1.1=
+{
+holder=73550
+}
+1316.1.1=
+{
+holder=73551
+}
+1322.1.1=
+{
+holder=463210
+}

@@ -1,0 +1,469 @@
+#190265 = {
+#	name="Theodicus" #duke of Spoleto
+#	dynasty=1044061 #Theodingi
+#	religion="catholic"
+#	culture="lombard"
+#	727.1.1={
+#		birth=yes
+#	}
+#	747.1.1={
+#		add_spouse=190266
+#	}
+#	776.1.1={
+#		death=yes
+#	}
+#}
+190122 = {
+	name="Audoin"
+	dynasty=1044031 #Gausian
+#	religion="catholic"
+	religion="arian"
+	culture="lombard"
+	519.1.1={
+		birth=yes
+	}
+	536.1.1={
+		add_spouse=190123
+	}
+	565.1.1={
+		death=yes
+	}
+}
+190123 = {
+	name="Rodelinda"
+	female=yes
+	dynasty=1044032 #Theoderingi
+	religion="arian"
+	culture="lombard"
+	520.1.1={
+		birth=yes
+	}
+	574.1.1={
+		death=yes
+	}
+}
+190124 = {
+	name="Alboin"
+	dynasty=1044031 #Gausian
+#	religion="catholic"
+	religion="arian"
+	culture="lombard"
+	father=190122
+	mother=190123
+	martial = 11
+	trait = brave
+	trait = skilled_tactician
+	trait = trusting
+	trait = duelist
+	539.1.1={
+		birth=yes
+	}
+	567.1.1 ={ add_spouse = 402005 }
+	568.1.1 = {
+		effect = { set_character_flag = adventurer_a }
+		add_claim = c_pavia
+	}
+	569.1.2 = {
+		effect = {
+			set_global_flag = invasion_pavia
+			spawn_unit = {
+				province = 235 # Lombardia
+				owner = ROOT
+				#leader = ROOT
+				troops = {
+					light_infantry = { 1267 1267 }
+					heavy_infantry = { 326 326 }
+					pikemen = { 112 112 }
+					light_cavalry = { 125 125 }
+					knights = { 44 44 }
+					archers = { 639 639 }
+				}
+				attrition = 1.0
+			}
+			spawn_unit = {
+				province = 235
+				owner = ROOT
+				#leader = 
+				troops = {
+					light_infantry = { 1000 1000 }
+					pikemen = { 152 152 }
+					light_cavalry = { 85 85 }
+					archers = { 750 750 }
+				}
+				attrition = 1.0
+			}
+			spawn_unit = {
+				province = 235
+				owner = ROOT
+				#leader = 
+				troops = {
+					light_infantry = { 967 967 }
+					heavy_infantry = { 266 266 }
+					pikemen = { 152 152 }
+					light_cavalry = { 85 85 }
+					knights = { 104 104 }
+					archers = { 500 500 }
+				}
+				attrition = 1.0
+			}
+			spawn_unit = {
+				province = 235 # Pavia
+				owner = ROOT
+				#leader =
+				troops = {
+					light_infantry = { 1067 1067 }
+					heavy_infantry = { 566 566 }
+					pikemen = { 152 152 }
+					light_cavalry = { 285 285 }
+					knights = { 114 114 }
+					archers = { 676 676 }
+				}
+				attrition = 1.0
+				#merge = yes # Merge all armies in this province
+			}
+		}
+	}
+	572.6.1 = {
+		effect = {
+			clr_global_flag = invasion_pavia
+			disband_event_forces = yes
+		}
+	}
+	572.6.28={
+		death = {
+			death_reason = death_murder
+			killer = 402005 # his wife Rosamund 
+		}
+	}
+}
+190125 = {
+	name="Grasulf"
+	dynasty=1044031 #Gausian
+#	religion="catholic"
+	religion="arian"
+	culture="lombard"
+	father=190122
+	mother=190123
+	542.1.1={
+		birth=yes
+	}
+	569.1.1={
+		death=yes
+	}
+}
+190126 = {
+	name="Gisulf"#duke of Friuli
+	dynasty=1044031 #Gausian
+#	religion="catholic"
+	religion="arian"
+	culture="lombard"
+	father=190125
+	559.1.1={
+		birth=yes
+	}
+	591.1.1={
+		death=yes
+	}
+}
+190127 = {
+	name="Zotto" #duke of Benevento
+	dynasty=1044031 #Gausian
+#	religion="catholic"
+	religion="arian"
+	culture="lombard"
+	father=190125
+	560.1.1={
+		birth=yes
+		effect = { set_character_flag = zotto }
+	}
+	570.1.1 = {
+		add_claim = d_benevento
+		add_claim = c_benevento
+		add_claim = c_foggia
+		add_claim = c_salerno
+		add_claim = c_capua
+		add_claim = c_chieti
+		add_claim = c_aprutium
+		add_claim = c_apulia
+		
+	}
+	576.1.1={
+		add_spouse=190166
+	}
+	584.1.1 = {
+		effect = {
+			set_global_flag = benevento_formed
+			disband_event_forces = yes
+		}
+	}
+	591.1.1={
+		death=yes
+	}
+}
+190128 = {
+	name="Gisulf" #II duke of Friuli
+	dynasty=1044031 #Gausian
+	religion="arian"
+	culture="lombard"
+	father=190126
+	578.1.1={
+		birth=yes
+	}
+	594.1.1={
+		add_spouse=190129
+	}
+	610.1.1={
+		death=yes
+	}
+}
+190244 = {
+	name="Taso" #duke of Friuli
+	dynasty=1044031 #Gausian
+	religion="arian"
+	culture="lombard"
+	father=190128
+	mother=190129
+	594.1.1={
+		birth=yes
+	}
+	625.1.1={
+		death=yes
+	}
+}
+190245 = {
+	name="Cacco"
+	dynasty=1044031 #Gausian
+	religion="arian"
+	culture="lombard"
+	father=190128
+	mother=190129
+	595.1.1={
+		birth=yes
+	}
+	625.1.1={
+		death=yes
+	}
+}
+190165 = {
+	name="Masane" #marries Cleph king of Lombards
+	female=yes
+	dynasty=1044031 #Gausian
+	religion="arian"
+	culture="lombard"
+	father=190122
+	mother=190123
+	540.1.1={
+		birth=yes
+	}
+	592.1.1={
+		death=yes
+	}
+}
+190166 = {
+	name="Rodelinda" #marries Zotto of Benevento
+	female=yes
+	dynasty=1044031 #Gausian
+	religion="arian"
+	culture="lombard"
+	father=190122
+	mother=190123
+	541.1.1={
+		birth=yes
+	}
+	590.1.1={
+		death=yes
+	}
+}
+190167 = {
+	name="Beleo"
+	dynasty=1044045 #Beleo
+	religion="arian"
+	culture="lombard"
+	507.1.1={
+		birth=yes
+	}
+	557.1.1={
+		death=yes
+	}
+}
+190168 = {
+	name="Cleph"
+	dynasty=1044045 #Beleo
+	religion="arian"
+	culture="lombard"
+	father=190167
+	523.1.1={
+		birth=yes
+	}
+	556.1.1={
+		add_spouse=190165
+	}
+	574.1.1={
+		death=yes
+	}
+}
+190169 = {
+	name="Authari"
+	dynasty=1044045 #Beleo
+	religion="arian"
+	culture="lombard"
+	father=190168
+	556.1.1={
+		birth=yes
+	}
+	584.1.1={
+		add_spouse=190171
+	}
+	590.1.1={
+		remove_spouse=190171
+	}
+	590.1.1={
+		death=yes
+	}
+}
+190170 = {
+	name="Agilulf"
+	dynasty=1044045 #Beleo
+	religion="arian"
+	culture="lombard"
+	father=190168
+	559.1.1={
+		birth=yes
+	}
+	590.1.1={
+		add_spouse=190171
+	}
+	616.1.1={
+		death=yes
+	}
+}
+402001 = {
+	name = "Faroald" # Faroald I of Spoleto
+	dynasty=3000001
+	religion="arian"
+	culture="lombard"
+	543.1.1={ # Fictional
+		birth=yes
+	}
+	592.1.1={
+		death = yes 
+	}
+}
+402002 = {
+	name = "Ariulf" # Ariulf of Spoleto
+	dynasty=3000001
+	religion="arian"
+	father=402001
+	culture="lombard"
+	563.1.1={ # Fictional
+		birth=yes
+	}
+	602.3.1={
+		death = yes 
+	}
+}
+402003 = {
+	name = "Theodelap"
+	dynasty=3000001
+	religion="arian"
+	father=402001
+	culture="lombard"
+	570.1.1={ # Fic.
+		birth = yes }
+	652.1.1={ death = yes }
+}
+402004 = {
+	name = "Atto"
+	dynasty=3000001 
+	religion="catholic"
+	culture="lombard"
+	father=402003
+	620.1.1={ #Fic.
+		birth = yes }
+	665.1.1={ death = yes }
+}
+# The Gepids
+402005 = {
+	#Daughter of Cunimund, king of the Gepids,and wife Of Alboin
+	name = "Rosamund"
+	female = yes
+	dynasty = 3000002 # Gepids
+	religion = arian
+	culture = german # Gepid
+	father = 402006 # Cunimund of Gepids
+	545.1.1 = { birth = yes } # Fic.
+	572.6.29 = { death = {
+		death_reason = death_suicide_poison
+		}
+	}
+}
+402006 = { 
+	name = "Cunimund"
+	dynasty = 3000002 # Gepids
+	religion = arian
+	culture = german
+	520.1.1 = { birth = yes } #Fic
+	567.1.1 = {
+		death = {
+			death_reason = death_execution_beheading
+			killer = 190124 # Alboin of Lombardy
+		}
+	}
+}
+#Theodingi Capua-Spoleto
+# 하지만 570에는 필요가 없다는 거지!
+# 귀찮다는것도 있고
+# 그래서 이후의 카푸아-스폴레토 히스토리는 안한다 지금 할게 산더미야
+402007 = {
+	name = "Aimone" # Duke of Turin( Susa in CK2)
+	dynasty = 3000003
+	religion = arian
+	culture = lombard
+	545.1.1 = { birth = yes }
+	590.1.1 = { death = yes }
+}
+402008 = {
+	name = "Euin" # Duke of Trent
+	dynasty=1044076 #Tatingi
+	religion =  arian
+	culture = lombard 
+	550.1.1 = { birth = yes } # Fic
+	595.1.1 = { death = yes }
+}
+402009 = {
+	name = "Alagis" # Duke of Brexia
+	dynasty=3000004
+	religion=arian
+	culture=lombard
+	541.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+402010 = {
+	name = "Vallari" # Duke of Bergamo
+	dynasty = 3000005
+	religion = arian
+	culture = lombard
+	543.1.1 = { birth = yes }
+	611.1.1 = { death = yes }
+}
+402011 = {
+	name = "Gelaph"# Fictional. Duke of Tuscia (Toscana)
+	religion = arian
+	culture = lombard
+	550.1.1 = { birth = yes }
+	632.1.1 = { death = yes }
+}
+402012 = {
+	name = "Gisulf" # Fictional. Duke of Verona
+	religion = arian
+	culture = lombard
+	540.1.1 = { birth = yes }
+	599.1.1 = { death = yes }
+}
+402013 = { 
+	name = "Alasich" # For Saluzzo  & Monferrato
+	religion = "arian"
+	culture = lombard
+	545.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}

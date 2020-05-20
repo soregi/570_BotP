@@ -1,0 +1,22 @@
+550.1.1 = {	
+	historical_nomad = yes
+	holder = 407009
+}
+552.1.1 = {
+	holder = 407010
+}
+553.10.1 = {
+	holder = 407012
+}
+572.1.1 = {
+	holder = 407011
+}
+581.1.1 = {
+	holder = 407014
+}
+582.1.1 = {
+	holder = 407018
+}
+587.1.1 = {
+	holder = 0 # Empire has divided
+}

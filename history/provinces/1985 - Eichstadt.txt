@@ -1,0 +1,21 @@
+# 1985 - Eichstadt
+
+# County Title
+title = c_eichstadt
+
+# Settlements
+max_settlements = 4
+b_abenberg = castle
+b_eichstadt = temple
+b_weissenburg = city
+
+
+# Misc
+culture = bavarian
+religion = norse_pagan
+
+# History
+630.1.1 = { religion = catholic }
+760.1.1 = {
+	culture = german
+}

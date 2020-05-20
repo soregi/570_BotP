@@ -1,0 +1,18 @@
+# 1608 - Montbeliard
+
+# Count title
+title = c_montbeliard
+
+# Settlements
+max_settlements = 4
+b_montbeliard = castle
+b_layre = city
+
+# Misc
+culture = burgundian
+religion = catholic
+
+# History
+650.1.1 = { culture = old_frankish }
+790.1.1 = { culture = frankish }
+

@@ -1,0 +1,1150 @@
+
+
+# Ostrogothic characters and New-Visigothic characters are go here
+
+168716 = {
+	name="Airmanagildo" 
+	dynasty=1046033
+
+	father=200273
+
+	religion="arian"
+	culture="visigothic"
+
+	550.1.1={
+		birth=yes
+	}
+	583.1.1={
+		add_spouse=168717
+	}
+	585.4.13={
+		death={
+			death_reason=death_execution
+			killer=200273
+		}
+	}
+}
+200272={
+	name="Rekkaredo"
+	dynasty=1046033
+
+	father=200273
+
+	religion=arian
+	culture=visigothic
+
+	555.1.1={
+		birth=yes
+	}
+	575.1.1={
+		add_spouse=168725
+	}
+	587.1.1= { religion = catholic }
+	592.1.1={
+		add_spouse=168726
+	}
+	601.12.21={
+		death=yes
+	}
+}
+
+200273={
+	name="Leovigildo"
+	dynasty=1046033
+
+	father=200274
+
+	religion=arian
+	culture=visigothic
+
+	525.1.1={
+		birth=yes
+	}
+	586.4.21={
+		death=yes
+	}
+}
+
+200274={
+	name="Liuvericho"
+	dynasty=1046033
+
+	religion=arian
+	culture=visigothic
+
+	498.1.1={
+		birth=yes
+	}
+	550.1.1={
+		death=yes
+	}
+}
+
+200275={
+	name="Liuva" # Liuva I
+	dynasty=1046033
+
+	father=200274
+
+	religion=arian
+	culture=visigothic
+
+	523.1.1={
+		birth=yes
+	}
+	560.1.1 = {
+		add_claim = c_cordoba
+		add_claim = c_jaen
+		add_claim = c_sevilla
+	}
+	572.1.1={
+		death=yes
+	}
+}
+
+200276={
+	name="Athanagildo"
+	dynasty=1044409
+
+	religion=arian
+	culture=visigothic
+
+	520.1.1={
+		birth=yes
+	}
+	568.1.1={
+		death=yes
+	}
+}
+
+200277={
+	name="Agila"
+
+	religion=arian
+	culture=visigothic
+
+	516.1.1={
+		birth=yes
+	}
+	554.3.1={
+		death={
+			death_reason=death_murder
+			killer=70512
+		}
+	}
+}
+
+168760 = {
+	name="Achiulf" 
+	dynasty=9617
+	religion="norse_pagan"
+	culture="ostrogothic"
+	240.1.1 = {
+		birth=yes
+	}
+	
+	290.1.1 = {
+		death=yes
+	}
+}
+
+
+
+168761 = {
+	name="Ermanarich" 
+	dynasty=9617
+	religion="norse_pagan"
+	culture="ostrogothic"
+	father=168760
+	266.1.1 = {
+		birth=yes
+	}
+	
+	376.1.1 = {
+		death=yes
+	}
+}
+
+
+
+
+168762 = {
+	name="Hunimund" 
+	dynasty=9617
+	religion="norse_pagan"
+	culture="ostrogothic"
+	father=168761
+	300.1.1 = {
+		birth=yes
+	}
+	
+	350.1.1 = {
+		death=yes
+	}
+}
+
+
+
+
+
+
+168763 = {
+	name="Thorismund" 
+	dynasty=9617
+	religion="norse_pagan"
+	culture="ostrogothic"
+	father=168762
+	340.1.1 = {
+		birth=yes
+	}
+	
+	400.1.1 = {
+		death=yes
+	}
+}
+
+
+
+168764 = {
+	name="Berimund" 
+	dynasty=9617
+	religion="norse_pagan"
+	culture="ostrogothic"
+	father=168763
+	390.1.1 = {
+		birth=yes
+	}
+	
+	450.1.1 = {
+		death=yes
+	}
+}
+
+
+
+168765 = {
+	name="Widerich" 
+	dynasty=9617
+	religion="norse_pagan"
+	culture="ostrogothic"
+	father=168764
+	440.1.1 = {
+		birth=yes
+	}
+	
+	490.1.1 = {
+		death=yes
+	}
+}
+
+
+
+
+
+168766 = {
+	name="Eutharich" 
+	dynasty=9617
+	religion="arian"
+	culture="ostrogothic"
+	father=168765
+	480.1.1 = {
+		birth=yes
+	}
+	515.1.1 = {
+		add_spouse=168784
+	}
+	522.1.1 = {
+		death=yes
+	}
+}
+
+
+
+
+168767 = {
+	name="Wultulf" 
+	dynasty=9617
+	religion="norse_pagan"
+	culture="ostrogothic"
+	father=168760
+	280.1.1 = {
+		birth=yes
+	}
+	
+	350.1.1 = {
+		death=yes
+	}
+}
+
+
+
+168768 = {
+	name="Winithar" 
+	dynasty=9617
+	religion="norse_pagan"
+	culture="ostrogothic"
+	father=168767
+	320.1.1 = {
+		birth=yes
+	}
+	
+	376.1.1 = {
+		death=yes
+	}
+}
+
+
+
+
+168769 = {
+	name="Wandalar" 
+	dynasty=9617
+	religion="norse_pagan"
+	culture="ostrogothic"
+	father=168768
+	370.1.1 = {
+		birth=yes
+	}
+	
+	440.1.1 = {
+		death=yes
+	}
+}
+
+
+
+
+168770 = {
+	name="Walamir" 
+	dynasty=9617
+	religion="norse_pagan"
+	culture="ostrogothic"
+	father=168769
+	425.1.1 = {
+		birth=yes
+	}
+	
+	470.1.1 = {
+		death=yes
+	}
+}
+
+
+
+
+
+168771 = {
+	name="Widimir" 
+	dynasty=9617
+	religion="norse_pagan"
+	culture="ostrogothic"
+	father=168769
+	427.1.1 = {
+		birth=yes
+	}
+	
+	473.1.1 = {
+		death=yes
+	}
+}
+
+
+
+
+168772 = {
+	name="Widimir" 
+	dynasty=9617
+	religion="arian"
+	culture="ostrogothic"
+	father=168771
+	450.1.1 = {
+		birth=yes
+	}
+	
+	500.1.1 = {
+		death=yes
+	}
+}
+
+
+
+168773 = {
+	name="Thiudimir" 
+	dynasty=9617
+	religion="norse_pagan"
+	culture="ostrogothic"
+	father=168769
+	429.1.1 = {
+		birth=yes
+	}
+	
+	475.1.1 = {
+		death=yes
+	}
+}
+
+
+
+
+168774 = {
+	name="Theodis" 
+	dynasty=9617
+	religion="arian"
+	culture="ostrogothic"
+	father=168773
+	450.1.1 = {
+		birth=yes
+	}
+	
+	481.1.1 = {
+		death=yes
+	}
+}
+
+
+
+
+168775 = {
+	name="Theoderich" 
+	dynasty=9617
+	religion="arian"
+	culture="ostrogothic"
+	father=168773
+	454.1.1 = {
+		birth=yes
+	}
+	493.1.1 = {
+		add_spouse=168783
+		create_bloodline = {
+			type = ostrogoth
+			has_dlc = "Holy Fury"
+		}
+	}
+	520.1.1 = {
+		give_nickname=nick_the_great
+	}
+	526.8.30 = {
+		death=yes
+	}
+}
+
+
+
+168776 = {
+	name="Theodimund" 
+	dynasty=9617
+	religion="arian"
+	culture="ostrogothic"
+	father=168773
+	451.1.1 = {
+		birth=yes
+	}
+	
+	479.1.1 = {
+		death=yes
+	}
+}
+
+
+
+
+168777 = {
+	name="Amalfrida" 
+	female=yes
+	dynasty=9617
+	religion="arian"
+	culture="ostrogothic"
+	father=168773
+	455.1.1 = {
+		birth=yes
+	}
+	500.1.1 = {
+		add_spouse=168803
+	}
+	525.1.1 = {
+		death=yes
+	}
+}
+
+
+
+
+168778 = {
+	name="Theodahad" 
+	dynasty=9617
+	religion="arian"
+	culture="ostrogothic"
+	mother=168777
+	480.1.1 = {
+		birth=yes
+	}
+	
+	536.12.1 = {
+		death=yes
+	}
+}
+
+
+
+168779 = {
+	name="Amalaberga" 
+	female=yes
+	dynasty=9617
+	religion="arian"
+	culture="ostrogothic"
+	mother=168777
+	495.1.1 = {
+		birth=yes
+	}
+	
+	540.1.1 = {
+		death=yes
+	}
+}
+
+
+
+168780 = {
+	name="Theudigisel" 
+	dynasty=9617
+	religion="arian"
+	culture="ostrogothic"
+	father=168778
+	510.1.1 = {
+		birth=yes
+	}
+	
+	549.1.1 = {
+		death=yes
+	}
+}
+
+168781 = {
+	name="Theodenantha" 
+	female=yes
+	dynasty=9617
+	religion="arian"
+	culture="ostrogothic"
+	father=168778
+	512.1.1 = {
+		birth=yes
+	}
+	
+	550.1.1 = {
+		death=yes
+	}
+}
+
+168782 = {
+	name="Amalafrid" 
+	dynasty=9617
+	religion="arian"
+	culture="ostrogothic"
+	mother=168779
+	511.1.1 = {
+		birth=yes
+	}
+	
+	540.1.1 = {
+		death=yes
+	}
+}
+
+168784 = {
+	name="Amalasuntha" 
+	dynasty=9617
+	female=yes
+	religion="arian"
+	culture="ostrogothic"
+	father=168775
+	mother=168783
+	496.1.1 = {
+		birth=yes
+	}
+	
+	535.4.30 = {
+		death=yes
+	}
+}
+
+168785 = {
+	name="Ostrogotha" 
+	dynasty=9617
+	female=yes
+	religion="arian"
+	culture="ostrogothic"
+	add_trait="bastard"
+	father=168775
+	480.1.1 = {
+		birth=yes
+	}
+	
+	505.1.1 = {
+		death=yes
+	}
+}
+
+168786 = {
+	name="Athalarich" 
+	dynasty=9617
+	religion="arian"
+	culture="ostrogothic"
+	father=168766
+	mother=168784
+	516.1.1 = {
+		birth=yes
+	}
+	
+	534.10.2 = {
+		death=yes
+	}
+}
+
+168789 = {
+	name="Matasuentha" 
+	female=yes
+	dynasty=9617
+	religion="arian"
+	culture="ostrogothic"
+	father=168766
+	mother=168784
+	518.1.1 = {
+		birth=yes
+	}
+	
+	560.1.2 = {
+		death=yes
+	}
+}
+
+168809 = {
+	name="Theudigotha" 
+	dynasty=9617
+	female=yes
+	religion="arian"
+	culture="ostrogothic"
+	add_trait="bastard"
+	father=168775
+	475.1.1 = {
+		birth=yes
+	}
+	
+	505.1.1 = {
+		death=yes
+	}
+}
+
+
+214107={
+	name="Vitiges"
+	religion="arian"
+	culture="ostrogothic"
+	500.1.1={
+		birth=yes
+	}
+	536.1.1={
+		add_spouse = 168789
+	}
+	540.1.1={
+		death=yes
+	}
+}
+
+200279={
+	name="Theudigislo"
+
+	religion=arian
+	culture=visigothic
+
+	500.1.1={
+		birth=yes
+	}
+	549.12.1={
+		death={
+			death_reason=death_murder
+		}
+	}
+}
+
+200280={
+	name="Theudis"
+
+	religion=arian
+	culture=visigothic
+
+	498.1.1={
+		birth=yes
+	}
+	548.1.1={
+		death={
+			death_reason=death_murder
+		}
+	}
+}
+
+200281={
+	name="Amalaricho"
+	dynasty=1046035
+
+	father=200283
+	mother=168809
+
+	religion=arian
+	culture=visigothic
+
+	500.1.1={
+		birth=yes
+	}
+	531.1.1={
+		death={
+			death_reason=death_murder
+		}
+	}
+}
+
+200282={
+	name="Gesalecho"
+	dynasty=1046035
+
+	father=200283
+	trait=bastard
+
+	religion=arian
+	culture=visigothic
+
+	489.1.1={
+		birth=yes
+	}
+	511.1.1={
+		death={
+			death_reason=death_battle
+			killer=168775 # Theoderic the Great
+		}
+	}
+}
+
+200283={
+	name="Alaricho"
+	dynasty=1046035
+
+	father=200284
+
+	religion=arian
+	culture=visigothic
+
+	463.1.1={
+		birth=yes
+	}
+	492.1.1={
+		add_spouse=168809
+	}
+	507.1.1={
+		death={
+			death_reason = death_battle
+			killer = 168673 # Clovis I
+		}
+	}
+}
+
+200284={
+	name="Euricho"
+	dynasty=1046035
+
+	father=200287
+	mother=200293
+
+	religion=arian
+	culture=visigothic
+
+	440.1.1={
+		birth=yes
+	}
+	484.1.1={
+		death=yes
+	}
+}
+
+200285={
+	name="Theodericho"
+	dynasty=1046035
+
+	father=200287
+	mother=200293
+
+	religion=arian
+	culture=visigothic
+
+	428.1.1={
+		birth=yes
+	}
+	466.1.1={
+		death={
+			death_reason=death_murder
+			killer=200284
+		}
+	}
+}
+
+200286={
+	name="Thorismondo"
+	dynasty=1046035
+
+	father=200287
+	mother=200293
+
+	religion=arian
+	culture=visigothic
+
+	423.1.1={
+		birth=yes
+	}
+	453.1.1={
+		death={
+			death_reason=death_murder
+			killer=200285
+		}
+	}
+}
+
+200287={
+	name="Theodericho"
+	dynasty=1046035
+
+	father=200297
+
+	religion=arian
+	culture=visigothic
+
+	379.1.1={
+		birth=yes
+	}
+	418.1.1={
+		add_spouse=200293
+	}
+	451.6.20={
+		death={
+			death_reason=death_battle
+		}
+	}
+}
+
+200288={
+	name="Wallia"
+	dynasty=1046035
+
+	father=200296
+
+	religion=arian
+	culture=visigothic
+
+	374.1.1={
+		birth=yes
+	}
+	419.1.1={
+		death=yes
+	}
+}
+
+200289={
+	name="Sigericho"
+
+	religion=arian
+	culture=visigothic
+
+	370.1.1={
+		birth=yes
+	}
+	415.7.7={
+		death={
+			death_reason=death_murder
+			killer=200288
+		}
+	}
+}
+
+200290={
+	name="Atawulfo"
+	dynasty=1046035
+
+	father=200296
+
+	religion=arian
+	culture=visigothic
+
+	372.1.1={
+		birth=yes
+	}
+	415.7.1={
+		death={
+			death_reason=death_murder
+			killer=200289
+		}
+	}
+}
+
+200291={ # Alaric I
+	name="Alaricho"
+	dynasty=1046035
+
+	father=200292
+
+	religion=arian
+	culture=visigothic
+
+	370.1.1={
+		birth=yes
+	}
+	388.1.1={
+		add_spouse=200294
+	}
+	410.1.1={
+		death=yes
+	}
+}
+
+200292={
+	name="Rocesthes"
+	dynasty=1046035
+
+	father=200295
+
+	religion=norse_pagan
+	culture=visigothic
+
+	341.1.1={
+		birth=yes
+	}
+	387.1.1={
+		death=yes
+	}
+}
+
+200293={
+	name="Ingundis"
+	female=yes
+	dynasty=1046035
+
+	father=200291
+	mother=200294
+
+	religion=arian
+	culture=visigothic
+
+	402.1.1={
+		birth=yes
+	}
+	450.1.1={
+		death=yes
+	}
+}
+
+200294={
+	name="Ermeneberga"
+	female=yes
+	dynasty=1046035
+
+	father=200296
+
+	religion=arian
+	culture=visigothic
+
+	372.1.1={
+		birth=yes
+	}
+	415.1.1={
+		death=yes
+	}
+}
+
+200295={
+	name="Aoricho"
+	dynasty=1046035
+
+	religion=norse_pagan
+	culture=visigothic
+
+	311.1.1={
+		birth=yes
+	}
+	365.1.1={
+		death=yes
+	}
+}
+
+200296={
+	name="Athanaricho"
+	dynasty=1046035
+
+	father=200295
+
+	religion=norse_pagan
+	culture=visigothic
+
+	334.1.1={
+		birth=yes
+	}
+	381.1.25={
+		death=yes
+	}
+}
+
+200297={
+	name="Alatheo"
+	dynasty=1046035
+
+	father=200295
+
+	religion=norse_pagan
+	culture=visigothic
+
+	350.1.1={
+		birth=yes
+	}
+	391.1.1={
+		death=yes
+	}
+}
+
+405001 = {
+	name = "Raccared"
+	religion = arian
+	culture = visigothic
+	533.1.1 = { birth = yes }
+	590.1.1 = { death = yes }
+}
+405002 = {
+	name = "Alarich"
+	religion = arian
+	culture = visigothic
+	540.1.1 = { birth = yes }
+	593.1.1 = { death = yes }
+}
+
+405003 = {
+	name = "Miro"
+	religion = catholic
+	culture = suebi
+	dynasty = 3000012 # Suebi
+	535.1.1 = { birth = yes }
+	583.1.1 = { death = yes }
+	
+}
+405004 = {
+	name = "Eboric"
+	religion = catholic
+	culture = suebi
+	father = 405003
+	dynasty = 3000012
+	557.1.1 = { birth = yes }
+	584.1.1 = { add_trait = monk }
+	610.1.1 = { death = yes }
+}
+405005 = {
+	name = "Fellife"
+	religion = arian
+	culture = visigothic
+	532.1.1 = { birth = yes }
+	594.1.1 = { death = yes }
+}
+#Basque
+405006 = {
+	name = "Vela"
+	religion = catholic
+	culture = basque
+	534.1.1 = { birth = yes }
+	590.1.1 = { death = yes }
+}
+405007 = {
+	name = "Baccho"
+	religion = hellenic_pagan
+	culture = basque
+	530.1.1 = { birth = yes }
+	581.1.1 = { death = yes }
+}
+405008 = {
+	name = "Sancha"
+	religion = catholic
+	culture = basque
+	540.1.1 = { birth = yes }
+	596.1.1 = { death = yes }
+}
+405009 = {
+	name = "Marco"
+	religion = hellenic_pagan
+	culture = basque
+	543.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+# Goths again
+405010 = {
+	name = "Mariano"
+	religion = arian
+	culture = visigothic
+	534.1.1 = { birth = yes }
+	590.1.1 = { death = yes }
+}
+
+405011 = {
+	name = "Aiwereiks"
+	religion = arian
+	culture = visigothic
+	trait = "sympathy_pagans"
+	540.1.1 = { birth = yes }
+	590.1.1 = { death = yes }
+}
+405012 = {
+	name = "Hermegar"
+	religion = norse_pagan
+	culture = suebi
+	dynasty = 3000071
+	375.1.1 = {
+		birth = yes
+	}
+	430.1.1 = {
+		death = yes
+	}
+}
+405013 = {
+	name = "Ricimer"
+	religion = arian
+	culture = suebi
+	dynasty = 3000071
+	father = 405012
+	mother = 405014
+	trait = grey_eminence
+	406.1.1 = {
+		birth = yes
+	}
+	472.8.18 = {
+		death = yes
+	}
+}
+405014 = {
+	name = "Wallina"
+	religion = arian
+	culture = visigothic
+	dynasty = 1046035
+	father = 200288
+	female = yes
+	390.1.1 = {
+		birth = yes
+	}
+	440.1.1 = {
+		death = yes
+	}
+}
+405015 = {
+	name = "Matatha"
+	religion = arian
+	culture = suebi
+	dynasty = 3000071
+	father = 405012
+	mother = 405014
+	female = yes
+	420.1.1 = {
+		birth = yes
+	}
+	479.1.1 = {
+		death = yes
+	}
+}

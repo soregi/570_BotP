@@ -1,0 +1,25 @@
+# 918 - Sijilmasa
+
+# County Title
+title = c_sijilmasa
+
+# Settlements
+max_settlements = 3
+
+b_sijilmasa = tribal
+b_tanamouste = temple
+
+#b_merzouga = city
+#b_ertoud = castle
+#b_merzane = castle
+#b_hannabou = castle
+#b_tadaout = castle
+#b_tisserdmine = castle
+
+# Misc
+culture = berber
+religion = west_african_pagan
+
+# History
+681.1.1 = { religion = kharijite b_sijilmasa = castle }
+947.1.1 = { religion = sunni }

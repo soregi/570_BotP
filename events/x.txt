@@ -1,0 +1,114 @@
+#character_event = { # Ridda War
+#	id = islam.18
+#	hide_window = yes
+#	is_triggered_only = yes
+#	immediate = {
+#			any_vassal = {
+#				limit = {
+#					has_landed_title = d_oman
+#				}
+#				war = {
+#					target = ROOT
+#					casus_belli = independence
+#				}
+#				capital_scope = {
+#					spawn_unit = {
+#					owner = PREV
+#					leader = PREV
+#					province = THIS
+#					home = THIS
+#					troops = {
+#						heavy_infantry = { 1500 500 }
+#						camel_cavalry = { 1500 1500 }
+#						light_cavalry = { 500 500 }
+#					}
+#					attrition = 0.0
+#					}
+#				}
+#			}
+#			any_vassal = {
+#				limit = {
+#					has_landed_title = d_sanaa
+#				}
+#				war = {
+#					target = ROOT
+#					casus_belli = independence
+#				}
+#				capital_scope = {
+#					spawn_unit = {
+#					owner = PREV
+#					leader = PREV
+#					province = THIS
+#					home = THIS
+#					troops = {
+#						heavy_infantry = { 1500 500 }
+#						camel_cavalry = { 2500 2500 }
+#						light_cavalry = { 500 500 }
+#					}
+#					attrition = 0.0
+#					}
+#				}
+#			}
+#			random_vassal = {
+#				limit = {
+#					NOT = {
+#						religion = islamism
+#					}
+#					capital_scope = {
+#						county = {
+#							OR = {
+#								de_jure_liege = d_nefoud
+#								de_jure_liege = d_amman
+#							}
+#						}
+#					}
+#					NOT = {
+#						has_landed_title = d_oman
+#						has_landed_title = d_sanaa
+#					}
+#				}
+#				k_opposite_caliphate = { grant_title = THIS }
+#				capital_scope = {
+#					spawn_unit = {
+#					owner = PREV
+#					leader = PREV
+#					province = THIS
+#					home = THIS
+#					troops = {
+#						heavy_infantry = { 1500 500 }
+#						camel_cavalry = { 2500 2500 }
+#						light_cavalry = { 500 500 }
+#					}
+#					attrition = 0.0
+#					}
+#				}
+#				war = {
+#					target = PREV
+#					casus_belli = tribal_invasion
+#					thirdparty_title = k_arabia
+#				}
+#			}
+#			any_vassal = {
+#				limit = {
+#					NOT = {
+#						has_landed_title = d_oman
+#						has_landed_title = d_sanaa
+#						religion = islamism
+#					}
+#					capital_scope = {
+#						county = {
+#							OR = {
+#								de_jure_liege = d_nefoud
+#								de_jure_liege = d_amman
+#							}
+#						}
+#					}
+#				}
+#				k_opposite_caliphate = {
+#					holder_scope = {
+#						set_defacto_vassal = PREVPREV
+#					}
+#				}
+#			}
+#	}
+#}

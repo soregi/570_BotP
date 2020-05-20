@@ -1,0 +1,20 @@
+# 2045 - Thahab
+
+# County Title
+title = c_thahab
+
+# Settlements
+max_settlements = 6
+b_mahd = tribal
+
+# Misc
+culture = bedouin_arabic
+religion = arabic_pagan
+
+# History
+630.1.1 = { religion = islamism }
+661.1.1 = { religion = sunni }
+769.1.1 = {
+	b_mahd = castle
+	b_safinah = temple
+}

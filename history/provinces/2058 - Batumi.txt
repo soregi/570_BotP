@@ -1,0 +1,16 @@
+# 2058 - Batumi
+
+# County Title
+title = c_batumi
+
+# Settlements
+max_settlements = 4
+b_khelvachauri = castle
+b_batum = city
+
+# Misc
+culture = georgian
+religion = orthodox
+
+# History
+1259.1.1 = { trade_post = b_spinola }

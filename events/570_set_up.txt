@@ -1,0 +1,35 @@
+namespace = settup
+character_event = {
+	id = settup.1
+	hide_window = yes
+	trigger = {
+		NOT = { has_global_flag = 570_set_up }
+		year = 570
+		NOT = { year = 571 }
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		if = {
+			limit = {
+				c_409100 = {
+					ai = no
+				}
+			}
+			set_player_character = c_74720
+		}
+		k_africa = { set_title_flag = roman_governate }
+		k_andalusia = { set_title_flag = roman_governate }
+		k_egypt = { set_title_flag = roman_governate }
+		k_romagna = { set_title_flag = roman_governate }
+		k_illyricum = { set_title_flag = roman_governate }
+		k_syria = { set_title_flag = roman_governate }
+		c_409100 = {
+			death = yes
+		}
+		c_74720 = {
+			add_claim = d_raichur_doab
+		}
+	}
+}

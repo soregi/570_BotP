@@ -1,0 +1,562 @@
+namespace = lombard
+narrative_event = {
+	id = lombard.1
+	desc = EVTDESC_lombard_1
+	title = EVTTITLE_lombard_1
+	picture = GFX_evt_book_carolingian_script
+	border = GFX_event_narrative_frame_war
+	major = yes
+	only_playable = yes
+	trigger = {
+			has_global_flag = invasion_pavia
+			has_landed_title = k_italy
+			has_landed_title = c_pavia
+	}
+	major_trigger = {
+				capital_scope = {
+					NOT = {
+						distance = {
+							where = 235
+							distance = 1200
+						}
+					}
+				}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		b_pavia = {
+			province_capital = yes
+			ROOT = { capital = PREV }
+		}
+		#c_pavia = {
+		#	set_name = ""
+		#	adjective = ""
+		#	reset_coa = THIS
+		#}
+		clr_global_flag = invasion_pavia
+		hidden_tooltip = { character_event = { id = lombard.7 days = 30 } }
+	}
+	option = {
+		name = EVTOPTA_lombard_1
+		trigger = {
+			OR = {
+				#k_italy = { owner = THIS }
+				culture = ROOT
+				AND = {
+					dynasty = ROOT
+					NOT = { is_rival = ROOT }
+				}
+				liege = { character = ROOT }
+				religion = ROOT
+			}
+		}
+		prestige = 50
+		piety = 50
+	}
+	option = {
+		name = EVTOPTB_lombard_1
+		trigger = {
+			liege = { has_landed_title = e_byzantium }
+			NOT = { religion = ROOT }
+			NOT = { culture = lombard }
+			NOT = { has_landed_title = e_byzantium }
+		}
+	}
+	option = {
+		name = EVTOPTC_lombard_1
+		trigger = {
+			has_landed_title = e_byzantium
+			NOT = { character = ROOT }
+		}
+		prestige = -100
+		piety = -100
+	}
+	option = {
+		name = EVTOPTD_lombard_1
+		trigger = {
+			NOT = { character = ROOT }
+			NOT = { has_landed_title = e_byzantium }
+			NOT = { religion = ROOT }
+		}
+	}
+	after = {
+		ROOT = {
+			capital_scope = {
+				culture = lombard
+				religion = arian
+			}
+		}
+	}
+}
+# Narses dies
+character_event = {
+	id = lombard.2
+
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_character_flag = narses
+		NOT = { year = 590 }
+	}
+	
+	immediate = {
+		set_global_flag = narses_died
+		liege = {
+			ROOT = {
+				any_demesne_title = {
+					grant_title = PREVPREV
+				}
+			}
+		
+		character_event = { id = lombard.3 }
+		}
+		
+	}
+}
+character_event = {
+	id = lombard.3
+	is_triggered_only = yes
+	desc = EVTDESC_lombard_3
+	title = EVTTITLE_lombard_3
+	picture = GFX_evt_book_carolingian_script
+	border = GFX_event_normal_frame_war
+	option = {
+		name = EVTOPTA_lombard_3
+	}
+	
+}
+
+#War for Ticinum(Pavia)
+character_event = {
+	id = lombard.4
+	desc = EVTDESC_lombard_4
+	title = EVTTITLE_lombard_4
+	picture = GFX_evt_book_carolingian_script
+	border = GFX_event_normal_frame_war
+	
+	only_playable = yes 
+	religion_group = christian
+	only_independent = yes
+	only_capable = yes
+	min_age = 16
+	prisoner = no
+	war = no
+	culture = lombard
+	trigger = {
+		has_global_flag = invasion_pavia
+		has_landed_title = k_italy
+		NOT = { has_landed_title = c_pavia }
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		religion_authority = { modifier = arian }
+		333 = {
+			religion_authority = { modifier = catholic }
+		}
+	}
+	option = {
+		name = EVTOPTA_lombard_4
+		prestige = 250
+		piety = 100
+		war = {
+					target = c_400004
+					casus_belli = claim
+					thirdparty_title = c_pavia
+					infamy = 0
+				
+			}
+			spawn_unit = {
+				owner = THIS
+				leader = THIS
+				province = 235
+				home = 235
+				troops = {
+					archers = { 1000 1000 }
+					light_infantry = { 1500 1500 }
+					heavy_infantry = { 1000 1000 }
+					light_cavalry = { 500 500 }
+				}
+				attrition = 0.0
+			}
+		}
+}
+character_event = {
+	id = lombard.5
+	title = EVTTITLE_lombard_5
+	desc = EVTDESC_lombard_5
+	picture = GFX_evt_armory
+	border = GFX_event_normal_frame_war
+	
+	trigger = {
+		has_character_flag = zotto
+		NOT = { has_global_flag = benevento_formed }
+		year = 571
+		war = no
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+	option = {
+		name = EVTOPTA_lombard_5
+		create_title = {
+				tier = DUKE
+				landless = yes
+				temporary = yes
+				culture = lombard
+				name = d_lombard
+				holder = THIS
+			}
+			new_title = {
+				set_coa = k_lombardy
+			}
+		spawn_unit = {
+				owner = THIS
+				leader = THIS
+				province = 235
+				home = 235
+				troops = {
+					archers = { 1000 1000 }
+					light_infantry = { 1500 1500 }
+					heavy_infantry = { 1000 1000 }
+					light_cavalry = { 500 500 }
+				}
+				attrition = 0.0
+			}
+		spawn_unit = {
+				owner = THIS
+				leader = THIS
+				province = 235
+				home = 235
+				troops = {
+					archers = { 1000 1000 }
+					light_infantry = { 1500 1500 }
+					heavy_infantry = { 1000 1000 }
+					light_cavalry = { 500 500 }
+				}
+				attrition = 0.0
+			}
+			spawn_unit = {
+				owner = THIS
+				leader = THIS
+				province = 235
+				home = 235
+				troops = {
+					archers = { 1000 1000 }
+					light_infantry = { 1500 1500 }
+					heavy_infantry = { 1000 1000 }
+					light_cavalry = { 500 500 }
+				}
+				attrition = 0.0
+			}
+			spawn_unit = {
+				owner = THIS
+				leader = THIS
+				province = 335
+				home = 335
+				troops = {
+					archers = { 1000 1000 }
+					light_infantry = { 1500 1500 }
+					heavy_infantry = { 1000 1000 }
+					light_cavalry = { 500 500 }
+					knights = { 2500 2500 }
+				}
+				attrition = 0.0
+			}
+		k_romagna = {
+			holder_scope = {
+				reverse_war = {
+					target = ROOT
+					casus_belli = claim_all
+					#thirdparty_title = d_benevento
+					infamy = 0
+				}
+			}
+		}
+	}
+}
+narrative_event = {
+	id = lombard.6
+	title = EVTTITLE_lombard_6
+	desc = EVTDESC_lombard_6
+	picture = GFX_evt_nomad_camp
+	border = GFX_event_narrative_frame_war
+	trigger = {
+		has_landed_title = d_benevento
+		NOT = { has_global_flag = benevento_formed }
+		culture = lombard
+		religion = arian
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		set_global_flag = benevento_formed
+	}
+	option = {
+		name = EVTOPTA_lombard_6
+		d_benevento = {
+			hidden_tooltip = { make_primary_title = yes }
+		}
+		#destroy_landed_title = d_lombard
+		disband_event_forces = yes
+		if = {
+			limit = {
+				k_italy = {
+					owner = {
+						culture = lombard
+					}
+				}
+			}
+			k_italy = {
+				holder_scope = {
+					ROOT = {
+						set_defacto_liege = PREV
+					}
+				}
+			}
+		}
+	}
+}
+character_event = {
+	id = lombard.7
+	title = EVTTITLE_lombard_7
+	desc = EVTDESC_lombard_7
+	picture = GFX_evt_feast
+	border = GFX_event_normal_frame_intrigue
+	
+	is_triggered_only = yes
+	
+	option = {
+		 name = EVTOPTA_lombard_7
+		 hidden_tooltip = { character_event = { id = lombard.8 days = 1 random = 1 } }
+	}
+}
+character_event = {
+	id = lombard.8
+	title = EVTTITLE_lombard_8
+	desc = EVTDESC_lombard_8
+	picture = GFX_evt_feast
+	border = GFX_event_normal_frame_intrigue
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_lombard_8
+		death = {
+			death_reason = death_murder
+			killer = c_402005
+		}
+		c_402005 = {
+			death = {
+				death_reason = death_suicide_poison
+				}
+			}
+		}
+}
+character_event = {
+	id = lombard.9
+	title = EVTTITLE_lombard_9
+	desc = EVTDESC_lombard_9
+	picture = GFX_evt_feast
+	border = GFX_event_normal_frame_intrigue
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		has_character_flag = adventurer_a
+		NOT = { year = 580 }
+	}
+	
+	option = {
+		name = EVTOPTA_lombard_9
+		trigger = {
+			ai = yes
+		}
+		c_190168 = {
+			ROOT = {
+				any_demesne_title = {
+					grant_title = PREVPREV
+				}
+			}
+			character_event = { id = lombard.10 years = 2 }
+		}
+	}
+	option = {
+		name = EVTOPTB_lombard_9
+		trigger = {
+			ai = no
+		}
+		c_190168 = {
+			ROOT = {
+				any_demesne_title = {
+					grant_title = PREVPREV
+				}
+			}
+			character_event = { id = lombard.10 years = 2 }
+			set_player_character = c_190168
+		}
+	}
+	option = {
+		name = EVTOPTC_lombard_9
+		trigger = {
+			ai = no
+		}
+		c_190168 = {
+			ROOT = {
+				any_demesne_title = {
+					grant_title = PREVPREV
+				}
+			}
+			character_event = { id = lombard.10 years = 2 }
+		}
+	}
+}
+character_event = {
+	id = lombard.10
+	title = EVTTITLE_lombard_10
+	desc = EVTDESC_lombard_10
+	picture = GFX_evt_armory
+	border = GFX_event_narrative_frame_war
+	is_triggered_only = yes
+	immediate = {
+		destroy_landed_title = k_italy
+		set_global_flag = rule_of_dukes
+		c_brescia = {
+			holder_scope = {
+				grant_title = d_brescia
+			}
+		}
+		c_como = {
+			holder_scope = {
+				grant_title = d_bergamo
+			}
+		}
+	}
+	option = {
+		name = EVTOPTA_lombard_10
+		death = yes
+	}
+}
+character_event = {
+	id = lombard.11
+	title = EVTTITLE_lombard_11
+	desc = EVTDESC_lombard_11
+	picture = GFX_evt_book_carolingian_script
+	border = GFX_event_normal_frame_diplomacy
+	is_triggered_only = yes
+	option = {
+		name = EVTOPTA_lombard_11
+		set_defacto_liege = FROM
+	}
+	after = {
+		destroy_landed_title = d_bergamo
+		destroy_landed_title = d_brescia
+		destroy_landed_title = d_trent
+	}
+}
+character_event = {
+	id = lombard.12
+	title = EVTTITLE_lombard_12
+	desc = EVTDESC_lombard_12
+	picture = GFX_evt_eagle_warriors
+	border = GFX_event_normal_frame_war
+	trigger = {
+		has_character_flag = preparing_invasion
+		war = no
+	}
+	mean_time_to_happen = {
+		months = 24
+		modifier = {
+			factor = 0.25
+			ai = no
+		}
+	}
+	option = {
+		name = EVTOPTA_lombard_12
+		prestige = -1000
+		disband_event_forces = yes
+		clr_character_flag = preparing_invasion
+		add_trait = craven
+	}
+}
+narrative_event = {
+	id = lombard.13
+	title = EVTTITLE_lombard_13
+	desc = EVTDESC_lombard_13
+	picture = GFX_evt_nomad_camp
+	border = GFX_event_narrative_frame_diplomacy
+	trigger = {
+		has_landed_title = k_italy
+		culture = lombard
+		c_ravenna = {
+			holder_scope = {
+				is_vassal_or_below = ROOT
+			}
+		}
+		NOT = { has_global_flag = fall_of_ravenna }
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+	immediate = {
+		e_byzantium = {
+			holder_scope = {
+				save_event_target_as = basilefs
+			}
+		}
+		set_global_flag = fall_of_ravenna
+		d_ancona = {
+			reset_coa = THIS
+			hidden_tooltip = {
+				set_name=""
+				adjective=""
+			}
+			de_jure_liege = k_papacy
+		}
+		k_romagna = {
+			de_jure_liege = e_italy
+		}
+		d_ferrara = {
+			de_jure_liege = k_papacy
+		}
+		d_spoleto = {
+			de_jure_liege = k_papacy
+		}
+		d_latium = {
+			de_jure_liege = k_papacy
+		}
+	}
+	option = {
+		name = EVTOPTA_lombard_13
+		custom_tooltip = {
+			text = fall_of_ravenna_opt
+		}
+		prestige = 1500
+		piety = 500
+		hidden_tooltip = {
+			k_romagna = {
+				holder_scope = {
+					any_vassal = {
+						set_defacto_liege = event_target:basilefs
+					}
+					set_defacto_liege = event_target:basilefs
+				}
+				clr_title_flag = roman_governate
+				destroy_landed_title = THIS
+			}
+		}
+		k_papal_state = {
+			holder_scope = {
+				c_roma = {
+					grant_title = PREV
+				}
+			}
+		}
+	}
+}

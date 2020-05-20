@@ -1,0 +1,19 @@
+# 2034 - Daraa
+
+# County Title
+title = c_daraa
+
+# Settlements
+max_settlements = 3
+b_quneitra = castle
+b_daraa = city
+b_ghariyah = temple
+
+
+# Misc
+culture = syriac
+religion = miaphysite
+
+# History
+650.1.1 = { culture = levantine_arabic
+religion = sunni }

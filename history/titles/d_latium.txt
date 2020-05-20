@@ -1,0 +1,13 @@
+550.1.1 = {
+	liege=k_romagna
+	de_jure_liege=k_romagna
+	vice_royalty=yes
+}
+554.1.1 = {
+	holder = 400003
+}
+573.1.1 = { holder = 400004 }
+752.1.1 = {
+	liege=0
+	de_jure_liege=k_papacy
+}

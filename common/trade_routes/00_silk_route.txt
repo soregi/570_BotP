@@ -108,11 +108,11 @@ silk_road = {
 	path = {	# Tus-Dailam
 		632 633 661 662 664 665
 	}
-	path = {	# Lut-Ahvaz
-		636 638 646 647
+	path = {	# Lut-Yasuj
+		636 638 646 2066
 	}
-	path = {	# Ahvaz-Bagdad
-		647 656 689 693
+	path = {	# Yasuj-Bagdad
+		2066 645 647 656 689 693
 	}
 	path = {	# Samarkand-Otrar
 		903 1181 1186 1431
@@ -121,7 +121,7 @@ silk_road = {
 		1431 900 1794 622 623 1793 621 618 620 619 605 1811 607 596
 	}
 	path = {	# Bagdad-Palmyra
-		693 696 695 712 710 729 730
+		693 696 2057 712 713 730
 	}
 	path = {	# Palmyra-Antioch
 		710 709 732 733 764
@@ -173,10 +173,10 @@ silk_road = {
 		1297 1396 1392 1393 641
 	}
 	path = {	# Hormuz-Basra-Bagdad
-		641 1394 1395 649 655 690 693
+		641 2068 1394 1395 649 655 690 693
 	}
-	path = {	# Hormuz-Ahvaz
-		641 642 644 645 647
+	path = {	# Hormuz-Yasuj
+		641 642 644 2066
 	}
 	path = {	# Banbhore-Muscat-Aden-Mecca-Cairo-Alexandria
 		1297 1412 1391 868 1390 866 1389 1369 1388 871 1387 1386 858 859 1532 1385 1384 716 719 718 1536 1383 1320 794 791 2002 796 797 2004 802

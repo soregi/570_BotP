@@ -123,8 +123,10 @@
 	}
 	610.1.1={
 		religion="islamism"
+		effect = {
 		set_global_flag = met_gibril
 		set_character_flag = met_gibril
+		}
 	} # Founding Islam
 	622.7.1 = {
 		trait = adventurer
@@ -251,7 +253,9 @@
 	}
 	632.6.8={
 		death="632.6.8"
+		effect = {
 		set_global_flag = death_muhammad
+		}
 	}
 }
 33923 = {

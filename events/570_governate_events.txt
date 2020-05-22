@@ -73,7 +73,7 @@ character_event = {
 				limit = {
 					FROM = {
 						primary_title = {
-							titie = k_egypt
+							title = k_egypt
 						}
 					}
 				}
@@ -83,7 +83,7 @@ character_event = {
 				limit = {
 					FROM = {
 						primary_title = {
-							titie = k_africa
+							title = k_africa
 						}
 					}
 				}
@@ -93,7 +93,7 @@ character_event = {
 				limit = {
 					FROM = {
 						primary_title = {
-							titie = k_syria
+							title = k_syria
 						}
 					}
 				}
@@ -103,7 +103,7 @@ character_event = {
 				limit = {
 					FROM = {
 						primary_title = {
-							titie = k_andalusia
+							title = k_andalusia
 						}
 					}
 				}
@@ -113,7 +113,7 @@ character_event = {
 				limit = {
 					FROM = {
 						primary_title = {
-							titie = k_romagna
+							title = k_romagna
 						}
 					}
 				}
@@ -123,7 +123,7 @@ character_event = {
 				limit = {
 					FROM = {
 						primary_title = {
-							titie = k_dalmatia
+							title = k_dalmatia
 						}
 					}
 				}
@@ -133,7 +133,7 @@ character_event = {
 				limit = {
 					FROM = {
 						primary_title = {
-							titie = k_illyricum
+							title = k_illyricum
 						}
 					}
 				}
@@ -207,7 +207,7 @@ character_event = {
 				limit = {
 					FROM = {
 						primary_title = {
-							titie = k_egypt
+							title = k_egypt
 						}
 					}
 				}
@@ -217,7 +217,7 @@ character_event = {
 				limit = {
 					FROM = {
 						primary_title = {
-							titie = k_africa
+							title = k_africa
 						}
 					}
 				}
@@ -227,7 +227,7 @@ character_event = {
 				limit = {
 					FROM = {
 						primary_title = {
-							titie = k_syria
+							title = k_syria
 						}
 					}
 				}
@@ -237,7 +237,7 @@ character_event = {
 				limit = {
 					FROM = {
 						primary_title = {
-							titie = k_andalusia
+							title = k_andalusia
 						}
 					}
 				}
@@ -247,7 +247,7 @@ character_event = {
 				limit = {
 					FROM = {
 						primary_title = {
-							titie = k_romagna
+							title = k_romagna
 						}
 					}
 				}
@@ -257,7 +257,7 @@ character_event = {
 				limit = {
 					FROM = {
 						primary_title = {
-							titie = k_dalmatia
+							title = k_dalmatia
 						}
 					}
 				}
@@ -267,7 +267,7 @@ character_event = {
 				limit = {
 					FROM = {
 						primary_title = {
-							titie = k_illyricum
+							title = k_illyricum
 						}
 					}
 				}

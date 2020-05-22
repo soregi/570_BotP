@@ -1180,14 +1180,14 @@
 	religion = islamism
 	father = 404021
 	628.4.1 = { birth = yes }
-	661.1.1 = { religion = shia }
+	661.1.1 = { religion = shiite }
 	680.1.1 =  {death = yes }
 }
 404122 = {
 	name = "Hussayn"
 	dynasty = 1042119
 	culture = bedouin_arabic
-	religion = shia
+	religion = shiite
 	father = 404121
 	656.1.1 = { birth = yes }
 	681.1.1 = { religion = sunni }

@@ -15,7 +15,7 @@ religion = arabic_pagan
 	religion = islamism
 }
 662.1.1 = {
-	religion = shia
+	religion = shiite
 }
 914.1.1 = {
 	religion = qarmatian

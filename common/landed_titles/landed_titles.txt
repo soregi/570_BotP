@@ -25707,7 +25707,7 @@ e_persia = {
 				}
 			}
 			c_hendjan = { # Arrajan
-				color={ 93 132 26 }be
+				color={ 93 132 26 }
 				color2={ 255 255 255 }
 				
 				b_argan = {

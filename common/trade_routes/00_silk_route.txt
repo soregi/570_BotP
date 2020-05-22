@@ -120,14 +120,14 @@ silk_road = {
 	path = {	# Otrar-Turkestan-Itil-Tana
 		1431 900 1794 622 623 1793 621 618 620 619 605 1811 607 596
 	}
-	path = {	# Bagdad-Palmyra
-		693 696 2057 712 713 730
+	path = {	# Bagdad-Rahbah
+		693 696 2057 712
 	}
-	path = {	# Palmyra-Antioch
-		710 709 732 733 764
+	path = {	# Rahbah-Antioch
+		712 710 709 732 733 764
 	}
-	path = {	# Palmyra-Jerusalem
-		730 727 2035 728 2034 725 774 775
+	path = {	# Rahbah-Jerusalem
+		712 713 730 727 2035 728 2034 725 774 775
 	}
 	# Southern Silk Route
 	path = {	# Khotan-Kasmira-Nandana-Indus Valley

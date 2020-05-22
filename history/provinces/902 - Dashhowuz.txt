@@ -16,11 +16,10 @@ b_tagta = temple
 #b_gorogly = castle
 
 # Misc
-culture = parthian
+culture = khwarezmian
 religion = nestorian
 
 # History
-650.1.1 = { culture = persian }
 1187.1.1 = {
 	religion = sunni
 }

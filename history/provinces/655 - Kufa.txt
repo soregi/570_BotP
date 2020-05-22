@@ -20,5 +20,5 @@ culture = chaldean
 religion = nestorian
 
 # History
-742.1.1 = { culture = bedouin_arabic }
+742.1.1 = { culture = levantine_arabic }
 850.1.1 = { religion = shiite}

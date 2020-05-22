@@ -54,7 +54,7 @@ From;To;Type;Through;-1;-1;-1;-1;Comment
 301;932;sea;1003;-1;-1;-1;-1;Gotland-Tjust
 16;18;sea;968;-1;-1;-1;-1;Laigin-Dyfed
 345;1886;sea;1038;-1;-1;-1;-1;Lecce-Avlonas
-641;870;sea;1393;-1;-1;-1;-1;Hormuz-Dhu Zabi
+#641;870;sea;1393;-1;-1;-1;-1;Hormuz-Dhu Zabi
 496;741;sea;947;-1;-1;-1;-1;Constantinople-Nikomedia
 259;261;major_river;1046;-1;-1;-1;-1;Celle-Hamburg			#ELBE
 258;261;major_river;1046;-1;-1;-1;-1;Lüneburg-Hamburg
@@ -323,3 +323,5 @@ From;To;Type;Through;-1;-1;-1;-1;Comment
 2039;724;sea;1549;-1;-1;-1;-1;al Azraq - Amman
 2039;717;sea;1549;-1;-1;-1;-1;al Azraq - Al Jawf
 635;636;sea;2060;-1;-1;-1;-1;Lut-Qohistan
+641;2068;sea;1393;-1;-1;-1;-1;Hormuz-Qeshm
+2068;870;sea;1393;-1;-1;-1;-1;Qeshm-Dhu Zabi

@@ -2,7 +2,7 @@
 	name="Afrig"
 	dynasty=1042112 # Afrighid
 	religion="zoroastrian"
-	culture="parthian"
+	culture="khwarezmian"
 	280.9.4={
 		birth=yes
 	}
@@ -15,7 +15,7 @@
 	name="Bagra"
 	dynasty=1042112 # Afrighid
 	religion="zoroastrian"
-	culture="parthian"
+	culture="khwarezmian"
 	father=188580
 	312.1.28={
 		birth=yes
@@ -29,7 +29,7 @@
 	name="Sahhasak"
 	dynasty=1042112 # Afrighid
 	religion="zoroastrian"
-	culture="parthian"
+	culture="khwarezmian"
 	father=188581
 	337.1.1={
 		birth=yes
@@ -43,7 +43,7 @@
 	name="Askajamuk"
 	dynasty=1042112 # Afrighid
 	religion="zoroastrian"
-	culture="parthian"
+	culture="khwarezmian"
 	father=188582
 	365.1.1={
 		birth=yes
@@ -57,7 +57,7 @@
 	name="Azkajwar"
 	dynasty=1042112 # Afrighid
 	religion="zoroastrian"
-	culture="parthian"
+	culture="khwarezmian"
 	father=188583
 	400.1.1={
 		birth=yes
@@ -71,7 +71,7 @@
 	name="Sahr"
 	dynasty=1042112 # Afrighid
 	religion="zoroastrian"
-	culture="parthian"
+	culture="khwarezmian"
 	father=188584
 	430.1.1={
 		birth=yes
@@ -85,7 +85,7 @@
 	name="Shaush"
 	dynasty=1042112 # Afrighid
 	religion="zoroastrian"
-	culture="parthian"
+	culture="khwarezmian"
 	father=188585
 	460.1.1={
 		birth=yes
@@ -99,7 +99,7 @@
 	name="Hamgari"
 	dynasty=1042112 # Afrighid
 	religion="zoroastrian"
-	culture="parthian"
+	culture="khwarezmian"
 	father=188586
 	490.1.1={
 		birth=yes
@@ -113,7 +113,7 @@
 	name="Buzgar"
 	dynasty=1042112 # Afrighid
 	religion="zoroastrian"
-	culture="parthian"
+	culture="khwarezmian"
 	father=188587
 	520.1.1={
 		birth=yes
@@ -127,7 +127,7 @@
 	name="Arsamuh"
 	dynasty=1042112 # Afrighid
 	religion="zoroastrian"
-	culture="parthian"
+	culture="khwarezmian"
 	father=188588
 	560.1.1={
 		birth=yes
@@ -141,7 +141,7 @@
 	name="Sahr"
 	dynasty=1042112 # Afrighid
 	religion="zoroastrian"
-	culture="parthian"
+	culture="khwarezmian"
 	father=188589
 	600.1.1={
 		birth=yes
@@ -150,7 +150,162 @@
 		death=yes
 	}
 }
+188591 = {
+	name="Sabri"
+	dynasty=1042112 # Afrighid
+	religion="zoroastrian"
+	culture="persian"
+	father=188590
+	635.1.1={
+		birth=yes
+	}
+	690.1.1={
+		death=yes
+	}
+}
 
+188592 = {
+	name="Azkajwar"
+	dynasty=1042112 # Afrighid
+	religion="zoroastrian"
+	culture="khwarezmian"
+	father=188591
+	665.1.1={
+		birth=yes
+	}
+	712.1.1={
+		death=yes
+	}
+}
+
+188593 = {
+	name="Askajamuk"
+	dynasty=1042112 # Afrighid
+	religion="zoroastrian"
+	culture="khwarezmian"
+	father=188592
+	690.1.1={
+		birth=yes
+	}
+	740.1.1={
+		death=yes
+	}
+}
+
+188594 = {
+	name="Sawashfan"
+	dynasty=1042112 # Afrighid
+	religion="zoroastrian"
+	culture="khwarezmian"
+	father=188593
+	715.1.1={
+		birth=yes
+	}
+	765.1.1={
+		death=yes
+	}
+}
+
+188595 = {
+	name="Torkasbatha"
+	dynasty=1042112 # Afrighid
+	religion="zoroastrian"
+	culture="khwarezmian"
+	father=188594
+	740.1.1={
+		birth=yes
+	}
+	790.1.1={
+		death=yes
+	}
+}
+
+188596 = {
+	name="Abdallah"
+	dynasty=1042112 # Afrighid
+	religion="zoroastrian"
+	culture="khwarezmian"
+	father=188595
+	765.1.1={
+		birth=yes
+	}
+	790.1.1={
+		religion=sunni
+	}
+	815.1.1={
+		death=yes
+	}
+}
+
+188597 = {
+	name="Mansur"
+	dynasty=1042112 # Afrighid
+	religion="sunni"
+	culture="khwarezmian"
+	father=188596
+	795.1.1={
+		birth=yes
+	}
+	850.1.1={
+		death=yes
+	}
+}
+
+188598 = {
+	name="Eraq"
+	dynasty=1042112 # Afrighid
+	religion="sunni"
+	culture="khwarezmian"
+	father=188597
+	825.1.1={
+		birth=yes
+	}
+	890.1.1={
+		death=yes
+	}
+}
+
+188599 = {
+	name="Muhammad"
+	dynasty=1042112 # Afrighid
+	religion="sunni"
+	culture="khwarezmian"
+	father=188598
+	865.1.1={
+		birth=yes
+	}
+	940.1.1={
+		death=yes
+	}
+}
+
+188600 = {
+	name="Abu Sa'id"
+	dynasty=1042112 # Afrighid
+	religion="sunni"
+	culture="khwarezmian"
+	father=188599
+	900.1.1={
+		birth=yes
+	}
+	970.1.1={
+		death=yes
+	}
+}
+
+188601 = {
+	name="Abu Abdallah"
+	dynasty=1042112 # Afrighid
+	religion="sunni"
+	culture="khwarezmian"
+	father=188600
+	925.1.1={
+		birth=yes
+	}
+	995.1.1={
+		death=yes
+	}
+}
 180628 = {
 	name="Khosrau"
 	# Khosrau I, Emperor of Persia
@@ -259,7 +414,7 @@
 408006 = {
 	name = "Salman"
 	dynasty = 3000090
-	culture = parthian
+	culture = khwarezmian
 	religion = nestorian
 	540.1.1 = { birth = yes }
 	600.1.1 = { death = yes }

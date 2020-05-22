@@ -17,7 +17,8 @@ b_evaz = temple
 
 # Misc
 culture = persian
-religion = zoroastrian
+religion = mazdaki
 
 # History
+630.1.1 = { religion = zoroastrian }
 800.1.1 = { religion = sunni }

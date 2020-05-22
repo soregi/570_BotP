@@ -1,0 +1,21 @@
+# 2066 - Yasuj
+
+# County Title
+title = c_yasuj
+
+# Settlements
+max_settlements = 3
+
+b_nurabad = castle
+b_yasuj = city
+
+# Misc
+culture = luri
+religion = mazdaki
+
+# History
+630.1.1 = { religion = zoroastrian }
+867.1.1 = {
+	religion = sunni
+}
+

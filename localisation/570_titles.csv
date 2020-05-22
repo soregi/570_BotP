@@ -59,6 +59,11 @@ PROV2060;Dasht-e Kavir;;;;;;;;;;;;;x
 PROV2061;Dasht-e Lut;;;;;;;;;;;;;x
 PROV2062;Dasht-e Margov;;;;;;;;;;;;;x
 PROV2063;Kandahar;;;;;;;;;;;;;x
+PROV2064;Alborz Mountains;;;;;;;;;;;;;x
+PROV2065;Bakhtiari;;;;;;;;;;;;;x
+PROV2066;Yasuj;;;;;;;;;;;;;x
+PROV2067;Lar;;;;;;;;;;;;;x
+PROV2068;Qeshm;;;;;;;;;;;;;x
 d_donatism;The Donatist Church;;;;;;;;;;;;;x
 d_donatism_adj;Donatist;;;;;;;;;;;;;x
 d_pentapolis;Pentapolis;;;;;;;;;;;;;x
@@ -80,7 +85,9 @@ d_phoenicia_adj;Punic;;;;;;;;;;;;;x
 d_bosna;Upper Bosnia;;;;;;;;;;;;;x
 d_bosna_adj;Bosnian;;;;;;;;;;;;;x
 d_mafaza;Yazd;;;;;;;;;;;;;x
-d_mafaza_adj;Yazdian;;;;;;;;;;;;;x
+d_mafaza_adj;Yazdi;;;;;;;;;;;;;x
+d_hormuz;Hormuz;;;;;;;;;;;;;x
+d_hormuz_adj;Hormuzi;;;;;;;;;;;;;x
 #d_medina;Medina;;;;;;;;;;;;;x
 #d_medina_adj;Medinan;;;;;;;;;;;;;x
 d_mecca;Mecca;;;;;;;;;;;;;x
@@ -318,3 +325,6 @@ b_azraq;Azraq;;;;;;;;;;;;;x
 b_abuziad;Abu Ziad;;;;;;;;;;;;;x
 b_arramtha;Ar Ramtha;;;;;;;;;;;;;x
 b_sukhnah;Sukhnah;;;;;;;;;;;;;x
+b_qeshm;Qeshm;;;;;;;;;;;;;x
+b_hormuz;Hormuz;;;;;;;;;;;;;x
+b_tabl;Tabl;;;;;;;;;;;;;x

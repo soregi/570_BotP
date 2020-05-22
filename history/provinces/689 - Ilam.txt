@@ -20,5 +20,5 @@ culture = chaldean
 religion = nestorian
 
 # History
-680.1.1 = { culture = kurdish }
+680.1.1 = { culture = levantine_arabic }
 900.1.1 = { religion = sunni }

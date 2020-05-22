@@ -1,0 +1,27 @@
+# 2065 - Bakhtiari
+
+# County Title
+title = c_bakhtiari
+
+# Settlements
+max_settlements = 2
+
+b_irsoleyman = castle
+b_izeh = city
+
+# Misc
+culture = luri
+religion = zoroastrian
+
+# History
+867.1.1 = {
+	b_irsoleyman = ca_keep_1
+	b_irsoleyman = ca_training_grounds_1
+	b_irsoleyman = ca_keep_2
+	b_irsoleyman = ca_stable_1
+	b_irsoleyman = ca_barracks_1
+	b_irsoleyman = ca_militia_barracks_1
+	b_irsoleyman = ca_wall_1
+	b_irsoleyman = ca_wall_2
+}
+900.1.1 = { religion = sunni }

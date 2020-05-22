@@ -21,7 +21,8 @@ religion = nestorian
 # History
 670.1.1 = { culture =  persian religion = mazdaki}
 
-867.1.1 = { 
+867.1.1 = {
+	culture = bedouin_arabic
 	religion=sunni
 	b_fao = castle
 	b_abadan = ca_keep_1

@@ -1,0 +1,18 @@
+# 2068 - Qeshm
+
+# County Title
+title = c_qeshm
+
+# Settlements
+max_settlements = 3
+b_qeshm = castle
+b_hormuz = city
+b_tabl = temple
+
+# Misc
+culture = persian
+religion = zoroastrian
+
+# History
+790.1.1 = { religion = sunni }
+1227.1.1 = { culture = bedouin_arabic }

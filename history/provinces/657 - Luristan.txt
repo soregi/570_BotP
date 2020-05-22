@@ -15,11 +15,10 @@ b_koohdasht = city
 #b_poledokhtar = castle
 
 #Misc
-culture = kurdish
+culture = luri
 religion = zoroastrian
 
 # History
-769.1.1 = { culture = persian }
 867.1.1 = {
 	b_dezbar = ca_keep_1
 	b_dezbar = ca_training_grounds_1

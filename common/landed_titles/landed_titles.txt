@@ -25593,28 +25593,6 @@ e_persia = {
 				b_abeshkan = {
 				}
 			}
-			
-			c_hormuz = {
-				color={ 106 126 71 }
-				color2={ 255 255 255 }
-				
-				b_gombroon = {
-				}
-				b_abarkawan = {
-				}
-				b_jiroth = {
-				}
-				b_abu_musa = {
-				}
-				b_minab = {
-				}
-				b_kish = {
-				}
-				b_bam = {
-				}
-				b_fin = {
-				}
-			}
 			c_sirjan = {
 				color={ 118 138 83 }
 				color2={ 255 255 255 }
@@ -25658,6 +25636,45 @@ e_persia = {
 				}
 			}
 		}
+		#Qara
+		d_hormuz = {
+			color={ 145 147 34 }
+			color2={ 255 255 255 }
+			
+			capital = 641 # Hormuz
+			c_hormuz = {
+				color={ 106 126 71 }
+				color2={ 255 255 255 }
+				
+				b_gombroon = {
+				}
+				b_abarkawan = {
+				}
+				b_jiroth = {
+				}
+				b_abu_musa = {
+				}
+				b_minab = {
+				}
+				b_genu = {
+				}
+				b_bam = {
+				}
+				b_fin = {
+				}
+			}
+			c_qeshm = {
+				color = { 156 147 24 }
+				color2 = { 255 255 255 }
+				b_qeshm = {}
+				b_hormuz = {}
+				b_bandaredoulab = {}
+				b_tabl = {}
+				b_ramkan = {}
+				b_hengam = {}
+				b_larak = {}
+			}
+		}
 		d_fars = {
 			color={ 89 128 22 }
 			color2={ 255 255 255 }
@@ -25689,8 +25706,8 @@ e_persia = {
 				b_khafr = {
 				}
 			}
-			c_hendjan = {
-				color={ 93 132 26 }
+			c_hendjan = { # Arrajan
+				color={ 93 132 26 }be
 				color2={ 255 255 255 }
 				
 				b_argan = {
@@ -25718,7 +25735,7 @@ e_persia = {
 				}
 				b_khonj = {
 				}
-				b_evaz = {
+				b_fassa = {
 				}
 				b_jask = {
 				}
@@ -25770,6 +25787,26 @@ e_persia = {
 				}
 				b_arsanjan = {
 				}
+			}
+			c_lar = {
+				color = { 134 160 80 }
+				b_parsian = {}
+				b_lar = {}
+				b_beyram = {}
+				b_kish = {}
+				b_gavbandi = {}
+				b_evaz = {}
+				b_jam = {}
+			}
+			c_yasuj = {
+				color = { 145 166 97 }
+				b_yasuj = {}
+				b_nurabad = {}
+				b_kazerun = {}
+				b_basht = {}
+				b_margon = {}
+				b_lordegan = {}
+				b_dehdez = {}
 			}
 		}
 		d_khozistan = {
@@ -25843,6 +25880,17 @@ e_persia = {
 				}
 				b_tellelhiba = {
 				}
+			}
+			c_bakhtiari = {
+				color = { 100 180 70 }
+				color2 = { 255 255 255 }
+				b_irsoleyman = {}
+				b_izeh = {}
+				b_andimeshk = {}
+				b_hoseyniye = {}
+				b_haftkel = {}
+				b_baghmalek = {}
+				b_niayesh = {}
 			}
 		}
 		d_jibal = {

@@ -8,7 +8,7 @@
 	trait="sayyid"
 	566.1.1={
 		birth="566.1.1"
-		effect = { set_character_flag = abbas }
+		effect_even_if_dead = { set_character_flag = abbas }
 	}
 	
 	
@@ -63,7 +63,7 @@
 	trait="sayyid"
 	549.1.1={
 		birth="549.1.1"
-		effect = { set_character_flag = abu_talib }
+		effect_even_if_dead = { set_character_flag = abu_talib }
 	}
 	
 	611.1.1={
@@ -84,7 +84,7 @@
 	trait="sayyid"
 	598.10.23={
 		birth="598.10.23"
-		effect = { set_character_flag = ali }
+		effect_even_if_dead = { set_character_flag = ali }
 	}
 	610.7.1={
 		religion="shiite"
@@ -119,18 +119,18 @@
 	trait="ambitious"
 	570.4.26={
 		birth="570.4.26"
-		effect = { set_character_flag = muhammad }
+		effect_even_if_dead = { set_character_flag = muhammad }
 	}
 	610.1.1={
 		religion="islamism"
-		effect = {
+		effect_even_if_dead = {
 		set_global_flag = met_gibril
 		set_character_flag = met_gibril
 		}
 	} # Founding Islam
 	622.7.1 = {
 		trait = adventurer
-		effect = {
+		effect_even_if_dead = {
 			set_global_flag = hijra
 			set_global_flag = islam_era_begun
 			spawn_unit = {
@@ -253,7 +253,7 @@
 	}
 	632.6.8={
 		death="632.6.8"
-		effect = {
+		effect_even_if_dead = {
 		set_global_flag = death_muhammad
 		}
 	}
@@ -433,7 +433,7 @@
 	father = 163012
 	542.7.1={
 		birth="542.7.1"
-		effect = { set_character_flag = abkr_a }
+		effect_even_if_dead = { set_character_flag = abkr_a }
 	}
 	620.1.1 = { religion = sunni }
 	635.8.1={
@@ -449,7 +449,7 @@
 	father = 163013
 	573.10.27={
 		birth="573.10.27"
-		effect = { set_character_flag = abu_bakr }
+		effect_even_if_dead = { set_character_flag = abu_bakr }
 	}
 	610.7.1 = {
 		religion = islamism
@@ -467,7 +467,7 @@
 	father=159480
 	586.1.1={
 		birth="586.1.1"
-		effect = { set_character_flag = umar }
+		effect_even_if_dead = { set_character_flag = umar }
 	}
 	617.1.1 = {
 		religion = islamism
@@ -547,7 +547,7 @@
 	trait=sayyid
 	522.1.1={
 		birth="522.1.1"
-		effect = { set_character_flag = affan }
+		effect_even_if_dead = { set_character_flag = affan }
 	}
 	597.1.1={
 		death="597.1.1"
@@ -563,7 +563,7 @@
 	trait=sayyid
 	579.1.1={
 		birth="579.1.1"
-		effect = { set_character_flag = uthan }
+		effect_even_if_dead = { set_character_flag = uthan }
 	}
 	618.1.1 = {
 		religion = islamism
@@ -703,7 +703,7 @@
 	father=159479
 	565.1.1={
 		birth="565.1.1" #Unknown
-		effect = { set_character_flag = khattab }
+		effect_even_if_dead = { set_character_flag = khattab }
 	}
 	620.1.1={
 		death="620.1.1"

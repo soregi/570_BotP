@@ -64,6 +64,7 @@ PROV2065;Bakhtiari;;;;;;;;;;;;;x
 PROV2066;Yasuj;;;;;;;;;;;;;x
 PROV2067;Lar;;;;;;;;;;;;;x
 PROV2068;Qeshm;;;;;;;;;;;;;x
+PROV2069;Meghalaya;;;;;;;;;;;;;x
 d_donatism;The Donatist Church;;;;;;;;;;;;;x
 d_donatism_adj;Donatist;;;;;;;;;;;;;x
 d_pentapolis;Pentapolis;;;;;;;;;;;;;x
@@ -88,6 +89,10 @@ d_mafaza;Yazd;;;;;;;;;;;;;x
 d_mafaza_adj;Yazdi;;;;;;;;;;;;;x
 d_hormuz;Hormuz;;;;;;;;;;;;;x
 d_hormuz_adj;Hormuzi;;;;;;;;;;;;;x
+d_racakonda;Golkonda;;;;;;;;;;;;;x
+d_racakonda_adj;Golkondan;;;;;;;;;;;;;x
+d_sikkim;Sikkim;;;;;;;;;;;;;x
+d_sikkim_adj;Sikkimese;;;;;;;;;;;;;x
 #d_medina;Medina;;;;;;;;;;;;;x
 #d_medina_adj;Medinan;;;;;;;;;;;;;x
 d_mecca;Mecca;;;;;;;;;;;;;x

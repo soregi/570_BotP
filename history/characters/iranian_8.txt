@@ -614,7 +614,8 @@
 }
 408028 = {
 	name = "Maroush"
-	culture = bactrian
+	culture = xionite
+	father = 408063
 	dynasty = 3000042
 	religion = zoroastrian
 	543.1.1 = { birth = yes }
@@ -661,16 +662,18 @@
 	600.1.1 = { death = yes }
 }
 408034 = {
-	name = "Huna"
-	culture = saka
+	name = "Pravarasena"
+	culture = alchon
 	religion = tengri_pagan
+	father = 408080
 	dynasty = 1042083
-	542.1.1 = { birth = yes }
-	600.1.1 = { death = yes }
+	512.1.1 = { birth = yes }
+	590.1.1 = { death = yes }
 }
 408035 = {
 	name = "Eligai"
-	culture = bactrian
+	culture = xionite
+	father = 408063
 	religion = zoroastrian
 	dynasty = 3000042 # Hephthalites
 	540.1.1 = { birth = yes }
@@ -740,32 +743,33 @@
 }
 408041 = {
 	name = "Taaka"
-	culture = saka
+	culture = xionite
 	religion = tengri_pagan
-	dynasty = 1042083
+	dynasty = 3000187
 	father = 408034
 	554.4.1 = { birth = yes }
 	610.1.1 = { death = yes }
 }
 408042 = {
-	name = "Tarke"
-	culture = saka
+	name = "Gokarna"
+	culture = alchon
 	religion = hindu
 	dynasty = 1042083
 	father = 408034
 	trait = kshatriya
-	559.1.1 = { birth = yes }
-	632.1.1 = { death = yes }
+	trait = shaivist_hindu
+	550.1.1 = { birth = yes }
+	597.1.1 = { death = yes }
 }
 408043 = {
 	name = "Torama"
-	culture = saka
+	culture = alchon
 	religion = hindu
 	dynasty = 1042083
-	father = 408041
+	father = 408081
 	trait = kshatriya
-	570.1.1 = { birth = yes }
-	640.1.1 = { death = yes }
+	547.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
 }
 408044 = {
 	name = "Arya"
@@ -895,4 +899,274 @@
 	religion = zoroastrian
 	589.1.1 = { birth = yes }
 	657.1.1 = { death = yes }
+}
+#Xionite
+408060 = {
+	name = "Khushnavaz"
+	dynasty = 3000042
+	culture = xionite
+	religion = tengri_pagan
+	419.1.1 = { birth = yes } 
+	488.1.1 = { death = yes } # 443~
+}
+408061 = {
+	name = "Jamshir"
+	dynasty = 3000042
+	father = 408060
+	culture = xionite
+	religion = tengri_pagan
+	456.1.1 = { birth = yes }
+	513.1.1 = { death = yes }
+}
+408062 = {
+	name = "Shahnama"
+	dynasty = 3000042
+	father = 408061
+	culture = xionite
+	religion = zun_pagan
+	481.1.1 = { birth = yes }
+	522.1.1 = { death = yes }
+}
+408063 = {
+	name = "Varaz"
+	dynasty = 3000042
+	father = 408062
+	culture = xionite
+	religion = zoroastrian
+	505.1.1 = { birth = yes }
+	569.1.1 = { death = yes }
+}
+408064 = {
+	name = "Kirada"
+	dynasty = 3000184 # Karmir Xyons/Kidarite
+	culture = xionite
+	religion = tengri_pagan
+	300.1.1 = { birth = yes }
+	345.1.1 = { death = yes } # 321(335)~345
+}
+408065 = {
+	name = "Peroz"
+	dynasty = 3000184
+	father = 408064
+	culture = xionite
+	religion = tengri_pagan
+	323.1.1 = { birth = yes }
+	360.1.1 = { death = yes }
+}
+408066 = {
+	name = "Kidara"
+	dynasty = 3000184
+	father = 408064
+	culture = xionite
+	religion = tengri_pagan
+	332.1.1 = { birth = yes }
+	390.1.1 = { death = yes }
+}
+408067 = {
+	name = "Varhran"
+	dynasty = 3000184
+	father = 408066
+	culture = xionite
+	religion = tengri_pagan
+	357.1.1 = { birth = yes }
+	410.1.1 = { death = yes }
+}
+408068 = {
+	name = "Kungas"
+	dynasty = 3000184
+	father = 408067
+	culture = xionite
+	religion = tengri_pagan
+	380.1.1 = { birth = yes }
+	423.1.1 = { death = yes }
+}
+408069 = {
+	name = "Varhran"
+	dynasty = 3000184
+	father = 408068
+	culture = xionite
+	religion = tengri_pagan
+	400.1.1 = { birth = yes }
+	450.1.1 = { death = yes }
+}
+408070 = {
+	name = "Goboziko"
+	dynasty = 3000184
+	father = 408069
+	culture = xionite
+	religion = tengri_pagan
+	420.1.1 = { birth = yes }
+	460.1.1 = { death = yes }
+}
+408071 = {
+	name = "Salanavira"
+	dynasty = 3000184
+	father = 408070
+	culture = xionite
+	religion = tengri_pagan
+	438.1.1 = { birth = yes }
+	480.1.1 = { death = yes }
+}
+408072 = {
+	name = "Vinayaditya"
+	dynasty = 3000184
+	father = 408071
+	culture = xionite
+	religion = tengri_pagan
+	468.1.1 = { birth = yes }
+	500.1.1 = { death = yes }
+}
+# Alchon Hun
+408073 = {
+	name = "Oros"
+	dynasty = 1042083
+	culture = alchon
+	religion = tengri_pagan
+	380.1.1 = { birth = yes }
+	430.1.1 = { death = yes }
+}
+408074 = {
+	name = "Khingila"
+	dynasty = 1042083
+	father = 408073
+	culture = alchon
+	religion = tengri_pagan
+	410.1.1 = { birth = yes }
+	490.1.1 = { death = yes }
+}
+408075 = {
+	name = "Meyam" # Mehama
+	dynasty = 1042083
+	father = 408074
+	culture = alchon
+	religion = tengri_pagan
+	437.1.1 = { birth = yes }
+	493.1.1 = { death = yes }
+}
+408076 = {
+	name = "Toramana"
+	dynasty = 1042083
+	father = 408075
+	culture = alchon
+	religion = tengri_pagan
+	468.1.1 = { birth = yes }
+	515.1.1 = { death = yes }
+}
+408077 = {
+	name = "Lakhana"
+	dynasty = 1042083
+	father = 408075
+	culture = alchon
+	religion = tengri_pagan
+	460.1.1 = { birth = yes }
+	495.1.1 = { death = yes }
+}
+408078 = {
+	name = "Adomano"
+	dynasty = 1042083
+	father = 408077
+	culture = alchon
+	religion = tengri_pagan
+	481.1.1 = { birth = yes }
+	523.1.1 = { death = yes }
+}
+408079 = {
+	name = "Madig"
+	dynasty = 1042083
+	father = 408078
+	culture = bactrian
+	religion = zoroastrian
+	518.1.1 = { birth = yes }
+	573.1.1 = { death = yes }
+}
+408080 = {
+	name = "Mihirakula"
+	dynasty = 1042083
+	father = 408076
+	culture = alchon
+	religion = tengri_pagan
+	486.1.1 = { birth = yes }
+	540.1.1 = { death = yes }
+}
+408081 = {
+	name = "Toramana"
+	dynasty = 1042083
+	father = 408080
+	culture = alchon
+	religion = tengri_pagan
+	520.1.1 = { birth = yes }
+	570.1.1 = { death = yes }
+}
+408082 = {
+	name = "Narendraditya Khinkhila"
+	dynasty = 1042083
+	father = 408042
+	culture = alchon
+	religion = hindu
+	trait = kshatriya
+	trait = shaivist_hindu
+	580.1.1 = { birth = yes }
+	633.1.1 = { death = yes }
+}
+408083 = {
+	name = "Yudhishthira"
+	dynasty = 1042083
+	father = 408082
+	culture = alchon
+	religion = hindu
+	trait = kshatriya
+	trait = shaivist_hindu
+	610.1.1 = { birth = yes }
+	670.1.1 = { death = yes }
+}
+408084 = {
+	name = "Zabocho"
+	culture = alchon
+	religion = tengri_pagan
+	467.1.1 = { birth = yes }
+	520.1.1 = { death = yes }
+}
+408085 = {
+	name = "Khingila"
+	dynasty = 1042083
+	father = 408043
+	culture = alchon
+	religion = hindu
+	trait = kshatriya
+	trait = shaivist_hindu
+	580.1.1 = { birth = yes }
+	630.1.1 = { death = yes }
+}
+408086 = {
+	name = "Mihirakula"
+	dynasty = 1042083
+	father = 408085
+	culture = alchon
+	religion = hindu
+	trait = kshatriya
+	trait = shaivist_hindu
+	610.1.1 = { birth = yes }
+	670.1.1 = { death = yes }
+}
+408087 = {
+	name = "Pravarasena"
+	dynasty = 1042083
+	father = 408086
+	culture = alchon
+	religion = hindu
+	trait = kshatriya
+	trait = shaivist_hindu
+	650.1.1 = { birth = yes }
+	700.1.1 = { death = yes }
+}
+408088 = {
+	name = "Mehama"
+	dynasty = 1042083
+	father = 408087
+	culture = alchon
+	religion = hindu
+	trait = kshatriya
+	trait = shaivist_hindu
+	720.1.1 = { birth = yes }
+	765.1.1 = { death = yes }
 }

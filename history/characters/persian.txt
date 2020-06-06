@@ -3791,7 +3791,7 @@
 	name="Jajjapa"
 	dynasty=1042083 # Hunas
 	religion="hindu"
-	culture="saka"
+	culture="alchon"
 	trait="shaivist_hindu"
 	trait=kshatriya
 	father=191922
@@ -4817,8 +4817,9 @@
 191920 = {
 	name="Toramana"	#Fictional predecessors of Jajjapa of Hunamandala
 	dynasty=1042083 # Hunas
+	father = 408088 # Qara
 	religion="hindu"
-	culture="saka"
+	culture="alchon"
 	trait="shaivist_hindu" 
 	trait=kshatriya
 	740.1.1={
@@ -4833,7 +4834,7 @@
 	name="Mihirakula"	#Fictional predecessors of Jajjapa of Hunamandala
 	dynasty=1042083 # Hunas
 	religion="hindu"
-	culture="saka"
+	culture="alchon"
 	trait="shaivist_hindu"
 	trait=kshatriya
 	father=191920
@@ -4849,7 +4850,7 @@
 	name="Jajjapa"	#II Fictional successor of Jajjapa of Hunamandala
 	dynasty=1042083 # Hunas
 	religion="hindu"
-	culture="saka"
+	culture="alchon"
 	trait="shaivist_hindu"
 	trait=kshatriya
 	father=188242

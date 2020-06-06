@@ -1,7 +1,18 @@
-570.1.1 = {
+490.1.1 = {
+	holder = 408084
+}
+515.1.1 = {
+	holder = 408081
+}
+530.1.1 = {
 	holder = 408034
 }
-
+590.1.1 = {
+	holder = 408042
+}
+597.1.1 = {
+	holder = 408082
+}
 600.1.1={
 	liege=k_kashmir
 	holder=188373 # Durlabhavardhana Karkota

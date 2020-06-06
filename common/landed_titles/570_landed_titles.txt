@@ -687,3 +687,9 @@ k_hejaz = {
 		}
 	}
 }
+k_alchon_huns = {
+	color = { 34 46 205 }
+	allow = {
+		always = no
+	}
+}

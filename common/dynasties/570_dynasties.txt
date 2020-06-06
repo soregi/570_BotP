@@ -273,8 +273,8 @@
 	religion = hindu
 }
 3000042 = {
-	name = "Hephthalites"
-	culture = saka
+	name = "Spet Xyon"
+	culture = xionite
 	religion = zoroastrian
 	coat_of_arms = {
 		template = 0
@@ -990,11 +990,37 @@
 	culture = persian
 	religion = zoroastrian
 }
+3000184 = {
+	name = "Karmir Xyon"
+	culture = xionite
+	religion = tengri_pagan
+}
+3000185 = {
+	name = "Nezak Xyon"
+	culture = xionite
+	religion = zun_pagan
+}
+3000186 = {
+	name = "Shahiler"
+	culture = turkish
+	religion = buddhist
+}
+3000187 = {
+	name = "Tanka"
+	culture = xionite
+	religion = hindu
+}
 542={
 	name="Meroving"
 	culture="frankish"
 	coat_of_arms={ data={ 0 2 0 41 0 3 3 } 
 	religion="catholic" }
+}
+1042083=
+{
+	name="Hunas"
+	culture = xionite
+	religion = zun_pagan
 }
 48=
 {

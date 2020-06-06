@@ -1205,7 +1205,7 @@ iranian = {
 		
 		modifier = default_culture_modifier
 	}
-	hunas = {
+	alchon = {
 		graphical_cultures = { persiangfx }
 		secondary_event_pictures = bedouin_arabic
 		

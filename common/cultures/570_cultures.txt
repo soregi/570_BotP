@@ -1198,9 +1198,8 @@ iranian = {
 			Yasaman Yekta Zarrindokht Zohreh
 		}
 		
-		dynasty_title_names = yes
 		founder_named_dynasties = yes
-
+		allow_looting = yes
 		prefix = no
 		
 		modifier = default_culture_modifier
@@ -1236,7 +1235,7 @@ iranian = {
 			Yasaman Yekta Zarrindokht Zohreh
 		}
 		
-		dynasty_title_names = yes
+		allow_looting = yes
 		founder_named_dynasties = yes
 
 		prefix = no

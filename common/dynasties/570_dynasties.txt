@@ -1019,8 +1019,8 @@
 1042083=
 {
 	name="Hunas"
-	culture = xionite
-	religion = zun_pagan
+	culture="xionite"
+	religion="hindu"
 }
 48=
 {

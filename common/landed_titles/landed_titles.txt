@@ -45083,6 +45083,27 @@ e_rajastan = {
 				b_data_darbar = {
 				}
 			}
+			c_gurjaratra = {
+				color={ 140 120 41 }
+				color2={ 255 255 255 }
+				
+				b_gurjaratra = {
+				}
+				b_jhelum = {
+				}
+				b_kharian = {
+				}
+				b_kunjah = {
+				}
+				b_hakla = {
+				}
+				b_tibbi = {
+				}
+				b_karianwala = {
+				}
+				b_bhaddar = {
+				}
+			}
 			c_dipalpur = {
 				color={ 190 100 41 }
 				color2={ 255 255 255 }
@@ -45141,74 +45162,70 @@ e_rajastan = {
 				}
 			}
 		}
-		
-		d_trigarta = {
-			color={ 155 80 15 }
+		d_haritanaka = {
+			color={ 100 25 3 }
 			color2={ 255 255 255 }
 			
-			capital = 1193 # Trigarta
+			capital = 1364 # Tribandapura
 			
-			c_trigarta = {
-				color={ 155 80 15 }
+			c_hisar = {
+				color={ 100 25 23 }
 				color2={ 255 255 255 }
 				
-				b_jalandhar = {
+				b_asigarh = {
 				}
-				b_rahon = {
+				b_asika = {
 				}
-				b_pathankot = {
+				b_surajkund = {
 				}
-				b_kaparthula = {
+				b_rohtak = {
 				}
-				b_milwat = {
+				b_hisar = {
 				}
-				b_sarwmanpur = {
+				b_kalanaur = {
 				}
-				b_ragnagar = {
+				b_agroha = {
 				}
 			}
-			c_sakala = {
-				color={ 180 120 21 }
+			c_tribandapura = {
+				color={ 130 25 3 }
 				color2={ 255 255 255 }
 				
-				b_sakala = {
+				b_tribandapura = {
 				}
-				b_jammu = {
+				b_sunam = {
 				}
-				b_bhuttar = {
+				b_jaintpuri = {
 				}
-				b_bahu = {
+				b_kartikeya = {
 				}
-				b_vallapura = {
+				b_amin = {
 				}
-				b_puran_nagar = {
+				b_chitwye = { # Fictional - For Prosperity
 				}
-				b_pasrur = {
+				b_dabthala = { # Fictional - For Prosperity
 				}
 			}
-			c_gurjaratra = {
-				color={ 140 120 41 }
+			c_sarasvati = {
+				color={ 100 55 3 }
 				color2={ 255 255 255 }
 				
-				b_gurjaratra = {
+				b_sarasvati = {
 				}
-				b_jhelum = {
+				b_bhadra = {
 				}
-				b_kharian = {
+				b_bhatnir = {
 				}
-				b_kunjah = {
+				b_tarain = {
 				}
-				b_hakla = {
+				b_bukar = { # Fictional - For Prosperity
 				}
-				b_tibbi = {
+				b_chakarpura = { # Fictional - For Prosperity
 				}
-				b_karianwala = {
-				}
-				b_bhaddar = {
+				b_chandara = { # Fictional - For Prosperity
 				}
 			}
 		}
-		
 		d_gandhara = {
 			color={ 255 150 31 }
 			color2={ 255 255 255 }
@@ -45363,70 +45380,6 @@ e_rajastan = {
 				b_samana = {
 				}
 				b_panipat = {
-				}
-			}
-		}
-		d_haritanaka = {
-			color={ 100 25 3 }
-			color2={ 255 255 255 }
-			
-			capital = 1364 # Tribandapura
-			
-			c_hisar = {
-				color={ 100 25 23 }
-				color2={ 255 255 255 }
-				
-				b_asigarh = {
-				}
-				b_asika = {
-				}
-				b_surajkund = {
-				}
-				b_rohtak = {
-				}
-				b_hisar = {
-				}
-				b_kalanaur = {
-				}
-				b_agroha = {
-				}
-			}
-			c_tribandapura = {
-				color={ 130 25 3 }
-				color2={ 255 255 255 }
-				
-				b_tribandapura = {
-				}
-				b_sunam = {
-				}
-				b_jaintpuri = {
-				}
-				b_kartikeya = {
-				}
-				b_amin = {
-				}
-				b_chitwye = { # Fictional - For Prosperity
-				}
-				b_dabthala = { # Fictional - For Prosperity
-				}
-			}
-			c_sarasvati = {
-				color={ 100 55 3 }
-				color2={ 255 255 255 }
-				
-				b_sarasvati = {
-				}
-				b_bhadra = {
-				}
-				b_bhatnir = {
-				}
-				b_tarain = {
-				}
-				b_bukar = { # Fictional - For Prosperity
-				}
-				b_chakarpura = { # Fictional - For Prosperity
-				}
-				b_chandara = { # Fictional - For Prosperity
 				}
 			}
 		}
@@ -51380,7 +51333,25 @@ e_tibet = {
 				b_baghsar = {
 				}
 			}
-			
+			c_sakala = {
+				color={ 180 120 21 }
+				color2={ 255 255 255 }
+				
+				b_sakala = {
+				}
+				b_jammu = {
+				}
+				b_bhuttar = {
+				}
+				b_bahu = {
+				}
+				b_vallapura = {
+				}
+				b_puran_nagar = {
+				}
+				b_pasrur = {
+				}
+			}
 			c_skardu = {
 				color={ 170 160 20 }
 				color2= { 255 255 255 }
@@ -51423,7 +51394,51 @@ e_tibet = {
 				}
 			}
 		}
-		
+		d_trigarta = {
+			color={ 155 80 15 }
+			color2={ 255 255 255 }
+			
+			capital = 1193 # Trigarta
+			
+			c_trigarta = {
+				color={ 155 80 15 }
+				color2={ 255 255 255 }
+				
+				b_jalandhar = {
+				}
+				b_rahon = {
+				}
+				b_pathankot = {
+				}
+				b_kaparthula = {
+				}
+				b_milwat = {
+				}
+				b_sarwmanpur = {
+				}
+				b_ragnagar = {
+				}
+			}
+			c_kangra = {
+				color= { 150 140 30 }
+				color2= { 255 255 255 }
+
+				b_kangra = {
+				}
+				b_shimla = {
+				}
+				b_nurpur = {
+				}
+				b_chamba = {
+				}
+				b_bharmour = {
+				}
+				b_kahlur = {
+				}
+				b_kullu = {
+				}
+			}
+		}
 		d_pamir = {
 			color={ 174 120 0 }
 			color2= { 255 255 255 }
@@ -51479,25 +51494,6 @@ e_tibet = {
 
 			capital = 1470 # Garhwal
 
-			c_kangra = {
-				color= { 150 140 30 }
-				color2= { 255 255 255 }
-
-				b_kangra = {
-				}
-				b_shimla = {
-				}
-				b_nurpur = {
-				}
-				b_chamba = {
-				}
-				b_bharmour = {
-				}
-				b_kahlur = {
-				}
-				b_kullu = {
-				}
-			}
 			c_garhwal = {
 
 				color= { 200 180 50 }

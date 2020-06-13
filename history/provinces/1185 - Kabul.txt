@@ -17,3 +17,6 @@ b_nagarahara = temple
 # Misc
 culture = afghan
 religion = buddhist
+
+# History
+1297.1.1 = { religion = sunni }

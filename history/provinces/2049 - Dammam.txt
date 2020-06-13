@@ -20,5 +20,5 @@ religion = arabic_pagan
 	religion = qarmatian
 }
 990.1.1 = {
-	religion = shia
+	religion = shiite
 }

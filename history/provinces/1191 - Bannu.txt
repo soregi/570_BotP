@@ -17,3 +17,4 @@ culture = panjabi
 religion = buddhist
 
 # History
+1197.1.1 = { religion = sunni }

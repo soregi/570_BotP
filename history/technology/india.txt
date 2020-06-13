@@ -87,6 +87,8 @@ technology = {
 		d_nangqen
 		d_badami
 		d_sikkim
+		d_gilgit
+		d_peshawar
 	}
 	570 = { 
 		military = 0.35

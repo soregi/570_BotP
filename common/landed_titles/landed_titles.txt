@@ -45292,6 +45292,14 @@ e_rajastan = {
 				b_hindolia = { # Fictional - For Prosperity
 				}
 			}
+		d_peshawar = {
+			color={ 205 150 31 }
+			color2={ 255 255 255 }
+			
+			capital = 1342 # Peshawar
+			
+			hindustani = "Purushapura"
+			
 			c_purushapura = {
 				color={ 235 150 31 }
 				color2={ 255 255 255 }

@@ -1,0 +1,16 @@
+# 2070 - Chitral
+
+# County Title
+title = c_chitral
+
+# Settlements
+max_settlements = 2
+b_chitral = tribal
+
+# Misc
+culture = panjabi
+religion = buddhist
+
+# History
+550.1.1 = { culture = afghan }
+1330.1.1 = { religion = sunni }

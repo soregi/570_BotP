@@ -882,7 +882,7 @@
 }
 3000162 = {
 	name = "Astures"
-	culture = asturian
+	culture = asturi
 	religion = catholic
 }
 3000163 = {

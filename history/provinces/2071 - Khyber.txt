@@ -1,0 +1,16 @@
+# 2071 - Khyber
+
+# County Title
+title = c_khyber
+
+# Settlements
+max_settlements = 3
+b_jalalabad = tribal
+b_mitarlam = temple
+
+# Misc
+culture = afghan
+religion = buddhist
+
+# History
+1300.1.1 = { religion = sunni }

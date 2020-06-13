@@ -9,62 +9,6 @@ SPANIA_ADJ;Spanish;;;;;;;;;;;;;x
 dacia;Dacia;;;;;;;;;;;;;x
 dacia_adj;Dacian;;;;;;;;;;;;;x
 yathrib;Yathrib;;;;;;;;;;;;;x
-PROV2015;Nubian Desert;;;;;;;;;;;;;x
-PROV2016;Minya;;;;;;;;;;;;;x
-PROV2017;Branicevo;;;;;;;;;;;;;x
-PROV2018;Varna;;;;;;;;;;;;;x
-PROV2019;Preslav;;;;;;;;;;;;;x
-PROV2020;Hiambouli;;;;;;;;;;;;;x
-PROV2021;Marsa;;;;;;;;;;;;;x
-PROV2022;Krujë;;;;;;;;;;;;;x
-PROV2023;Karlovac;;;;;;;;;;;;;x
-PROV2024;Rasina;;;;;;;;;;;;;x
-PROV2025;Bihac;;;;;;;;;;;;;x
-PROV2026;Vodena;;;;;;;;;;;;;x
-PROV2027;Pirin;;;;;;;;;;;;;x
-PROV2028;Vardar;;;;;;;;;;;;;x
-PROV2029;Kosovo;;;;;;;;;;;;;x
-PROV2030;Podrinje;;;;;;;;;;;;;x
-PROV2031;Pagania;;;;;;;;;;;;;x
-PROV2032;Livno;;;;;;;;;;;;;x
-PROV2033;Lamia;;;;;;;;;;;;;x
-PROV2034;Daraa;;;;;;;;;;;;;x
-PROV2035;as-Suwayda;;;;;;;;;;;;;x
-PROV2036;Peloponnese;;;;;;;;;;;;;x
-PROV2037;Latakia;;;;;;;;;;;;;x
-PROV2038;Qutayfah;;;;;;;;;;;;;x
-PROV2039;Azraq;;;;;;;;;;;;;x
-PROV2040;Syrian Desert;;;;;;;;;;;;;x
-PROV2041;Yanbu;;;;;;;;;;;;;x
-PROV2042;Taif;;;;;;;;;;;;;x
-PROV2043;Dawasir;;;;;;;;;;;;;x
-PROV2044;Al Kamil;;;;;;;;;;;;;x
-PROV2045;Thahab;;;;;;;;;;;;;x
-PROV2046;Hafar;;;;;;;;;;;;;x
-PROV2047;Najd;;;;;;;;;;;;;x
-PROV2048;Sikak;;;;;;;;;;;;;x
-PROV2049;Dammam;;;;;;;;;;;;;x
-PROV2050;Sarrar;;;;;;;;;;;;;x
-PROV2051;Al Shabakah;;;;;;;;;;;;;x
-PROV2052;Rahhaliyah;;;;;;;;;;;;;x
-PROV2053;Nasiriyah;;;;;;;;;;;;;x
-PROV2054;Tyspwn;;;;;;;;;;;;;x
-PROV2055;Al Jazira;;;;;;;;;;;;;x
-PROV2056;Al Fallujah;;;;;;;;;;;;;x
-PROV2057;Ramadi;;;;;;;;;;;;;x
-PROV709;Raqqa;;;;;;;;;;;;;x
-PROV2058;Batumi;;;;;;;;;;;;;x
-PROV2059;Thar Desert;;;;;;;;;;;;;x
-PROV2060;Dasht-e Kavir;;;;;;;;;;;;;x
-PROV2061;Dasht-e Lut;;;;;;;;;;;;;x
-PROV2062;Dasht-e Margov;;;;;;;;;;;;;x
-PROV2063;Kandahar;;;;;;;;;;;;;x
-PROV2064;Alborz Mountains;;;;;;;;;;;;;x
-PROV2065;Bakhtiari;;;;;;;;;;;;;x
-PROV2066;Yasuj;;;;;;;;;;;;;x
-PROV2067;Lar;;;;;;;;;;;;;x
-PROV2068;Qeshm;;;;;;;;;;;;;x
-PROV2069;Meghalaya;;;;;;;;;;;;;x
 d_donatism;The Donatist Church;;;;;;;;;;;;;x
 d_donatism_adj;Donatist;;;;;;;;;;;;;x
 d_pentapolis;Pentapolis;;;;;;;;;;;;;x
@@ -180,30 +124,6 @@ k_pannonia;Pannonia Superior;;;;;;;;;;;;;x
 k_pannonia_adj;Pannonian;;;;;;;;;;;;;x
 b_beroe;Beroe;;;;;;;;;;;;;x
 b_gabrovo;Gabrovo;;;;;;;;;;;;;x
-c_marsa;Marsa;;;;;;;;;;;;;x
-c_marsa_adj;Marsan;;;;;;;;;;;;;x
-c_branicevo;Branicevo;;;;;;;;;;;;;x
-c_branicevo_adj;Branicevo;;;;;;;;;;;;;x
-c_varna;Varna;;;;;;;;;;;;;x
-c_varna_adj;Varnan;;;;;;;;;;;;;x
-c_preslav;Preslav;;;;;;;;;;;;;x
-c_preslav_adj;Preslavan;;;;;;;;;;;;;x
-c_hiambouli;Yambol;;;;;;;;;;;;;x
-c_hiambouli_adj;Yamboli;;;;;;;;;;;;;x
-c_kruje;Krujë;;;;;;;;;;;;;x
-c_kruje_adj;Krujë;;;;;;;;;;;;;x
-c_karlovac;Karlovac;;;;;;;;;;;;;x
-c_karlovac_adj;Karlovac;;;;;;;;;;;;;x
-c_pirin;Pirin;;;;;;;;;;;;;x
-c_pirin_adj;Pirin;;;;;;;;;;;;;x
-c_vardar;Vardar;;;;;;;;;;;;;x
-c_vardar_adj;Vardarian;;;;;;;;;;;;;x
-c_livno;Livno;;;;;;;;;;;;;x
-c_livno_adj;Livnian;;;;;;;;;;;;;x
-c_lamia;Lamia;;;;;;;;;;;;;x
-c_lamia_adj;Lamian;;;;;;;;;;;;;x
-c_peloponnese;Peloponnese;;;;;;;;;;;;;x
-c_peloponnese_adj;Peloponnesian;;;;;;;;;;;;;x
 b_smolyan;Smolyan;;;;;;;;;;;;;x
 b_perperikon;Perperikon;;;;;;;;;;;;;x
 b_pincum;Pincum;;;;;;;;;;;;;x

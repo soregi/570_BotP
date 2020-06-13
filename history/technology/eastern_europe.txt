@@ -89,6 +89,7 @@ technology = {
 		d_dalmatia
 		d_syrmia
 		d_bosna
+		d_belgrade
 	}
 	570 = {
 		military = 0.75

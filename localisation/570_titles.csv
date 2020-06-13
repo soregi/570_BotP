@@ -107,7 +107,6 @@ governate_kingdom;Exarchate;;;;;;;;;;;;;x
 governate_kingdom_roman;Praetorian Prefecture;;;;;;;;;;;;;x
 governate_kingdom_of;Exarchate of;;;;;;;;;;;;;x
 governate_kingdom_of_roman;Praetorian Prefecture of;;;;;;;;;;;;;x
-c_minya;Minya;;;;;;;;;;;;;x
 b_shmun;Hermopolis;;;;;;;;;;;;;x
 b_samalut;Samalut;;;;;;;;;;;;;x
 d_irbid;Amman;;;;;;;;;;;;;x
@@ -116,142 +115,11 @@ d_kutrigur;Kutrigurs;;;;;;;;;;;;;x
 d_kutrigur_adj;Kutrigur;;;;;;;;;;;;;x
 d_utigur;Utigurs;;;;;;;;;;;;;x
 d_utigur_adj;Utigur;;;;;;;;;;;;;x
+d_badami;Badami;;;;;;;;;;;;;x
+d_badami_adj;Badami;;;;;;;;;;;;;x
 k_dalmatia;Dalmatia;;;;;;;;;;;;;x
 k_dalmatia_adj;Dalmatian;;;;;;;;;;;;;x
 k_makedon;Makedonia;;;;;;;;;;;;;x
 k_makedon_adj;Makedonian;;;;;;;;;;;;;x
 k_pannonia;Pannonia Superior;;;;;;;;;;;;;x
 k_pannonia_adj;Pannonian;;;;;;;;;;;;;x
-b_beroe;Beroe;;;;;;;;;;;;;x
-b_gabrovo;Gabrovo;;;;;;;;;;;;;x
-b_smolyan;Smolyan;;;;;;;;;;;;;x
-b_perperikon;Perperikon;;;;;;;;;;;;;x
-b_pincum;Pincum;;;;;;;;;;;;;x
-b_montana;Montana;;;;;;;;;;;;;x
-b_vratsa;Vratsa;;;;;;;;;;;;;x
-b_tervel;Tervel;;;;;;;;;;;;;x
-b_omurtag;Omurtag;;;;;;;;;;;;;x
-b_samuil;Samuil;;;;;;;;;;;;;x
-b_preslav;Preslav;;;;;;;;;;;;;x
-b_pliska;Pliska;;;;;;;;;;;;;x
-b_dulovo;Dulovo;;;;;;;;;;;;;x
-b_venets;Venets;;;;;;;;;;;;;x
-b_kubrat;Kubrat;;;;;;;;;;;;;x
-b_topoli;Topoli;;;;;;;;;;;;;x
-b_devnya;Devnya;;;;;;;;;;;;;x
-b_beloslav;Beloslav;;;;;;;;;;;;;x
-b_yambol;Yambol;;;;;;;;;;;;;x
-b_novazagora;Nova Zagora;;;;;;;;;;;;;x
-b_silven;Silven;;;;;;;;;;;;;x
-b_karnobat;Karnobat;;;;;;;;;;;;;x
-b_razgrad;Razgrad;;;;;;;;;;;;;x
-b_asparukh;Arparukh;;;;;;;;;;;;;x
-b_karlovac;Karlovac;;;;;;;;;;;;;x
-b_samobor;Samobor;;;;;;;;;;;;;x
-b_arba;Arba;;;;;;;;;;;;;x
-b_klenovica;Klenovica;;;;;;;;;;;;;x
-b_livno;Livno;;;;;;;;;;;;;x
-b_lamia;Lamia;;;;;;;;;;;;;x
-b_molos;Molos;;;;;;;;;;;;;x
-b_stilida;Stilida;;;;;;;;;;;;;x
-b_anthili;Anthili;;;;;;;;;;;;;x
-b_komma;Komma;;;;;;;;;;;;;x
-b_stavros;Stavros;;;;;;;;;;;;;x
-b_ptripoli;Tripoli;;;;;;;;;;;;;x
-b_leontari;Leontari;;;;;;;;;;;;;x
-b_levidi;Levidi;;;;;;;;;;;;;x
-b_graikos;Graikos;;;;;;;;;;;;;x
-b_kleitoria;Kleitoria;;;;;;;;;;;;;x
-b_kalamaria;Kalamaria;;;;;;;;;;;;;x
-b_sindos;Sindos;;;;;;;;;;;;;x
-b_evosmos;Evosmos;;;;;;;;;;;;;x
-b_giannitsa;Giannitsa;;;;;;;;;;;;;x
-b_ptolemaida;Ptolemaida;;;;;;;;;;;;;x
-b_kozani;Kozani;;;;;;;;;;;;;x
-b_vergina;Vergina;;;;;;;;;;;;;x
-b_pirin;Pirin;;;;;;;;;;;;;x
-b_sandanski;Sandanski;;;;;;;;;;;;;x
-b_blagoev;Blagoev;;;;;;;;;;;;;x
-b_kresna;Kresna;;;;;;;;;;;;;x
-b_bansko;Bansko;;;;;;;;;;;;;x
-b_ras;Ras;;;;;;;;;;;;;x
-b_raska;Rashka;;;;;;;;;;;;;x
-b_uzhice;Uzice;;;;;;;;;;;;;x
-b_kraljevo;Kraljevo;;;;;;;;;;;;;x
-b_krusevac;Krusevac;;;;;;;;;;;;;x
-b_paracin;Paracin;;;;;;;;;;;;;x
-b_varvarin;Varvarin;;;;;;;;;;;;;x
-b_pristina;Pristina;;;;;;;;;;;;;x
-b_mitrovica;Mitrovica;;;;;;;;;;;;;x
-b_peja;Peja;;;;;;;;;;;;;x
-b_istog;Istog;;;;;;;;;;;;;x
-b_jilan;Jilan;;;;;;;;;;;;;x
-b_brankovina;Brankovina;;;;;;;;;;;;;x
-b_shabac;Shabac;;;;;;;;;;;;;x
-b_stubo;Stubo;;;;;;;;;;;;;x
-b_osecina;Osecina;;;;;;;;;;;;;x
-b_pancevo;Pancevo;;;;;;;;;;;;;x
-b_cazin;Cazin;;;;;;;;;;;;;x
-b_dinara;Dinara;;;;;;;;;;;;;x
-b_kladusha;Kladusha;;;;;;;;;;;;;x
-b_celebic;Celebic;;;;;;;;;;;;;x
-b_grabovica;Grabovica;;;;;;;;;;;;;x
-b_bugojno;Bugojno;;;;;;;;;;;;;x
-b_malinska;Malinska;;;;;;;;;;;;;x
-b_neum;Neum;;;;;;;;;;;;;x
-b_metohija;Metohija;;;;;;;;;;;;;x
-b_pioce;Pioce;;;;;;;;;;;;;x
-b_al_nabah;Al Nabah;;;;;;;;;;;;;x
-b_al_rayis;Ar Rayis;;;;;;;;;;;;;x
-b_oyster;Oyster;;;;;;;;;;;;;x
-b_semairi;Semairi;;;;;;;;;;;;;x
-b_lahlen;Lahlen;;;;;;;;;;;;;x
-b_shajwa;Shajwa;;;;;;;;;;;;;x
-b_al_kamil;Al Kamil;;;;;;;;;;;;;x
-b_enboan;Enboan;;;;;;;;;;;;;x
-b_hajar;Hajar;;;;;;;;;;;;;x
-b_abu_dhiba;Abu Dhiba;;;;;;;;;;;;;x
-b_al_akhal;Al Akhal;;;;;;;;;;;;;x
-b_ushayrah;Ushayrah;;;;;;;;;;;;;x
-b_mahd;Mahd;;;;;;;;;;;;;x
-b_safinah;Safinah;;;;;;;;;;;;;x
-b_hathah;Hathah;;;;;;;;;;;;;x
-b_ashayrah;Ashayrah;;;;;;;;;;;;;x
-b_hafir;Hafir;;;;;;;;;;;;;x
-b_haddat;Haddat;;;;;;;;;;;;;x
-b_alhuda;Al Huda;;;;;;;;;;;;;x
-b_banisaad;Bani Saad;;;;;;;;;;;;;x
-b_alhuwaya;Al Huwaya;;;;;;;;;;;;;x
-b_as_sail;As Sail;;;;;;;;;;;;;x
-b_az_zemah;Az Zemah;;;;;;;;;;;;;x
-b_dawasir;Dawasir;;;;;;;;;;;;;x
-b_jash;Jash;;;;;;;;;;;;;x
-b_tathleeth;Tathleeth;;;;;;;;;;;;;x
-b_yadamah;Yadamah;;;;;;;;;;;;;x
-b_as_sulayyil;As Sulayyil;;;;;;;;;;;;;x
-b_samandag;Samandag;;;;;;;;;;;;;x
-b_martakla;Martakla;;;;;;;;;;;;;x
-b_sleibeh;Sleibeh;;;;;;;;;;;;;x
-b_sheer;Sheer;;;;;;;;;;;;;x
-b_sett_markho;Sett Markho;;;;;;;;;;;;;x
-b_alqisa;Al Qisa;;;;;;;;;;;;;x
-b_quneitra;Quneitra;;;;;;;;;;;;;x
-b_inkhil;Inkhil;;;;;;;;;;;;;x
-b_tafas;Tafas;;;;;;;;;;;;;x
-b_dael;Dael;;;;;;;;;;;;;x
-b_msas;Msas;;;;;;;;;;;;;x
-b_era;Era;;;;;;;;;;;;;x
-b_shaef;Shaef;;;;;;;;;;;;;x
-b_qutayfah;Qutayfah;;;;;;;;;;;;;x
-b_ruhaybah;Ruhaybah;;;;;;;;;;;;;x
-b_jayrud;Jayrud;;;;;;;;;;;;;x
-b_dumayr;Dumayr;;;;;;;;;;;;;x
-b_yabrud;Yabrud;;;;;;;;;;;;;x
-b_maaloula;Maaloula;;;;;;;;;;;;;x
-b_azraq;Azraq;;;;;;;;;;;;;x
-b_abuziad;Abu Ziad;;;;;;;;;;;;;x
-b_arramtha;Ar Ramtha;;;;;;;;;;;;;x
-b_sukhnah;Sukhnah;;;;;;;;;;;;;x
-b_qeshm;Qeshm;;;;;;;;;;;;;x
-b_hormuz;Hormuz;;;;;;;;;;;;;x
-b_tabl;Tabl;;;;;;;;;;;;;x

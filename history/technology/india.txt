@@ -85,6 +85,8 @@ technology = {
 		d_qinghai
 		d_nagormo
 		d_nangqen
+		d_badami
+		d_sikkim
 	}
 	570 = { 
 		military = 0.35

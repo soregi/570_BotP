@@ -180,14 +180,12 @@ character_event = {
 		}
 			set_global_flag = asparukh_y
 		}
-		random_independent_ruler = {
+		any_independent_ruler = {
 			limit = {
 				culture = khazar
-				OR = {
-					tier = KING
-					tier = EMPEROR
-				}
 			}
+			preferred_limit = { tier = EMPEROR }
+			preferred_limit = { tier = KING }
 			any_province = {
 				limit = {
 					culture = bolghar
@@ -209,7 +207,7 @@ character_event = {
 				has_dlc = "Horse Lords"
 			}
 			set_government_type = nomadic_government
-		}
+			}
 		}
 	}
 }

@@ -45254,25 +45254,6 @@ e_rajastan = {
 				b_ohind = {
 				}
 			}
-			c_purushapura = {
-				color={ 235 150 31 }
-				color2={ 255 255 255 }
-				
-				b_purushapura = {
-				}
-				b_shah_ji_dheri = {
-				}
-				b_nowshera = {
-				}
-				b_ali_masjid = {
-				}
-				b_bajaur = {
-				}
-				b_mardan = {
-				}
-				b_shergarh = {
-				}
-			}
 			c_nandana = {
 				color={ 255 150 11 }
 				color2={ 255 255 255 }
@@ -45311,6 +45292,50 @@ e_rajastan = {
 				b_hindolia = { # Fictional - For Prosperity
 				}
 			}
+			c_purushapura = {
+				color={ 235 150 31 }
+				color2={ 255 255 255 }
+				afghan = "Peshawar"
+				persian = "Peshawar"
+				b_purushapura = {
+					afghan = "Peshawar"
+					persian = "Peshawar"
+				}
+				b_shah_ji_dheri = {
+				}
+				b_nowshera = {
+				}
+				b_ali_masjid = {
+				}
+				b_bajaur = {
+				}
+				b_mardan = {
+				}
+				b_shergarh = {
+				}
+			}
+			c_chitral = {
+				color = { 145 155 182 }
+				color2={ 255 255 255 }
+				b_chitral = {}
+				b_booni = {}
+				b_mastuj = {}
+				b_drosh = {}
+				b_batrik = {}
+				b_mirkhani = {}
+				b_barenis = {}
+			}
+			#c_khyber = {
+			#	color = { 211 200 78 }
+			#	color2={ 255 255 255 }
+			#	b_jalalabad = {}
+			#	b_mitarlam = {}
+			#	b_goshta = {}
+			#	b_kunar = {}
+			#	b_chaharbagh = {}
+			#	b_torkham = {}
+			#	b_mangwal = {}
+			#}
 		}
 	}
 	k_delhi = {
@@ -51352,6 +51377,11 @@ e_tibet = {
 				b_pasrur = {
 				}
 			}
+		}
+		d_gilgit = {
+			color={ 204 170 30 }
+			color2= { 255 255 255 }
+			capital = 1484
 			c_skardu = {
 				color={ 170 160 20 }
 				color2= { 255 255 255 }
@@ -51382,7 +51412,7 @@ e_tibet = {
 				}
 				b_danyor = {
 				}
-				b_chitral = {
+				b_jaglot = {
 				}
 				b_minawar = {
 				}

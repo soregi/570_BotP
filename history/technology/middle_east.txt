@@ -65,6 +65,7 @@ technology = {
 		d_khozistan
 		d_mafaza
 		d_jibal
+		d_hormuz
 	}
 	570 = {
 		military = 0.4

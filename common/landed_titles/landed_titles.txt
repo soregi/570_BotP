@@ -45333,17 +45333,17 @@ e_rajastan = {
 				b_mirkhani = {}
 				b_barenis = {}
 			}
-			#c_khyber = {
-			#	color = { 211 200 78 }
-			#	color2={ 255 255 255 }
-			#	b_jalalabad = {}
-			#	b_mitarlam = {}
-			#	b_goshta = {}
-			#	b_kunar = {}
-			#	b_chaharbagh = {}
-			#	b_torkham = {}
-			#	b_mangwal = {}
-			#}
+			c_khyber = {
+				color = { 211 200 78 }
+				color2={ 255 255 255 }
+				b_jalalabad = {}
+				b_mitarlam = {}
+				b_goshta = {}
+				b_kunar = {}
+				b_chaharbagh = {}
+				b_torkham = {}
+				b_mangwal = {}
+			}
 		}
 	}
 	k_delhi = {

@@ -561,7 +561,7 @@
 	religion = zoroastrian
 }
 3000098 = {
-	name = "Bamiyand"
+	name = "Mandesh"
 	culture = bactrian
 	religion = zoroastrian
 }
@@ -1001,7 +1001,7 @@
 	religion = zun_pagan
 }
 3000186 = {
-	name = "Shahiler"
+	name = "Shahiler" # Turk Shahi
 	culture = turkish
 	religion = buddhist
 }
@@ -1009,6 +1009,16 @@
 	name = "Tanka"
 	culture = xionite
 	religion = hindu
+}
+3000188 = {
+	name = "Aram"
+	culture = alchon
+	religion = buddhist
+}
+3000189 = {
+	name = "Maimani"
+	culture = xionite
+	religion = buddhist
 }
 542={
 	name="Meroving"
@@ -1019,7 +1029,7 @@
 1042083=
 {
 	name="Hunas"
-	culture="xionite"
+	culture="alchon"
 	religion="hindu"
 }
 48=

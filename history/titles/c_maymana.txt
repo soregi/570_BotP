@@ -1,7 +1,16 @@
-570.1.1 = {
-	liege = e_persia
-	holder = 408017
+500.1.1 = {
+	liege = k_nezak
+	holder = 408090
 }
+567.1.1 = {
+	liege = 0
+	holder = 408099
+	set_tribute_suzerain = { who = e_persia type = permanent }
+}
+600.1.1 = {
+	holder = 408100
+}
+646.1.1 = { clear_tribute_suzerain = e_persia }
 740.1.1={
 	liege=0
 	holder=188570 # Bamiyan

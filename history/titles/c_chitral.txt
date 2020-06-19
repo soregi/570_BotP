@@ -1,6 +1,5 @@
 570.1.1 = {
-	liege = k_punjab
-	holder = 408041
+	holder = 408079
 }
 755.1.1={
 	liege=d_kabul

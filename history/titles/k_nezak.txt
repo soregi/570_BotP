@@ -1,0 +1,28 @@
+500.1.1 = {
+	holder = 408090
+}
+523.1.1 = {
+	holder = 408091
+}
+557.1.1 = {
+	holder = 408094
+}
+567.1.1 = {
+	set_tribute_suzerain = {
+		who = e_persia
+		type = permanent
+	}
+}
+581.1.1 = {
+	holder = 408095
+}
+620.1.1 = {
+	holder = 408096
+}
+651.1.1 = {
+	clear_tribute_suzerain = e_persia
+}
+665.1.1 = {
+	holder = 0
+	active = no
+}

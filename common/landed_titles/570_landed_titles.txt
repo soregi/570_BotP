@@ -693,3 +693,9 @@ k_alchon_huns = {
 		always = no
 	}
 }
+k_nezak = {
+	color = { 204 146 105 }
+	allow = {
+		always = no
+	}
+}

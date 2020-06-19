@@ -1170,3 +1170,164 @@
 	720.1.1 = { birth = yes }
 	765.1.1 = { death = yes }
 }
+408089 = {
+	name = "Aram"
+	dynasty = 3000188
+	culture = alchon
+	religion = buddhist
+	trait = vajrayana_buddhist
+	554.1.1 = { birth = yes }
+	638.1.1 = { death = yes }
+}
+# Nezak
+408090 = {
+	name = "Napki Malka"
+	dynasty = 3000185 # Nezak Xyon
+	culture = xionite
+	religion = buddhist
+	trait = skilled_tactician
+	476.1.1 = { birth = yes }
+	523.1.1 = { death = yes }
+}
+408091 = {
+	name = "Narak"
+	dynasty = 3000185
+	father = 408090
+	culture = xionite
+	religion = buddhist
+	501.1.1 = { birth = yes }
+	557.1.1 = { death = yes }
+}
+408092 = {
+	name = "Alamas"
+	dynasty = 3000185
+	father = 408090
+	culture = xionite
+	religion = buddhist
+	507.1.1 = { birth = yes }
+	561.1.1 = { death = yes }
+}
+408093 = {
+	name = "Shahzadhan"
+	dynasty = 3000185
+	father = 408090
+	culture = xionite
+	religion = buddhist
+	512.1.1 = { birth = yes }
+	571.1.1 = { death = yes }
+}
+408094 = {
+	name = "Sri Nara"
+	dynasty = 3000185
+	father = 408091
+	culture = xionite
+	religion = buddhist
+	534.1.1 = { birth = yes }
+	581.1.1 = { death = yes }
+}
+408095 = {
+	name = "Shri Shahi"
+	dynasty = 3000185
+	father = 408094
+	culture = xionite
+	religion = buddhist
+	560.1.1 = { birth = yes }
+	620.1.1 = { death = yes }
+}
+408096 = {
+	name = "Ghar-ilchi"
+	dynasty = 3000185
+	father = 408095
+	culture = xionite
+	religion = buddhist
+	600.1.1 = { birth = yes }
+	665.1.1 = { death = yes }
+}
+408097 = {
+	name = "Shaur"
+	dynasty = 3000185
+	father = 408092
+	culture = xionite
+	religion = buddhist
+	540.1.1 = { birth = yes }
+	601.1.1 = { death = yes }
+}
+408098 = {
+	name = "Shaporo"
+	father = 408093
+	dynasty = 3000185
+	culture = xionite
+	religion = buddhist
+	547.1.1 = { birth = yes }
+	640.1.1 = { death = yes }
+}
+408099 = {
+	name = "Kavadh"
+	dynasty = 3000189
+	culture = xionite
+	religion = buddhist
+	547.1.1 = { birth = yes }
+	600.1.1 = { death = yes }
+}
+408100 = {
+	name = "Rostam"
+	dynasty = 3000189
+	father = 408099
+	culture = xionite
+	religion = buddhist
+	584.1.1 = { birth = yes }
+	651.1.1 = { death = yes }
+}
+408101 = {
+	name = "Sharvin"
+	dynasty = 1042111
+	culture = afghan
+	religion = buddhist
+	521.1.1 = { birth = yes }
+	584.1.1 = { death = yes }
+}
+408102 = {
+	name = "Ruhomuta"
+	dynasty = 1042111
+	father = 408101
+	culture = afghan
+	religion = buddhist
+	554.1.1 = { birth = yes }
+	614.1.1 = { death = yes }
+}
+408103 = {
+	name = "Alamgir"
+	dynasty = 1042111
+	father = 408102
+	culture = afghan
+	religion = buddhist
+	591.1.1 = { birth = yes }
+	657.1.1 = { death = yes }
+}
+408104 = {
+	name = "Suraj"
+	dynasty = 1042111
+	father = 408103
+	culture = afghan
+	religion = buddhist
+	634.1.1 = { birth = yes }
+	698.1.1 = { death = yes }
+}
+408105 = {
+	name = "Barha"
+	dynasty = 1042111
+	father = 408104
+	culture = afghan
+	religion = buddhist
+	670.1.1 = { birth = yes }
+	711.1.1 = { death = yes }
+}
+408106 = {
+	name = "Marvan"
+	dynasty = 1042111
+	father = 408105
+	culture = afghan
+	religion = buddhist
+	700.1.1 = { birth = yes }
+	762.1.1 = { death = yes }
+}

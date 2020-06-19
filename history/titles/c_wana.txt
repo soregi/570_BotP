@@ -1,6 +1,24 @@
-570.1.1 = {
-	liege = k_punjab
-	holder = 409019
+550.1.1 = {
+	holder = 408101
+}
+567.1.1 = {
+	set_tribute_suzerain = { who = e_persia type = permanent }
+}
+584.1.1 = {
+	holder = 408102
+}
+614.1.1 = {
+	holder = 408103
+}
+646.1.1 = { clear_tribute_suzerain = e_persia }
+657.1.1 = {
+	holder = 408104
+}
+698.1.1 = {
+	holder = 408105
+}
+711.1.1={
+	holder = 408106
 }
 712.1.1={
 	liege=d_multan

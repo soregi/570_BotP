@@ -1,7 +1,20 @@
-567.1.1 = {
-	holder = 408035
-	liege = k_afghanistan
+500.1.1 = {
+	liege = k_nezak
+	holder = 408090
 }
+523.1.1 = {
+	holder = 408091
+}
+557.1.1 = {
+	holder = 408094
+}
+581.1.1 = {
+	holder = 408095
+}
+620.1.1 = {
+	holder = 408096
+}
+# 665.1.1 = Turk Shahi
 750.1.1={
 	liege=d_kabul
 	holder=188565 # Surendravirkramaditya Nandin of Kabul Shahi

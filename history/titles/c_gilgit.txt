@@ -1,6 +1,5 @@
 570.1.1 = {
-	holder = 408028
-	liege = d_pamir
+	holder = 408089
 }
 600.1.1={
 	liege="k_guge"

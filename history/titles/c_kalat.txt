@@ -1,15 +1,21 @@
-540.1.1 = {
-	holder = 408040
-	liege = d_zabulistan
+550.1.1 = {
+	holder = 408101
 }
-567.1.1 = {
-	holder = 408038
+584.1.1 = {
+	holder = 408102
 }
-620.1.1 = {
-	holder = 408039
+614.1.1 = {
+	holder = 408103
+}
+657.1.1 = {
+	holder = 408104
+}
+698.1.1 = {
+	holder = 408105
 }
 711.1.1={
 	liege=0 # not fully conquered by Abbasids
+	holder = 408106
 }
 
 762.1.1={

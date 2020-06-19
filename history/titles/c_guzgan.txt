@@ -1,3 +1,7 @@
+567.1.1 = {
+	holder = 408035
+	liege = k_afghanistan
+}
 570.1.1 = {
 	liege = e_persia
 	holder = 408017

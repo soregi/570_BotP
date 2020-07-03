@@ -1,4 +1,5 @@
- namespace = tibet
+namespace = tibet
+
 character_event = {
 	id = tibet.1
 	hide_window = yes
@@ -214,6 +215,7 @@ character_event = {
 	hide_window = yes
 	is_triggered_only = yes
 	immediate = {
+		remove_character_modifier = prophet_blessing
 		e_tibet = {
 			grant_title = ROOT
 		}
@@ -228,9 +230,6 @@ character_event = {
 		}
 		}
 		if = {
-			hidden_tooltip = {
-				remove_character_modifier = prophet_blessing
-			}
 			limit = {
 				d_sumparu = {
 					holder_scope = {

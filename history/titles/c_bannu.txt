@@ -1,5 +1,5 @@
 570.1.1 = {
-	liege = k_punjab
+#	liege = k_punjab
 	holder = 409019
 }
 750.1.1={

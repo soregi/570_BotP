@@ -263,8 +263,6 @@ character_event = {
 	picture = GFX_evt_garden
 	border = GFX_event_normal_frame_religion
 	is_triggered_only = yes
-	trigger = {
-		NOT = {
 		
 	immediate = {
 		set_global_flag = met_gibril 

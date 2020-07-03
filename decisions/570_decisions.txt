@@ -328,7 +328,7 @@ decisions = {
 					year = 598
 				}
 			}
-		}# 뭔가 다른 조건이 있기는 있어야겠지..
+		}
 		effect = {
 			prestige = -100
 			set_global_flag = organized_tibet_realm
@@ -438,37 +438,6 @@ decisions = {
 				holder_scope = {
 					character_event = gov.2
 				}
-			}
-		}
-	}
-	assyrian_empire = {
-		potential = {
-			culture_group = aramaic
-			tier = KING
-			NOT = { has_global_flag = assyrian_empire_formed }
-		}
-		allow = {
-			is_independent = yes
-			completely_controls = k_mesopotamia
-			completely_controls = k_iraq
-			completely_controls = k_syria
-			prestige = 1500
-			war = no
-			prisoner = no
-			NOT = { trait = incapable }
-		}
-		effect = {
-			activate_title = { title = e_assyria status = yes }
-			any_demesne_title = {
-				limit = { tier = KING }
-				de_jure_liege = e_assyria
-			}
-			k_mesopotamia = { de_jure_liege = e_assyria }
-			k_iraq = { de_jure_liege = e_assyria }
-			k_syria = { de_jure_liege }
-			if = {
-				limit = { has_nickname = no }
-				give_nickname = nick_the_great
 			}
 		}
 	}

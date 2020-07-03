@@ -419,6 +419,11 @@ custom_carantania = {
 }
 custom_arabia = {
 	duchies = {
-		d_arabia_petrae d_medina d_mecca d_sanaa d_oman d_nefoud d_amman d_taizz d_hadramut
+		d_arabia_petrae d_medina d_mecca d_sanaa d_oman d_hail d_nefoud d_amman d_taizz d_hadramut
+	}
+}
+custom_mesopotamia = {
+	duchies = {
+		d_ascalon d_jerusalem d_galilee d_damascus d_tripoli d_antioch d_aleppo d_edessa d_mudar d_mosul d_samarra d_baghdad d_basra
 	}
 }

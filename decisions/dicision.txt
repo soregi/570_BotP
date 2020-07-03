@@ -51,4 +51,44 @@ decisions = {
 			}
 		}
 	}
+	restore_assyrian_empire = {
+		potential = {
+			culture_group = aramaic
+			tier = KING
+			NOT = { has_global_flag = assyrian_empire_formed }
+		}
+		allow = {
+			independent = yes
+			completely_controls = custom_mesopotamia
+			prestige = 1500
+			war = no
+			prisoner = no
+			NOT = { trait = incapable }
+		}
+		effect = {
+			set_global_flag = assyrian_empire_formed
+			activate_title = { title = e_assyria status = yes }
+			any_demesne_title = {
+				limit = {
+					tier = KING
+					is_titular = no
+				}
+				destroy_landed_title = THIS
+			}
+			k_mesopotamia = { de_jure_liege = e_assyria }
+			k_iraq = { de_jure_liege = e_assyria }
+			k_syria = { de_jure_liege = e_assyria }
+			if = {
+				limit = { completely_controls = k_egypt }
+				k_egypt = { de_jure_liege = e_assyria }
+			}
+			if = {
+				limit = { has_nickname = no }
+				give_nickname = nick_the_great
+			}
+			e_assyria = {
+				grant_title = ROOT
+			}
+		}
+	}
 }

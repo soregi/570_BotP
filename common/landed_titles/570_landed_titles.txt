@@ -703,7 +703,6 @@ e_assyria = {
 	color = { 223 200 123 }
 	color2 = { 255 255 255 }
 	capital = 697 # Mosul
-	short_name = yes
 	allow = {
 		conditional_tooltip = {
 			trigger = {

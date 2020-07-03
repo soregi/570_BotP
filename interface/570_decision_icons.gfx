@@ -48,6 +48,10 @@ spriteTypes = {
 		texturefile = "gfx\\interface\\decision_icon_restore_roman_empire.dds"
 	}
 	spriteType = {
+		name = "GFX_assyrian_empire"
+		texturefile = "gfx\\interface\\decision_icon_assyrian_empire.dds"
+	}
+	spriteType = {
 		name = "GFX_pick_era_image_0"
 		texturefile = "gfx\\interface\\pick_era_image_0.dds"
 	}

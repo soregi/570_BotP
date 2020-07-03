@@ -699,3 +699,21 @@ k_nezak = {
 		always = no
 	}
 }
+e_assyria = {
+	color = { 223 200 123 }
+	color2 = { 255 255 255 }
+	capital = 697 # Mosul
+	short_name = yes
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				e_assyria = {
+					is_titular = yes
+				}	
+			}
+			e_assyria = {
+				is_titular = no
+			}
+		}
+	}
+}

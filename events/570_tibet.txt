@@ -22,7 +22,13 @@ character_event = {
 			}
 			remove_trait = bastard
 		}
-		add_character_modifier = { name = prophet_blessing duration = -1 }
+		if = {
+			limit = {
+				trait = child_of_consort
+			}
+			remove_trait = child_of_consort
+		}
+		add_character_modifier = { name = prophet_blessing years = 40 }
 	}
 }
 character_event = {
@@ -199,7 +205,7 @@ character_event = {
 	has_character_flag = songtsen_gampo
 	trigger = {
 		war = no
-		has_character_flag = purgyal
+		has_global_flag = purgyal
 	}
 	mean_time_to_happen = {
 		months = 1

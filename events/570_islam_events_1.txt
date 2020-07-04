@@ -468,6 +468,7 @@ narrative_event = {
 			}
 		}
 		remove_character_modifier = prophet_blessing
+		health = -5.0
 		any_character = {
 			limit = {
 				OR = {

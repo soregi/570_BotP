@@ -23,6 +23,7 @@ decisions = {
 			prestige = 500
 			k_hejaz = {
 				grant_title = ROOT
+				de_jure_liege = e_arabia
 			}
 			d_mecca = {
 				de_jure_liege = k_hejaz

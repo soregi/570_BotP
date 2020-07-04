@@ -1,5 +1,6 @@
 240.1.1 = {
 	liege = e_persia
+	set_global_flag = zoroastrian_priesthood_founded
 }
 570.1.1 = {
 	holder = 408036
@@ -7,4 +8,5 @@
 640.1.1={
 	holder=0
 	active = no
+	clr_global_flag = zoroastrian_priesthood_founded
 }

@@ -32,9 +32,11 @@ narrative_event = {
 	trigger = {
 		NOT = { has_global_flag = fall_ctesiphon }
 		has_landed_title = e_persia
-		c_baghdad = {
+		c_tyspwn = {
 			holder_scope = {
-				religion_group = muslim
+				top_liege = {
+					religion_group = muslim
+				}
 			}
 		}
 	}
@@ -47,6 +49,8 @@ narrative_event = {
 		name = persis_2_a
 		destroy_landed_title = d_zoroastrian
 		destroy_landed_title = e_persia
+		activate_title = { title = d_zoroastrian status = no }
+		clr_global_flag = zoroastrian_priesthood_founded
 		set_global_flag = fall_ctesiphon
 		death = yes
 	}

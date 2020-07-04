@@ -277,3 +277,117 @@ character_event = {
 		government = feudal_government
 	}
 }
+character_event = {
+	id = gov.5
+	hide_window = yes
+	trigger = {
+		k_dalmatia = {
+			has_holder = no
+		}
+		has_global_flag = dalmatia_gov
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		k_dalmatia = {
+			clr_title_flag = roman_governate
+		}
+		clr_global_flag = dalmatia_gov
+	}
+}
+character_event = {
+	id = gov.6
+	hide_window = yes
+	trigger = {
+		k_syria = {
+			has_holder = no
+		}
+		has_global_flag = oriens_gov
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		k_syria = {
+			clr_title_flag = roman_governate
+		}
+		clr_global_flag = oriens_gov
+	}
+}
+character_event = {
+	id = gov.7
+	hide_window = yes
+	trigger = {
+		k_africa = {
+			has_holder = no
+		}
+		has_global_flag = africa_gov
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		k_africa = {
+			clr_title_flag = roman_governate
+		}
+		clr_global_flag = africa_gov
+	}
+}
+character_event = {
+	id = gov.8
+	hide_window = yes
+	trigger = {
+		k_egypt = {
+			has_holder = no
+		}
+		has_global_flag = egypt_gov
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		k_egypt = {
+			clr_title_flag = roman_governate
+		}
+		clr_global_flag = egypt_gov
+	}
+}
+character_event = {
+	id = gov.9
+	hide_window = yes
+	trigger = {
+		k_romagna = {
+			has_holder = no
+		}
+		has_global_flag = ravenna_gov
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		k_romagna = {
+			clr_title_flag = roman_governate
+		}
+		clr_global_flag = ravenna_gov
+	}
+}
+character_event = {
+	id = gov.10
+	hide_window = yes
+	trigger = {
+		k_illyricum = {
+			has_holder = no
+		}
+		has_global_flag = dacia_gov
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		k_illyricum = {
+			clr_title_flag = roman_governate
+		}
+		clr_global_flag = dacia_gov
+	}
+}

@@ -60,7 +60,7 @@ decisions = {
 		}
 		allow = {
 			independent = yes
-			completely_controls = custom_mesopotamia
+			completely_controls_region = custom_mesopotamia
 			prestige = 1500
 			war = no
 			prisoner = no

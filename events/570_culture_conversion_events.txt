@@ -261,3 +261,181 @@ province_event = {
 		culture = andalusian_arabic
 	}
 }
+
+# Chaldean - > Mashriqi
+province_event = {
+	id = CCCP.5
+	desc = EVTDESC_CCCP_5
+	picture = GFX_evt_monk_muslim
+
+	trigger = {
+		should_evolve_cultures_trigger = yes
+		culture = chaldean
+		owner = top_liege = { { religion_group = muslim } }
+		any_province_holding = {
+			NOT = { holding_type = nomad }
+		}
+		NOT = {
+			owner = { 
+				top_liege = {
+					culture = chaldean
+					OR = {
+						tier = emperor
+						num_of_king_titles = 2
+					}
+				} 
+			}
+		}
+		NOT = {
+			owner = { 
+				religion_head = { culture = chaldean }
+			}
+		}
+		year = 680
+	}
+	
+	mean_time_to_happen = {
+		months = 3600
+		modifier = {
+			factor = 0.5
+			owner = {
+				culture_group = arabic
+			}
+		}
+		modifier = {
+			factor = 0.8
+			owner = {
+				culture = levantine_arabic
+			}
+		}
+		modifier = {
+			factor = 0.6
+			owner = {
+				religion_group = muslim
+			}
+		}
+		modifier = {
+			factor = 0.9
+			owner = {
+				culture = bedouin_arabic
+			}
+		}
+		modifier = {
+			factor = 0.25
+			religion_group = muslim
+		}
+		modifier = {
+			factor = 1.25
+			religion_group = christian
+		}
+		modifier = {
+			factor = 1.5
+			religion = nestorian
+		}
+		modifier = {
+			factor = 0.3
+			OR = {
+				has_game_rule = {
+					name = culture_conversion
+					value = faster_melting_pots
+				}
+				has_game_rule = {
+					name = culture_conversion
+					value = faster_melting_pots_and_slower_normal
+				}
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTA_CM_10
+		culture = levantine_arabic
+	}
+}
+
+# Syriac - > Mashriqi
+province_event = {
+	id = CCCP.6
+	desc = EVTDESC_CCCP_6
+	picture = GFX_evt_monk_muslim
+
+	trigger = {
+		should_evolve_cultures_trigger = yes
+		culture = syriac
+		owner = top_liege = { { religion_group = muslim } }
+		any_province_holding = {
+			NOT = { holding_type = nomad }
+		}
+		NOT = {
+			owner = { 
+				top_liege = {
+					culture = syriac
+					OR = {
+						tier = emperor
+						num_of_king_titles = 2
+					}
+				} 
+			}
+		}
+		NOT = {
+			owner = { 
+				religion_head = { culture = syriac }
+			}
+		}
+		year = 710
+	}
+	
+	mean_time_to_happen = {
+		months = 3600
+		modifier = {
+			factor = 0.5
+			owner = {
+				culture_group = arabic
+			}
+		}
+		modifier = {
+			factor = 0.8
+			owner = {
+				culture = levantine_arabic
+			}
+		}
+		modifier = {
+			factor = 0.6
+			owner = {
+				religion_group = muslim
+			}
+		}
+		modifier = {
+			factor = 0.9
+			owner = {
+				culture = bedouin_arabic
+			}
+		}
+		modifier = {
+			factor = 0.4
+			religion_group = muslim
+		}
+		modifier = {
+			factor = 2
+			religion_group = christian
+		}
+		modifier = {
+			factor = 0.3
+			OR = {
+				has_game_rule = {
+					name = culture_conversion
+					value = faster_melting_pots
+				}
+				has_game_rule = {
+					name = culture_conversion
+					value = faster_melting_pots_and_slower_normal
+				}
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTA_CM_10
+		culture = levantine_arabic
+	}
+}
